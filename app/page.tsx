@@ -27,17 +27,6 @@ export default function Home() {
           initialAffirmation={initialAffirmation}
           initialCategory={initialCategory}
         />
-
-        <div className="mt-12">
-          <div className="bg-white rounded-2xl border-2 border-gray-200 shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Start Your Day with Powerful Daily Affirmations
-            </h2>
-            <p className="text-gray-600 leading-relaxed mb-4">
-              Transform your mindset with personalized daily affirmations.
-            </p>
-          </div>
-        </div>
       </main>
 
       <footer className="bg-white border-t-2 border-gray-200 mt-16">
