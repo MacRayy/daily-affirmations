@@ -66,7 +66,7 @@ export default function Home({
       <main className="max-w-4xl mx-auto">
         {/* Category Links as Buttons */}
         <div className="mb-8">
-          <h2 className="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">
+          <h2 className="text-sm font-bold text-gray-700 my-4 uppercase tracking-wide">
             Choose Your Focus
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
