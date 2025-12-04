@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { Calendar, ArrowRight } from 'lucide-react'
-import Logo from '@/app/components/Logo'
+import type { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Affirmations Blog - Tips, Science & Guides',
   description:
     'Learn how to use daily affirmations effectively. Science-backed tips, guides, and research on positive affirmations for personal growth.',

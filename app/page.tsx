@@ -97,8 +97,8 @@ export default function Home() {
             <p className="text-gray-600 leading-relaxed mb-4">
               Transform your mindset with personalized daily affirmations. Our affirmation generator
               provides unique, meaningful affirmations tailored to your specific needs—whether
-              you're focusing on career success, building confidence, nurturing relationships, or
-              prioritizing your health and wellbeing.
+              you&#39;re focusing on career success, building confidence, nurturing relationships,
+              or prioritizing your health and wellbeing.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Research shows that daily positive affirmations can reduce stress, increase

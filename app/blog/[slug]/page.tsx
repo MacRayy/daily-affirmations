@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Calendar, ArrowLeft } from 'lucide-react'
+import type { ReactNode } from 'react'
 
 const blogPosts: Record<
   string,
@@ -9,7 +10,7 @@ const blogPosts: Record<
     date: string
     readTime: string
     category: string
-    content: React.ReactNode
+    content: ReactNode
   }
 > = {
   'how-to-use-affirmations-effectively': {
@@ -87,11 +88,11 @@ const blogPosts: Record<
         </ul>
 
         <h3>2. Make Them Personal and Specific</h3>
-        <p>Generic affirmations are less effective. Instead of "I am successful," try:</p>
+        <p>Generic affirmations are less effective. Instead of &#34;I am successful,&#34; try:</p>
         <ul>
-          <li>"I am successfully completing my project deadline this week"</li>
-          <li>"I am confident speaking up in team meetings"</li>
-          <li>"I am making healthy food choices that fuel my body"</li>
+          <li>&#34;I am successfully completing my project deadline this week&#34;</li>
+          <li>&#34;I am confident speaking up in team meetings&#34;</li>
+          <li>&#34;I am making healthy food choices that fuel my body&#34;</li>
         </ul>
 
         <p>
@@ -108,14 +109,14 @@ const blogPosts: Record<
 
         <h3>3. Use Present Tense</h3>
         <p>
-          Frame affirmations as if they're already true. Your brain responds better to "I am"
-          statements than "I will be" statements.
+          Frame affirmations as if they&#39;re already true. Your brain responds better to &#34;I
+          am&#34; statements than &#34;I will be&#34; statements.
         </p>
 
         <h3>4. Add Emotion</h3>
         <p>
-          Don't just say the words—feel them. Emotion is what creates the neural pathways that make
-          affirmations stick.
+          Don&#39;t just say the words—feel them. Emotion is what creates the neural pathways that
+          make affirmations stick.
         </p>
 
         <h3>5. Be Consistent</h3>
@@ -138,8 +139,8 @@ const blogPosts: Record<
         <h2>Common Mistakes to Avoid</h2>
         <ul>
           <li>
-            <strong>Being too vague:</strong> "I am happy" vs "I am finding joy in small moments
-            today"
+            <strong>Being too vague:</strong> &#34;I am happy&#34; vs &#34;I am finding joy in small
+            moments today&#34;
           </li>
           <li>
             <strong>Not believing it:</strong> If an affirmation feels too far from reality, start
@@ -149,16 +150,17 @@ const blogPosts: Record<
             <strong>Only saying it once:</strong> Repetition is key for neuroplasticity
           </li>
           <li>
-            <strong>Negative framing:</strong> Say "I am calm" not "I am not anxious"
+            <strong>Negative framing:</strong> Say &#34;I am calm&#34; not &#34;I am not
+            anxious&#34;
           </li>
         </ul>
 
         <h2>Creating Your Own Affirmations</h2>
         <p>Follow this simple formula:</p>
         <ol>
-          <li>Start with "I am" or "I"</li>
+          <li>Start with &#34;I am&#34; or &#34;I&#34;</li>
           <li>Use present tense</li>
-          <li>Keep it positive (no "not" or "don't")</li>
+          <li>Keep it positive (no &#34;not&#34; or &#34;don&#39;t&#34;)</li>
           <li>Make it believable to you</li>
           <li>Add specific details</li>
         </ol>
@@ -169,8 +171,8 @@ const blogPosts: Record<
           <div className="bg-gradient-to-br from-violet-50 to-purple-50 p-6 rounded-xl border-2 border-violet-100">
             <p className="font-bold text-gray-900 mb-3">💪 For Confidence:</p>
             <ul className="space-y-2 text-gray-700">
-              <li>"I trust my decisions and stand firmly in my choices"</li>
-              <li>"I speak my truth with clarity and conviction"</li>
+              <li>&#34;I trust my decisions and stand firmly in my choices&#34;</li>
+              <li>&#34;I speak my truth with clarity and conviction&#34;</li>
             </ul>
             <Link
               href="/affirmations/confidence"
@@ -183,8 +185,8 @@ const blogPosts: Record<
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border-2 border-blue-100">
             <p className="font-bold text-gray-900 mb-3">💼 For Career:</p>
             <ul className="space-y-2 text-gray-700">
-              <li>"I bring unique value to my team and my contributions matter"</li>
-              <li>"I am capable of solving complex problems creatively"</li>
+              <li>&#34;I bring unique value to my team and my contributions matter&#34;</li>
+              <li>&#34;I am capable of solving complex problems creatively&#34;</li>
             </ul>
             <Link
               href="/affirmations/career"
@@ -222,7 +224,7 @@ const blogPosts: Record<
     content: (
       <>
         <p className="lead">
-          Skeptical about affirmations? You're not alone. Let's dive into what peer-reviewed
+          Skeptical about affirmations? You&#39;re not alone. Let&#39;s dive into what peer-reviewed
           research actually says about whether positive affirmations work—and why the answer might
           surprise you.
         </p>
@@ -337,10 +339,10 @@ const blogPosts: Record<
           </p>
         </div>
 
-        <h2>When Affirmations Don't Work</h2>
+        <h2>When Affirmations Don&#39;t Work</h2>
         <p>
-          It's important to note that affirmations aren't magic. Research identifies situations
-          where they can backfire:
+          It&#39;s important to note that affirmations aren&#39;t magic. Research identifies
+          situations where they can backfire:
         </p>
         <ul>
           <li>
@@ -352,8 +354,8 @@ const blogPosts: Record<
             instead)
           </li>
           <li>
-            <strong>Without action:</strong> Affirmations alone won't change your life—they must be
-            paired with behavior change
+            <strong>Without action:</strong> Affirmations alone won&#39;t change your life—they must
+            be paired with behavior change
           </li>
           <li>
             <strong>Forced positivity:</strong> Denying real problems and forcing positivity can be
@@ -362,7 +364,7 @@ const blogPosts: Record<
         </ul>
 
         <h2>The Right Way to Use Affirmations</h2>
-        <p>Based on research, here's what makes affirmations effective:</p>
+        <p>Based on research, here&#39;s what makes affirmations effective:</p>
         <ol>
           <li>
             <strong>Make them believable:</strong> Bridge the gap between where you are and where
@@ -373,7 +375,7 @@ const blogPosts: Record<
             than those about specific outcomes
           </li>
           <li>
-            <strong>Pair with action:</strong> Use affirmations to support concrete steps you're
+            <strong>Pair with action:</strong> Use affirmations to support concrete steps you&#39;re
             taking
           </li>
           <li>
@@ -459,8 +461,8 @@ const blogPosts: Record<
         <p>Morning is the optimal time for affirmations because:</p>
         <ul>
           <li>Your mind is fresh and receptive to new thought patterns</li>
-          <li>You're setting intentions before the day's distractions</li>
-          <li>You're programming your subconscious for the day ahead</li>
+          <li>You&#39;re setting intentions before the day&#39;s distractions</li>
+          <li>You&#39;re programming your subconscious for the day ahead</li>
           <li>It creates a consistent ritual that compounds over time</li>
         </ul>
 
@@ -474,14 +476,14 @@ const blogPosts: Record<
 
         <h2>The 10 Best Morning Affirmations</h2>
 
-        <h3>1. "Today, I choose joy and gratitude"</h3>
+        <h3>1. &#34;Today, I choose joy and gratitude&#34;</h3>
         <p>
           This affirmation reminds you that happiness is a choice. It redirects your focus to what
-          you're grateful for, activating the brain's reward centers and setting a positive
+          you&#39;re grateful for, activating the brain&#39;s reward centers and setting a positive
           emotional tone.
         </p>
 
-        <h3>2. "I am capable of handling whatever comes my way"</h3>
+        <h3>2. &#34;I am capable of handling whatever comes my way&#34;</h3>
         <p>
           Building confidence in your resilience reduces anxiety about the unknown. This affirmation
           strengthens your belief in your problem-solving abilities. Perfect for pairing with our{' '}
@@ -491,13 +493,13 @@ const blogPosts: Record<
           .
         </p>
 
-        <h3>3. "I release what I cannot control and focus on what I can"</h3>
+        <h3>3. &#34;I release what I cannot control and focus on what I can&#34;</h3>
         <p>
           This powerful affirmation helps you let go of worry about things outside your control,
           directing your energy toward productive action.
         </p>
 
-        <h3>4. "My mind is calm, my body is relaxed, and my spirit is at peace"</h3>
+        <h3>4. &#34;My mind is calm, my body is relaxed, and my spirit is at peace&#34;</h3>
         <p>
           A grounding affirmation that connects mind, body, and spirit. Perfect for those who wake
           up feeling anxious or stressed. Complement with our{' '}
@@ -507,7 +509,7 @@ const blogPosts: Record<
           .
         </p>
 
-        <h3>5. "I attract positive people and opportunities into my life"</h3>
+        <h3>5. &#34;I attract positive people and opportunities into my life&#34;</h3>
         <p>
           This affirmation primes your brain to notice opportunities and connections that align with
           your goals, making you more likely to act on them.
@@ -521,7 +523,7 @@ const blogPosts: Record<
           </p>
         </div>
 
-        <h3>6. "I am worthy of love, success, and happiness"</h3>
+        <h3>6. &#34;I am worthy of love, success, and happiness&#34;</h3>
         <p>
           Many people struggle with worthiness. This affirmation directly addresses self-worth, a
           foundation for all personal growth. Related:{' '}
@@ -531,29 +533,29 @@ const blogPosts: Record<
           .
         </p>
 
-        <h3>7. "Today, I choose progress over perfection"</h3>
+        <h3>7. &#34;Today, I choose progress over perfection&#34;</h3>
         <p>
           Perfectionism can be paralyzing. This affirmation helps you focus on forward movement
           rather than impossible standards.
         </p>
 
-        <h3>8. "I trust the timing of my life"</h3>
+        <h3>8. &#34;I trust the timing of my life&#34;</h3>
         <p>
           Patience is challenging in our instant-gratification world. This affirmation reduces
-          anxiety about where you "should" be and helps you appreciate your current journey.
+          anxiety about where you &#34;should&#34; be and helps you appreciate your current journey.
         </p>
 
-        <h3>9. "I am becoming the best version of myself"</h3>
+        <h3>9. &#34;I am becoming the best version of myself&#34;</h3>
         <p>
-          Framed in the present progressive tense, this acknowledges you're in process—not perfect,
-          but growing. It's both motivating and compassionate. Explore more with{' '}
+          Framed in the present progressive tense, this acknowledges you&#39;re in process—not
+          perfect, but growing. It&#39;s both motivating and compassionate. Explore more with{' '}
           <Link href="/affirmations/personal-growth" className="text-violet-600 hover:underline">
             personal growth affirmations
           </Link>
           .
         </p>
 
-        <h3>10. "Today is full of possibilities"</h3>
+        <h3>10. &#34;Today is full of possibilities&#34;</h3>
         <p>
           Simple yet powerful, this affirmation opens your mind to opportunity. It counters the
           limiting belief that your day is predetermined before it even begins.
@@ -574,8 +576,8 @@ const blogPosts: Record<
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border-2 border-blue-100">
             <p className="font-bold text-gray-900 mb-3">📱 Tech Tip</p>
             <p className="text-gray-700 text-sm">
-              Set your phone lock screen to display one affirmation. Change it weekly. You'll see it
-              dozens of times daily—powerful reinforcement!
+              Set your phone lock screen to display one affirmation. Change it weekly. You&#39;ll
+              see it dozens of times daily—powerful reinforcement!
             </p>
           </div>
         </div>
@@ -600,7 +602,7 @@ const blogPosts: Record<
             <strong>Visualize:</strong> Imagine yourself embodying each statement
           </li>
           <li>
-            <strong>Feel the emotion:</strong> Don't just say words—believe them
+            <strong>Feel the emotion:</strong> Don&#39;t just say words—believe them
           </li>
         </ol>
 
@@ -676,11 +678,11 @@ const blogPosts: Record<
 
           <div>
             <p className="font-bold text-gray-900 text-lg mb-2">
-              What if I don't believe the affirmations?
+              What if I don&#39;t believe the affirmations?
             </p>
             <p>
-              Start with "bridge" affirmations. Instead of "I am confident," try "I am becoming more
-              confident each day." Learn more in our{' '}
+              Start with &#34;bridge&#34; affirmations. Instead of &#34;I am confident,&#34; try
+              &#34;I am becoming more confident each day.&#34; Learn more in our{' '}
               <Link
                 href="/blog/how-to-use-affirmations-effectively"
                 className="text-violet-600 hover:underline"
@@ -703,7 +705,7 @@ const blogPosts: Record<
         <h2>Start Tomorrow Morning</h2>
         <p>
           Set your alarm 10 minutes earlier tomorrow. Before you reach for your phone, practice
-          these affirmations. After just one week, you'll notice the difference in your mindset,
+          these affirmations. After just one week, you&#39;ll notice the difference in your mindset,
           energy, and approach to daily challenges.
         </p>
 
