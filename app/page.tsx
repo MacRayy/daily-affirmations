@@ -34,7 +34,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center gap-3">
             <Logo className="w-8 h-8" />
-            <h1 className="text-2xl font-bold text-gray-900">Daily Affirmations</h1>
+            <h1 className="text-2xl font-bold text-gray-900">
+              <Link href="/">Daily Affirmations</Link>
+            </h1>
             <nav className="flex items-center gap-6 ml-auto">
               <Link
                 href="/blog"

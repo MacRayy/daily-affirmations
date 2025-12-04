@@ -2,6 +2,7 @@ import AffirmationClient from '@/app/components/AffirmationClient'
 import { getAffirmationOfTheDay } from '@/app/data/affirmations'
 import { notFound } from 'next/navigation'
 import Logo from '@/app/components/Logo'
+import Link from 'next/link'
 
 const CATEGORIES = {
   general: {
@@ -83,7 +84,9 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center gap-3">
             <Logo className="w-8 h-8" />
-            <h1 className="text-2xl font-bold text-gray-900">Daily Affirmations</h1>
+            <h1 className="text-2xl font-bold text-gray-900">
+              <Link href="/">Daily Affirmations</Link>
+            </h1>
           </div>
         </div>
       </header>
