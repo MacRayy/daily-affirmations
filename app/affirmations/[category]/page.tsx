@@ -1,7 +1,7 @@
-import { Sparkles } from 'lucide-react'
 import AffirmationClient from '@/app/components/AffirmationClient'
 import { getAffirmationOfTheDay } from '@/app/data/affirmations'
 import { notFound } from 'next/navigation'
+import Logo from '@/app/components/Logo'
 
 const CATEGORIES = {
   general: {
@@ -82,7 +82,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       <header className="bg-white border-b-2 border-gray-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center gap-3">
-            <Sparkles className="w-8 h-8 text-violet-600" strokeWidth={2} />
+            <Logo className="w-8 h-8" />
             <h1 className="text-2xl font-bold text-gray-900">Daily Affirmations</h1>
           </div>
         </div>

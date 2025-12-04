@@ -20,7 +20,7 @@ if (!GROQ_API_KEY) {
   process.exit(1)
 }
 
-interface GroqResponse {
+type GroqResponse = {
   choices: Array<{
     message: {
       content: string

@@ -1,7 +1,11 @@
-import { Sparkles } from 'lucide-react'
 import Link from 'next/link'
 import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
 import { getAffirmationOfTheDay } from '../data/affirmations'
+
+type AffirmationClientProps = {
+  initialAffirmation: string
+  initialCategory: string
+}
 
 const CATEGORIES = [
   {
@@ -54,9 +58,9 @@ export const metadata = {
     'Start your day with powerful affirmations. Get personalized daily motivation for career, relationships, health, confidence, and personal growth.',
 }
 
-export default function Home() {
-  const initialAffirmation = getAffirmationOfTheDay('general')
-
+export default function Home({
+  initialAffirmation = getAffirmationOfTheDay('general'),
+}: AffirmationClientProps) {
   return (
     <div className="min-h-screen bg-gray-50">
       <main className="max-w-4xl mx-auto">

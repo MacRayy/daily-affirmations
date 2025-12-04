@@ -1,6 +1,6 @@
 'use server'
 
-interface GroqResponse {
+type GroqResponse = {
   choices: Array<{
     message: {
       content: string
