@@ -98,7 +98,7 @@ export default function AffirmationClient({
                 key={category.id}
                 onClick={() => handleCategoryChange(category.id)}
                 disabled={loading}
-                className={`p-4 rounded-xl transition-all border-2 shadow-sm hover:shadow-md disabled:opacity-50 ${
+                className={`p-4 rounded-xl transition-all border-2 shadow-sm hover:shadow-md disabled:opacity-50 cursor-pointer ${
                   selectedCategory === category.id
                     ? `${category.color} text-white border-transparent scale-[1.02]`
                     : `bg-white text-gray-700 border-gray-200 hover:border-gray-300`
