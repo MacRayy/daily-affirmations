@@ -4,7 +4,8 @@ import { Shield, Eye, Lock, Database } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Daily Affirmations',
-  description: 'Learn how Daily Affirmations protects your privacy and handles your data. Our commitment to transparency and user privacy.',
+  description:
+    'Learn how Daily Affirmations protects your privacy and handles your data. Our commitment to transparency and user privacy.',
   keywords: 'privacy policy, data protection, user privacy, daily affirmations, personal data',
   openGraph: {
     title: 'Privacy Policy - Daily Affirmations',
@@ -42,7 +43,12 @@ export default function PrivacyPage() {
             <h1 className="text-4xl font-bold text-gray-900">Privacy Policy</h1>
           </div>
           <p className="text-lg text-gray-600">
-            Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            Last updated:{' '}
+            {new Date().toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
           </p>
         </header>
 
@@ -50,8 +56,9 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Commitment to Privacy</h2>
             <p className="text-gray-700 leading-relaxed">
-              At Daily Affirmations, we are committed to protecting your privacy and ensuring the security of your personal information. 
-              This Privacy Policy explains how we collect, use, and protect your data when you use our affirmation services.
+              At Daily Affirmations, we are committed to protecting your privacy and ensuring the
+              security of your personal information. This Privacy Policy explains how we collect,
+              use, and protect your data when you use our affirmation services.
             </p>
           </section>
 
@@ -62,7 +69,9 @@ export default function PrivacyPage() {
             </div>
             <div className="space-y-4">
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Information You Provide</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  Information You Provide
+                </h3>
                 <ul className="list-disc pl-6 text-gray-700 space-y-2">
                   <li>Email address (when subscribing to updates)</li>
                   <li>Feedback and comments you submit</li>
@@ -70,7 +79,9 @@ export default function PrivacyPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Automatically Collected Information</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  Automatically Collected Information
+                </h3>
                 <ul className="list-disc pl-6 text-gray-700 space-y-2">
                   <li>Usage patterns and interaction data</li>
                   <li>Device information and browser type</li>
@@ -117,16 +128,18 @@ export default function PrivacyPage() {
               We use the following third-party services to operate our platform:
             </p>
             <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li><strong>Vercel Analytics:</strong> For website performance and usage analytics</li>
-              <li><strong>Next.js Hosting:</strong> For secure and reliable content delivery</li>
+              <li>
+                <strong>Vercel Analytics:</strong> For website performance and usage analytics
+              </li>
+              <li>
+                <strong>Next.js Hosting:</strong> For secure and reliable content delivery
+              </li>
             </ul>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Rights</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              You have the right to:
-            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">You have the right to:</p>
             <ul className="list-disc pl-6 text-gray-700 space-y-2">
               <li>Access your personal information</li>
               <li>Correct inaccurate information</li>
@@ -139,29 +152,30 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Children&apos;s Privacy</h2>
             <p className="text-gray-700 leading-relaxed">
-              Our services are not intended for children under 13 years of age. We do not knowingly collect 
-              personal information from children under 13. If you believe we have collected such information, 
-              please contact us immediately.
+              Our services are not intended for children under 13 years of age. We do not knowingly
+              collect personal information from children under 13. If you believe we have collected
+              such information, please contact us immediately.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Changes to This Policy</h2>
             <p className="text-gray-700 leading-relaxed">
-              We may update this Privacy Policy from time to time. We will notify you of any changes by 
-              posting the new policy on this page and updating the &quot;Last updated&quot; date above.
+              We may update this Privacy Policy from time to time. We will notify you of any changes
+              by posting the new policy on this page and updating the &quot;Last updated&quot; date
+              above.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact Us</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              If you have any questions about this Privacy Policy or our data practices, please contact us at:
+              If you have any questions about this Privacy Policy or our data practices, please
+              contact us at:
             </p>
             <div className="bg-gray-100 p-4 rounded-lg mt-4">
               <p className="text-gray-700">
-                <strong>Email:</strong> privacy@daily-affirm.com<br />
-                <strong>Website:</strong> <Link href="/contact" className="text-violet-600 hover:underline">Contact Form</Link>
+                <strong>Email:</strong> contact@daily-affirm.com
               </p>
             </div>
           </section>

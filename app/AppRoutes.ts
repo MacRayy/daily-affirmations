@@ -33,6 +33,13 @@ export const ROUTES = {
     keywords:
       'privacy policy, data protection, user privacy, daily affirmations, personal data security',
   },
+  contact: {
+    path: '/contact',
+    title: 'Contact Us - Daily Affirmations Support & Feedback',
+    description:
+      'Get in touch with Daily Affirmations. We&apos;d love to hear your feedback, questions, or suggestions. Contact our support team for help with your affirmation journey.',
+    keywords: 'contact daily affirmations, support, feedback, customer service, help, questions',
+  },
 
   // Dynamic routes
   affirmations: {

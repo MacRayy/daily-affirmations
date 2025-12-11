@@ -146,7 +146,7 @@ export default function AffirmationClient({
           <button
             onClick={handleGenerateNewAffirmation}
             disabled={loading}
-            className="flex items-center gap-2 px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-semibold transition disabled:opacity-50 shadow-sm hover:shadow-md"
+            className="flex items-center gap-2 px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-semibold transition disabled:opacity-50 shadow-sm hover:shadow-md cursor-pointer"
           >
             <RefreshCw className={`w-5 h-5 ${loading ? 'animate-spin' : ''}`} strokeWidth={2} />
             Generate New

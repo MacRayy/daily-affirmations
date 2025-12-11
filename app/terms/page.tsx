@@ -174,12 +174,7 @@ export default function TermsPage() {
             </p>
             <div className="bg-gray-100 p-4 rounded-lg">
               <p className="text-gray-700">
-                <strong>Email:</strong> legal@daily-affirm.com
-                <br />
-                <strong>Website:</strong>{' '}
-                <Link href="/contact" className="text-violet-600 hover:underline">
-                  Contact Form
-                </Link>
+                <strong>Email:</strong> contact@daily-affirm.com
               </p>
             </div>
           </section>

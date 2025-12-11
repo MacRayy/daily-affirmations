@@ -150,6 +150,9 @@ export default function Home() {
               <Link href="/privacy" className="hover:text-violet-600 transition">
                 Privacy Policy
               </Link>
+              <Link href="/contact" className="hover:text-violet-600 transition">
+                Contact
+              </Link>
             </div>
           </div>
         </footer>
