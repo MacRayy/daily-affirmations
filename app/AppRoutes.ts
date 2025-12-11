@@ -18,6 +18,21 @@ export const ROUTES = {
     keywords:
       'affirmations blog, positive thinking guide, self improvement tips, affirmation techniques, mindset transformation, personal growth advice',
   },
+  terms: {
+    path: '/terms',
+    title: 'Terms of Service - Daily Affirmations Legal Terms',
+    description:
+      'Read our Terms of Service to understand your rights and responsibilities when using Daily Affirmations. Legal terms and conditions for our platform.',
+    keywords: 'terms of service, legal terms, conditions, daily affirmations, user agreement',
+  },
+  privacy: {
+    path: '/privacy',
+    title: 'Privacy Policy - Daily Affirmations Data Protection',
+    description:
+      'Learn how Daily Affirmations protects your privacy and handles your data. Our commitment to transparency and user privacy protection.',
+    keywords:
+      'privacy policy, data protection, user privacy, daily affirmations, personal data security',
+  },
 
   // Dynamic routes
   affirmations: {

@@ -140,9 +140,17 @@ export default function Home() {
 
         <footer className="bg-white border-t-2 border-gray-200 mt-16">
           <div className="max-w-6xl mx-auto px-4 py-8 text-center text-gray-600">
-            <p className="text-sm font-medium">
+            <p className="text-sm font-medium mb-4">
               © 2025 Daily Affirmations. Empowering you every day.
             </p>
+            <div className="flex justify-center gap-6 text-sm">
+              <Link href="/terms" className="hover:text-violet-600 transition">
+                Terms of Service
+              </Link>
+              <Link href="/privacy" className="hover:text-violet-600 transition">
+                Privacy Policy
+              </Link>
+            </div>
           </div>
         </footer>
       </div>
