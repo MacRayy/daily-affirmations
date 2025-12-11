@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Calendar, ArrowRight } from 'lucide-react'
 import type { Metadata } from 'next'
+import { ROUTES } from '../AppRoutes'
 
 export const metadata: Metadata = {
   title: 'Affirmations Blog - Tips, Science & Guides',
@@ -11,30 +12,30 @@ export const metadata: Metadata = {
 const blogPosts = [
   {
     slug: 'how-to-use-affirmations-effectively',
-    title: 'How to Use Daily Affirmations Effectively: A Science-Backed Guide',
+    title: ROUTES.blogPosts['how-to-use-affirmations-effectively'].title,
     excerpt:
       'Discover the proven techniques that make affirmations actually work. Learn when to practice, how to write your own, and what science says about their effectiveness.',
-    date: '2025-12-5',
-    readTime: '8 min read',
-    category: 'Guide',
+    date: ROUTES.blogPosts['how-to-use-affirmations-effectively'].date,
+    readTime: ROUTES.blogPosts['how-to-use-affirmations-effectively'].readTime,
+    category: ROUTES.blogPosts['how-to-use-affirmations-effectively'].category,
   },
   {
     slug: 'science-of-affirmations',
-    title: 'Do Affirmations Really Work? What Science Says',
+    title: ROUTES.blogPosts['science-of-affirmations'].title,
     excerpt:
       'Explore the neuroscience behind positive affirmations. Research-backed evidence on how affirmations rewire your brain and improve mental wellbeing.',
-    date: '2025-11-30',
-    readTime: '6 min read',
-    category: 'Science',
+    date: ROUTES.blogPosts['science-of-affirmations'].date,
+    readTime: ROUTES.blogPosts['science-of-affirmations'].readTime,
+    category: ROUTES.blogPosts['science-of-affirmations'].category,
   },
   {
     slug: 'morning-affirmations-routine',
-    title: '10 Powerful Morning Affirmations to Transform Your Day',
+    title: ROUTES.blogPosts['morning-affirmations-routine'].title,
     excerpt:
       'Start each morning with intention. These 10 affirmations are designed to boost confidence, reduce anxiety, and set a positive tone for your entire day.',
-    date: '2025-11-25',
-    readTime: '5 min read',
-    category: 'Practice',
+    date: ROUTES.blogPosts['morning-affirmations-routine'].date,
+    readTime: ROUTES.blogPosts['morning-affirmations-routine'].readTime,
+    category: ROUTES.blogPosts['morning-affirmations-routine'].category,
   },
 ]
 
@@ -52,7 +53,14 @@ export default function BlogPage() {
 
         <div className="space-y-8">
           {blogPosts.map(post => (
-            <Link key={post.slug} href={`/blog/${post.slug}`} className="block group">
+            <Link
+              key={post.slug}
+              href={
+                ROUTES.blogPosts[post.slug as keyof typeof ROUTES.blogPosts]?.path ||
+                `/blog/${post.slug}`
+              }
+              className="block group"
+            >
               <article className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg hover:border-violet-300 transition">
                 <div className="flex items-center gap-4 mb-4 text-sm text-gray-500">
                   <span className="px-3 py-1 bg-violet-100 text-violet-700 rounded-full font-semibold">

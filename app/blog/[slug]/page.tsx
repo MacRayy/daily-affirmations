@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Calendar, ArrowLeft } from 'lucide-react'
 import type { ReactNode } from 'react'
+import { ROUTES } from '../AppRoutes'
 
 const blogPosts: Record<
   string,
@@ -14,10 +15,10 @@ const blogPosts: Record<
   }
 > = {
   'how-to-use-affirmations-effectively': {
-    title: 'How to Use Daily Affirmations Effectively: A Science-Backed Guide',
-    date: '2024-12-15',
-    readTime: '8 min read',
-    category: 'Guide',
+    title: ROUTES.blogPosts['how-to-use-affirmations-effectively'].title,
+    date: ROUTES.blogPosts['how-to-use-affirmations-effectively'].date,
+    readTime: ROUTES.blogPosts['how-to-use-affirmations-effectively'].readTime,
+    category: ROUTES.blogPosts['how-to-use-affirmations-effectively'].category,
     content: (
       <>
         <p className="lead">
@@ -74,7 +75,10 @@ const blogPosts: Record<
         <ul>
           <li>
             <strong>Morning:</strong> Sets a positive tone for your day (try our{' '}
-            <Link href="/affirmations/general" className="text-violet-600 hover:underline">
+            <Link
+              href={ROUTES.affirmations.general.path}
+              className="text-violet-600 hover:underline"
+            >
               morning affirmations
             </Link>
             )
@@ -97,11 +101,14 @@ const blogPosts: Record<
 
         <p>
           Need inspiration? Check out our{' '}
-          <Link href="/affirmations/career" className="text-violet-600 hover:underline">
+          <Link href={ROUTES.affirmations.career.path} className="text-violet-600 hover:underline">
             career affirmations
           </Link>{' '}
           or{' '}
-          <Link href="/affirmations/confidence" className="text-violet-600 hover:underline">
+          <Link
+            href={ROUTES.affirmations.confidence.path}
+            className="text-violet-600 hover:underline"
+          >
             confidence affirmations
           </Link>{' '}
           for category-specific examples.
@@ -129,7 +136,10 @@ const blogPosts: Record<
           <p className="text-gray-800 font-semibold mb-2">📚 Related Reading</p>
           <p className="text-gray-700">
             Learn more about{' '}
-            <Link href="/blog/science-of-affirmations" className="text-blue-600 hover:underline">
+            <Link
+              href={ROUTES.blogPosts['science-of-affirmations'].path}
+              className="text-blue-600 hover:underline"
+            >
               the neuroscience behind affirmations
             </Link>{' '}
             and why they actually work.
@@ -175,7 +185,7 @@ const blogPosts: Record<
               <li>&#34;I speak my truth with clarity and conviction&#34;</li>
             </ul>
             <Link
-              href="/affirmations/confidence"
+              href={ROUTES.affirmations.confidence.path}
               className="text-violet-600 hover:underline text-sm mt-3 inline-block"
             >
               View more →
@@ -189,7 +199,7 @@ const blogPosts: Record<
               <li>&#34;I am capable of solving complex problems creatively&#34;</li>
             </ul>
             <Link
-              href="/affirmations/career"
+              href={ROUTES.affirmations.career.path}
               className="text-blue-600 hover:underline text-sm mt-3 inline-block"
             >
               View more →
@@ -207,7 +217,7 @@ const blogPosts: Record<
 
         <p>
           Ready to start? Visit our{' '}
-          <Link href="/" className="text-violet-600 hover:underline font-semibold">
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline font-semibold">
             daily affirmations generator
           </Link>{' '}
           to get personalized affirmations for every aspect of your life.
@@ -217,10 +227,10 @@ const blogPosts: Record<
   },
 
   'science-of-affirmations': {
-    title: 'Do Affirmations Really Work? What Science Says',
-    date: '2024-12-10',
-    readTime: '6 min read',
-    category: 'Science',
+    title: ROUTES.blogPosts['science-of-affirmations'].title,
+    date: ROUTES.blogPosts['science-of-affirmations'].date,
+    readTime: ROUTES.blogPosts['science-of-affirmations'].readTime,
+    category: ROUTES.blogPosts['science-of-affirmations'].category,
     content: (
       <>
         <p className="lead">
@@ -348,7 +358,10 @@ const blogPosts: Record<
           <li>
             <strong>Low self-esteem:</strong> If the affirmation is too far from your current
             belief, it can actually make you feel worse (start with our{' '}
-            <Link href="/affirmations/confidence" className="text-violet-600 hover:underline">
+            <Link
+              href={ROUTES.affirmations.confidence.path}
+              className="text-violet-600 hover:underline"
+            >
               confidence affirmations
             </Link>{' '}
             instead)
@@ -388,7 +401,7 @@ const blogPosts: Record<
           <p className="text-gray-700">
             Want practical tips? Read our guide on{' '}
             <Link
-              href="/blog/how-to-use-affirmations-effectively"
+              href={ROUTES.blogPosts['how-to-use-affirmations-effectively'].path}
               className="text-violet-600 hover:underline"
             >
               how to use affirmations effectively
@@ -431,11 +444,14 @@ const blogPosts: Record<
 
         <p>
           Start incorporating science-backed affirmations into your routine with our{' '}
-          <Link href="/" className="text-violet-600 hover:underline font-semibold">
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline font-semibold">
             free daily affirmations tool
           </Link>
           . Try our{' '}
-          <Link href="/affirmations/personal-growth" className="text-violet-600 hover:underline">
+          <Link
+            href={ROUTES.affirmations['personal-growth'].path}
+            className="text-violet-600 hover:underline"
+          >
             personal growth affirmations
           </Link>{' '}
           to begin your journey.
@@ -445,10 +461,10 @@ const blogPosts: Record<
   },
 
   'morning-affirmations-routine': {
-    title: '10 Powerful Morning Affirmations to Transform Your Day',
-    date: '2024-12-05',
-    readTime: '5 min read',
-    category: 'Practice',
+    title: ROUTES.blogPosts['morning-affirmations-routine'].title,
+    date: ROUTES.blogPosts['morning-affirmations-routine'].date,
+    readTime: ROUTES.blogPosts['morning-affirmations-routine'].readTime,
+    category: ROUTES.blogPosts['morning-affirmations-routine'].category,
     content: (
       <>
         <p className="lead">
@@ -487,7 +503,10 @@ const blogPosts: Record<
         <p>
           Building confidence in your resilience reduces anxiety about the unknown. This affirmation
           strengthens your belief in your problem-solving abilities. Perfect for pairing with our{' '}
-          <Link href="/affirmations/confidence" className="text-violet-600 hover:underline">
+          <Link
+            href={ROUTES.affirmations.confidence.path}
+            className="text-violet-600 hover:underline"
+          >
             confidence affirmations
           </Link>
           .
@@ -503,7 +522,7 @@ const blogPosts: Record<
         <p>
           A grounding affirmation that connects mind, body, and spirit. Perfect for those who wake
           up feeling anxious or stressed. Complement with our{' '}
-          <Link href="/affirmations/health" className="text-violet-600 hover:underline">
+          <Link href={ROUTES.affirmations.health.path} className="text-violet-600 hover:underline">
             health affirmations
           </Link>
           .
@@ -527,7 +546,10 @@ const blogPosts: Record<
         <p>
           Many people struggle with worthiness. This affirmation directly addresses self-worth, a
           foundation for all personal growth. Related:{' '}
-          <Link href="/affirmations/relationships" className="text-violet-600 hover:underline">
+          <Link
+            href={ROUTES.affirmations.relationships.path}
+            className="text-violet-600 hover:underline"
+          >
             relationship affirmations
           </Link>
           .
@@ -549,7 +571,10 @@ const blogPosts: Record<
         <p>
           Framed in the present progressive tense, this acknowledges you&#39;re in process—not
           perfect, but growing. It&#39;s both motivating and compassionate. Explore more with{' '}
-          <Link href="/affirmations/personal-growth" className="text-violet-600 hover:underline">
+          <Link
+            href={ROUTES.affirmations['personal-growth'].path}
+            className="text-violet-600 hover:underline"
+          >
             personal growth affirmations
           </Link>
           .
@@ -619,15 +644,18 @@ const blogPosts: Record<
 
         <p>
           Browse our categories for inspiration:{' '}
-          <Link href="/affirmations/career" className="text-violet-600 hover:underline">
+          <Link href={ROUTES.affirmations.career.path} className="text-violet-600 hover:underline">
             Career
           </Link>
           ,{' '}
-          <Link href="/affirmations/relationships" className="text-violet-600 hover:underline">
+          <Link
+            href={ROUTES.affirmations.relationships.path}
+            className="text-violet-600 hover:underline"
+          >
             Relationships
           </Link>
           ,{' '}
-          <Link href="/affirmations/health" className="text-violet-600 hover:underline">
+          <Link href={ROUTES.affirmations.health.path} className="text-violet-600 hover:underline">
             Health
           </Link>
           , and more.
@@ -684,7 +712,7 @@ const blogPosts: Record<
               Start with &#34;bridge&#34; affirmations. Instead of &#34;I am confident,&#34; try
               &#34;I am becoming more confident each day.&#34; Learn more in our{' '}
               <Link
-                href="/blog/how-to-use-affirmations-effectively"
+                href={ROUTES.blogPosts['how-to-use-affirmations-effectively'].path}
                 className="text-violet-600 hover:underline"
               >
                 guide to effective affirmations
@@ -711,11 +739,11 @@ const blogPosts: Record<
 
         <p>
           For personalized daily affirmations delivered fresh each day, try our{' '}
-          <Link href="/" className="text-violet-600 hover:underline font-semibold">
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline font-semibold">
             free affirmations generator
           </Link>
           . Get started with{' '}
-          <Link href="/affirmations/general" className="text-violet-600 hover:underline">
+          <Link href={ROUTES.affirmations.general.path} className="text-violet-600 hover:underline">
             general affirmations
           </Link>{' '}
           or choose a specific focus area.
@@ -757,7 +785,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     <div className="min-h-screen bg-gray-50">
       <article className="max-w-4xl mx-auto px-4 py-12">
         <Link
-          href="/blog"
+          href={ROUTES.blog.path}
           className="inline-flex items-center gap-2 text-violet-600 hover:text-violet-700 mb-8 font-semibold"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -803,7 +831,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </div>
 
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
-          <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-10 border-2 border-violet-200">
+          <div className="bg-linear-to-br from-violet-50 to-purple-50 rounded-2xl p-10 border-2 border-violet-200">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
               Start Your Daily Affirmations Practice
             </h3>
@@ -812,7 +840,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               career, relationships, health, and more.
             </p>
             <Link
-              href="/"
+              href={ROUTES.home.path}
               className="inline-block px-8 py-4 bg-violet-600 text-white rounded-lg font-bold hover:bg-violet-700 transition shadow-lg hover:shadow-xl text-lg"
             >
               Try Free Affirmations →

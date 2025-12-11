@@ -3,43 +3,15 @@ import { getAffirmationOfTheDay } from '@/app/data/affirmations'
 import { notFound } from 'next/navigation'
 import Logo from '@/app/components/Logo'
 import Link from 'next/link'
+import { ROUTES } from '../../AppRoutes'
 
 const CATEGORIES = {
-  general: {
-    title: 'Daily General Affirmations',
-    description:
-      'Start your day with powerful general affirmations for overall wellbeing and positivity.',
-    keywords: 'daily affirmations, positive thinking, self improvement, mindfulness',
-  },
-  career: {
-    title: 'Career & Success Affirmations',
-    description:
-      'Boost your professional confidence with daily career affirmations for success and growth.',
-    keywords: 'career affirmations, professional development, success mindset, work motivation',
-  },
-  relationships: {
-    title: 'Relationship Affirmations',
-    description:
-      'Nurture healthy connections with daily relationship affirmations for love and communication.',
-    keywords:
-      'relationship affirmations, love affirmations, communication skills, healthy relationships',
-  },
-  health: {
-    title: 'Health & Wellness Affirmations',
-    description: 'Support your wellbeing journey with daily health affirmations for mind and body.',
-    keywords: 'health affirmations, wellness, self care, mental health, physical health',
-  },
-  'personal-growth': {
-    title: 'Personal Growth Affirmations',
-    description:
-      'Accelerate your development with daily personal growth affirmations for transformation.',
-    keywords: 'personal growth, self development, personal transformation, life improvement',
-  },
-  confidence: {
-    title: 'Confidence Building Affirmations',
-    description: 'Build unshakeable self-confidence with daily affirmations for empowerment.',
-    keywords: 'confidence affirmations, self esteem, self worth, empowerment, self belief',
-  },
+  general: ROUTES.affirmations.general,
+  career: ROUTES.affirmations.career,
+  relationships: ROUTES.affirmations.relationships,
+  health: ROUTES.affirmations.health,
+  'personal-growth': ROUTES.affirmations['personal-growth'],
+  confidence: ROUTES.affirmations.confidence,
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
@@ -85,7 +57,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
           <div className="flex items-center gap-3">
             <Logo className="w-8 h-8" />
             <h1 className="text-2xl font-bold text-gray-900">
-              <Link href="/">Daily Affirmations</Link>
+              <Link href={ROUTES.home.path}>Daily Affirmations</Link>
             </h1>
           </div>
         </div>

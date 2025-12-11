@@ -4,6 +4,7 @@ import Logo from '@/app/components/Logo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
+import { ROUTES } from './AppRoutes'
 
 export const metadata: Metadata = {
   title: 'Daily Affirmations - Positive Motivation & Inspiration',
@@ -11,17 +12,22 @@ export const metadata: Metadata = {
 }
 
 const CATEGORIES = [
-  { id: 'general', name: 'General', icon: Star, href: '/affirmations/general' },
-  { id: 'career', name: 'Career', icon: Briefcase, href: '/affirmations/career' },
-  { id: 'relationships', name: 'Relationships', icon: Users, href: '/affirmations/relationships' },
-  { id: 'health', name: 'Health', icon: Leaf, href: '/affirmations/health' },
+  { id: 'general', name: 'General', icon: Star, href: ROUTES.affirmations.general.path },
+  { id: 'career', name: 'Career', icon: Briefcase, href: ROUTES.affirmations.career.path },
+  {
+    id: 'relationships',
+    name: 'Relationships',
+    icon: Users,
+    href: ROUTES.affirmations.relationships.path,
+  },
+  { id: 'health', name: 'Health', icon: Leaf, href: ROUTES.affirmations.health.path },
   {
     id: 'personal-growth',
     name: 'Personal Growth',
     icon: Rocket,
-    href: '/affirmations/personal-growth',
+    href: ROUTES.affirmations['personal-growth'].path,
   },
-  { id: 'confidence', name: 'Confidence', icon: Zap, href: '/affirmations/confidence' },
+  { id: 'confidence', name: 'Confidence', icon: Zap, href: ROUTES.affirmations.confidence.path },
 ]
 
 export default function Home() {
@@ -35,11 +41,11 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <Logo className="w-8 h-8" />
             <h1 className="text-2xl font-bold text-gray-900">
-              <Link href="/">Daily Affirmations</Link>
+              <Link href={ROUTES.home.path}>Daily Affirmations</Link>
             </h1>
             <nav className="flex items-center gap-6 ml-auto">
               <Link
-                href="/blog"
+                href={ROUTES.blog.path}
                 className="text-gray-700 hover:text-violet-600 font-semibold transition"
               >
                 Blog
