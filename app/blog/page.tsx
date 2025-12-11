@@ -48,6 +48,15 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <main className="max-w-4xl mx-auto px-4 py-12">
+        <div className="mb-8">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-violet-600 hover:text-violet-700 font-semibold"
+          >
+            ← Back to Home
+          </Link>
+        </div>
+
         <div className="mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Affirmations Blog</h1>
           <p className="text-xl text-gray-600">
