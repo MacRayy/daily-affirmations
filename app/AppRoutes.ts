@@ -195,6 +195,14 @@ export const generateOpenGraph = (route: keyof typeof ROUTES | string) => {
     url: routeData.path,
     site_name: 'Daily Affirmations',
     locale: 'en_US',
+    images: [
+      {
+        url: 'https://daily-affirm.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: routeData.title,
+      },
+    ],
   }
 }
 
@@ -210,12 +218,87 @@ export const generateTwitterCard = (route: keyof typeof ROUTES | string) => {
   if (!('title' in routeData && 'description' in routeData)) {
     return {}
   }
-
   return {
     card: 'summary_large_image',
     title: routeData.title,
     description: routeData.description,
-    site: '@dailyaffirmations',
+    site: '@dailyaffirm',
+    images: ['https://daily-affirm.com/og-image.png'],
+  }
+}
+
+// Generate blog post structured data
+export const generateBlogPostStructuredData = (slug: string) => {
+  const postData = ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]
+
+  if (!postData) {
+    return null
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: postData.title,
+    description: postData.description,
+    image: 'https://daily-affirm.com/og-image.png',
+    datePublished: postData.date,
+    dateModified: postData.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Daily Affirmations',
+      url: 'https://daily-affirm.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Daily Affirmations',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://daily-affirm.com/og-image.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://daily-affirm.com${postData.path}`,
+    },
+    keywords: postData.keywords,
+    articleSection: postData.category,
+    readTime: postData.readTime,
+  }
+}
+
+// Generate breadcrumb structured data
+export const generateBreadcrumbStructuredData = (items: Array<{ name: string; url: string }>) => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  }
+}
+
+// Generate website structured data
+export const generateWebsiteStructuredData = () => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Daily Affirmations',
+    description:
+      'Transform your mindset with free daily affirmations. Get personalized positive quotes for confidence, success, relationships, health, and personal growth.',
+    url: 'https://daily-affirm.com',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://daily-affirm.com?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+    sameAs: [
+      'https://twitter.com/dailyaffirm',
+      'https://facebook.com/dailyaffirm',
+      'https://instagram.com/dailyaffirm',
+    ],
   }
 }
 
