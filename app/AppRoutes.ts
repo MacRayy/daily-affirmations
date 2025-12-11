@@ -4,56 +4,70 @@ export const ROUTES = {
   // Static routes
   home: {
     path: '/',
-    title: 'Daily Affirmations - Positive Motivation & Inspiration',
+    title: 'Daily Affirmations - Free Positive Motivation & Inspiration Generator',
+    description:
+      'Transform your mindset with free daily affirmations. Get personalized positive quotes for confidence, success, relationships, health, and personal growth. Start your journey today.',
+    keywords:
+      'daily affirmations, positive affirmations, motivational quotes, self improvement, confidence boost, success mindset, personal growth',
   },
   blog: {
     path: '/blog',
-    title: 'Affirmations Blog - Tips, Science & Guides',
+    title: 'Affirmations Blog - Science-Backed Tips & Guides for Personal Growth',
+    description:
+      'Discover proven techniques for using affirmations effectively. Expert guides, research-backed tips, and practical advice for transforming your mindset and achieving your goals.',
+    keywords:
+      'affirmations blog, positive thinking guide, self improvement tips, affirmation techniques, mindset transformation, personal growth advice',
   },
 
   // Dynamic routes
   affirmations: {
     general: {
       path: '/affirmations/general',
-      title: 'Daily General Affirmations',
+      title: 'Daily General Affirmations - Free Positive Quotes for Everyday Motivation',
       description:
-        'Start your day with powerful general affirmations for overall wellbeing and positivity.',
-      keywords: 'daily affirmations, positive thinking, self improvement, mindfulness',
+        'Get powerful daily general affirmations to boost positivity and wellbeing. Free motivational quotes for confidence, success, and personal growth. Transform your mindset today.',
+      keywords:
+        'general affirmations, daily positive quotes, motivation, self improvement, confidence building, success mindset, personal growth',
     },
     career: {
       path: '/affirmations/career',
-      title: 'Career & Success Affirmations',
+      title: 'Career Affirmations - Professional Success & Workplace Confidence',
       description:
-        'Boost your professional confidence with daily career affirmations for success and growth.',
-      keywords: 'career affirmations, professional development, success mindset, work motivation',
+        'Boost your career with powerful affirmations for professional success, workplace confidence, and leadership. Free daily motivation to achieve your career goals and advance professionally.',
+      keywords:
+        'career affirmations, professional development, workplace confidence, success mindset, leadership affirmations, career growth, work motivation',
     },
     relationships: {
       path: '/affirmations/relationships',
-      title: 'Relationship Affirmations',
+      title: 'Relationship Affirmations - Love, Communication & Connection',
       description:
-        'Nurture healthy connections with daily relationship affirmations for love and communication.',
+        'Strengthen your relationships with powerful affirmations for love, communication, and healthy connections. Free daily quotes for better relationships, marriage, and social bonds.',
       keywords:
-        'relationship affirmations, love affirmations, communication skills, healthy relationships',
+        'relationship affirmations, love affirmations, communication skills, healthy relationships, marriage affirmations, social connections, emotional intimacy',
     },
     health: {
       path: '/affirmations/health',
-      title: 'Health & Wellness Affirmations',
+      title: 'Health & Wellness Affirmations - Mental & Physical Wellbeing',
       description:
-        'Support your wellbeing journey with daily health affirmations for mind and body.',
-      keywords: 'health affirmations, wellness, self care, mental health, physical health',
+        'Transform your health with daily affirmations for mental and physical wellbeing. Free motivational quotes for fitness, nutrition, stress relief, and holistic health improvement.',
+      keywords:
+        'health affirmations, wellness quotes, mental health, physical fitness, stress relief, nutrition affirmations, holistic health, self care',
     },
     'personal-growth': {
       path: '/affirmations/personal-growth',
-      title: 'Personal Growth Affirmations',
+      title: 'Personal Growth Affirmations - Self Development & Transformation',
       description:
-        'Accelerate your development with daily personal growth affirmations for transformation.',
-      keywords: 'personal growth, self development, personal transformation, life improvement',
+        'Accelerate your personal growth with powerful affirmations for self development and transformation. Free daily motivation for self improvement, goal achievement, and becoming your best self.',
+      keywords:
+        'personal growth affirmations, self development, transformation, goal achievement, self improvement, personal transformation, life improvement, mindset change',
     },
     confidence: {
       path: '/affirmations/confidence',
-      title: 'Confidence Building Affirmations',
-      description: 'Build unshakeable self-confidence with daily affirmations for empowerment.',
-      keywords: 'confidence affirmations, self esteem, self worth, empowerment, self belief',
+      title: 'Confidence Affirmations - Build Self Esteem & Self Worth',
+      description:
+        'Build unshakeable confidence with powerful daily affirmations for self esteem and self worth. Free motivational quotes to boost confidence, overcome self doubt, and develop unstoppable self belief.',
+      keywords:
+        'confidence affirmations, self esteem, self worth, empowerment, self belief, confidence building, overcome self doubt, personal confidence',
     },
   },
 
@@ -61,24 +75,36 @@ export const ROUTES = {
   blogPosts: {
     'how-to-use-affirmations-effectively': {
       path: '/blog/how-to-use-affirmations-effectively',
-      title: 'How to Use Daily Affirmations Effectively: A Science-Backed Guide',
+      title: 'How to Use Daily Affirmations Effectively: Science-Backed Guide 2024',
+      description:
+        'Master the art of positive affirmations with proven techniques. Learn when to practice, how to write effective affirmations, and what neuroscience says about their power. Transform your mindset today.',
       date: '2024-12-15',
       readTime: '8 min read',
       category: 'Guide',
+      keywords:
+        'how to use affirmations, affirmation techniques, positive thinking guide, neuroscience affirmations, self improvement methods, mindset transformation',
     },
     'science-of-affirmations': {
       path: '/blog/science-of-affirmations',
-      title: 'Do Affirmations Really Work? What Science Says',
+      title: 'Do Affirmations Really Work? Neuroscience Research 2024',
+      description:
+        'Discover what science really says about positive affirmations. Explore peer-reviewed research, brain imaging studies, and psychological evidence on how affirmations rewire your mind for success.',
       date: '2024-12-10',
       readTime: '6 min read',
       category: 'Science',
+      keywords:
+        'affirmations science, neuroscience research, brain imaging, psychology studies, positive thinking research, mindset science, self talk research',
     },
     'morning-affirmations-routine': {
       path: '/blog/morning-affirmations-routine',
-      title: '10 Powerful Morning Affirmations to Transform Your Day',
+      title: '10 Powerful Morning Affirmations to Transform Your Day 2024',
+      description:
+        'Start each day with intention using these 10 proven morning affirmations. Boost confidence, reduce anxiety, and set a positive tone for success. Daily routine included.',
       date: '2024-12-05',
       readTime: '5 min read',
       category: 'Practice',
+      keywords:
+        'morning affirmations, daily routine, confidence boost, anxiety relief, positive morning habits, success mindset, daily motivation',
     },
   },
 } as const
@@ -93,6 +119,104 @@ export const getAffirmationPath = (category: string): string => {
     ROUTES.affirmations[category as keyof typeof ROUTES.affirmations]?.path ||
     `/affirmations/${category}`
   )
+}
+
+// SEO utilities
+export const generateStructuredData = (route: keyof typeof ROUTES | string) => {
+  const routeData = ROUTES[route as keyof typeof ROUTES]
+
+  if (!routeData) {
+    return null
+  }
+
+  // Type guard to ensure routeData has the expected properties
+  if (!('title' in routeData && 'description' in routeData && 'path' in routeData)) {
+    return null
+  }
+
+  const baseStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: routeData.title,
+    description: routeData.description,
+    url: routeData.path,
+  }
+
+  // Add specific structured data for different page types
+  if (route === 'home') {
+    return {
+      ...baseStructuredData,
+      '@type': 'WebSite',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${ROUTES.home.path}?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    }
+  }
+
+  if (route === 'blog') {
+    return {
+      ...baseStructuredData,
+      '@type': 'Blog',
+      blogPost: Object.values(ROUTES.blogPosts).map(post => ({
+        '@type': 'BlogPosting',
+        headline: post.title,
+        description: post.description,
+        datePublished: post.date,
+        author: {
+          '@type': 'Organization',
+          name: 'Daily Affirmations',
+        },
+      })),
+    }
+  }
+
+  return baseStructuredData
+}
+
+// Generate Open Graph metadata
+export const generateOpenGraph = (route: keyof typeof ROUTES | string) => {
+  const routeData = ROUTES[route as keyof typeof ROUTES]
+
+  if (!routeData) {
+    return {}
+  }
+
+  // Type guard to ensure routeData has the expected properties
+  if (!('title' in routeData && 'description' in routeData && 'path' in routeData)) {
+    return {}
+  }
+
+  return {
+    title: routeData.title,
+    description: routeData.description,
+    type: 'website',
+    url: routeData.path,
+    site_name: 'Daily Affirmations',
+    locale: 'en_US',
+  }
+}
+
+// Generate Twitter Card metadata
+export const generateTwitterCard = (route: keyof typeof ROUTES | string) => {
+  const routeData = ROUTES[route as keyof typeof ROUTES]
+
+  if (!routeData) {
+    return {}
+  }
+
+  // Type guard to ensure routeData has the expected properties
+  if (!('title' in routeData && 'description' in routeData)) {
+    return {}
+  }
+
+  return {
+    card: 'summary_large_image',
+    title: routeData.title,
+    description: routeData.description,
+    site: '@dailyaffirmations',
+  }
 }
 
 // Navigation items

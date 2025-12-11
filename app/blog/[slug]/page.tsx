@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Calendar, ArrowLeft } from 'lucide-react'
 import type { ReactNode } from 'react'
-import { ROUTES } from '../AppRoutes'
+import { ROUTES } from '../../AppRoutes'
 
 const blogPosts: Record<
   string,
@@ -761,16 +761,32 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {}
   }
 
-  return {
-    title: `${post.title} - Daily Affirmations Blog`,
-    description: `${post.title}. Read our comprehensive guide on affirmations.`,
-  }
-}
+  const postData = ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]
 
-export async function generateStaticParams() {
-  return Object.keys(blogPosts).map(slug => ({
-    slug,
-  }))
+  return {
+    title: postData?.title || post.title,
+    description: postData?.description || '',
+    keywords: postData?.keywords || '',
+    openGraph: {
+      title: postData?.title || post.title,
+      description: postData?.description || '',
+      type: 'article',
+      url: postData?.path || `/blog/${slug}`,
+      site_name: 'Daily Affirmations',
+      locale: 'en_US',
+      publishedTime: postData?.date,
+      authors: ['Daily Affirmations'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: postData?.title || post.title,
+      description: postData?.description || '',
+      site: '@dailyaffirmations',
+    },
+    alternates: {
+      canonical: postData?.path || `/blog/${slug}`,
+    },
+  }
 }
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {

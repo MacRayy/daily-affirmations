@@ -4,11 +4,17 @@ import Logo from '@/app/components/Logo'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
-import { ROUTES } from './AppRoutes'
+import { ROUTES, generateOpenGraph, generateTwitterCard } from './AppRoutes'
 
 export const metadata: Metadata = {
-  title: 'Daily Affirmations - Positive Motivation & Inspiration',
-  description: 'Start your day with powerful affirmations.',
+  title: ROUTES.home.title,
+  description: ROUTES.home.description,
+  keywords: ROUTES.home.keywords,
+  openGraph: generateOpenGraph('home'),
+  twitter: generateTwitterCard('home'),
+  alternates: {
+    canonical: ROUTES.home.path,
+  },
 }
 
 const CATEGORIES = [

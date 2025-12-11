@@ -1,12 +1,17 @@
 import Link from 'next/link'
 import { Calendar, ArrowRight } from 'lucide-react'
 import type { Metadata } from 'next'
-import { ROUTES } from '../AppRoutes'
+import { ROUTES, generateOpenGraph, generateTwitterCard } from '../AppRoutes'
 
 export const metadata: Metadata = {
-  title: 'Affirmations Blog - Tips, Science & Guides',
-  description:
-    'Learn how to use daily affirmations effectively. Science-backed tips, guides, and research on positive affirmations for personal growth.',
+  title: ROUTES.blog.title,
+  description: ROUTES.blog.description,
+  keywords: ROUTES.blog.keywords,
+  openGraph: generateOpenGraph('blog'),
+  twitter: generateTwitterCard('blog'),
+  alternates: {
+    canonical: ROUTES.blog.path,
+  },
 }
 
 const blogPosts = [

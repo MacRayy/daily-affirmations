@@ -23,13 +23,25 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 
   return {
-    title: `${category.title} - Daily Affirmations`,
+    title: category.title,
     description: category.description,
     keywords: category.keywords,
     openGraph: {
-      title: `${category.title} - Daily Affirmations`,
+      title: category.title,
       description: category.description,
       type: 'website',
+      url: category.path,
+      site_name: 'Daily Affirmations',
+      locale: 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: category.title,
+      description: category.description,
+      site: '@dailyaffirmations',
+    },
+    alternates: {
+      canonical: category.path,
     },
   }
 }
