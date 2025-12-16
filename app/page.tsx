@@ -170,6 +170,14 @@ export default function Home() {
               <Link href="/contact" className="hover:text-violet-600 transition">
                 Contact
               </Link>
+              <a
+                href="https://www.buymeacoffee.com/MacRay"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-violet-600 transition"
+              >
+                Buy Me a Brick 🧱
+              </a>
             </div>
           </div>
         </footer>
