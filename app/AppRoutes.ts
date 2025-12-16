@@ -97,10 +97,10 @@ export const ROUTES = {
   blogPosts: {
     'how-to-use-affirmations-effectively': {
       path: '/blog/how-to-use-affirmations-effectively',
-      title: 'How to Use Daily Affirmations Effectively: Science-Backed Guide 2024',
+      title: 'How to Use Daily Affirmations Effectively: Science-Backed Guide 2025',
       description:
         'Master the art of positive affirmations with proven techniques. Learn when to practice, how to write effective affirmations, and what neuroscience says about their power. Transform your mindset today.',
-      date: '2024-12-13',
+      date: '2025-12-13',
       readTime: '8 min read',
       category: 'Guide',
       keywords:
@@ -108,10 +108,10 @@ export const ROUTES = {
     },
     'science-of-affirmations': {
       path: '/blog/science-of-affirmations',
-      title: 'Do Affirmations Really Work? Neuroscience Research 2024',
+      title: 'Do Affirmations Really Work? Neuroscience Research 2025',
       description:
         'Discover what science really says about positive affirmations. Explore peer-reviewed research, brain imaging studies, and psychological evidence on how affirmations rewire your mind for success.',
-      date: '2024-12-10',
+      date: '2025-12-10',
       readTime: '6 min read',
       category: 'Science',
       keywords:
@@ -119,10 +119,10 @@ export const ROUTES = {
     },
     'morning-affirmations-routine': {
       path: '/blog/morning-affirmations-routine',
-      title: '10 Powerful Morning Affirmations to Transform Your Day 2024',
+      title: '10 Powerful Morning Affirmations to Transform Your Day 2025',
       description:
         'Start each day with intention using these 10 proven morning affirmations. Boost confidence, reduce anxiety, and set a positive tone for success. Daily routine included.',
-      date: '2024-12-05',
+      date: '2025-12-05',
       readTime: '5 min read',
       category: 'Practice',
       keywords:
@@ -133,7 +133,7 @@ export const ROUTES = {
       title: 'Affirmations for Anxiety and Stress Relief: A Complete Guide',
       description:
         'Struggling with anxiety? Discover 20 powerful affirmations for anxiety relief, backed by research. Learn how to use affirmations effectively to calm your nervous system and reduce stress.',
-      date: '2024-12-15',
+      date: '2025-12-15',
       readTime: '7 min read',
       category: 'Mental Health',
       keywords:
@@ -144,7 +144,7 @@ export const ROUTES = {
       title: '50 Self-Love Affirmations to Build Confidence and Self-Worth',
       description:
         'Build genuine confidence and self-worth with 50 powerful self-love affirmations. Learn how to practice self-compassion, set boundaries, and transform negative self-talk into positive self-belief.',
-      date: '2024-12-16',
+      date: '2025-12-16',
       readTime: '9 min read',
       category: 'Personal Growth',
       keywords:

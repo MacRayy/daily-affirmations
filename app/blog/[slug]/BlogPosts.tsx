@@ -752,7 +752,7 @@ export const blogPosts: Record<
 
   'affirmations-for-anxiety': {
     title: 'Affirmations for Anxiety and Stress Relief: A Complete Guide',
-    date: '2024-12-17',
+    date: '2025-12-17',
     readTime: '7 min read',
     category: 'Mental Health',
     content: (
@@ -1080,7 +1080,7 @@ export const blogPosts: Record<
 
   'self-love-affirmations': {
     title: '50 Self-Love Affirmations to Build Confidence and Self-Worth',
-    date: '2024-12-18',
+    date: '2025-12-18',
     readTime: '9 min read',
     category: 'Personal Growth',
     content: (
