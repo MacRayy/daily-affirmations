@@ -1,6 +1,7 @@
 import AffirmationClient from './components/AffirmationClient'
 import { getAffirmationOfTheDay } from './data/affirmations'
 import Logo from '@/app/components/Logo'
+import { AmazonCTA } from '@/components/AmazonCTA'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
@@ -78,7 +79,15 @@ export default function Home() {
           </div>
         </header>
 
-        <main className="max-w-4xl mx-auto px-4 py-8">
+        <main className="max-w-4xl mx-auto px-4 py-8 space-y-12">
+          {/* Top Amazon CTA */}
+          <AmazonCTA
+            href="https://amzn.to/49f31X1"
+            title="Books & Tools to Support Your Affirmation Journey"
+            description="Discover curated resources on Amazon that can deepen your daily affirmation practice and support your personal growth."
+            buttonLabel="View Recommendations"
+          />
+
           {/* Interactive Affirmation Component */}
           <AffirmationClient
             initialAffirmation={initialAffirmation}
@@ -136,6 +145,14 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          {/* Bottom Amazon CTA */}
+          <AmazonCTA
+            href="https://amzn.to/3MLqtSY"
+            title="Recommended Resources for Mindfulness & Wellbeing"
+            description="Explore more tools, journals, and guides on Amazon to help you build a consistent and meaningful affirmation routine."
+            buttonLabel="Explore on Amazon"
+          />
         </main>
 
         <footer className="bg-white border-t-2 border-gray-200 mt-16">

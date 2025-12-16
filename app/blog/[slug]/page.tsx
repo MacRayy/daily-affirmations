@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Calendar, ArrowLeft } from 'lucide-react'
+import { AmazonCTA } from '@/components/AmazonCTA'
 import {
   ROUTES,
   generateBlogPostStructuredData,
@@ -85,7 +86,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       />
 
       <div className="min-h-screen bg-gray-50">
-        <article className="max-w-4xl mx-auto px-4 py-12">
+        <article className="max-w-4xl mx-auto px-4 py-12 space-y-12">
           <Link
             href={ROUTES.blog.path}
             className="inline-flex items-center gap-2 text-violet-600 hover:text-violet-700 mb-8 font-semibold"
@@ -115,6 +116,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </h1>
           </header>
 
+          {/* Top Amazon CTA */}
+          <AmazonCTA
+            href="https://amzn.to/49f31X1"
+            title="Books & Tools to Support Your Affirmation Journey"
+            description="Discover curated resources on Amazon that can deepen your daily affirmation practice alongside what you learn in this article."
+            buttonLabel="View Recommendations"
+          />
+
           <div
             className="prose prose-lg max-w-none
           prose-headings:font-bold prose-headings:text-gray-900
@@ -131,6 +140,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           >
             {post.content}
           </div>
+
+          {/* Bottom Amazon CTA */}
+          <AmazonCTA
+            href="https://amzn.to/3MLqtSY"
+            title="Recommended Resources for Mindfulness & Wellbeing"
+            description="Explore more tools, journals, and guides on Amazon to help you put today’s insights into daily practice."
+            buttonLabel="Explore on Amazon"
+          />
 
           <div className="mt-16 pt-8 border-t-2 border-gray-200">
             <div className="bg-linear-to-br from-violet-50 to-purple-50 rounded-2xl p-10 border-2 border-violet-200">
