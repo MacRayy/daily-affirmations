@@ -749,4 +749,671 @@ export const blogPosts: Record<
       </>
     ),
   },
+
+  'affirmations-for-anxiety': {
+    title: 'Affirmations for Anxiety and Stress Relief: A Complete Guide',
+    date: '2024-12-17',
+    readTime: '7 min read',
+    category: 'Mental Health',
+    content: (
+      <>
+        <p className="lead">
+          Struggling with anxiety? You&#39;re not alone. Over 40 million Americans experience
+          anxiety disorders, and while affirmations aren&#39;t a cure, research shows they can be a
+          powerful tool for managing anxious thoughts and calming your nervous system naturally.
+        </p>
+
+        <h2>Why Affirmations Work for Anxiety</h2>
+        <p>
+          When you&#39;re anxious, your brain&#39;s{' '}
+          <a
+            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3181681/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            amygdala
+          </a>{' '}
+          (fear center) becomes hyperactive. Affirmations work by:
+        </p>
+        <ul>
+          <li>Activating the prefrontal cortex, which regulates emotional responses</li>
+          <li>Interrupting negative thought loops that fuel anxiety</li>
+          <li>Creating new neural pathways that promote calm and safety</li>
+          <li>Lowering cortisol levels through positive self-talk</li>
+        </ul>
+
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">🔬 Research Finding</p>
+          <p className="text-gray-700">
+            Research published in{' '}
+            <a
+              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4814782/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Social Cognitive and Affective Neuroscience
+            </a>{' '}
+            shows that self-affirmation activates brain regions associated with positive valuation
+            and self-processing, which can help reduce anxiety and stress responses.
+          </p>
+        </div>
+
+        <h2>20 Powerful Affirmations for Anxiety</h2>
+
+        <h3>For Immediate Calm</h3>
+        <ul>
+          <li>&#34;I am safe in this moment&#34;</li>
+          <li>&#34;This feeling is temporary, and it will pass&#34;</li>
+          <li>&#34;I breathe in peace and breathe out tension&#34;</li>
+          <li>&#34;My body knows how to relax&#34;</li>
+          <li>&#34;I am stronger than my anxious thoughts&#34;</li>
+        </ul>
+
+        <h3>For General Anxiety</h3>
+        <ul>
+          <li>&#34;I release what I cannot control&#34;</li>
+          <li>&#34;I am capable of handling challenges calmly&#34;</li>
+          <li>&#34;My mind is becoming quieter each day&#34;</li>
+          <li>&#34;I choose peace over worry&#34;</li>
+          <li>&#34;I trust in my ability to cope&#34;</li>
+        </ul>
+
+        <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">💡 Pro Tip</p>
+          <p className="text-gray-700">
+            Pair your affirmations with{' '}
+            <a
+              href="https://www.health.harvard.edu/mind-and-mood/relaxation-techniques-breath-control-helps-quell-errant-stress-response"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-600 hover:underline"
+            >
+              box breathing
+            </a>
+            : Inhale for 4 counts, hold for 4, exhale for 4, hold for 4. Say your affirmation on
+            each exhale.
+          </p>
+        </div>
+
+        <h3>For Social Anxiety</h3>
+        <ul>
+          <li>&#34;I am comfortable being myself around others&#34;</li>
+          <li>&#34;People accept me as I am&#34;</li>
+          <li>&#34;I communicate with confidence and ease&#34;</li>
+          <li>&#34;It&#39;s okay to make mistakes—I&#39;m only human&#34;</li>
+          <li>&#34;I belong in social situations&#34;</li>
+        </ul>
+
+        <h3>For Morning Anxiety</h3>
+        <ul>
+          <li>&#34;Today, I greet the day with calm and confidence&#34;</li>
+          <li>&#34;I am ready to face whatever comes with grace&#34;</li>
+          <li>&#34;My morning sets a peaceful tone for my entire day&#34;</li>
+          <li>&#34;I wake up refreshed and centered&#34;</li>
+          <li>&#34;Each morning is a fresh start&#34;</li>
+        </ul>
+
+        <p>
+          For more morning-specific affirmations, check out our{' '}
+          <Link
+            href={ROUTES.blogPosts['morning-affirmations-routine'].path}
+            className="text-violet-600 hover:underline"
+          >
+            morning affirmations guide
+          </Link>
+          .
+        </p>
+
+        <h3>For Nighttime Anxiety</h3>
+        <ul>
+          <li>&#34;My body is ready to rest and restore&#34;</li>
+          <li>&#34;I release the worries of today&#34;</li>
+          <li>&#34;Sleep comes easily and naturally to me&#34;</li>
+          <li>&#34;Tomorrow will take care of itself&#34;</li>
+          <li>&#34;I am safe, and I can let go&#34;</li>
+        </ul>
+
+        <h2>How to Use Anxiety Affirmations Effectively</h2>
+
+        <h3>1. Practice During Calm Moments First</h3>
+        <p>
+          Don&#39;t wait until you&#39;re in the middle of a panic attack. Practice affirmations
+          when you&#39;re calm so they become familiar neural pathways your brain can access during
+          stress.
+        </p>
+
+        <h3>2. Make Them Feel True</h3>
+        <p>
+          If &#34;I am completely calm&#34; feels too far from reality, try &#34;I am becoming
+          calmer&#34; or &#34;I am learning to calm myself.&#34; The affirmation must feel
+          believable.
+        </p>
+
+        <h3>3. Combine with Physical Grounding</h3>
+        <p>
+          Touch something textured, press your feet into the ground, or hold ice while saying your
+          affirmations. This engages your body and helps regulate your nervous system.
+        </p>
+
+        <h3>4. Use Present-Tense Language</h3>
+        <p>
+          Say &#34;I am safe&#34; not &#34;I will be safe.&#34; Your nervous system responds to
+          present-tense statements by updating its current threat assessment.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6 my-8">
+          <div className="bg-gradient-to-br from-violet-50 to-purple-50 p-6 rounded-xl border-2 border-violet-100">
+            <p className="font-bold text-gray-900 mb-3">🧘 Quick Anxiety Relief Practice</p>
+            <ol className="space-y-2 text-gray-700 text-sm">
+              <li>1. Find a quiet spot</li>
+              <li>2. Take 3 slow, deep breaths</li>
+              <li>3. Say one affirmation</li>
+              <li>4. Notice a physical sensation (feet on floor)</li>
+              <li>5. Repeat affirmation 3 times</li>
+            </ol>
+          </div>
+
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border-2 border-blue-100">
+            <p className="font-bold text-gray-900 mb-3">📱 Digital Tools</p>
+            <p className="text-gray-700 text-sm">
+              Set hourly phone reminders with affirmations. Research shows regular reminders create
+              lasting anxiety reduction, even more than daily practice alone.
+            </p>
+          </div>
+        </div>
+
+        <h2>The 5-4-3-2-1 Grounding Technique with Affirmations</h2>
+        <p>
+          When anxiety spikes, combine the popular{' '}
+          <a
+            href="https://www.urmc.rochester.edu/behavioral-health-partners/bhp-blog/april-2018/5-4-3-2-1-coping-technique-for-anxiety.aspx"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            5-4-3-2-1 grounding technique
+          </a>{' '}
+          with affirmations:
+        </p>
+        <ol>
+          <li>
+            <strong>5 things you see:</strong> &#34;I am present in this moment&#34;
+          </li>
+          <li>
+            <strong>4 things you can touch:</strong> &#34;I am grounded and secure&#34;
+          </li>
+          <li>
+            <strong>3 things you hear:</strong> &#34;I am safe where I am&#34;
+          </li>
+          <li>
+            <strong>2 things you smell:</strong> &#34;My senses connect me to reality&#34;
+          </li>
+          <li>
+            <strong>1 thing you taste:</strong> &#34;I am here, I am okay&#34;
+          </li>
+        </ol>
+
+        <h2>When Affirmations Aren&#39;t Enough</h2>
+        <p>
+          Affirmations are a helpful tool, but they&#39;re not a substitute for professional help.
+          Seek support from a therapist if you experience:
+        </p>
+        <ul>
+          <li>Panic attacks that interfere with daily life</li>
+          <li>Persistent worry that won&#39;t stop despite coping techniques</li>
+          <li>Physical symptoms like chest pain or difficulty breathing</li>
+          <li>Avoidance of situations due to anxiety</li>
+          <li>Thoughts of self-harm</li>
+        </ul>
+
+        <p>
+          Affirmations work best as part of a comprehensive approach including therapy, lifestyle
+          changes, and sometimes medication.
+        </p>
+
+        <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">🆘 Crisis Resources</p>
+          <p className="text-gray-700">
+            <strong>Immediate help:</strong>
+            <br />
+            • Crisis Text Line: Text HOME to 741741
+            <br />
+            • National Suicide Prevention Lifeline: 988
+            <br />• NAMI Helpline: 1-800-950-NAMI (6264)
+          </p>
+        </div>
+
+        <h2>Building Your Anxiety Management Toolkit</h2>
+        <p>Combine affirmations with these evidence-based practices:</p>
+        <ul>
+          <li>
+            <strong>Regular exercise:</strong> 30 minutes of movement reduces anxiety by up to 50%
+          </li>
+          <li>
+            <strong>Sleep hygiene:</strong> Anxiety and poor sleep create a vicious cycle
+          </li>
+          <li>
+            <strong>Limit caffeine:</strong> Especially if you&#39;re prone to panic attacks
+          </li>
+          <li>
+            <strong>Mindfulness meditation:</strong> Even 5 minutes daily makes a difference
+          </li>
+          <li>
+            <strong>Social connection:</strong> Isolation amplifies anxiety
+          </li>
+        </ul>
+
+        <h2>Create Your Personal Anxiety Affirmation List</h2>
+        <p>
+          While these 20 affirmations are powerful, the most effective ones are personalized. Ask
+          yourself:
+        </p>
+        <ul>
+          <li>What specific fears trigger my anxiety?</li>
+          <li>What do I need to hear when I&#39;m anxious?</li>
+          <li>What beliefs would calm my nervous system?</li>
+        </ul>
+
+        <p>
+          Explore more affirmations in our{' '}
+          <Link href={ROUTES.affirmations.health.path} className="text-violet-600 hover:underline">
+            health & wellness category
+          </Link>{' '}
+          and{' '}
+          <Link
+            href={ROUTES.affirmations.confidence.path}
+            className="text-violet-600 hover:underline"
+          >
+            confidence affirmations
+          </Link>
+          .
+        </p>
+
+        <h2>Your 30-Day Anxiety Affirmation Challenge</h2>
+        <p>Commit to this simple practice for 30 days:</p>
+        <ol>
+          <li>
+            <strong>Week 1:</strong> Choose 3 affirmations. Say them each morning (5 min)
+          </li>
+          <li>
+            <strong>Week 2:</strong> Add an evening practice before bed (5 min)
+          </li>
+          <li>
+            <strong>Week 3:</strong> Use affirmations when anxiety arises during the day
+          </li>
+          <li>
+            <strong>Week 4:</strong> Notice what&#39;s changed. Adjust affirmations as needed
+          </li>
+        </ol>
+
+        <p>
+          Track your progress in a journal. Most people report noticeable anxiety reduction by week
+          3.
+        </p>
+
+        <h2>Conclusion</h2>
+        <p>
+          Affirmations won&#39;t eliminate anxiety overnight, but they can significantly reduce its
+          grip on your life. By practicing regularly, combining them with breathing techniques, and
+          making them personally meaningful, you&#39;re rewiring your brain toward calm and
+          resilience.
+        </p>
+
+        <p>
+          Ready to start your anxiety management journey? Try our{' '}
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline font-semibold">
+            free daily affirmations generator
+          </Link>{' '}
+          for personalized affirmations delivered fresh every day. Want to learn more? Read our
+          guide on{' '}
+          <Link
+            href={ROUTES.blogPosts['how-to-use-affirmations-effectively'].path}
+            className="text-violet-600 hover:underline"
+          >
+            how to use affirmations effectively
+          </Link>
+          .
+        </p>
+      </>
+    ),
+  },
+
+  'self-love-affirmations': {
+    title: '50 Self-Love Affirmations to Build Confidence and Self-Worth',
+    date: '2024-12-18',
+    readTime: '9 min read',
+    category: 'Personal Growth',
+    content: (
+      <>
+        <p className="lead">
+          Self-love isn&#39;t selfish—it&#39;s essential. If you struggle with negative self-talk,
+          perfectionism, or feeling &#34;not good enough,&#34; these 50 self-love affirmations can
+          help you build genuine confidence and self-worth from the inside out.
+        </p>
+
+        <h2>Why Self-Love Affirmations Matter</h2>
+        <p>
+          Self-love affirmations are more than feel-good phrases. Research in{' '}
+          <a
+            href="https://self-compassion.org/the-research/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            self-compassion
+          </a>{' '}
+          shows that how you talk to yourself directly impacts:
+        </p>
+        <ul>
+          <li>Mental health and resilience to stress</li>
+          <li>Relationship quality (you teach others how to treat you)</li>
+          <li>Career success and willingness to take risks</li>
+          <li>Physical health through reduced inflammation and better immune function</li>
+        </ul>
+
+        <div className="bg-rose-50 border-l-4 border-rose-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">💖 The Science of Self-Love</p>
+          <p className="text-gray-700">
+            Studies by Dr. Kristin Neff show that self-compassion (a core component of self-love) is
+            more strongly correlated with mental wellbeing than self-esteem. Unlike self-esteem,
+            which can be fragile, self-compassion provides a stable foundation for confidence.
+          </p>
+        </div>
+
+        <h2>50 Powerful Self-Love Affirmations</h2>
+
+        <h3>For Building Self-Worth (1-10)</h3>
+        <ol>
+          <li>&#34;I am worthy of love exactly as I am&#34;</li>
+          <li>&#34;My value doesn&#39;t depend on others&#39; opinions&#34;</li>
+          <li>&#34;I am enough, right here, right now&#34;</li>
+          <li>&#34;I deserve kindness—especially from myself&#34;</li>
+          <li>&#34;My worth is inherent, not earned&#34;</li>
+          <li>&#34;I am deserving of good things&#34;</li>
+          <li>&#34;I honor my needs without guilt&#34;</li>
+          <li>&#34;I am valuable beyond my productivity&#34;</li>
+          <li>&#34;I accept myself unconditionally&#34;</li>
+          <li>&#34;My worthiness is not up for debate&#34;</li>
+        </ol>
+
+        <h3>For Self-Acceptance (11-20)</h3>
+        <ol start={11}>
+          <li>&#34;I embrace all parts of myself—light and shadow&#34;</li>
+          <li>&#34;My imperfections make me beautifully human&#34;</li>
+          <li>&#34;I am a work in progress, and that&#39;s perfect&#34;</li>
+          <li>&#34;I let go of who I think I should be and embrace who I am&#34;</li>
+          <li>&#34;My body is my home, and I treat it with respect&#34;</li>
+          <li>&#34;I forgive myself for past mistakes&#34;</li>
+          <li>&#34;I am allowed to change and grow&#34;</li>
+          <li>&#34;My feelings are valid, even when they&#39;re messy&#34;</li>
+          <li>&#34;I accept myself at every stage of my journey&#34;</li>
+          <li>&#34;I am learning to be gentle with myself&#34;</li>
+        </ol>
+
+        <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">📖 Related Reading</p>
+          <p className="text-gray-700">
+            Explore more about building confidence with our{' '}
+            <Link
+              href={ROUTES.affirmations.confidence.path}
+              className="text-violet-600 hover:underline"
+            >
+              confidence affirmations
+            </Link>{' '}
+            and{' '}
+            <Link
+              href={ROUTES.affirmations['personal-growth'].path}
+              className="text-violet-600 hover:underline"
+            >
+              personal growth affirmations
+            </Link>
+            .
+          </p>
+        </div>
+
+        <h3>For Self-Compassion (21-30)</h3>
+        <ol start={21}>
+          <li>&#34;I speak to myself with kindness&#34;</li>
+          <li>&#34;I treat myself the way I would treat a dear friend&#34;</li>
+          <li>&#34;I am doing my best, and that&#39;s enough&#34;</li>
+          <li>&#34;I give myself permission to rest without guilt&#34;</li>
+          <li>&#34;My mistakes don&#39;t define me&#34;</li>
+          <li>&#34;I deserve patience as I learn and grow&#34;</li>
+          <li>&#34;I comfort myself in difficult times&#34;</li>
+          <li>&#34;I am allowed to struggle and still be worthy&#34;</li>
+          <li>&#34;I hold space for both my strength and vulnerability&#34;</li>
+          <li>&#34;I choose self-compassion over self-criticism&#34;</li>
+        </ol>
+
+        <h3>For Boundaries & Self-Respect (31-40)</h3>
+        <ol start={31}>
+          <li>&#34;I say no without guilt when something doesn&#39;t serve me&#34;</li>
+          <li>&#34;My boundaries are an act of self-love&#34;</li>
+          <li>&#34;I protect my energy by choosing wisely where I invest it&#34;</li>
+          <li>&#34;I am not responsible for others&#39; reactions to my boundaries&#34;</li>
+          <li>&#34;I speak my truth even when my voice shakes&#34;</li>
+          <li>&#34;I honor my limits and communicate them clearly&#34;</li>
+          <li>&#34;I walk away from people who diminish my light&#34;</li>
+          <li>&#34;My peace is worth protecting&#34;</li>
+          <li>&#34;I trust my intuition about who deserves my time&#34;</li>
+          <li>&#34;I choose people who appreciate my authentic self&#34;</li>
+        </ol>
+
+        <p>
+          Setting healthy boundaries is a form of self-love. Learn more in our{' '}
+          <Link
+            href={ROUTES.affirmations.relationships.path}
+            className="text-violet-600 hover:underline"
+          >
+            relationship affirmations
+          </Link>
+          .
+        </p>
+
+        <h3>For Inner Strength & Confidence (41-50)</h3>
+        <ol start={41}>
+          <li>&#34;I am stronger than I think&#34;</li>
+          <li>&#34;I trust myself to figure things out&#34;</li>
+          <li>&#34;I am proud of how far I&#39;ve come&#34;</li>
+          <li>&#34;I celebrate my wins, no matter how small&#34;</li>
+          <li>&#34;I am capable of creating the life I want&#34;</li>
+          <li>&#34;I stand tall in my truth&#34;</li>
+          <li>&#34;I radiate confidence from within&#34;</li>
+          <li>&#34;I am becoming the person I&#39;m meant to be&#34;</li>
+          <li>&#34;I believe in my ability to overcome challenges&#34;</li>
+          <li>&#34;I am the author of my own story&#34;</li>
+        </ol>
+
+        <div className="grid md:grid-cols-2 gap-6 my-8">
+          <div className="bg-gradient-to-br from-pink-50 to-rose-50 p-6 rounded-xl border-2 border-pink-100">
+            <p className="font-bold text-gray-900 mb-3">🌸 Morning Self-Love Ritual</p>
+            <ol className="space-y-2 text-gray-700 text-sm">
+              <li>1. Stand in front of a mirror</li>
+              <li>2. Make eye contact with yourself</li>
+              <li>3. Say 3 affirmations aloud</li>
+              <li>4. Place hand on heart</li>
+              <li>5. Take 3 deep breaths</li>
+            </ol>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-50 to-violet-50 p-6 rounded-xl border-2 border-purple-100">
+            <p className="font-bold text-gray-900 mb-3">✍️ Journaling Prompt</p>
+            <p className="text-gray-700 text-sm">
+              After saying your affirmations, write: &#34;I showed myself love today by...&#34; This
+              reinforces the connection between affirmations and action.
+            </p>
+          </div>
+        </div>
+
+        <h2>How to Practice Self-Love Affirmations</h2>
+
+        <h3>1. Start Where It Feels Authentic</h3>
+        <p>
+          If &#34;I love myself completely&#34; feels false, start with &#34;I am learning to love
+          myself&#34; or &#34;I am open to loving myself more.&#34; Bridge statements feel more
+          believable and are equally effective.
+        </p>
+
+        <h3>2. Mirror Work (Powerful but Challenging)</h3>
+        <p>
+          Look yourself in the eyes and say your affirmations aloud. This amplifies the effect but
+          can feel uncomfortable at first. That discomfort is where growth happens.
+        </p>
+
+        <h3>3. Write Them Down</h3>
+        <p>
+          Keep a self-love journal. Write 3 affirmations each morning. The act of writing engages
+          different neural pathways than speaking.
+        </p>
+
+        <h3>4. Pair with Self-Care Actions</h3>
+        <p>
+          Affirmations + action = transformation. After saying &#34;I deserve rest,&#34; actually
+          rest. After &#34;I honor my boundaries,&#34; practice saying no to something.
+        </p>
+
+        <h2>Overcoming Resistance to Self-Love</h2>
+        <p>Many people feel uncomfortable with self-love affirmations. Common blocks include:</p>
+
+        <h3>1. &#34;This feels narcissistic&#34;</h3>
+        <p>
+          Self-love is not narcissism. Narcissism involves superiority over others; self-love is
+          treating yourself with the same kindness you&#39;d show a friend. Research shows
+          self-compassionate people are actually more empathetic toward others.
+        </p>
+
+        <h3>2. &#34;I don&#39;t believe it&#34;</h3>
+        <p>
+          You don&#39;t have to believe it fully at first. Neural pathways form through repetition,
+          not belief. Say it anyway. Belief follows practice.
+        </p>
+
+        <h3>3. &#34;I haven&#39;t earned it&#34;</h3>
+        <p>
+          You don&#39;t have to earn basic human dignity. Self-love is your birthright, not a prize
+          for achievement. Read more about this in our{' '}
+          <Link
+            href={ROUTES.blogPosts['science-of-affirmations'].path}
+            className="text-violet-600 hover:underline"
+          >
+            science of affirmations guide
+          </Link>
+          .
+        </p>
+
+        <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">⚠️ When to Seek Professional Help</p>
+          <p className="text-gray-700">
+            If self-criticism has become debilitating, or if you have thoughts of self-harm, please
+            reach out to a mental health professional. Affirmations are a tool, not a replacement
+            for therapy.
+          </p>
+        </div>
+
+        <h2>Building a Self-Love Practice That Sticks</h2>
+
+        <h3>Week-by-Week Plan</h3>
+        <p>
+          <strong>Week 1: Foundation</strong>
+          <br />
+          Choose 5 affirmations from the list. Say them once each morning. Don&#39;t worry about
+          believing them yet.
+        </p>
+
+        <p>
+          <strong>Week 2: Deepen</strong>
+          <br />
+          Add mirror work. Look yourself in the eyes for at least one affirmation daily.
+        </p>
+
+        <p>
+          <strong>Week 3: Integrate</strong>
+          <br />
+          Use affirmations when negative self-talk arises. Counter each criticism with an
+          affirmation.
+        </p>
+
+        <p>
+          <strong>Week 4: Expand</strong>
+          <br />
+          Pair affirmations with actions. &#34;I honor my needs&#34; → actually honor a need today.
+        </p>
+
+        <h2>Self-Love Affirmations for Specific Situations</h2>
+
+        <h3>After a Breakup</h3>
+        <ul>
+          <li>&#34;I am whole on my own&#34;</li>
+          <li>&#34;The right person will love me for who I am&#34;</li>
+          <li>&#34;I am worthy of a love that doesn&#39;t hurt&#34;</li>
+        </ul>
+
+        <h3>During Body Image Struggles</h3>
+        <ul>
+          <li>&#34;My body is worthy of love at any size&#34;</li>
+          <li>&#34;I am more than my appearance&#34;</li>
+          <li>&#34;I thank my body for all it does for me&#34;</li>
+        </ul>
+
+        <h3>When Feeling Not Good Enough</h3>
+        <ul>
+          <li>&#34;I am not in competition with anyone&#34;</li>
+          <li>&#34;My journey is unique and valid&#34;</li>
+          <li>&#34;I am exactly where I need to be&#34;</li>
+        </ul>
+
+        <h2>The Self-Love Challenge</h2>
+        <p>Commit to 30 days of self-love affirmations:</p>
+        <ol>
+          <li>Choose 5 affirmations that resonate</li>
+          <li>Say them every morning (5 minutes)</li>
+          <li>Journal one self-love action you took each day</li>
+          <li>Notice how your self-talk shifts by day 30</li>
+        </ol>
+
+        <p>Share your journey on social media with #SelfLoveAffirmations to inspire others!</p>
+
+        <h2>Conclusion: You Deserve Your Own Love</h2>
+        <p>
+          Self-love isn&#39;t a destination—it&#39;s a daily practice. Some days will feel easier
+          than others. That&#39;s okay. The point isn&#39;t perfection; it&#39;s showing up for
+          yourself consistently, even when it&#39;s hard.
+        </p>
+
+        <p>
+          These 50 affirmations are your starting point. Adapt them, add to them, make them yours.
+          The most powerful self-love affirmation is the one that brings tears to your eyes because
+          it touches the part of you that needed to hear it most.
+        </p>
+
+        <p>
+          Ready to build your self-love practice? Try our{' '}
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline font-semibold">
+            free daily affirmations generator
+          </Link>{' '}
+          for personalized affirmations. Explore more in our{' '}
+          <Link
+            href={ROUTES.affirmations['personal-growth'].path}
+            className="text-violet-600 hover:underline"
+          >
+            personal growth
+          </Link>{' '}
+          and{' '}
+          <Link
+            href={ROUTES.affirmations.confidence.path}
+            className="text-violet-600 hover:underline"
+          >
+            confidence
+          </Link>{' '}
+          categories, or read our guide on{' '}
+          <Link
+            href={ROUTES.blogPosts['how-to-use-affirmations-effectively'].path}
+            className="text-violet-600 hover:underline"
+          >
+            how to use affirmations effectively
+          </Link>
+          .
+        </p>
+      </>
+    ),
+  },
 }

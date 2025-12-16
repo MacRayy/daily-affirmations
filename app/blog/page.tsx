@@ -14,35 +14,16 @@ export const metadata: Metadata = {
   },
 }
 
-const blogPosts = [
-  {
-    slug: 'how-to-use-affirmations-effectively',
-    title: ROUTES.blogPosts['how-to-use-affirmations-effectively'].title,
-    excerpt:
-      'Discover the proven techniques that make affirmations actually work. Learn when to practice, how to write your own, and what science says about their effectiveness.',
-    date: ROUTES.blogPosts['how-to-use-affirmations-effectively'].date,
-    readTime: ROUTES.blogPosts['how-to-use-affirmations-effectively'].readTime,
-    category: ROUTES.blogPosts['how-to-use-affirmations-effectively'].category,
-  },
-  {
-    slug: 'science-of-affirmations',
-    title: ROUTES.blogPosts['science-of-affirmations'].title,
-    excerpt:
-      'Explore the neuroscience behind positive affirmations. Research-backed evidence on how affirmations rewire your brain and improve mental wellbeing.',
-    date: ROUTES.blogPosts['science-of-affirmations'].date,
-    readTime: ROUTES.blogPosts['science-of-affirmations'].readTime,
-    category: ROUTES.blogPosts['science-of-affirmations'].category,
-  },
-  {
-    slug: 'morning-affirmations-routine',
-    title: ROUTES.blogPosts['morning-affirmations-routine'].title,
-    excerpt:
-      'Start each morning with intention. These 10 affirmations are designed to boost confidence, reduce anxiety, and set a positive tone for your entire day.',
-    date: ROUTES.blogPosts['morning-affirmations-routine'].date,
-    readTime: ROUTES.blogPosts['morning-affirmations-routine'].readTime,
-    category: ROUTES.blogPosts['morning-affirmations-routine'].category,
-  },
-]
+const blogPosts = Object.entries(ROUTES.blogPosts)
+  .map(([slug, post]) => ({
+    slug,
+    title: post.title,
+    excerpt: post.description,
+    date: post.date,
+    readTime: post.readTime,
+    category: post.category,
+  }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
 export default function BlogPage() {
   return (
