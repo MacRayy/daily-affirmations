@@ -3,6 +3,7 @@ import { getAffirmationOfTheDay } from '@/app/data/affirmations'
 import { notFound } from 'next/navigation'
 import Logo from '@/app/components/Logo'
 import Link from 'next/link'
+import { ClickBankCTA } from '@/components/ClickBankCTA'
 import { ROUTES } from '../../AppRoutes'
 
 const CATEGORIES = {
@@ -81,6 +82,30 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
         <AffirmationClient initialAffirmation={initialAffirmation} initialCategory={categorySlug} />
 
+        <section className="mt-12 space-y-4">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-1">Recommended for You</h2>
+            <p className="text-sm text-gray-600">
+              Resources that can complement your daily affirmation practice.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4">
+            <ClickBankCTA
+              href="https://a50edfj1y4zwel2askfuwero7q.hop.clickbank.net"
+              title="Mindset & Motivation Program"
+              description="A recommended resource to support your mindset and stay consistent with daily habits."
+              buttonLabel="Learn More"
+            />
+            <ClickBankCTA
+              href="https://7d623ci3w2-t9l8dfgofyg5r16.hop.clickbank.net"
+              title="Confidence & Personal Growth Resource"
+              description="Explore this option as a next step alongside your affirmation practice."
+              buttonLabel="View Details"
+            />
+          </div>
+        </section>
+
         {/* SEO Content */}
         <div className="mt-12 bg-white rounded-2xl border-2 border-gray-200 shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Why {categoryData.title} Work</h2>
@@ -90,6 +115,30 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             affirmations part of your daily routine for best results.
           </p>
         </div>
+
+        <section className="mt-12 space-y-4">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-1">More Recommended Resources</h2>
+            <p className="text-sm text-gray-600">
+              More options you can explore to support your personal growth.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4">
+            <ClickBankCTA
+              href="https://40f577b3s5bn2t1csgz9pqhs77.hop.clickbank.net"
+              title="Wellness & Stress Support Option"
+              description="A wellness-focused option that may help support calmer days and healthier routines."
+              buttonLabel="See Option"
+            />
+            <ClickBankCTA
+              href="https://40cc0ap-1w8r3l4cng1k0i2l4p.hop.clickbank.net"
+              title="Self-Improvement Toolkit"
+              description="A practical resource to pair with affirmations, reflection, and personal development."
+              buttonLabel="Check It Out"
+            />
+          </div>
+        </section>
       </main>
 
       <footer className="bg-white border-t-2 border-gray-200 mt-16">
