@@ -150,6 +150,17 @@ export const ROUTES = {
       keywords:
         'self-love affirmations, confidence building, self worth, self compassion, personal growth, boundary setting, self esteem, emotional healing',
     },
+    'career-affirmations-for-success': {
+      path: '/blog/career-affirmations-for-success',
+      title: '40 Career Affirmations for Success, Confidence, and Professional Growth',
+      description:
+        'Build workplace confidence and momentum with 40 powerful career affirmations for success, imposter syndrome, and professional growth—plus a practical routine to use them effectively.',
+      date: '2025-12-18',
+      readTime: '8 min read',
+      category: 'Career',
+      keywords:
+        'career affirmations, professional success, workplace confidence, imposter syndrome, promotion mindset, work motivation, professional growth, leadership mindset',
+    },
   },
 } as const
 

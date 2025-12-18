@@ -25,7 +25,8 @@ export function ClickBankCTA({
         <h3 className="text-lg font-bold text-gray-900 mb-1">{title}</h3>
         <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
         <p className="mt-2 text-[11px] text-gray-400">
-          This is an affiliate link. If you buy through it, I may earn a commission at no extra cost to you.
+          This is an affiliate link. If you buy through it, I may earn a commission at no extra cost
+          to you.
         </p>
       </div>
       <div>
