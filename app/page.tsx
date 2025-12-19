@@ -182,6 +182,11 @@ export default function Home() {
                 Buy Me a Brick 🧱
               </a>
             </div>
+            <div className="mt-4 flex justify-center">
+              <span className="inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
+                AI-powered affirmations
+              </span>
+            </div>
           </div>
         </footer>
       </div>
