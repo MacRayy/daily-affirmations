@@ -4,11 +4,11 @@ export const ROUTES = {
   // Static routes
   home: {
     path: '/',
-    title: 'Daily Affirmations - Free Positive Motivation & Inspiration Generator',
+    title: 'Daily Affirmations - AI-Powered Positive Motivation & Inspiration Generator',
     description:
-      'Transform your mindset with free daily affirmations. Get personalized positive quotes for confidence, success, relationships, health, and personal growth. Start your journey today.',
+      'Transform your mindset with AI-powered daily affirmations. Get personalized positive quotes for confidence, success, relationships, health, and personal growth. Start your journey today.',
     keywords:
-      'daily affirmations, positive affirmations, motivational quotes, self improvement, confidence boost, success mindset, personal growth',
+      'daily affirmations, positive affirmations, motivational quotes, self improvement, confidence boost, success mindset, personal growth, AI affirmations, AI-powered affirmations',
   },
   blog: {
     path: '/blog',
@@ -160,6 +160,17 @@ export const ROUTES = {
       category: 'Career',
       keywords:
         'career affirmations, professional success, workplace confidence, imposter syndrome, promotion mindset, work motivation, professional growth, leadership mindset',
+    },
+    'manifestation-affirmations-guide': {
+      path: '/blog/manifestation-affirmations-guide',
+      title: '55 Manifestation Affirmations That Actually Work (Science-Backed Guide)',
+      description:
+        'Discover 55 science-backed manifestation affirmations that actually work. Learn the neuroscience behind the law of attraction and how to use manifestation effectively based on psychology research.',
+      date: '2025-12-19',
+      readTime: '10 min read',
+      category: 'Personal Growth',
+      keywords:
+        'manifestation affirmations, law of attraction, neuroscience, psychology research, goal manifestation, science-backed affirmations, reticular activating system, self-fulfilling prophecy',
     },
   },
 } as const
