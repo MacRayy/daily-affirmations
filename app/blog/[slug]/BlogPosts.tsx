@@ -2421,4 +2421,626 @@ export const blogPosts: Record<
       </>
     ),
   },
+
+  'new-year-resolutions-affirmations': {
+    title: "60 New Year's Affirmations to Make Your 2025 Resolutions Actually Stick",
+    date: '2025-12-27',
+    readTime: '11 min read',
+    category: 'Personal Growth',
+    content: (
+      <>
+        <p className="lead">
+          80% of New Year&#39;s resolutions fail by February. But what if there was a simple daily
+          practice that could dramatically increase your success rate? These 60 New Year&#39;s
+          affirmations, combined with science-backed strategies, will help you actually achieve your
+          2025 goals.
+        </p>
+
+        <h2>Why New Year&#39;s Resolutions Fail (And How Affirmations Fix It)</h2>
+        <p>
+          Research from the University of Scranton shows that only 8% of people achieve their New
+          Year&#39;s resolutions. The main reasons?
+        </p>
+        <ul>
+          <li>
+            <strong>Vague goals:</strong> &#34;Get healthy&#34; vs. &#34;Exercise 3x per week&#34;
+          </li>
+          <li>
+            <strong>Lack of daily reinforcement:</strong> You set goals once, then forget them
+          </li>
+          <li>
+            <strong>Negative self-talk:</strong> Your inner critic sabotages progress
+          </li>
+          <li>
+            <strong>All-or-nothing thinking:</strong> One slip-up leads to complete abandonment
+          </li>
+          <li>
+            <strong>No emotional connection:</strong> Goals feel like obligations, not desires
+          </li>
+        </ul>
+
+        <p>
+          Affirmations address every single one of these failure points. By practicing daily
+          affirmations, you keep your goals top-of-mind, rewire negative thought patterns, and build
+          the identity of someone who achieves their resolutions.
+        </p>
+
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">🎯 The Psychology Behind It</p>
+          <p className="text-gray-700">
+            Research in{' '}
+            <a
+              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4814782/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              neuroscience
+            </a>{' '}
+            shows that daily affirmations activate the brain&#39;s self-processing centers and
+            reward pathways, making you more likely to take actions aligned with your goals.
+          </p>
+        </div>
+
+        <h2>60 Powerful New Year&#39;s Affirmations for 2025</h2>
+
+        <h3>For General New Year Success (1-10)</h3>
+        <ol>
+          <li>&#34;2025 is my year of transformation and growth&#34;</li>
+          <li>&#34;I am committed to becoming the best version of myself this year&#34;</li>
+          <li>&#34;I follow through on my goals with consistency and determination&#34;</li>
+          <li>&#34;This year, I choose progress over perfection&#34;</li>
+          <li>&#34;I am capable of achieving everything I set my mind to in 2025&#34;</li>
+          <li>&#34;Each day brings me closer to my New Year&#39;s goals&#34;</li>
+          <li>&#34;I release old patterns that no longer serve me&#34;</li>
+          <li>&#34;I welcome positive change and new opportunities this year&#34;</li>
+          <li>&#34;My actions align with my highest aspirations&#34;</li>
+          <li>&#34;I am worthy of achieving my 2025 resolutions&#34;</li>
+        </ol>
+
+        <h3>For Health & Fitness Resolutions (11-20)</h3>
+        <ol start={11}>
+          <li>&#34;I am committed to nourishing my body with healthy choices&#34;</li>
+          <li>&#34;Exercise is a gift I give myself, not a punishment&#34;</li>
+          <li>&#34;I am becoming stronger and healthier every single day&#34;</li>
+          <li>&#34;My body deserves movement, rest, and proper nutrition&#34;</li>
+          <li>&#34;I choose foods that energize and fuel me&#34;</li>
+          <li>&#34;I am building sustainable healthy habits that last&#34;</li>
+          <li>&#34;My health is a priority, not an afterthought&#34;</li>
+          <li>&#34;I celebrate every small victory on my wellness journey&#34;</li>
+          <li>&#34;I am patient with my body as it transforms&#34;</li>
+          <li>&#34;I deserve to feel vibrant, energetic, and strong&#34;</li>
+        </ol>
+
+        <p>
+          Support your wellness goals with our complete{' '}
+          <Link href={ROUTES.affirmations.health.path} className="text-violet-600 hover:underline">
+            health affirmations
+          </Link>{' '}
+          collection.
+        </p>
+
+        <h3>For Career & Financial Resolutions (21-30)</h3>
+        <ol start={21}>
+          <li>&#34;This year, I am advancing my career with confidence&#34;</li>
+          <li>&#34;I attract opportunities that align with my professional goals&#34;</li>
+          <li>&#34;I am building wealth and financial security in 2025&#34;</li>
+          <li>&#34;My income is increasing through smart decisions and hard work&#34;</li>
+          <li>&#34;I invest in my skills and professional development consistently&#34;</li>
+          <li>&#34;I am worthy of a promotion and higher compensation&#34;</li>
+          <li>&#34;Financial freedom is within my reach this year&#34;</li>
+          <li>&#34;I make wise money decisions that support my future&#34;</li>
+          <li>&#34;My career trajectory is headed in the right direction&#34;</li>
+          <li>&#34;I am creating multiple streams of income&#34;</li>
+        </ol>
+
+        <p>
+          Boost your professional goals with{' '}
+          <Link href={ROUTES.affirmations.career.path} className="text-violet-600 hover:underline">
+            career affirmations
+          </Link>
+          .
+        </p>
+
+        <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">💡 Pro Tip: SMART Resolutions</p>
+          <p className="text-gray-700">
+            Make your resolutions Specific, Measurable, Achievable, Relevant, and Time-bound.
+            Instead of &#34;save money,&#34; try &#34;save $5,000 by December 31st by setting aside
+            $417/month.&#34; Then create affirmations around this specific goal.
+          </p>
+        </div>
+
+        <h3>For Relationship & Social Resolutions (31-40)</h3>
+        <ol start={31}>
+          <li>&#34;I am cultivating deeper, more meaningful relationships this year&#34;</li>
+          <li>&#34;I communicate my needs clearly and lovingly&#34;</li>
+          <li>&#34;I attract positive, supportive people into my life&#34;</li>
+          <li>&#34;I am present and engaged with the people I love&#34;</li>
+          <li>&#34;I set healthy boundaries that honor my wellbeing&#34;</li>
+          <li>&#34;I forgive past hurts and move forward with an open heart&#34;</li>
+          <li>&#34;I invest quality time in relationships that matter&#34;</li>
+          <li>&#34;I am becoming a better listener and more empathetic friend&#34;</li>
+          <li>&#34;I deserve relationships that are reciprocal and fulfilling&#34;</li>
+          <li>&#34;I am creating a strong support system this year&#34;</li>
+        </ol>
+
+        <p>
+          Enhance your connections with{' '}
+          <Link
+            href={ROUTES.affirmations.relationships.path}
+            className="text-violet-600 hover:underline"
+          >
+            relationship affirmations
+          </Link>
+          .
+        </p>
+
+        <h3>For Personal Growth & Mindset (41-50)</h3>
+        <ol start={41}>
+          <li>&#34;I am committed to learning and growing every day&#34;</li>
+          <li>&#34;I embrace challenges as opportunities for development&#34;</li>
+          <li>&#34;I am becoming more confident in who I am&#34;</li>
+          <li>&#34;I release limiting beliefs that hold me back&#34;</li>
+          <li>&#34;I am worthy of success, happiness, and fulfillment&#34;</li>
+          <li>&#34;I trust the process of my personal evolution&#34;</li>
+          <li>&#34;I am developing resilience through every challenge&#34;</li>
+          <li>&#34;My mindset is my greatest asset this year&#34;</li>
+          <li>&#34;I choose growth over comfort in 2025&#34;</li>
+          <li>&#34;I am becoming the person I&#39;ve always wanted to be&#34;</li>
+        </ol>
+
+        <p>
+          Deepen your transformation with{' '}
+          <Link
+            href={ROUTES.affirmations['personal-growth'].path}
+            className="text-violet-600 hover:underline"
+          >
+            personal growth affirmations
+          </Link>
+          .
+        </p>
+
+        <h3>For Habits & Consistency (51-60)</h3>
+        <ol start={51}>
+          <li>&#34;I show up for myself every single day&#34;</li>
+          <li>&#34;Small daily actions create massive yearly results&#34;</li>
+          <li>&#34;I am disciplined and consistent with my goals&#34;</li>
+          <li>&#34;I keep my promises to myself&#34;</li>
+          <li>&#34;Progress, not perfection, is my focus&#34;</li>
+          <li>&#34;I bounce back quickly from setbacks&#34;</li>
+          <li>&#34;My habits are aligned with my highest goals&#34;</li>
+          <li>&#34;I am building momentum with each passing day&#34;</li>
+          <li>&#34;Consistency is my superpower&#34;</li>
+          <li>&#34;I finish what I start in 2025&#34;</li>
+        </ol>
+
+        <div className="grid md:grid-cols-2 gap-6 my-8">
+          <div className="bg-gradient-to-br from-violet-50 to-purple-50 p-6 rounded-xl border-2 border-violet-100">
+            <p className="font-bold text-gray-900 mb-3">🌅 New Year Morning Ritual</p>
+            <ol className="space-y-2 text-gray-700 text-sm">
+              <li>1. Review your 3 main resolutions</li>
+              <li>2. Say 5 related affirmations aloud</li>
+              <li>3. Visualize achieving them</li>
+              <li>4. Choose one action for today</li>
+              <li>5. Journal your progress weekly</li>
+            </ol>
+          </div>
+
+          <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border-2 border-blue-100">
+            <p className="font-bold text-gray-900 mb-3">📅 The First Week Strategy</p>
+            <p className="text-gray-700 text-sm">
+              January 1-7 is crucial. Write your affirmations on sticky notes and place them where
+              you&#39;ll see them: bathroom mirror, car dashboard, computer monitor. Make them
+              unavoidable.
+            </p>
+          </div>
+        </div>
+
+        <h2>The Ultimate New Year&#39;s Resolution Action Plan</h2>
+        <p>
+          Affirmations alone won&#39;t achieve your goals—but they&#39;re the foundation for
+          consistent action. Here&#39;s your complete strategy:
+        </p>
+
+        <h3>Step 1: Set 3 Key Resolutions (Not 10)</h3>
+        <p>Focus beats overwhelm. Choose three resolutions maximum, one in each category:</p>
+        <ul>
+          <li>
+            <strong>Health/Physical:</strong> e.g., &#34;Run a 5K by June&#34;
+          </li>
+          <li>
+            <strong>Professional/Financial:</strong> e.g., &#34;Earn a promotion or 20% raise&#34;
+          </li>
+          <li>
+            <strong>Personal/Relationships:</strong> e.g., &#34;Deepen connection with partner
+            through weekly date nights&#34;
+          </li>
+        </ul>
+
+        <h3>Step 2: Create Resolution-Specific Affirmations</h3>
+        <p>Don&#39;t use generic affirmations. Customize them to your exact goals:</p>
+        <ul>
+          <li>
+            Goal: &#34;Lose 20 pounds&#34; → Affirmation: &#34;I am becoming 20 pounds lighter
+            through joyful movement and nourishing food&#34;
+          </li>
+          <li>
+            Goal: &#34;Save $10,000&#34; → Affirmation: &#34;I am building my $10,000 savings
+            through consistent monthly contributions&#34;
+          </li>
+          <li>
+            Goal: &#34;Read 24 books&#34; → Affirmation: &#34;I am reading 2 books monthly and
+            expanding my knowledge&#34;
+          </li>
+        </ul>
+
+        <h3>Step 3: Build a Daily Affirmation Routine</h3>
+        <p>Success requires daily reinforcement. Here&#39;s your routine:</p>
+        <ol>
+          <li>
+            <strong>Morning (5 minutes):</strong> Say your 5 main affirmations before checking phone
+          </li>
+          <li>
+            <strong>Midday (2 minutes):</strong> Quick affirmation when energy dips
+          </li>
+          <li>
+            <strong>Evening (3 minutes):</strong> Affirm progress made, even if small
+          </li>
+        </ol>
+
+        <p>
+          Start with our{' '}
+          <Link
+            href={ROUTES.blogPosts['morning-affirmations-routine'].path}
+            className="text-violet-600 hover:underline"
+          >
+            morning affirmations routine
+          </Link>{' '}
+          guide.
+        </p>
+
+        <h3>Step 4: Track Progress Visibly</h3>
+        <p>What gets measured gets managed. Create a visual tracker:</p>
+        <ul>
+          <li>Habit tracker apps (Habitica, Streaks, Way of Life)</li>
+          <li>Physical wall calendar with X marks</li>
+          <li>Progress photos for physical transformations</li>
+          <li>Weekly check-in journal entries</li>
+        </ul>
+
+        <h3>Step 5: Build in Accountability</h3>
+        <p>People with accountability partners are 65% more likely to achieve goals:</p>
+        <ul>
+          <li>Share your resolutions with a trusted friend</li>
+          <li>Join online communities for your specific goals</li>
+          <li>Hire a coach if budget allows</li>
+          <li>Post progress updates on social media (if comfortable)</li>
+        </ul>
+
+        <div className="bg-rose-50 border-l-4 border-rose-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">⚠️ The February Danger Zone</p>
+          <p className="text-gray-700">
+            Most resolutions die in February when initial motivation fades. Combat this by doubling
+            down on affirmations during weeks 4-8. Schedule a &#34;resolution review&#34; on
+            February 1st to recommit.
+          </p>
+        </div>
+
+        <h2>Month-by-Month New Year&#39;s Affirmation Strategy</h2>
+
+        <h3>January: Foundation Month</h3>
+        <ul>
+          <li>
+            <strong>Focus:</strong> Building new habits and routines
+          </li>
+          <li>
+            <strong>Affirmation emphasis:</strong> &#34;I am committed to...&#34; and &#34;I am
+            building...&#34;
+          </li>
+          <li>
+            <strong>Action:</strong> Do your resolution activity daily for 21 days minimum
+          </li>
+        </ul>
+
+        <h3>February-March: Consistency Phase</h3>
+        <ul>
+          <li>
+            <strong>Focus:</strong> Pushing through when motivation wanes
+          </li>
+          <li>
+            <strong>Affirmation emphasis:</strong> &#34;I show up even when it&#39;s hard&#34; and
+            &#34;Consistency is my superpower&#34;
+          </li>
+          <li>
+            <strong>Action:</strong> Track wins, no matter how small
+          </li>
+        </ul>
+
+        <h3>April-June: Momentum Building</h3>
+        <ul>
+          <li>
+            <strong>Focus:</strong> Seeing early results and doubling down
+          </li>
+          <li>
+            <strong>Affirmation emphasis:</strong> &#34;I am making real progress&#34; and &#34;My
+            efforts are paying off&#34;
+          </li>
+          <li>
+            <strong>Action:</strong> Celebrate quarter-year milestones
+          </li>
+        </ul>
+
+        <h3>July-September: Mid-Year Recalibration</h3>
+        <ul>
+          <li>
+            <strong>Focus:</strong> Adjusting goals based on progress
+          </li>
+          <li>
+            <strong>Affirmation emphasis:</strong> &#34;I adapt and evolve&#34; and &#34;I trust my
+            journey&#34;
+          </li>
+          <li>
+            <strong>Action:</strong> Revise goals if needed—it&#39;s not quitting, it&#39;s wisdom
+          </li>
+        </ul>
+
+        <h3>October-December: Final Push</h3>
+        <ul>
+          <li>
+            <strong>Focus:</strong> Finishing strong and celebrating wins
+          </li>
+          <li>
+            <strong>Affirmation emphasis:</strong> &#34;I finish what I start&#34; and &#34;I am so
+            proud of my progress&#34;
+          </li>
+          <li>
+            <strong>Action:</strong> Document transformation for next year&#39;s inspiration
+          </li>
+        </ul>
+
+        <h2>Overcoming Common New Year&#39;s Resolution Obstacles</h2>
+
+        <h3>Obstacle 1: &#34;I Messed Up—Might As Well Quit&#34;</h3>
+        <p>
+          <strong>Counter-Affirmation:</strong> &#34;One setback doesn&#39;t erase my progress. I
+          get back on track now.&#34;
+        </p>
+        <p>
+          Research shows that successful people view slip-ups as data, not failure. The difference
+          between those who succeed and those who quit is simply getting back up one more time.
+        </p>
+
+        <h3>Obstacle 2: &#34;I Don&#39;t Have Time&#34;</h3>
+        <p>
+          <strong>Counter-Affirmation:</strong> &#34;I prioritize what matters. I create time for my
+          goals.&#34;
+        </p>
+        <p>
+          Time isn&#39;t found—it&#39;s created. Audit your day. Most people can find 30 minutes by
+          reducing social media, TV, or saying no to non-essential commitments.
+        </p>
+
+        <h3>Obstacle 3: &#34;I&#39;m Not Seeing Results Fast Enough&#34;</h3>
+        <p>
+          <strong>Counter-Affirmation:</strong> &#34;Transformation takes time. I trust the process
+          and celebrate small wins.&#34;
+        </p>
+        <p>
+          Patience is the secret weapon. Sustainable change happens slowly. Would you rather achieve
+          80% of your goal by December or quit entirely by March? Slow progress is still progress.
+        </p>
+
+        <h3>Obstacle 4: &#34;My Environment Isn&#39;t Supportive&#34;</h3>
+        <p>
+          <strong>Counter-Affirmation:</strong> &#34;I create the environment I need to succeed. I
+          am my own best advocate.&#34;
+        </p>
+        <p>
+          Your environment matters enormously. Minimize time with saboteurs, join communities
+          aligned with your goals, and engineer your physical space to support your resolutions.
+        </p>
+
+        <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">🎯 The 1% Better Rule</p>
+          <p className="text-gray-700">
+            Instead of dramatic transformations, focus on being 1% better each day. That&#39;s 37x
+            better by year-end thanks to compound growth. Small improvements, sustained over time,
+            create remarkable results.
+          </p>
+        </div>
+
+        <h2>Creating Your Personal New Year&#39;s Affirmation Practice</h2>
+
+        <h3>Week 1 (Dec 25-31): Preparation</h3>
+        <ol>
+          <li>Reflect on 2024: What worked? What didn&#39;t?</li>
+          <li>Choose your 3 main resolutions</li>
+          <li>Write 5 custom affirmations for each resolution</li>
+          <li>Create a tracking system</li>
+          <li>Tell someone about your goals</li>
+        </ol>
+
+        <h3>January 1: Launch Day</h3>
+        <ol>
+          <li>Say your affirmations immediately upon waking</li>
+          <li>Take one action toward each resolution</li>
+          <li>Journal about your intentions and feelings</li>
+          <li>Set phone reminders for daily affirmations</li>
+          <li>Go to bed early—rest is part of success</li>
+        </ol>
+
+        <h3>Ongoing: Daily Non-Negotiables</h3>
+        <ul>
+          <li>Morning affirmations (5 min)</li>
+          <li>One action per resolution daily</li>
+          <li>Evening reflection: What went well?</li>
+          <li>Weekly progress review</li>
+          <li>Monthly goal adjustment if needed</li>
+        </ul>
+
+        <h2>New Year&#39;s Affirmations for Specific Goals</h2>
+
+        <h3>For Weight Loss/Fitness:</h3>
+        <ul>
+          <li>&#34;I honor my body with movement it enjoys&#34;</li>
+          <li>&#34;Healthy eating is an act of self-love, not deprivation&#34;</li>
+          <li>&#34;I am becoming stronger with every workout&#34;</li>
+          <li>&#34;My body is transforming at the perfect pace&#34;</li>
+        </ul>
+
+        <h3>For Quitting Bad Habits:</h3>
+        <ul>
+          <li>&#34;I am free from [habit] and reclaim my power&#34;</li>
+          <li>&#34;I choose health and clarity over temporary pleasure&#34;</li>
+          <li>&#34;Each day without [habit] makes me stronger&#34;</li>
+          <li>&#34;I am breaking chains that no longer serve me&#34;</li>
+        </ul>
+
+        <h3>For Learning New Skills:</h3>
+        <ul>
+          <li>&#34;I am capable of mastering [skill] through consistent practice&#34;</li>
+          <li>&#34;Every expert was once a beginner—I embrace the learning curve&#34;</li>
+          <li>&#34;I dedicate time daily to developing [skill]&#34;</li>
+          <li>&#34;I am becoming more skilled every single day&#34;</li>
+        </ul>
+
+        <h3>For Better Sleep:</h3>
+        <ul>
+          <li>&#34;I prioritize 8 hours of quality sleep nightly&#34;</li>
+          <li>&#34;My bedroom is a sanctuary for rest&#34;</li>
+          <li>&#34;I wind down without screens before bed&#34;</li>
+          <li>&#34;Quality sleep fuels my success&#34;</li>
+        </ul>
+
+        <h2>The Science of New Year&#39;s Momentum</h2>
+        <p>
+          There&#39;s actual psychology behind why January 1st feels powerful—researchers call it
+          the{' '}
+          <a
+            href="https://journals.sagepub.com/doi/abs/10.1177/0146167214566189"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            &#34;fresh start effect.&#34;
+          </a>{' '}
+          Temporal landmarks (like New Year&#39;s) create mental separation from past failures,
+          making you more likely to pursue goals.
+        </p>
+
+        <p>
+          But here&#39;s the catch: this effect fades quickly. By combining New Year&#39;s momentum
+          with daily affirmations, you extend that &#34;fresh start&#34; feeling throughout the
+          year.
+        </p>
+
+        <p>
+          Learn more about how affirmations work in our{' '}
+          <Link
+            href={ROUTES.blogPosts['science-of-affirmations'].path}
+            className="text-violet-600 hover:underline"
+          >
+            science of affirmations
+          </Link>{' '}
+          guide.
+        </p>
+
+        <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">📊 Success Statistics</p>
+          <p className="text-gray-700">
+            People who explicitly make resolutions are 10x more likely to change behavior than those
+            who don&#39;t. Adding daily affirmations increases this success rate even further by
+            providing consistent mental reinforcement.
+          </p>
+        </div>
+
+        <h2>Your New Year&#39;s Affirmation Toolkit</h2>
+
+        <h3>Digital Tools:</h3>
+        <ul>
+          <li>
+            <strong>Phone wallpaper:</strong> Screenshot your main affirmation
+          </li>
+          <li>
+            <strong>Alarm labels:</strong> Name your morning alarm after an affirmation
+          </li>
+          <li>
+            <strong>Calendar reminders:</strong> Daily affirmation prompts
+          </li>
+          <li>
+            <strong>Note apps:</strong> Keep affirmations easily accessible
+          </li>
+        </ul>
+
+        <h3>Physical Tools:</h3>
+        <ul>
+          <li>
+            <strong>Sticky notes:</strong> Place affirmations on mirrors, doors, fridge
+          </li>
+          <li>
+            <strong>Vision board:</strong> Visual representation of your 2025 goals
+          </li>
+          <li>
+            <strong>Journal:</strong> Track affirmations and progress daily
+          </li>
+          <li>
+            <strong>Index cards:</strong> Carry affirmations with you
+          </li>
+        </ul>
+
+        <h2>Conclusion: Make 2025 Your Year</h2>
+        <p>
+          You&#39;re reading this in the final days of December 2024—a powerful threshold moment.
+          You have a choice: Start 2025 with vague hopes that fade by February, or begin with a
+          concrete plan backed by daily affirmations that keep you on track.
+        </p>
+
+        <p>
+          These 60 affirmations are your daily fuel. Your resolutions are the destination. The
+          journey between them? That&#39;s showing up each day, saying your affirmations, taking
+          aligned action, and refusing to quit when things get hard.
+        </p>
+
+        <p>
+          January 1st is coming. Will you be ready? Not with perfection—with preparation. Not with
+          willpower alone—with a system. Not with vague wishes—with powerful, personalized
+          affirmations that reprogram your mind for success.
+        </p>
+
+        <p>
+          Start your transformation today with our{' '}
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline font-semibold">
+            free daily affirmations generator
+          </Link>
+          . Explore affirmations for every area of your life:{' '}
+          <Link
+            href={ROUTES.affirmations['personal-growth'].path}
+            className="text-violet-600 hover:underline"
+          >
+            personal growth
+          </Link>
+          ,{' '}
+          <Link href={ROUTES.affirmations.health.path} className="text-violet-600 hover:underline">
+            health
+          </Link>
+          ,{' '}
+          <Link href={ROUTES.affirmations.career.path} className="text-violet-600 hover:underline">
+            career
+          </Link>
+          , and more. Then learn{' '}
+          <Link
+            href={ROUTES.blogPosts['how-to-use-affirmations-effectively'].path}
+            className="text-violet-600 hover:underline"
+          >
+            how to use affirmations effectively
+          </Link>{' '}
+          for maximum impact.
+        </p>
+
+        <p className="text-gray-600 italic mt-8">
+          Here&#39;s to making 2026 the year you finally follow through. You&#39;ve got this. 🎆
+        </p>
+      </>
+    ),
+  },
 }

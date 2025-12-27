@@ -172,6 +172,17 @@ export const ROUTES = {
       keywords:
         'manifestation affirmations, law of attraction, neuroscience, psychology research, goal manifestation, science-backed affirmations, reticular activating system, self-fulfilling prophecy',
     },
+    'new-year-resolutions-affirmations': {
+      path: '/blog/new-year-resolutions-affirmations',
+      title: "60 New Year's Affirmations to Make Your 2025 Resolutions Actually Stick",
+      description:
+        "Make your 2025 resolutions stick with 60 powerful New Year's affirmations plus science-backed strategies for motivation, identity change, and consistent daily action.",
+      date: '2025-12-27',
+      readTime: '11 min read',
+      category: 'Personal Growth',
+      keywords:
+        "new year's affirmations, resolutions 2025, goal setting, habit change, motivation, personal growth, identity-based habits, consistency, science-backed affirmations",
+    },
   },
 } as const
 
