@@ -42,6 +42,11 @@ export default function PrivacyPage() {
             <Shield className="w-8 h-8 text-violet-600" />
             <h1 className="text-4xl font-bold text-gray-900">Privacy Policy</h1>
           </div>
+          <div className="mt-2">
+            <span className="inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
+              AI-powered
+            </span>
+          </div>
           <p className="text-lg text-gray-600">
             Last updated:{' '}
             {new Date().toLocaleDateString('en-US', {

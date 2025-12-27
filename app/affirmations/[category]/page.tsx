@@ -69,8 +69,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center gap-3">
             <Logo className="w-8 h-8" />
-            <h1 className="text-2xl font-bold text-gray-900">
+            <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
               <Link href={ROUTES.home.path}>Daily Affirmations</Link>
+              <span className="inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
+                AI-powered
+              </span>
             </h1>
           </div>
         </div>

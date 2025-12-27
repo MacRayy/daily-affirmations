@@ -40,6 +40,11 @@ export default function BlogPage() {
 
         <div className="mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Affirmations Blog</h1>
+          <div className="mt-2">
+            <span className="inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
+              AI-powered
+            </span>
+          </div>
           <p className="text-xl text-gray-600">
             Science-backed insights, practical guides, and tips for using daily affirmations
             effectively.
