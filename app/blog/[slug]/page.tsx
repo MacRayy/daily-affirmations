@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Calendar, ArrowLeft } from 'lucide-react'
 import { AmazonCTA } from '@/components/AmazonCTA'
+import Footer from '@/components/Footer'
 import {
   ROUTES,
   generateBlogPostStructuredData,
@@ -168,6 +169,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
           </div>
         </article>
+
+        <Footer />
       </div>
     </>
   )

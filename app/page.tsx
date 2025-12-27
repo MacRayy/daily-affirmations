@@ -2,6 +2,7 @@ import AffirmationClient from './components/AffirmationClient'
 import { getAffirmationOfTheDay } from './data/affirmations'
 import Logo from '@/app/components/Logo'
 import { AmazonCTA } from '@/components/AmazonCTA'
+import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
@@ -158,37 +159,7 @@ export default function Home() {
           />
         </main>
 
-        <footer className="bg-white border-t-2 border-gray-200 mt-16">
-          <div className="max-w-6xl mx-auto px-4 py-8 text-center text-gray-600">
-            <p className="text-sm font-medium mb-4">
-              © 2025 Daily Affirmations. Empowering you every day.
-            </p>
-            <div className="flex justify-center gap-6 text-sm">
-              <Link href="/terms" className="hover:text-violet-600 transition">
-                Terms of Service
-              </Link>
-              <Link href="/privacy" className="hover:text-violet-600 transition">
-                Privacy Policy
-              </Link>
-              <Link href="/contact" className="hover:text-violet-600 transition">
-                Contact
-              </Link>
-              <a
-                href="https://www.buymeacoffee.com/MacRay"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-violet-600 transition"
-              >
-                Buy Me a Brick 🧱
-              </a>
-            </div>
-            <div className="mt-4 flex justify-center">
-              <span className="inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
-                AI-powered affirmations
-              </span>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </>
   )

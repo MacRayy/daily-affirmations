@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Footer from '@/components/Footer'
 import { FileText, Scale, AlertCircle, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -185,6 +186,7 @@ export default function TermsPage() {
           </section>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

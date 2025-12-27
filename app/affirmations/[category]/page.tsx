@@ -3,6 +3,7 @@ import { getAffirmationOfTheDay } from '@/app/data/affirmations'
 import { notFound } from 'next/navigation'
 import Logo from '@/app/components/Logo'
 import Link from 'next/link'
+import Footer from '@/components/Footer'
 import { ClickBankCTA } from '@/components/ClickBankCTA'
 import { ROUTES } from '../../AppRoutes'
 
@@ -144,11 +145,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         </section>
       </main>
 
-      <footer className="bg-white border-t-2 border-gray-200 mt-16">
-        <div className="max-w-6xl mx-auto px-4 py-8 text-center text-gray-600">
-          <p className="text-sm font-medium">© 2025 Daily Affirmations.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

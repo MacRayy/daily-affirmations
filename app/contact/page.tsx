@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Footer from '@/components/Footer'
 import { Mail, MessageCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -88,6 +89,7 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

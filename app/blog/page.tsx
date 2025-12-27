@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from '@/components/Footer'
 import { Calendar, ArrowRight } from 'lucide-react'
 import type { Metadata } from 'next'
 import { ROUTES, generateOpenGraph, generateTwitterCard } from '../AppRoutes'
@@ -92,6 +93,7 @@ export default function BlogPage() {
           ))}
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
