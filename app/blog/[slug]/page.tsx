@@ -125,10 +125,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           />
 
           <div
-            className="prose prose-lg max-w-none
+            className="blog-content prose prose-lg max-w-none
           prose-headings:font-bold prose-headings:text-gray-900
-          prose-h2:text-3xl prose-h2:mt-16 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b-2 prose-h2:border-gray-200
-          prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-4
+          prose-h2:text-3xl prose-h2:mt-20 prose-h2:mb-8 prose-h2:pb-3 prose-h2:border-b-2 prose-h2:border-gray-200
+          prose-h3:text-2xl prose-h3:mt-12 prose-h3:mb-6
+          prose-h4:mt-10 prose-h4:mb-4
           prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-lg
           prose-a:text-violet-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline
           prose-ul:my-6 prose-ul:space-y-3
