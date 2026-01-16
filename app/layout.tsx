@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://daily-affirm.com'),
   title: 'Daily Affirmations - Positive Motivation & Inspiration',
   description:
     'Start your day with powerful AI-generated affirmations. Get personalized daily motivation for career, relationships, health, confidence, and personal growth.',

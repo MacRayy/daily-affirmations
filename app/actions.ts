@@ -15,7 +15,11 @@ export async function generateNewAffirmation(category: string) {
       headers: {
         Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
         'Content-Type': 'application/json',
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0',
       },
+      cache: 'no-store',
       body: JSON.stringify({
         model: 'llama-3.3-70b-versatile',
         messages: [
