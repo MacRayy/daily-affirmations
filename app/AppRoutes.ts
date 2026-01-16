@@ -183,6 +183,17 @@ export const ROUTES = {
       keywords:
         "new year's affirmations, resolutions 2025, goal setting, habit change, motivation, personal growth, identity-based habits, consistency, science-backed affirmations",
     },
+    'money-abundance-affirmations': {
+      path: '/blog/money-abundance-affirmations',
+      title: '75 Money Affirmations to Attract Wealth and Abundance (That Actually Work)',
+      description:
+        'Struggling with money anxiety or limiting beliefs about wealth? These 75 money affirmations, combined with practical financial strategies, can help you shift your mindset from scarcity to abundance—and actually improve your financial situation.',
+      date: '2026-01-16',
+      readTime: '12 min read',
+      category: 'Personal Growth',
+      keywords:
+        'money affirmations, wealth attraction, abundance mindset, financial confidence, money scripts, scarcity mindset, financial freedom, wealth building, money anxiety, prosperity affirmations',
+    },
   },
 } as const
 
