@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { Calendar, ArrowLeft } from 'lucide-react'
+import { Calendar } from 'lucide-react'
 import { AmazonCTA } from '@/components/AmazonCTA'
 import Footer from '@/components/Footer'
 import RelatedPosts from '@/app/components/RelatedPosts'
+import Breadcrumbs from '@/app/components/Breadcrumbs'
 import {
   ROUTES,
   generateBlogPostStructuredData,
@@ -89,13 +90,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
       <div className="min-h-screen bg-gray-50">
         <article className="max-w-4xl mx-auto px-4 py-12 space-y-12">
-          <Link
-            href={ROUTES.blog.path}
-            className="inline-flex items-center gap-2 text-violet-600 hover:text-violet-700 mb-8 font-semibold"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Blog
-          </Link>
+          <Breadcrumbs
+            items={[
+              { name: 'Blog', href: ROUTES.blog.path },
+              { name: post.title },
+            ]}
+          />
 
           <header className="mb-12">
             <div className="flex items-center gap-4 mb-6 text-sm text-gray-500">
