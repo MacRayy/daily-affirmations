@@ -1,5 +1,7 @@
 'use server'
 
+import { unstable_noStore as noStore } from 'next/cache'
+
 type GroqResponse = {
   choices: Array<{
     message: {
@@ -9,6 +11,8 @@ type GroqResponse = {
 }
 
 export async function generateNewAffirmation(category: string) {
+  noStore()
+
   try {
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
