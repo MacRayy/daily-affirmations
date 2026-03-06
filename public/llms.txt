@@ -1,0 +1,40 @@
+# Daily Affirmations
+
+> Transform your mindset with AI-powered daily affirmations for personal growth, confidence, and success.
+
+Daily Affirmations is a free web application that generates personalized positive affirmations using AI. Users can get daily motivation across six categories: General, Career, Relationships, Health, Personal Growth, and Confidence.
+
+## What We Offer
+
+- AI-Generated Affirmations: Unique, personalized affirmations powered by AI
+- Six Categories: General, Career, Relationships, Health, Personal Growth, Confidence
+- Free to Use: No registration or payment required
+- Share Feature: Easily share affirmations with others
+- Educational Blog: Science-backed articles about affirmations and personal development
+
+## Key Pages
+
+- Home: https://daily-affirm.com/
+- Career Affirmations: https://daily-affirm.com/affirmations/career
+- Relationship Affirmations: https://daily-affirm.com/affirmations/relationships
+- Health Affirmations: https://daily-affirm.com/affirmations/health
+- Personal Growth Affirmations: https://daily-affirm.com/affirmations/personal-growth
+- Confidence Affirmations: https://daily-affirm.com/affirmations/confidence
+- Blog: https://daily-affirm.com/blog
+
+## Popular Blog Posts
+
+- How to Use Daily Affirmations Effectively: https://daily-affirm.com/blog/how-to-use-affirmations-effectively
+- Do Affirmations Really Work? Neuroscience Research: https://daily-affirm.com/blog/science-of-affirmations
+- Affirmations for Anxiety and Stress Relief: https://daily-affirm.com/blog/affirmations-for-anxiety
+- 50 Self-Love Affirmations: https://daily-affirm.com/blog/self-love-affirmations
+- 75 Money Affirmations to Attract Wealth: https://daily-affirm.com/blog/money-abundance-affirmations
+
+## About
+
+Daily Affirmations helps people start their day with powerful, positive statements designed to boost confidence, reduce stress, and improve mental wellbeing. Research shows that daily positive affirmations can rewire the brain for more positive thinking patterns.
+
+## Contact
+
+- Website: https://daily-affirm.com
+- Contact: https://daily-affirm.com/contact

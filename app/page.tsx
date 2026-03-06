@@ -12,6 +12,7 @@ import {
   generateTwitterCard,
   generateWebsiteStructuredData,
 } from './AppRoutes'
+import FAQStructuredData from './components/FAQStructuredData'
 
 export const metadata: Metadata = {
   title: ROUTES.home.title,
@@ -59,6 +60,7 @@ export default function Home() {
           __html: JSON.stringify(websiteStructuredData),
         }}
       />
+      <FAQStructuredData />
 
       <div className="min-h-screen bg-gray-50">
         <header className="bg-white border-b-2 border-gray-200 sticky top-0 z-10 shadow-sm">
