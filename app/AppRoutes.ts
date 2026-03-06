@@ -199,11 +199,22 @@ export const ROUTES = {
       title: '60 Powerful Affirmations for Students: Boost Focus, Confidence & Academic Success',
       description:
         'Struggling with exam anxiety, procrastination, or self-doubt? These 60 science-backed affirmations for students will help you build confidence, improve focus, and achieve academic success—plus practical study tips to maximize results.',
-      date: '2026-03-06',
+      date: '2026-03-05',
       readTime: '10 min read',
       category: 'Personal Growth',
       keywords:
         'affirmations for students, student motivation, exam anxiety, study affirmations, academic success, focus affirmations, test anxiety relief, college affirmations, student confidence, study motivation, back to school affirmations',
+    },
+    'morning-affirmations-for-women': {
+      path: '/blog/morning-affirmations-for-women',
+      title: '80 Morning Affirmations for Women: Start Your Day Empowered & Confident',
+      description:
+        'Start each morning feeling empowered with these 80 affirmations designed specifically for women. Build confidence, embrace self-love, and set intentions for success in career, relationships, and personal growth.',
+      date: '2026-03-06',
+      readTime: '12 min read',
+      category: 'Personal Growth',
+      keywords:
+        'morning affirmations for women, affirmations for women, daily affirmations for women, positive affirmations for women, empowering affirmations, self love affirmations for women, confidence affirmations women, women empowerment quotes, morning routine women, female affirmations',
     },
   },
 } as const

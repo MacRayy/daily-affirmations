@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Calendar, ArrowLeft } from 'lucide-react'
 import { AmazonCTA } from '@/components/AmazonCTA'
 import Footer from '@/components/Footer'
+import RelatedPosts from '@/app/components/RelatedPosts'
 import {
   ROUTES,
   generateBlogPostStructuredData,
@@ -147,9 +148,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <AmazonCTA
             href="https://amzn.to/3MLqtSY"
             title="Recommended Resources for Mindfulness & Wellbeing"
-            description="Explore more tools, journals, and guides on Amazon to help you put today’s insights into daily practice."
+            description="Explore more tools, journals, and guides on Amazon to help you put today's insights into daily practice."
             buttonLabel="Explore on Amazon"
           />
+
+          {/* Related Posts */}
+          <RelatedPosts currentSlug={slug} />
 
           <div className="mt-16 pt-8 border-t-2 border-gray-200">
             <div className="bg-linear-to-br from-violet-50 to-purple-50 rounded-2xl p-10 border-2 border-violet-200">
