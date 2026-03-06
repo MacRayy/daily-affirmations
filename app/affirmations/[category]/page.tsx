@@ -76,6 +76,14 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 AI-powered
               </span>
             </h1>
+            <nav className="flex items-center gap-6 ml-auto">
+              <Link
+                href={ROUTES.blog.path}
+                className="text-gray-700 hover:text-violet-600 font-semibold transition"
+              >
+                Blog
+              </Link>
+            </nav>
           </div>
         </div>
       </header>
