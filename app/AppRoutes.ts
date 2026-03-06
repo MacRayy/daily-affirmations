@@ -194,6 +194,17 @@ export const ROUTES = {
       keywords:
         'money affirmations, wealth attraction, abundance mindset, financial confidence, money scripts, scarcity mindset, financial freedom, wealth building, money anxiety, prosperity affirmations',
     },
+    'affirmations-for-students': {
+      path: '/blog/affirmations-for-students',
+      title: '60 Powerful Affirmations for Students: Boost Focus, Confidence & Academic Success',
+      description:
+        'Struggling with exam anxiety, procrastination, or self-doubt? These 60 science-backed affirmations for students will help you build confidence, improve focus, and achieve academic success—plus practical study tips to maximize results.',
+      date: '2026-03-06',
+      readTime: '10 min read',
+      category: 'Personal Growth',
+      keywords:
+        'affirmations for students, student motivation, exam anxiety, study affirmations, academic success, focus affirmations, test anxiety relief, college affirmations, student confidence, study motivation, back to school affirmations',
+    },
   },
 } as const
 
