@@ -12,6 +12,12 @@ Daily Affirmations (https://daily-affirm.com) is a free web application that hel
 - Uses "I am" and "I" statements for personal connection
 - Avoids cliches and generic phrases
 
+### Free Printable Affirmation Cards
+- Downloadable PDF affirmation cards
+- 6 categories with 10 affirmations each
+- Print-ready format for mirrors, desks, journals
+- No email required - instant download
+
 ### Six Affirmation Categories
 
 1. **General** (/affirmations/general)

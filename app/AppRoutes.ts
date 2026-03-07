@@ -40,6 +40,14 @@ export const ROUTES = {
       'Get in touch with Daily Affirmations. We&apos;d love to hear your feedback, questions, or suggestions. Contact our support team for help with your affirmation journey.',
     keywords: 'contact daily affirmations, support, feedback, customer service, help, questions',
   },
+  printables: {
+    path: '/free-printables',
+    title: 'Free Printable Affirmation Cards - Download PDF',
+    description:
+      'Download free printable affirmation cards for daily motivation. Print beautiful affirmation cards for your mirror, desk, or journal. Choose from 6 categories.',
+    keywords:
+      'printable affirmations, affirmation cards PDF, free affirmation printables, daily affirmation cards, print affirmations, affirmation download, motivational cards printable',
+  },
 
   // Dynamic routes
   affirmations: {

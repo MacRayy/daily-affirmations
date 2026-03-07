@@ -13,7 +13,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: ROUTES.blog.path,
+      url: `${baseUrl}${ROUTES.printables.path}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}${ROUTES.blog.path}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.8,

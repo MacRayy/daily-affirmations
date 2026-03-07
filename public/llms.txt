@@ -15,6 +15,7 @@ Daily Affirmations is a free web application that generates personalized positiv
 ## Key Pages
 
 - Home: https://daily-affirm.com/
+- Free Printable Affirmation Cards: https://daily-affirm.com/free-printables
 - Career Affirmations: https://daily-affirm.com/affirmations/career
 - Relationship Affirmations: https://daily-affirm.com/affirmations/relationships
 - Health Affirmations: https://daily-affirm.com/affirmations/health

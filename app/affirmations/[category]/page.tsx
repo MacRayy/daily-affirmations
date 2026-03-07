@@ -78,6 +78,12 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             </h1>
             <nav className="flex items-center gap-6 ml-auto">
               <Link
+                href={ROUTES.printables.path}
+                className="text-gray-700 hover:text-violet-600 font-semibold transition"
+              >
+                Free Printables
+              </Link>
+              <Link
                 href={ROUTES.blog.path}
                 className="text-gray-700 hover:text-violet-600 font-semibold transition"
               >
