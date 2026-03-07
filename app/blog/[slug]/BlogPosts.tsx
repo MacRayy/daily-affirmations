@@ -4350,4 +4350,263 @@ export const blogPosts: Record<
       </>
     ),
   },
+  'bedtime-affirmations-sleep': {
+    title: ROUTES.blogPosts['bedtime-affirmations-sleep'].title,
+    date: ROUTES.blogPosts['bedtime-affirmations-sleep'].date,
+    readTime: ROUTES.blogPosts['bedtime-affirmations-sleep'].readTime,
+    category: ROUTES.blogPosts['bedtime-affirmations-sleep'].category,
+    content: (
+      <>
+        <p className="lead">
+          You&#39;ve had a long day. Your mind is racing with tomorrow&#39;s to-do list, replaying
+          conversations, and worrying about things you can&#39;t control. Sound familiar? These 50
+          bedtime affirmations are designed to quiet your busy mind, release tension, and guide you
+          into deep, restorative sleep.
+        </p>
+
+        <h2>Why Bedtime Affirmations Help You Sleep Better</h2>
+        <p>
+          The transition from wakefulness to sleep is one of the most vulnerable moments of our day.
+          Our minds often use this quiet time to ruminate on problems, anxieties, and unfinished
+          business. This is where affirmations become powerful.
+        </p>
+        <p>
+          Research published in the{' '}
+          <a
+            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6361823/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Journal of Clinical Sleep Medicine
+          </a>{' '}
+          shows that cognitive techniques, including positive self-talk, can significantly improve
+          sleep quality. Affirmations work by:
+        </p>
+        <ul>
+          <li>Interrupting negative thought spirals that keep you awake</li>
+          <li>Activating the parasympathetic nervous system (rest and digest mode)</li>
+          <li>Creating a mental ritual that signals &#34;time for sleep&#34; to your brain</li>
+          <li>Reducing cortisol levels through positive emotional states</li>
+        </ul>
+
+        <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">🌙 The Science of Sleep & Affirmations</p>
+          <p className="text-gray-700">
+            Your brain doesn&#39;t distinguish well between imagined and real experiences. When you
+            repeat calming affirmations, your nervous system responds as if you&#39;re already in a
+            peaceful state—lowering heart rate, relaxing muscles, and preparing for sleep.
+          </p>
+        </div>
+
+        <h2>Affirmations for Letting Go of the Day</h2>
+        <p>
+          Before you can fall asleep, you need to mentally close the chapter on today. These
+          affirmations help you release what happened and stop worrying about tomorrow:
+        </p>
+        <ol>
+          <li>I release all tension from today and welcome peaceful rest.</li>
+          <li>Today is complete. I did enough. I am enough.</li>
+          <li>I let go of everything that happened today with love and acceptance.</li>
+          <li>Tomorrow&#39;s problems can wait. Right now, I choose rest.</li>
+          <li>I forgive myself for any mistakes I made today.</li>
+          <li>I release all worries to the universe and trust that all is well.</li>
+          <li>My mind is clearing. My thoughts are slowing down.</li>
+          <li>I am grateful for the lessons today brought me.</li>
+          <li>I close this day with peace in my heart.</li>
+          <li>Everything I need to handle tomorrow, I will handle tomorrow.</li>
+        </ol>
+
+        <h2>Affirmations for Calming a Racing Mind</h2>
+        <p>
+          When your thoughts won&#39;t stop spinning, use these affirmations to find stillness:
+        </p>
+        <ol start={11}>
+          <li>My thoughts are slowing down with each breath I take.</li>
+          <li>I am safe. I am calm. I am at peace.</li>
+          <li>My mind is becoming quiet and still like a calm lake.</li>
+          <li>I release the need to think about anything right now.</li>
+          <li>Peace flows through me with every exhale.</li>
+          <li>My busy mind is settling into peaceful stillness.</li>
+          <li>I don&#39;t need to solve anything tonight. Rest is my only task.</li>
+          <li>Each thought that arises, I acknowledge and gently release.</li>
+          <li>Silence and calm are washing over me now.</li>
+          <li>My mind knows how to rest. I trust the process.</li>
+        </ol>
+
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">💤 Pro Tip: The 4-7-8 Breath</p>
+          <p className="text-gray-700">
+            Combine affirmations with the 4-7-8 breathing technique: Inhale for 4 counts, hold for 7,
+            exhale for 8. Say one affirmation silently during the hold. This activates your
+            parasympathetic nervous system and can help you fall asleep in minutes.
+          </p>
+        </div>
+
+        <h2>Affirmations for Relaxing Your Body</h2>
+        <p>
+          Tension held in your body keeps you awake. These affirmations help you physically unwind:
+        </p>
+        <ol start={21}>
+          <li>My body is relaxing from head to toe.</li>
+          <li>Every muscle is releasing tension and becoming soft.</li>
+          <li>I give my body permission to completely let go.</li>
+          <li>Warmth and relaxation spread through my entire body.</li>
+          <li>My jaw unclenches. My shoulders drop. I am melting into rest.</li>
+          <li>My body knows exactly how to prepare for sleep.</li>
+          <li>I feel myself sinking into the comfort of my bed.</li>
+          <li>Heavy, peaceful relaxation flows through every limb.</li>
+          <li>My body is safe and can fully surrender to rest.</li>
+          <li>I release all physical tension from this day.</li>
+        </ol>
+
+        <p>
+          For more relaxation-focused affirmations, try our{' '}
+          <Link href={ROUTES.affirmations.health.path} className="text-violet-600 hover:underline">
+            health and wellness affirmations
+          </Link>
+          .
+        </p>
+
+        <h2>Affirmations for Deep, Restorative Sleep</h2>
+        <p>
+          These affirmations program your mind for quality sleep that truly restores you:
+        </p>
+        <ol start={31}>
+          <li>I am drifting into deep, healing sleep.</li>
+          <li>My sleep tonight will be peaceful and restorative.</li>
+          <li>I welcome the healing power of deep rest.</li>
+          <li>My body repairs and renews itself as I sleep.</li>
+          <li>I will wake feeling refreshed and energized.</li>
+          <li>Sleep comes easily and naturally to me.</li>
+          <li>I deserve this rest and I receive it fully.</li>
+          <li>My dreams will be peaceful and pleasant.</li>
+          <li>I am grateful for the gift of restful sleep.</li>
+          <li>Deep, restorative sleep is my natural state.</li>
+        </ol>
+
+        <h2>Affirmations for Nighttime Anxiety</h2>
+        <p>
+          If anxiety peaks at bedtime, these affirmations specifically target those worried thoughts:
+        </p>
+        <ol start={41}>
+          <li>I am safe in this moment. Nothing requires my attention right now.</li>
+          <li>My anxiety does not control me. I choose peace.</li>
+          <li>Whatever I&#39;m worried about can be handled tomorrow.</li>
+          <li>I trust that everything is working out for my highest good.</li>
+          <li>My nervous system is calming down with each breath.</li>
+          <li>I release fear and welcome comfort and safety.</li>
+          <li>The universe is taking care of things while I rest.</li>
+          <li>I am protected. I am loved. I am at peace.</li>
+          <li>My worries are just thoughts, and I can let them pass.</li>
+          <li>I choose to trust, surrender, and rest deeply tonight.</li>
+        </ol>
+
+        <p>
+          For more anxiety support, read our complete guide on{' '}
+          <Link
+            href={ROUTES.blogPosts['affirmations-for-anxiety'].path}
+            className="text-violet-600 hover:underline"
+          >
+            affirmations for anxiety and stress relief
+          </Link>
+          .
+        </p>
+
+        <h2>Your Complete Bedtime Affirmation Routine</h2>
+        <p>
+          Follow this simple 10-minute routine for the best results:
+        </p>
+
+        <h3>30 Minutes Before Bed: Prepare</h3>
+        <ul>
+          <li>Dim the lights and put away screens</li>
+          <li>Do a brief body scan to notice where you&#39;re holding tension</li>
+          <li>Write down any lingering worries to &#34;park&#34; them for tomorrow</li>
+        </ul>
+
+        <h3>In Bed: The Affirmation Practice (5-10 minutes)</h3>
+        <ol>
+          <li>Lie comfortably on your back with eyes closed</li>
+          <li>Take 5 deep, slow breaths</li>
+          <li>Choose 3-5 affirmations from this list that resonate tonight</li>
+          <li>Repeat each affirmation slowly 3 times, breathing between each</li>
+          <li>As you repeat, visualize the words as truth—feel them in your body</li>
+          <li>If your mind wanders, gently return to the affirmations</li>
+        </ol>
+
+        <h3>Falling Asleep: Let Go</h3>
+        <ul>
+          <li>After your affirmations, let your mind be empty</li>
+          <li>If thoughts arise, return to one simple phrase: &#34;I am at peace&#34;</li>
+          <li>Focus on the sensation of your body relaxing into the mattress</li>
+        </ul>
+
+        <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8 rounded-r-lg">
+          <p className="text-gray-800 font-semibold mb-2">🎧 Audio Option</p>
+          <p className="text-gray-700">
+            Consider recording yourself reading these affirmations slowly and playing the recording
+            at bedtime. Hearing your own voice repeat calming words can be even more powerful than
+            silent repetition.
+          </p>
+        </div>
+
+        <h2>Tips for Maximum Effectiveness</h2>
+
+        <h3>Consistency is Key</h3>
+        <p>
+          Like any habit, bedtime affirmations work best with regular practice. Commit to at least
+          2 weeks of nightly practice before judging the results. Your brain needs time to build
+          new neural pathways.
+        </p>
+
+        <h3>Personalize Your Affirmations</h3>
+        <p>
+          Feel free to adapt these affirmations to your specific needs. If a phrase doesn&#39;t
+          resonate, modify it. The most powerful affirmations are ones that feel true (or almost
+          true) to you.
+        </p>
+
+        <h3>Combine with Sleep Hygiene</h3>
+        <p>
+          Affirmations work best alongside good sleep practices:
+        </p>
+        <ul>
+          <li>Keep a consistent sleep schedule</li>
+          <li>Avoid caffeine after 2pm</li>
+          <li>Make your bedroom cool, dark, and quiet</li>
+          <li>Limit screens for at least 30 minutes before bed</li>
+        </ul>
+
+        <h2>The Bottom Line</h2>
+        <p>
+          Quality sleep isn&#39;t a luxury—it&#39;s essential for your mental health, physical
+          wellbeing, and daily performance. These 50 bedtime affirmations give you a powerful tool
+          to quiet your mind, relax your body, and drift into the deep, restorative sleep you
+          deserve.
+        </p>
+        <p>
+          Start tonight with just 3 affirmations that speak to you. As the practice becomes
+          familiar, you&#39;ll find yourself falling asleep faster and waking more refreshed.
+        </p>
+        <p>
+          Ready for more? Try our{' '}
+          <Link href={ROUTES.home.path} className="text-violet-600 hover:underline">
+            AI-powered affirmations generator
+          </Link>{' '}
+          for personalized daily affirmations, and explore our{' '}
+          <Link
+            href={ROUTES.blogPosts['morning-affirmations-routine'].path}
+            className="text-violet-600 hover:underline"
+          >
+            morning affirmations routine
+          </Link>{' '}
+          to bookend your days with positivity.
+        </p>
+
+        <p className="text-gray-600 italic mt-8">
+          Sweet dreams. Tomorrow is a new day, and you&#39;ll be ready for it. 🌙
+        </p>
+      </>
+    ),
+  },
 }

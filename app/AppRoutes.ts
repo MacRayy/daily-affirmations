@@ -224,6 +224,17 @@ export const ROUTES = {
       keywords:
         'morning affirmations for women, affirmations for women, daily affirmations for women, positive affirmations for women, empowering affirmations, self love affirmations for women, confidence affirmations women, women empowerment quotes, morning routine women, female affirmations',
     },
+    'bedtime-affirmations-sleep': {
+      path: '/blog/bedtime-affirmations-sleep',
+      title: '50 Bedtime Affirmations for Deep Sleep & Peaceful Rest (That Actually Work)',
+      description:
+        'Struggling to fall asleep? These 50 calming bedtime affirmations will quiet your racing mind, release the day\'s stress, and help you drift into deep, restorative sleep. Plus a complete nighttime routine for better rest.',
+      date: '2026-03-07',
+      readTime: '11 min read',
+      category: 'Health',
+      keywords:
+        'bedtime affirmations, sleep affirmations, affirmations for sleep, nighttime affirmations, affirmations before bed, calming affirmations, affirmations for insomnia, peaceful sleep affirmations, relaxation affirmations, evening affirmations, sleep meditation affirmations',
+    },
   },
 } as const
 
