@@ -132,103 +132,300 @@ export default function PrintableGenerator() {
 
     const pageWidth = doc.internal.pageSize.getWidth()
     const pageHeight = doc.internal.pageSize.getHeight()
-    const margin = 15
+    const margin = 12
     const cardWidth = (pageWidth - margin * 3) / 2
-    const cardHeight = 50
-    const cornerRadius = 3
+    const cardHeight = 55
+    const cornerRadius = 4
 
-    // Title page
-    doc.setFillColor(139, 92, 246) // violet-500
-    doc.rect(0, 0, pageWidth, pageHeight, 'F')
+    // Color schemes for each category
+    const colorSchemes: Record<string, { primary: [number, number, number]; secondary: [number, number, number]; accent: [number, number, number]; light: [number, number, number] }> = {
+      general: {
+        primary: [139, 92, 246],    // violet
+        secondary: [167, 139, 250], // violet light
+        accent: [196, 181, 253],    // violet lighter
+        light: [245, 243, 255],     // violet bg
+      },
+      career: {
+        primary: [37, 99, 235],     // blue
+        secondary: [96, 165, 250],  // blue light
+        accent: [147, 197, 253],    // blue lighter
+        light: [239, 246, 255],     // blue bg
+      },
+      relationships: {
+        primary: [225, 29, 72],     // rose
+        secondary: [251, 113, 133], // rose light
+        accent: [253, 164, 175],    // rose lighter
+        light: [255, 241, 242],     // rose bg
+      },
+      health: {
+        primary: [16, 185, 129],    // emerald
+        secondary: [52, 211, 153],  // emerald light
+        accent: [110, 231, 183],    // emerald lighter
+        light: [236, 253, 245],     // emerald bg
+      },
+      'personal-growth': {
+        primary: [79, 70, 229],     // indigo
+        secondary: [129, 140, 248], // indigo light
+        accent: [165, 180, 252],    // indigo lighter
+        light: [238, 242, 255],     // indigo bg
+      },
+      confidence: {
+        primary: [217, 119, 6],     // amber
+        secondary: [251, 191, 36],  // amber light
+        accent: [252, 211, 77],     // amber lighter
+        light: [255, 251, 235],     // amber bg
+      },
+    }
 
+    const colors = colorSchemes[categoryId] || colorSchemes.general
+
+    // ============ TITLE PAGE ============
+    // Gradient background (simulated with rectangles)
+    const gradientSteps = 50
+    for (let i = 0; i < gradientSteps; i++) {
+      const ratio = i / gradientSteps
+      const r = Math.round(colors.primary[0] + (colors.secondary[0] - colors.primary[0]) * ratio)
+      const g = Math.round(colors.primary[1] + (colors.secondary[1] - colors.primary[1]) * ratio)
+      const b = Math.round(colors.primary[2] + (colors.secondary[2] - colors.primary[2]) * ratio)
+      doc.setFillColor(r, g, b)
+      doc.rect(0, (pageHeight / gradientSteps) * i, pageWidth, pageHeight / gradientSteps + 1, 'F')
+    }
+
+    // Decorative circles
+    doc.setFillColor(255, 255, 255, 0.1)
+    doc.circle(20, 40, 30, 'F')
+    doc.circle(pageWidth - 25, pageHeight - 50, 40, 'F')
+    doc.circle(pageWidth - 10, 80, 20, 'F')
+
+    // Title content
     doc.setTextColor(255, 255, 255)
-    doc.setFontSize(32)
-    doc.setFont('helvetica', 'bold')
-    doc.text('Daily Affirmations', pageWidth / 2, pageHeight / 2 - 20, { align: 'center' })
 
-    doc.setFontSize(24)
-    doc.setFont('helvetica', 'normal')
-    doc.text(`${category.name} Collection`, pageWidth / 2, pageHeight / 2 + 10, { align: 'center' })
+    // Decorative line
+    doc.setDrawColor(255, 255, 255)
+    doc.setLineWidth(0.5)
+    doc.line(pageWidth / 2 - 30, pageHeight / 2 - 45, pageWidth / 2 + 30, pageHeight / 2 - 45)
 
     doc.setFontSize(14)
-    doc.text('10 Powerful Affirmations for Your Daily Practice', pageWidth / 2, pageHeight / 2 + 30, {
-      align: 'center',
-    })
+    doc.setFont('helvetica', 'normal')
+    doc.text('DAILY AFFIRMATIONS', pageWidth / 2, pageHeight / 2 - 35, { align: 'center' })
+
+    doc.setFontSize(36)
+    doc.setFont('helvetica', 'bold')
+    doc.text(category.name, pageWidth / 2, pageHeight / 2, { align: 'center' })
+
+    doc.setFontSize(16)
+    doc.setFont('helvetica', 'normal')
+    doc.text('Collection', pageWidth / 2, pageHeight / 2 + 12, { align: 'center' })
+
+    // Decorative line
+    doc.line(pageWidth / 2 - 30, pageHeight / 2 + 25, pageWidth / 2 + 30, pageHeight / 2 + 25)
 
     doc.setFontSize(12)
-    doc.text('daily-affirm.com', pageWidth / 2, pageHeight - 30, { align: 'center' })
+    doc.text('10 Powerful Affirmations', pageWidth / 2, pageHeight / 2 + 40, { align: 'center' })
+    doc.text('for Your Daily Practice', pageWidth / 2, pageHeight / 2 + 48, { align: 'center' })
 
-    // Cards page
+    // Footer
+    doc.setFontSize(11)
+    doc.text('daily-affirm.com', pageWidth / 2, pageHeight - 25, { align: 'center' })
+
+    // ============ CARDS PAGES ============
     doc.addPage()
 
+    // Page background
+    doc.setFillColor(250, 250, 250)
+    doc.rect(0, 0, pageWidth, pageHeight, 'F')
+
+    // Header
+    doc.setFillColor(...colors.primary)
+    doc.rect(0, 0, pageWidth, 18, 'F')
+    doc.setTextColor(255, 255, 255)
     doc.setFontSize(10)
-    doc.setTextColor(107, 114, 128) // gray-500
-    doc.text('Print on cardstock and cut along the lines. Place where you will see them daily.', pageWidth / 2, 10, {
+    doc.setFont('helvetica', 'bold')
+    doc.text(`${category.name.toUpperCase()} AFFIRMATIONS`, pageWidth / 2, 11, { align: 'center' })
+
+    doc.setFontSize(8)
+    doc.setTextColor(107, 114, 128)
+    doc.setFont('helvetica', 'normal')
+    doc.text('Cut along the dotted lines. Place on your mirror, desk, or journal.', pageWidth / 2, 25, {
       align: 'center',
     })
 
     let x = margin
-    let y = 20
+    let y = 32
 
     category.affirmations.forEach((affirmation, index) => {
-      // Card background
-      doc.setFillColor(255, 255, 255)
-      doc.setDrawColor(229, 231, 235) // gray-200
-      doc.roundedRect(x, y, cardWidth, cardHeight, cornerRadius, cornerRadius, 'FD')
+      // Card shadow (subtle)
+      doc.setFillColor(200, 200, 200)
+      doc.roundedRect(x + 1, y + 1, cardWidth, cardHeight, cornerRadius, cornerRadius, 'F')
 
-      // Category badge
-      const badgeColors: Record<string, [number, number, number]> = {
-        general: [139, 92, 246],
-        career: [37, 99, 235],
-        relationships: [225, 29, 72],
-        health: [16, 185, 129],
-        'personal-growth': [79, 70, 229],
-        confidence: [217, 119, 6],
-      }
-      const badgeColor = badgeColors[categoryId] || [139, 92, 246]
-      doc.setFillColor(...badgeColor)
-      doc.roundedRect(x + 5, y + 5, 25, 6, 1, 1, 'F')
-      doc.setFontSize(6)
-      doc.setTextColor(255, 255, 255)
-      doc.text(category.name.toUpperCase(), x + 7, y + 9)
+      // Card background with gradient effect
+      doc.setFillColor(...colors.light)
+      doc.roundedRect(x, y, cardWidth, cardHeight, cornerRadius, cornerRadius, 'F')
 
-      // Affirmation number
+      // Colored accent bar on left
+      doc.setFillColor(...colors.primary)
+      doc.roundedRect(x, y, 3, cardHeight, cornerRadius, 0, 'F')
+      doc.rect(x + 2, y, 2, cardHeight, 'F')
+
+      // Card border
+      doc.setDrawColor(...colors.accent)
+      doc.setLineWidth(0.3)
+      doc.roundedRect(x, y, cardWidth, cardHeight, cornerRadius, cornerRadius, 'S')
+
+      // Large decorative quote mark
+      doc.setFontSize(48)
+      doc.setTextColor(...colors.accent)
+      doc.setFont('helvetica', 'bold')
+      doc.text('"', x + 8, y + 18)
+
+      // Affirmation number badge
+      doc.setFillColor(...colors.primary)
+      doc.circle(x + cardWidth - 10, y + 10, 5, 'F')
       doc.setFontSize(8)
-      doc.setTextColor(156, 163, 175) // gray-400
-      doc.text(`#${index + 1}`, x + cardWidth - 10, y + 9)
+      doc.setTextColor(255, 255, 255)
+      doc.setFont('helvetica', 'bold')
+      doc.text(`${index + 1}`, x + cardWidth - 10, y + 12, { align: 'center' })
 
       // Affirmation text
-      doc.setFontSize(11)
-      doc.setTextColor(31, 41, 55) // gray-800
+      doc.setFontSize(10)
+      doc.setTextColor(31, 41, 55)
       doc.setFont('helvetica', 'bold')
 
-      const lines = doc.splitTextToSize(`"${affirmation}"`, cardWidth - 14)
-      const textY = y + 22
+      const lines = doc.splitTextToSize(affirmation, cardWidth - 20)
+      const lineHeight = 5
+      const totalTextHeight = lines.length * lineHeight
+      const startY = y + (cardHeight - totalTextHeight) / 2 + 3
+
       lines.forEach((line: string, lineIndex: number) => {
-        doc.text(line, x + 7, textY + lineIndex * 6)
+        doc.text(line, x + 10, startY + lineIndex * lineHeight)
       })
 
-      // Website
-      doc.setFontSize(7)
-      doc.setTextColor(139, 92, 246)
+      // Bottom decoration
+      doc.setFillColor(...colors.secondary)
+      doc.roundedRect(x + 10, y + cardHeight - 8, 20, 3, 1, 1, 'F')
+
+      // Website watermark
+      doc.setFontSize(6)
+      doc.setTextColor(...colors.primary)
       doc.setFont('helvetica', 'normal')
-      doc.text('daily-affirm.com', x + 7, y + cardHeight - 5)
+      doc.text('daily-affirm.com', x + cardWidth - 8, y + cardHeight - 4, { align: 'right' })
+
+      // Dotted cut line
+      doc.setDrawColor(180, 180, 180)
+      doc.setLineDashPattern([1, 1], 0)
+      doc.setLineWidth(0.2)
 
       // Move to next position
       if (x === margin) {
         x = margin * 2 + cardWidth
       } else {
         x = margin
-        y += cardHeight + 8
+        y += cardHeight + 6
+
+        // Draw horizontal cut line between rows
+        if (y < pageHeight - margin - cardHeight) {
+          doc.line(margin, y - 3, pageWidth - margin, y - 3)
+        }
       }
+
+      // Reset dash pattern
+      doc.setLineDashPattern([], 0)
 
       // Add new page if needed
       if (y + cardHeight > pageHeight - margin && index < category.affirmations.length - 1) {
         doc.addPage()
+
+        // Page background
+        doc.setFillColor(250, 250, 250)
+        doc.rect(0, 0, pageWidth, pageHeight, 'F')
+
+        // Header
+        doc.setFillColor(...colors.primary)
+        doc.rect(0, 0, pageWidth, 12, 'F')
+        doc.setTextColor(255, 255, 255)
+        doc.setFontSize(8)
+        doc.setFont('helvetica', 'bold')
+        doc.text(`${category.name.toUpperCase()} AFFIRMATIONS (continued)`, pageWidth / 2, 8, { align: 'center' })
+
         x = margin
-        y = 15
+        y = 18
       }
     })
+
+    // ============ TIPS PAGE ============
+    doc.addPage()
+
+    // Background
+    doc.setFillColor(...colors.light)
+    doc.rect(0, 0, pageWidth, pageHeight, 'F')
+
+    // Header bar
+    doc.setFillColor(...colors.primary)
+    doc.rect(0, 0, pageWidth, 35, 'F')
+
+    doc.setTextColor(255, 255, 255)
+    doc.setFontSize(20)
+    doc.setFont('helvetica', 'bold')
+    doc.text('How to Use Your', pageWidth / 2, 18, { align: 'center' })
+    doc.text('Affirmation Cards', pageWidth / 2, 28, { align: 'center' })
+
+    // Tips content
+    const tips = [
+      { title: 'Morning Ritual', text: 'Read your affirmations aloud each morning while looking in the mirror. Feel the words as you speak them.' },
+      { title: 'Strategic Placement', text: 'Place cards where you will see them daily: bathroom mirror, desk, refrigerator, car dashboard, or wallet.' },
+      { title: 'Repeat with Feeling', text: 'Say each affirmation 3 times with emotion and conviction. Visualization enhances the effect.' },
+      { title: 'Be Consistent', text: 'Practice daily for at least 21 days. Consistency rewires your brain for positive thinking.' },
+    ]
+
+    let tipY = 50
+
+    tips.forEach((tip, i) => {
+      // Tip card
+      doc.setFillColor(255, 255, 255)
+      doc.roundedRect(margin, tipY, pageWidth - margin * 2, 30, 3, 3, 'F')
+
+      // Number circle
+      doc.setFillColor(...colors.primary)
+      doc.circle(margin + 12, tipY + 15, 8, 'F')
+      doc.setTextColor(255, 255, 255)
+      doc.setFontSize(12)
+      doc.setFont('helvetica', 'bold')
+      doc.text(`${i + 1}`, margin + 12, tipY + 18, { align: 'center' })
+
+      // Tip title
+      doc.setTextColor(...colors.primary)
+      doc.setFontSize(12)
+      doc.text(tip.title, margin + 25, tipY + 10)
+
+      // Tip text
+      doc.setTextColor(75, 85, 99)
+      doc.setFontSize(9)
+      doc.setFont('helvetica', 'normal')
+      const tipLines = doc.splitTextToSize(tip.text, pageWidth - margin * 2 - 30)
+      tipLines.forEach((line: string, lineIndex: number) => {
+        doc.text(line, margin + 25, tipY + 18 + lineIndex * 4)
+      })
+
+      tipY += 38
+    })
+
+    // CTA box
+    doc.setFillColor(...colors.primary)
+    doc.roundedRect(margin, tipY + 10, pageWidth - margin * 2, 35, 4, 4, 'F')
+
+    doc.setTextColor(255, 255, 255)
+    doc.setFontSize(14)
+    doc.setFont('helvetica', 'bold')
+    doc.text('Want Fresh AI-Generated Affirmations Daily?', pageWidth / 2, tipY + 25, { align: 'center' })
+
+    doc.setFontSize(11)
+    doc.setFont('helvetica', 'normal')
+    doc.text('Visit daily-affirm.com for unlimited personalized affirmations', pageWidth / 2, tipY + 35, { align: 'center' })
+
+    // Footer
+    doc.setTextColor(...colors.primary)
+    doc.setFontSize(10)
+    doc.text('Made with love by Daily Affirmations', pageWidth / 2, pageHeight - 15, { align: 'center' })
 
     // Save the PDF
     doc.save(`${category.name.toLowerCase()}-affirmations-daily-affirm.pdf`)
