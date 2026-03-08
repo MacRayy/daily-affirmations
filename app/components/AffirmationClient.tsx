@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import {
   RefreshCw,
   Share2,
@@ -38,11 +38,45 @@ export default function AffirmationClient({
 }: AffirmationClientProps) {
   const [selectedCategory, setSelectedCategory] = useState(initialCategory)
   const [affirmation, setAffirmation] = useState(initialAffirmation)
+  const [displayedText, setDisplayedText] = useState(initialAffirmation)
+  const [isTyping, setIsTyping] = useState(false)
   const [loading, setLoading] = useState(false)
   const [isAIGenerated, setIsAIGenerated] = useState(false)
   const [copied, setCopied] = useState(false)
   const router = useRouter()
   const pathname = usePathname()
+  const typingRef = useRef<NodeJS.Timeout | null>(null)
+
+  // Typewriter effect
+  useEffect(() => {
+    if (typingRef.current) {
+      clearInterval(typingRef.current)
+    }
+
+    if (affirmation !== displayedText || isTyping) {
+      setIsTyping(true)
+      setDisplayedText('')
+      let index = 0
+
+      typingRef.current = setInterval(() => {
+        if (index < affirmation.length) {
+          setDisplayedText(affirmation.slice(0, index + 1))
+          index++
+        } else {
+          setIsTyping(false)
+          if (typingRef.current) {
+            clearInterval(typingRef.current)
+          }
+        }
+      }, 50) // Speed of typing
+    }
+
+    return () => {
+      if (typingRef.current) {
+        clearInterval(typingRef.current)
+      }
+    }
+  }, [affirmation])
 
   const handleGenerateNewAffirmation = async () => {
     setLoading(true)
@@ -129,39 +163,47 @@ export default function AffirmationClient({
         </div>
       </div>
 
-      <div className="bg-white rounded-2xl border-2 border-gray-200 shadow-lg p-8 md:p-12">
-        <div className="mb-8 flex items-center gap-3">
-          <span
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold ${currentCategory?.color} text-white`}
-          >
-            <CurrentIcon className="w-5 h-5" strokeWidth={2} />
-            {currentCategory?.name}
-          </span>
-          {isAIGenerated && (
-            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg text-xs font-semibold bg-violet-100 text-violet-700">
-              <Sparkles className="w-3 h-3" />
-              AI Generated
+      <div className="rounded-2xl border-2 border-gray-200 shadow-lg p-8 md:p-12 bg-white">
+        <div>
+          <div className="mb-8 flex items-center gap-3">
+            <span
+              className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold ${currentCategory?.color} text-white shadow-md`}
+            >
+              <CurrentIcon className="w-5 h-5" strokeWidth={2} />
+              {currentCategory?.name}
             </span>
-          )}
-        </div>
+            {isAIGenerated && (
+              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg text-xs font-semibold bg-violet-100 text-violet-700 animate-pulse">
+                <Sparkles className="w-3 h-3" />
+                AI Generated
+              </span>
+            )}
+          </div>
 
-        <div className="mb-8 min-h-[120px] flex items-center">
-          {loading ? (
-            <div className="flex items-center justify-center w-full py-12">
-              <RefreshCw className="w-8 h-8 text-violet-600 animate-spin" strokeWidth={2} />
-            </div>
-          ) : (
-            <p className="text-3xl md:text-4xl font-bold leading-snug text-gray-900">
-              &ldquo;{affirmation}&rdquo;
-            </p>
-          )}
+          <div className="mb-8 min-h-[120px] flex items-center">
+            {loading ? (
+              <div className="flex items-center justify-center w-full py-12">
+                <div className="relative">
+                  <RefreshCw className="w-10 h-10 text-violet-600 animate-spin" strokeWidth={2} />
+                  <div className="absolute inset-0 w-10 h-10 rounded-full bg-violet-600/20 animate-ping" />
+                </div>
+              </div>
+            ) : (
+              <p className="text-3xl md:text-4xl font-bold leading-snug text-gray-900">
+                &ldquo;{displayedText}&rdquo;
+                {isTyping && (
+                  <span className="inline-block w-[3px] h-[1em] bg-violet-600 ml-1 animate-blink align-middle" />
+                )}
+              </p>
+            )}
+          </div>
         </div>
 
         <div className="flex items-center gap-3 pt-6 border-t-2 border-gray-100">
           <button
             onClick={handleGenerateNewAffirmation}
             disabled={loading}
-            className="flex items-center gap-2 px-5 py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-semibold transition disabled:opacity-50 shadow-sm hover:shadow-md cursor-pointer"
+            className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all disabled:opacity-50 shadow-md hover:shadow-lg hover:scale-[1.02] cursor-pointer"
           >
             <RefreshCw className={`w-5 h-5 ${loading ? 'animate-spin' : ''}`} strokeWidth={2} />
             Generate New
@@ -169,7 +211,7 @@ export default function AffirmationClient({
 
           <button
             onClick={copyToClipboard}
-            className="p-3 rounded-lg bg-white text-gray-700 border-2 border-gray-200 hover:border-gray-300 transition shadow-sm hover:shadow-md cursor-pointer"
+            className="p-3 rounded-lg bg-white text-gray-700 border-2 border-gray-200 hover:border-violet-300 hover:text-violet-600 transition-all shadow-sm hover:shadow-md hover:scale-105 cursor-pointer"
             title="Copy to clipboard"
           >
             {copied ? (
@@ -181,7 +223,7 @@ export default function AffirmationClient({
 
           <button
             onClick={shareOnPinterest}
-            className="p-3 rounded-lg bg-white text-[#E60023] border-2 border-gray-200 hover:border-[#E60023] transition shadow-sm hover:shadow-md cursor-pointer"
+            className="p-3 rounded-lg bg-white text-[#E60023] border-2 border-gray-200 hover:border-[#E60023] transition-all shadow-sm hover:shadow-md hover:scale-105 cursor-pointer"
             title="Share on Pinterest"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -191,7 +233,7 @@ export default function AffirmationClient({
 
           <button
             onClick={shareAffirmation}
-            className="p-3 rounded-lg bg-white text-gray-700 border-2 border-gray-200 hover:border-gray-300 transition shadow-sm hover:shadow-md cursor-pointer"
+            className="p-3 rounded-lg bg-white text-gray-700 border-2 border-gray-200 hover:border-violet-300 hover:text-violet-600 transition-all shadow-sm hover:shadow-md hover:scale-105 cursor-pointer"
             title="Share"
           >
             <Share2 className="w-5 h-5" strokeWidth={2} />
