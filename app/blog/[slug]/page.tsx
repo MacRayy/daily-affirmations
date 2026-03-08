@@ -1,13 +1,13 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { Calendar } from 'lucide-react'
+import { Calendar, Clock, User } from 'lucide-react'
 import { AmazonCTA } from '@/components/AmazonCTA'
 import Footer from '@/components/Footer'
 import RelatedPosts from '@/app/components/RelatedPosts'
 import Breadcrumbs from '@/app/components/Breadcrumbs'
+import ArticleSchema from '@/app/components/ArticleSchema'
 import {
   ROUTES,
-  generateBlogPostStructuredData,
   generateBreadcrumbStructuredData,
 } from '../../AppRoutes'
 import { blogPosts } from './BlogPosts'
@@ -64,8 +64,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     notFound()
   }
 
+  // Get post metadata from ROUTES
+  const postData = ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]
+
   // Generate structured data
-  const blogPostStructuredData = generateBlogPostStructuredData(slug)
   const breadcrumbStructuredData = generateBreadcrumbStructuredData([
     { name: 'Home', url: 'https://daily-affirm.com' },
     { name: 'Blog', url: 'https://daily-affirm.com/blog' },
@@ -75,11 +77,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   return (
     <>
       {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(blogPostStructuredData),
-        }}
+      <ArticleSchema
+        title={post.title}
+        description={postData?.description || ''}
+        datePublished={post.date}
+        readingTime={post.readTime}
+        category={post.category}
+        slug={slug}
+        keywords={postData?.keywords}
       />
       <script
         type="application/ld+json"
@@ -98,24 +103,39 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           />
 
           <header className="mb-12">
-            <div className="flex items-center gap-4 mb-6 text-sm text-gray-500">
+            <div className="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
               <span className="px-4 py-2 bg-violet-100 text-violet-700 rounded-full font-semibold">
                 {post.category}
               </span>
               <div className="flex items-center gap-1">
                 <Calendar className="w-4 h-4" />
-                {new Date(post.date).toLocaleDateString('en-US', {
-                  month: 'long',
-                  day: 'numeric',
-                  year: 'numeric',
-                })}
+                <time dateTime={post.date}>
+                  {new Date(post.date).toLocaleDateString('en-US', {
+                    month: 'long',
+                    day: 'numeric',
+                    year: 'numeric',
+                  })}
+                </time>
               </div>
-              <span>{post.readTime}</span>
+              <div className="flex items-center gap-1">
+                <Clock className="w-4 h-4" />
+                <span>{post.readTime}</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <User className="w-4 h-4" />
+                <span>Daily Affirmations</span>
+              </div>
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
               {post.title}
             </h1>
+
+            {postData?.description && (
+              <p className="text-xl text-gray-600 leading-relaxed">
+                {postData.description}
+              </p>
+            )}
           </header>
 
           {/* Top Amazon CTA */}

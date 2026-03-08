@@ -5,7 +5,8 @@ import Logo from '@/app/components/Logo'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
 import { ClickBankCTA } from '@/components/ClickBankCTA'
-import { ROUTES } from '../../AppRoutes'
+import Breadcrumbs from '@/app/components/Breadcrumbs'
+import { ROUTES, generateBreadcrumbStructuredData } from '../../AppRoutes'
 
 const CATEGORIES = {
   general: ROUTES.affirmations.general,
@@ -64,7 +65,24 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
   const initialAffirmation = getAffirmationOfTheDay(categorySlug)
 
+  // Get category name for breadcrumbs
+  const categoryName = categorySlug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+
+  const breadcrumbStructuredData = generateBreadcrumbStructuredData([
+    { name: 'Home', url: 'https://daily-affirm.com' },
+    { name: 'Affirmations', url: 'https://daily-affirm.com' },
+    { name: categoryName, url: `https://daily-affirm.com${categoryData.path}` },
+  ])
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+      />
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white border-b-2 border-gray-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-4">
@@ -95,6 +113,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumbs
+          items={[
+            { name: 'Affirmations', href: ROUTES.home.path },
+            { name: categoryName },
+          ]}
+        />
+
         <h1 className="text-4xl font-bold text-gray-900 mb-4">{categoryData.title}</h1>
         <p className="text-lg text-gray-600">{categoryData.description}</p>
 
@@ -161,5 +186,6 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
       <Footer />
     </div>
+    </>
   )
 }

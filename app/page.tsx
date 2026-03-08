@@ -13,6 +13,8 @@ import {
   generateWebsiteStructuredData,
 } from './AppRoutes'
 import FAQStructuredData from './components/FAQStructuredData'
+import ItemListSchema from './components/ItemListSchema'
+import HowToSchema from './components/HowToSchema'
 
 export const metadata: Metadata = {
   title: ROUTES.home.title,
@@ -61,6 +63,29 @@ export default function Home() {
         }}
       />
       <FAQStructuredData />
+      <ItemListSchema
+        name="Daily Affirmation Categories"
+        description="Choose from 6 categories of positive affirmations for personal growth and wellbeing"
+        items={[
+          'General Affirmations - Everyday positivity and motivation',
+          'Career Affirmations - Professional success and workplace confidence',
+          'Relationship Affirmations - Love, communication, and connection',
+          'Health Affirmations - Mental and physical wellbeing',
+          'Personal Growth Affirmations - Self-development and transformation',
+          'Confidence Affirmations - Self-esteem and self-worth',
+        ]}
+      />
+      <HowToSchema
+        name="How to Use Daily Affirmations Effectively"
+        description="A simple guide to practicing daily affirmations for maximum benefit"
+        totalTime="PT5M"
+        steps={[
+          { name: 'Choose Your Category', text: 'Select a focus area that matches your current goals: career, relationships, health, confidence, or personal growth.' },
+          { name: 'Generate Your Affirmation', text: 'Click Generate New to receive a unique AI-powered affirmation tailored to your chosen category.' },
+          { name: 'Read Aloud with Intention', text: 'Say the affirmation out loud with conviction. Repeat it 3 times while visualizing the words as your reality.' },
+          { name: 'Practice Daily', text: 'Return each morning to generate fresh affirmations. Consistency is key - practice for at least 21 days to build the habit.' },
+        ]}
+      />
 
       <div className="min-h-screen bg-gray-50">
         <header className="bg-white border-b-2 border-gray-200 sticky top-0 z-10 shadow-sm">
