@@ -163,6 +163,43 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Popular Affirmations for Specific Needs */}
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Popular Affirmations for Specific Needs
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {[
+                { slug: 'anxiety', label: 'For Anxiety' },
+                { slug: 'self-love', label: 'For Self-Love' },
+                { slug: 'morning', label: 'Morning' },
+                { slug: 'sleep', label: 'For Sleep' },
+                { slug: 'women', label: 'For Women' },
+                { slug: 'men', label: 'For Men' },
+                { slug: 'students', label: 'For Students' },
+                { slug: 'teens', label: 'For Teens' },
+                { slug: 'weight-loss', label: 'Weight Loss' },
+                { slug: 'job-interview', label: 'Job Interview' },
+                { slug: 'abundance', label: 'Abundance' },
+                { slug: 'gratitude', label: 'Gratitude' },
+                { slug: 'healing', label: 'For Healing' },
+                { slug: 'depression', label: 'For Depression' },
+                { slug: 'entrepreneurs', label: 'Entrepreneurs' },
+                { slug: 'forgiveness', label: 'Forgiveness' },
+              ].map(item => (
+                <Link
+                  key={item.slug}
+                  href={`/affirmations/for/${item.slug}`}
+                  className="p-3 bg-white border-2 border-gray-200 rounded-lg hover:shadow-md hover:border-violet-300 transition text-center"
+                >
+                  <span className="font-semibold text-gray-700 hover:text-violet-600 text-sm">
+                    {item.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
           {/* SEO Content */}
           <div className="mt-12">
             <div className="bg-white rounded-2xl border-2 border-gray-200 shadow-lg p-8">

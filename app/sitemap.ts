@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { ROUTES } from './AppRoutes'
+import { NICHE_SLUGS, NICHE_AFFIRMATIONS } from './data/niche-affirmations'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://daily-affirm.com'
@@ -34,6 +35,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }))
 
+  // Niche affirmation pages (programmatic SEO)
+  const nichePages = NICHE_SLUGS.map(slug => ({
+    url: `${baseUrl}/affirmations/for/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
+  }))
+
   // Blog post pages
   const blogPostPages = Object.values(ROUTES.blogPosts).map(post => ({
     url: `${baseUrl}${post.path}`,
@@ -42,5 +51,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticPages, ...categoryPages, ...blogPostPages]
+  return [...staticPages, ...categoryPages, ...nichePages, ...blogPostPages]
 }
