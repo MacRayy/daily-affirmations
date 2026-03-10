@@ -64,6 +64,11 @@ const relatedPostsMap: Record<BlogPostKey, BlogPostKey[]> = {
   'bedtime-affirmations-sleep': [
     'affirmations-for-anxiety',
     'morning-affirmations-routine',
+    'affirmations-for-overthinking',
+  ],
+  'affirmations-for-overthinking': [
+    'affirmations-for-anxiety',
+    'bedtime-affirmations-sleep',
     'self-love-affirmations',
   ],
 }
