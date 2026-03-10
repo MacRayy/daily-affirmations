@@ -235,6 +235,17 @@ export const ROUTES = {
       keywords:
         'bedtime affirmations, sleep affirmations, affirmations for sleep, nighttime affirmations, affirmations before bed, calming affirmations, affirmations for insomnia, peaceful sleep affirmations, relaxation affirmations, evening affirmations, sleep meditation affirmations',
     },
+    'affirmations-for-overthinking': {
+      path: '/blog/affirmations-for-overthinking',
+      title: 'Affirmations for Overthinking: How to Quiet Your Racing Mind (Science-Backed)',
+      description:
+        'Trapped in endless thought loops? Learn how affirmations can help break the cycle of overthinking and rumination. Includes 25 powerful affirmations plus cognitive strategies backed by psychology research.',
+      date: '2026-03-10',
+      readTime: '14 min read',
+      category: 'Mental Health',
+      keywords:
+        'affirmations for overthinking, stop overthinking affirmations, rumination affirmations, racing thoughts affirmations, anxious thoughts affirmations, mental peace affirmations, calm mind affirmations, overthinking anxiety, thought loops, cognitive defusion, mindfulness for overthinking',
+    },
   },
 } as const
 
