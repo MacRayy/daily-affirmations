@@ -246,6 +246,17 @@ export const ROUTES = {
       keywords:
         'affirmations for overthinking, stop overthinking affirmations, rumination affirmations, racing thoughts affirmations, anxious thoughts affirmations, mental peace affirmations, calm mind affirmations, overthinking anxiety, thought loops, cognitive defusion, mindfulness for overthinking',
     },
+    'why-affirmations-work-psychology': {
+      path: '/blog/why-affirmations-work-psychology',
+      title: 'Why Affirmations Work: The Psychology and Neuroscience Explained',
+      description:
+        'Discover the fascinating science behind why affirmations actually work. From neuroplasticity to self-affirmation theory, explore the research-backed mechanisms that make positive self-talk effective for lasting change.',
+      date: '2026-03-11',
+      readTime: '15 min read',
+      category: 'Science',
+      keywords:
+        'why affirmations work, psychology of affirmations, neuroscience affirmations, self-affirmation theory, neuroplasticity, positive self-talk science, affirmation research, brain science affirmations, cognitive psychology affirmations, how affirmations change the brain',
+    },
   },
 } as const
 
