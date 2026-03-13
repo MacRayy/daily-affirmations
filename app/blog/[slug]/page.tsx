@@ -34,7 +34,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       site_name: 'Daily Affirmations',
       locale: 'en_US',
       publishedTime: postData?.date,
+      modifiedTime: postData?.date,
       authors: ['Daily Affirmations'],
+      section: postData?.category,
+      tags: postData?.keywords?.split(', '),
       images: [
         {
           url: 'https://daily-affirm.com/og-image.png',

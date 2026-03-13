@@ -23,6 +23,12 @@ export const metadata: Metadata = {
     title: 'Daily Affirmations',
     description: 'Start your day with powerful affirmations',
   },
+  alternates: {
+    types: {
+      'application/rss+xml': '/feed.xml',
+    },
+  },
+  manifest: '/manifest.json',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

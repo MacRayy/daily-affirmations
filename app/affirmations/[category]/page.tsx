@@ -7,6 +7,26 @@ import Footer from '@/components/Footer'
 import { ClickBankCTA } from '@/components/ClickBankCTA'
 import Breadcrumbs from '@/app/components/Breadcrumbs'
 import { ROUTES, generateBreadcrumbStructuredData } from '../../AppRoutes'
+import { Calendar, ArrowRight } from 'lucide-react'
+
+// Map category slugs to blog post category names for cross-linking
+const CATEGORY_TO_BLOG: Record<string, string[]> = {
+  general: ['Guide', 'Practice'],
+  career: ['Career'],
+  relationships: ['Personal Growth'],
+  health: ['Health'],
+  'personal-growth': ['Personal Growth'],
+  confidence: ['Personal Growth', 'Mental Health'],
+}
+
+function getRelatedBlogPosts(categorySlug: string) {
+  const blogCategories = CATEGORY_TO_BLOG[categorySlug] || []
+  return Object.entries(ROUTES.blogPosts)
+    .filter(([, post]) => blogCategories.includes(post.category))
+    .map(([slug, post]) => ({ slug, ...post }))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3)
+}
 
 const CATEGORIES = {
   general: ROUTES.affirmations.general,
@@ -182,6 +202,54 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             />
           </div>
         </section>
+        {/* Related Blog Posts Cross-Link */}
+        {(() => {
+          const relatedPosts = getRelatedBlogPosts(categorySlug)
+          if (relatedPosts.length === 0) return null
+          return (
+            <section className="mt-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">
+                From the Blog
+              </h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Deepen your understanding with these related articles.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {relatedPosts.map(post => (
+                  <Link
+                    key={post.slug}
+                    href={post.path}
+                    className="group bg-white rounded-xl border-2 border-gray-200 p-6 hover:border-violet-300 hover:shadow-lg transition"
+                  >
+                    <span className="inline-block px-3 py-1 bg-violet-100 text-violet-700 rounded-full text-xs font-semibold mb-3">
+                      {post.category}
+                    </span>
+                    <h3 className="font-bold text-gray-900 group-hover:text-violet-600 transition mb-2 line-clamp-2">
+                      {post.title}
+                    </h3>
+                    <div className="flex items-center gap-2 text-sm text-gray-500">
+                      <Calendar className="w-4 h-4" />
+                      {new Date(post.date).toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                      })}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-4 text-center">
+                <Link
+                  href={ROUTES.blog.path}
+                  className="inline-flex items-center gap-2 text-violet-600 hover:text-violet-700 font-semibold"
+                >
+                  View all articles
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </section>
+          )
+        })()}
       </main>
 
       <Footer />

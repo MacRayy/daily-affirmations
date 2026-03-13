@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Footer from '@/components/Footer'
-import { Calendar, ArrowRight } from 'lucide-react'
 import type { Metadata } from 'next'
 import { ROUTES, generateOpenGraph, generateTwitterCard } from '../AppRoutes'
+import BlogSearch from './BlogSearch'
 
 export const metadata: Metadata = {
   title: ROUTES.blog.title,
@@ -52,46 +52,33 @@ export default function BlogPage() {
           </p>
         </div>
 
-        <div className="space-y-8">
-          {blogPosts.map(post => (
+        <div className="flex flex-wrap gap-3 mb-10">
+          <Link
+            href="/blog"
+            className="px-4 py-2 bg-violet-600 text-white rounded-full font-semibold text-sm"
+          >
+            All
+          </Link>
+          {[
+            { slug: 'guide', name: 'Guide' },
+            { slug: 'science', name: 'Science' },
+            { slug: 'practice', name: 'Practice' },
+            { slug: 'mental-health', name: 'Mental Health' },
+            { slug: 'personal-growth', name: 'Personal Growth' },
+            { slug: 'career', name: 'Career' },
+            { slug: 'health', name: 'Health' },
+          ].map(cat => (
             <Link
-              key={post.slug}
-              href={
-                ROUTES.blogPosts[post.slug as keyof typeof ROUTES.blogPosts]?.path ||
-                `/blog/${post.slug}`
-              }
-              className="block group"
+              key={cat.slug}
+              href={`/blog/category/${cat.slug}`}
+              className="px-4 py-2 bg-white border-2 border-gray-200 rounded-full font-semibold text-sm text-gray-700 hover:border-violet-300 hover:text-violet-600 transition"
             >
-              <article className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg hover:border-violet-300 transition">
-                <div className="flex items-center gap-4 mb-4 text-sm text-gray-500">
-                  <span className="px-3 py-1 bg-violet-100 text-violet-700 rounded-full font-semibold">
-                    {post.category}
-                  </span>
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    {new Date(post.date).toLocaleDateString('en-US', {
-                      month: 'long',
-                      day: 'numeric',
-                      year: 'numeric',
-                    })}
-                  </div>
-                  <span>{post.readTime}</span>
-                </div>
-
-                <h2 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-violet-600 transition">
-                  {post.title}
-                </h2>
-
-                <p className="text-gray-600 mb-4 leading-relaxed">{post.excerpt}</p>
-
-                <div className="flex items-center gap-2 text-violet-600 font-semibold group-hover:gap-3 transition-all">
-                  Read Article
-                  <ArrowRight className="w-5 h-5" />
-                </div>
-              </article>
+              {cat.name}
             </Link>
           ))}
         </div>
+
+        <BlogSearch posts={blogPosts} />
       </main>
       <Footer />
     </div>

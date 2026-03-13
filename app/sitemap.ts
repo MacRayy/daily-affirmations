@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { ROUTES } from './AppRoutes'
-import { NICHE_SLUGS, NICHE_AFFIRMATIONS } from './data/niche-affirmations'
+import { NICHE_SLUGS } from './data/niche-affirmations'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://daily-affirm.com'
@@ -25,6 +25,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}${ROUTES.privacy.path}`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}${ROUTES.terms.path}`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}${ROUTES.contact.path}`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly' as const,
+      priority: 0.4,
+    },
   ]
 
   // Affirmation category pages
@@ -43,6 +61,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }))
 
+  // Blog category pages
+  const blogCategories = [
+    'guide',
+    'science',
+    'practice',
+    'mental-health',
+    'personal-growth',
+    'career',
+    'health',
+  ]
+  const blogCategoryPages = blogCategories.map(category => ({
+    url: `${baseUrl}/blog/category/${category}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.75,
+  }))
+
   // Blog post pages
   const blogPostPages = Object.values(ROUTES.blogPosts).map(post => ({
     url: `${baseUrl}${post.path}`,
@@ -51,5 +86,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticPages, ...categoryPages, ...nichePages, ...blogPostPages]
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...nichePages,
+    ...blogCategoryPages,
+    ...blogPostPages,
+  ]
 }
