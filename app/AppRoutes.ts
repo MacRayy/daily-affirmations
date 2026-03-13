@@ -257,6 +257,17 @@ export const ROUTES = {
       keywords:
         'why affirmations work, psychology of affirmations, neuroscience affirmations, self-affirmation theory, neuroplasticity, positive self-talk science, affirmation research, brain science affirmations, cognitive psychology affirmations, how affirmations change the brain',
     },
+    'affirmations-for-self-confidence': {
+      path: '/blog/affirmations-for-self-confidence',
+      title: 'Affirmations for Self-Confidence: The Science of Believing in Yourself',
+      description:
+        'Explore the psychology and neuroscience behind self-confidence. Learn how affirmations rewire your brain, why your inner critic holds you back, and how to build lasting self-belief through research-backed strategies.',
+      date: '2026-03-13',
+      readTime: '13 min read',
+      category: 'Personal Growth',
+      keywords:
+        'affirmations for self-confidence, confidence affirmations, self-confidence affirmations, build confidence, overcome self-doubt, inner critic, self-belief affirmations, positive self-talk, confidence building, self-esteem affirmations, believe in yourself, confidence boosting affirmations',
+    },
   },
 } as const
 
