@@ -268,6 +268,17 @@ export const ROUTES = {
       keywords:
         'affirmations for self-confidence, confidence affirmations, self-confidence affirmations, build confidence, overcome self-doubt, inner critic, self-belief affirmations, positive self-talk, confidence building, self-esteem affirmations, believe in yourself, confidence boosting affirmations',
     },
+    'affirmations-for-kids': {
+      path: '/blog/affirmations-for-kids',
+      title: 'Affirmations for Kids: How to Raise Confident, Resilient Children Through Positive Self-Talk',
+      description:
+        'Learn how affirmations help children build emotional resilience, self-esteem, and a growth mindset. A research-backed guide for parents on introducing positive self-talk at every age.',
+      date: '2026-03-16',
+      readTime: '14 min read',
+      category: 'Guide',
+      keywords:
+        'affirmations for kids, positive affirmations children, kids self-esteem, children confidence, positive self-talk kids, parenting affirmations, growth mindset children, kids emotional resilience, affirmations for toddlers, affirmations for teens, positive parenting, child development affirmations',
+    },
   },
 } as const
 
