@@ -279,6 +279,17 @@ export const ROUTES = {
       keywords:
         'affirmations for kids, positive affirmations children, kids self-esteem, children confidence, positive self-talk kids, parenting affirmations, growth mindset children, kids emotional resilience, affirmations for toddlers, affirmations for teens, positive parenting, child development affirmations',
     },
+    'affirmations-for-burnout-recovery': {
+      path: '/blog/affirmations-for-burnout-recovery',
+      title: '50 Affirmations for Burnout Recovery: Reclaim Your Energy and Purpose',
+      description:
+        'Feeling burned out and emotionally exhausted? These 50 science-backed affirmations for burnout recovery will help you rebuild energy, set boundaries, and rediscover purpose. Includes practical recovery strategies from psychology research.',
+      date: '2026-03-23',
+      readTime: '13 min read',
+      category: 'Mental Health',
+      keywords:
+        'affirmations for burnout, burnout recovery affirmations, work burnout affirmations, emotional exhaustion affirmations, burnout healing, stress recovery affirmations, overwhelm affirmations, workplace burnout, burnout prevention, energy recovery affirmations, boundary setting affirmations, self-care burnout',
+    },
   },
 } as const
 
