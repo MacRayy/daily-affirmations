@@ -290,6 +290,17 @@ export const ROUTES = {
       keywords:
         'affirmations for burnout, burnout recovery affirmations, work burnout affirmations, emotional exhaustion affirmations, burnout healing, stress recovery affirmations, overwhelm affirmations, workplace burnout, burnout prevention, energy recovery affirmations, boundary setting affirmations, self-care burnout',
     },
+    'climate-anxiety-affirmations': {
+      path: '/blog/climate-anxiety-affirmations',
+      title: 'Affirmations for Climate Anxiety: Finding Hope and Purpose in the Face of Climate Change',
+      description:
+        'Climate change weighing on your mental health? Explore how climate anxiety affects our psychology, why eco-distress is a rational response, and how affirmations can help you move from paralysis to purposeful action without denying the reality of the crisis.',
+      date: '2026-03-24',
+      readTime: '15 min read',
+      category: 'Mental Health',
+      keywords:
+        'climate anxiety affirmations, eco-anxiety, climate change mental health, climate grief, environmental anxiety, eco-distress, climate depression, solastalgia, climate hope, environmental affirmations, climate action motivation, ecological grief',
+    },
   },
 } as const
 
