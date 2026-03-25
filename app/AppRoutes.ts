@@ -301,6 +301,17 @@ export const ROUTES = {
       keywords:
         'climate anxiety affirmations, eco-anxiety, climate change mental health, climate grief, environmental anxiety, eco-distress, climate depression, solastalgia, climate hope, environmental affirmations, climate action motivation, ecological grief',
     },
+    'affirmations-for-war-anxiety': {
+      path: '/blog/affirmations-for-war-anxiety',
+      title: 'Affirmations for Living Through an Era of War: Finding Inner Peace Amid Global Conflict',
+      description:
+        'Struggling with anxiety, helplessness, or grief over ongoing wars and global conflict? Explore the psychology of war-related distress, why distant suffering affects your mental health, and how affirmations can help you stay compassionate without being consumed.',
+      date: '2026-03-25',
+      readTime: '16 min read',
+      category: 'Mental Health',
+      keywords:
+        'war anxiety affirmations, conflict anxiety, peace affirmations, war mental health, coping with war news, vicarious trauma, compassion fatigue, global conflict anxiety, peace of mind affirmations, war grief, collective trauma, doomscrolling war news',
+    },
   },
 } as const
 
