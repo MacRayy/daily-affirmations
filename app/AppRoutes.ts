@@ -312,6 +312,17 @@ export const ROUTES = {
       keywords:
         'war anxiety affirmations, conflict anxiety, peace affirmations, war mental health, coping with war news, vicarious trauma, compassion fatigue, global conflict anxiety, peace of mind affirmations, war grief, collective trauma, doomscrolling war news',
     },
+    'affirmations-for-ai-anxiety': {
+      path: '/blog/affirmations-for-ai-anxiety',
+      title: 'Affirmations for AI Anxiety: Staying Human in the Age of Artificial Intelligence',
+      description:
+        'Anxious about AI taking your job, changing society, or making your skills obsolete? Explore the psychology behind AI anxiety, why this technological moment feels so destabilizing, and how affirmations can help you adapt with confidence rather than freeze in fear.',
+      date: '2026-03-30',
+      readTime: '16 min read',
+      category: 'Mental Health',
+      keywords:
+        'AI anxiety affirmations, artificial intelligence anxiety, job displacement AI, fear of AI, technology anxiety, AI job loss, future of work anxiety, automation anxiety, AI mental health, coping with AI change, career anxiety AI, technological disruption',
+    },
   },
 } as const
 
