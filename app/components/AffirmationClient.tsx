@@ -125,7 +125,7 @@ export default function AffirmationClient({
 
   const shareOnPinterest = () => {
     const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
-      'https://daily-affirm.com'
+      'https://daily-affirm.com',
     )}&description=${encodeURIComponent(`"${affirmation}" - Daily Affirmation for ${currentCategory?.name || 'Life'}`)}`
     window.open(pinterestUrl, '_blank', 'width=600,height=400')
   }
@@ -199,7 +199,7 @@ export default function AffirmationClient({
           </div>
         </div>
 
-        <div className="flex items-center gap-3 pt-6 border-t-2 border-gray-100">
+        <div className="flex flex-wrap items-center gap-3 pt-6 border-t-2 border-gray-100">
           <button
             onClick={handleGenerateNewAffirmation}
             disabled={loading}

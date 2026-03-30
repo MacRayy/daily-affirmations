@@ -3713,9 +3713,7 @@ export const blogPosts: Record<
         </div>
 
         <h2>Affirmations for Exam Success & Test Anxiety</h2>
-        <p>
-          Use these affirmations before, during, or after exams to stay calm and confident:
-        </p>
+        <p>Use these affirmations before, during, or after exams to stay calm and confident:</p>
         <ol>
           <li>I am well-prepared and ready to demonstrate my knowledge.</li>
           <li>My mind is clear, focused, and capable of recalling everything I&#39;ve learned.</li>
@@ -3803,8 +3801,8 @@ export const blogPosts: Record<
 
         <h2>Affirmations for Motivation & Overcoming Procrastination</h2>
         <p>
-          Procrastination often stems from fear of failure or perfectionism. These affirmations
-          help you take action:
+          Procrastination often stems from fear of failure or perfectionism. These affirmations help
+          you take action:
         </p>
         <ol start={31}>
           <li>I choose progress over perfection.</li>
@@ -3816,20 +3814,21 @@ export const blogPosts: Record<
           <li>I feel energized and excited about my studies.</li>
           <li>Every task I complete builds momentum for the next.</li>
           <li>I am in charge of my time and how I use it.</li>
-          <li>I replace &#34;I have to&#34; with &#34;I get to&#34; and feel grateful for this opportunity.</li>
+          <li>
+            I replace &#34;I have to&#34; with &#34;I get to&#34; and feel grateful for this
+            opportunity.
+          </li>
         </ol>
 
         <h3>The 2-Minute Rule</h3>
         <p>
-          Combine affirmation #32 with the 2-minute rule: commit to working for just 2 minutes.
-          Say the affirmation, then start. Most of the time, you&#39;ll keep going once you&#39;ve
+          Combine affirmation #32 with the 2-minute rule: commit to working for just 2 minutes. Say
+          the affirmation, then start. Most of the time, you&#39;ll keep going once you&#39;ve
           begun.
         </p>
 
         <h2>Affirmations for Handling Academic Setbacks</h2>
-        <p>
-          Bad grades happen. Failed exams happen. These affirmations help you bounce back:
-        </p>
+        <p>Bad grades happen. Failed exams happen. These affirmations help you bounce back:</p>
         <ol start={41}>
           <li>One setback does not define my academic journey.</li>
           <li>I learn more from my failures than my successes.</li>
@@ -3853,9 +3852,7 @@ export const blogPosts: Record<
         </div>
 
         <h2>Affirmations for Balance & Self-Care</h2>
-        <p>
-          Burnout is real. Academic success requires taking care of yourself too:
-        </p>
+        <p>Burnout is real. Academic success requires taking care of yourself too:</p>
         <ol start={51}>
           <li>I deserve rest and it makes me a better student.</li>
           <li>Taking breaks is part of effective studying, not avoiding it.</li>
@@ -3914,9 +3911,7 @@ export const blogPosts: Record<
         </div>
 
         <h2>Customizing Affirmations for Your Situation</h2>
-        <p>
-          The most powerful affirmations are personal. Use these templates to create your own:
-        </p>
+        <p>The most powerful affirmations are personal. Use these templates to create your own:</p>
         <ul>
           <li>
             <strong>For a specific class:</strong> &#34;I am capable of understanding [subject] and
@@ -3931,8 +3926,8 @@ export const blogPosts: Record<
             teacher, including [name]&#39;s high expectations.&#34;
           </li>
           <li>
-            <strong>For competition with peers:</strong> &#34;I focus on my own growth and
-            celebrate others&#39; success too.&#34;
+            <strong>For competition with peers:</strong> &#34;I focus on my own growth and celebrate
+            others&#39; success too.&#34;
           </li>
         </ul>
 
@@ -4010,9 +4005,9 @@ export const blogPosts: Record<
 
         <h2>Why Morning Affirmations Matter for Women</h2>
         <p>
-          Women often face unique pressures: societal expectations, imposter syndrome in male-dominated
-          spaces, the mental load of managing households, and the constant pull to put others first.
-          Research shows women are{' '}
+          Women often face unique pressures: societal expectations, imposter syndrome in
+          male-dominated spaces, the mental load of managing households, and the constant pull to
+          put others first. Research shows women are{' '}
           <a
             href="https://www.apa.org/news/press/releases/stress"
             target="_blank"
@@ -4032,15 +4027,15 @@ export const blogPosts: Record<
           <p className="text-gray-800 font-semibold mb-2">💡 The Mirror Technique</p>
           <p className="text-gray-700">
             Research suggests that saying affirmations while looking at yourself in the mirror
-            increases their effectiveness. It may feel awkward at first, but this practice builds
-            a deeper connection with yourself and reinforces self-acceptance.
+            increases their effectiveness. It may feel awkward at first, but this practice builds a
+            deeper connection with yourself and reinforces self-acceptance.
           </p>
         </div>
 
         <h2>Affirmations for Self-Love & Self-Worth</h2>
         <p>
-          Before you can show up fully for others, you must first honor yourself. These
-          affirmations build the foundation of self-love:
+          Before you can show up fully for others, you must first honor yourself. These affirmations
+          build the foundation of self-love:
         </p>
         <ol>
           <li>I am worthy of love, respect, and all good things.</li>
@@ -4068,8 +4063,8 @@ export const blogPosts: Record<
 
         <h2>Affirmations for Confidence & Inner Strength</h2>
         <p>
-          Confidence isn&#39;t about being fearless—it&#39;s about taking action despite fear.
-          These affirmations build unshakeable inner strength:
+          Confidence isn&#39;t about being fearless—it&#39;s about taking action despite fear. These
+          affirmations build unshakeable inner strength:
         </p>
         <ol start={11}>
           <li>I am confident in my abilities and trust my decisions.</li>
@@ -4117,8 +4112,8 @@ export const blogPosts: Record<
           <p className="text-gray-800 font-semibold mb-2">📊 Did You Know?</p>
           <p className="text-gray-700">
             Studies show that women are less likely to apply for jobs unless they meet 100% of the
-            qualifications, while men apply at 60%. Affirmations targeting confidence can help
-            close this gap by challenging limiting beliefs about qualifications and worthiness.
+            qualifications, while men apply at 60%. Affirmations targeting confidence can help close
+            this gap by challenging limiting beliefs about qualifications and worthiness.
           </p>
         </div>
 
@@ -4135,8 +4130,8 @@ export const blogPosts: Record<
 
         <h2>Affirmations for Relationships & Boundaries</h2>
         <p>
-          Healthy relationships start with a healthy relationship with yourself. These
-          affirmations support connection while honoring your boundaries:
+          Healthy relationships start with a healthy relationship with yourself. These affirmations
+          support connection while honoring your boundaries:
         </p>
         <ol start={31}>
           <li>I attract relationships that uplift and support me.</li>
@@ -4190,8 +4185,8 @@ export const blogPosts: Record<
 
         <h2>Affirmations for Abundance & Financial Empowerment</h2>
         <p>
-          Money mindset matters. These affirmations help you release scarcity thinking and step
-          into financial empowerment:
+          Money mindset matters. These affirmations help you release scarcity thinking and step into
+          financial empowerment:
         </p>
         <ol start={51}>
           <li>I am worthy of financial abundance and security.</li>
@@ -4325,8 +4320,7 @@ export const blogPosts: Record<
         </p>
         <p>
           Choose the ones that speak to your heart, practice them consistently, and watch how your
-          relationship with yourself transforms. You are worthy of every good thing coming your
-          way.
+          relationship with yourself transforms. You are worthy of every good thing coming your way.
         </p>
         <p>
           Ready to continue your journey? Try our{' '}
@@ -4344,8 +4338,8 @@ export const blogPosts: Record<
         </p>
 
         <p className="text-gray-600 italic mt-8">
-          Here&#39;s to mornings filled with intention, self-love, and unstoppable confidence. You&#39;ve
-          got this. 💜
+          Here&#39;s to mornings filled with intention, self-love, and unstoppable confidence.
+          You&#39;ve got this. 💜
         </p>
       </>
     ),
@@ -4417,9 +4411,7 @@ export const blogPosts: Record<
         </ol>
 
         <h2>Affirmations for Calming a Racing Mind</h2>
-        <p>
-          When your thoughts won&#39;t stop spinning, use these affirmations to find stillness:
-        </p>
+        <p>When your thoughts won&#39;t stop spinning, use these affirmations to find stillness:</p>
         <ol start={11}>
           <li>My thoughts are slowing down with each breath I take.</li>
           <li>I am safe. I am calm. I am at peace.</li>
@@ -4436,8 +4428,8 @@ export const blogPosts: Record<
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">💤 Pro Tip: The 4-7-8 Breath</p>
           <p className="text-gray-700">
-            Combine affirmations with the 4-7-8 breathing technique: Inhale for 4 counts, hold for 7,
-            exhale for 8. Say one affirmation silently during the hold. This activates your
+            Combine affirmations with the 4-7-8 breathing technique: Inhale for 4 counts, hold for
+            7, exhale for 8. Say one affirmation silently during the hold. This activates your
             parasympathetic nervous system and can help you fall asleep in minutes.
           </p>
         </div>
@@ -4468,9 +4460,7 @@ export const blogPosts: Record<
         </p>
 
         <h2>Affirmations for Deep, Restorative Sleep</h2>
-        <p>
-          These affirmations program your mind for quality sleep that truly restores you:
-        </p>
+        <p>These affirmations program your mind for quality sleep that truly restores you:</p>
         <ol start={31}>
           <li>I am drifting into deep, healing sleep.</li>
           <li>My sleep tonight will be peaceful and restorative.</li>
@@ -4486,7 +4476,8 @@ export const blogPosts: Record<
 
         <h2>Affirmations for Nighttime Anxiety</h2>
         <p>
-          If anxiety peaks at bedtime, these affirmations specifically target those worried thoughts:
+          If anxiety peaks at bedtime, these affirmations specifically target those worried
+          thoughts:
         </p>
         <ol start={41}>
           <li>I am safe in this moment. Nothing requires my attention right now.</li>
@@ -4513,9 +4504,7 @@ export const blogPosts: Record<
         </p>
 
         <h2>Your Complete Bedtime Affirmation Routine</h2>
-        <p>
-          Follow this simple 10-minute routine for the best results:
-        </p>
+        <p>Follow this simple 10-minute routine for the best results:</p>
 
         <h3>30 Minutes Before Bed: Prepare</h3>
         <ul>
@@ -4554,9 +4543,9 @@ export const blogPosts: Record<
 
         <h3>Consistency is Key</h3>
         <p>
-          Like any habit, bedtime affirmations work best with regular practice. Commit to at least
-          2 weeks of nightly practice before judging the results. Your brain needs time to build
-          new neural pathways.
+          Like any habit, bedtime affirmations work best with regular practice. Commit to at least 2
+          weeks of nightly practice before judging the results. Your brain needs time to build new
+          neural pathways.
         </p>
 
         <h3>Personalize Your Affirmations</h3>
@@ -4567,9 +4556,7 @@ export const blogPosts: Record<
         </p>
 
         <h3>Combine with Sleep Hygiene</h3>
-        <p>
-          Affirmations work best alongside good sleep practices:
-        </p>
+        <p>Affirmations work best alongside good sleep practices:</p>
         <ul>
           <li>Keep a consistent sleep schedule</li>
           <li>Avoid caffeine after 2pm</li>
@@ -4617,28 +4604,26 @@ export const blogPosts: Record<
     content: (
       <>
         <p className="lead">
-          It&#39;s 2am and your brain won&#39;t stop. You&#39;re replaying that conversation from three
-          days ago, analyzing what you should have said differently. You&#39;re rehearsing tomorrow&#39;s
-          meeting for the fifteenth time. You&#39;re spiraling through worst-case scenarios that will
-          probably never happen. Sound familiar? You&#39;re not alone—and there&#39;s a science-backed way
-          out of this mental maze.
+          It&#39;s 2am and your brain won&#39;t stop. You&#39;re replaying that conversation from
+          three days ago, analyzing what you should have said differently. You&#39;re rehearsing
+          tomorrow&#39;s meeting for the fifteenth time. You&#39;re spiraling through worst-case
+          scenarios that will probably never happen. Sound familiar? You&#39;re not alone—and
+          there&#39;s a science-backed way out of this mental maze.
         </p>
 
         <h2>Understanding Why Your Brain Gets Stuck</h2>
         <p>
-          Before we dive into affirmations, it&#39;s crucial to understand what&#39;s actually happening
-          when you overthink. This isn&#39;t a character flaw or weakness—it&#39;s a feature of human
-          cognition that&#39;s gone into overdrive.
+          Before we dive into affirmations, it&#39;s crucial to understand what&#39;s actually
+          happening when you overthink. This isn&#39;t a character flaw or weakness—it&#39;s a
+          feature of human cognition that&#39;s gone into overdrive.
         </p>
         <p>
-          Your brain evolved to anticipate threats and solve problems. This was incredibly useful when our
-          ancestors needed to remember which berries were poisonous or anticipate where predators might
-          lurk. But in modern life, this same mechanism can get hijacked by social concerns, work stress,
-          and the endless possibilities of an uncertain future.
+          Your brain evolved to anticipate threats and solve problems. This was incredibly useful
+          when our ancestors needed to remember which berries were poisonous or anticipate where
+          predators might lurk. But in modern life, this same mechanism can get hijacked by social
+          concerns, work stress, and the endless possibilities of an uncertain future.
         </p>
-        <p>
-          Psychologists distinguish between two types of repetitive negative thinking:
-        </p>
+        <p>Psychologists distinguish between two types of repetitive negative thinking:</p>
         <ul>
           <li>
             <strong>Rumination:</strong> Dwelling on past events, analyzing what went wrong, and
@@ -4646,15 +4631,16 @@ export const blogPosts: Record<
             struggle, the deeper you sink.
           </li>
           <li>
-            <strong>Worry:</strong> Anxious anticipation of future events, often involving catastrophic
-            thinking and &#34;what if&#34; spirals. Your brain treats hypothetical scenarios as real threats.
+            <strong>Worry:</strong> Anxious anticipation of future events, often involving
+            catastrophic thinking and &#34;what if&#34; spirals. Your brain treats hypothetical
+            scenarios as real threats.
           </li>
         </ul>
         <p>
-          Both patterns share a common feature: they feel productive even though they&#39;re not. Your
-          brain tricks you into believing that if you just think about the problem long enough, you&#39;ll
-          find a solution. But research shows the opposite is true—overthinking actually impairs
-          problem-solving and decision-making.
+          Both patterns share a common feature: they feel productive even though they&#39;re not.
+          Your brain tricks you into believing that if you just think about the problem long enough,
+          you&#39;ll find a solution. But research shows the opposite is true—overthinking actually
+          impairs problem-solving and decision-making.
         </p>
 
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
@@ -4669,22 +4655,22 @@ export const blogPosts: Record<
             >
               landmark study by Susan Nolen-Hoeksema
             </a>{' '}
-            found that people who ruminate are significantly more likely to develop depression and anxiety.
-            More importantly, rumination doesn&#39;t lead to better solutions—it leads to worse ones, because
-            it narrows our thinking and keeps us focused on the negative.
+            found that people who ruminate are significantly more likely to develop depression and
+            anxiety. More importantly, rumination doesn&#39;t lead to better solutions—it leads to
+            worse ones, because it narrows our thinking and keeps us focused on the negative.
           </p>
         </div>
 
         <h2>How Affirmations Interrupt Overthinking</h2>
         <p>
-          Affirmations aren&#39;t magic words that instantly cure anxiety. Understanding how they work
-          will help you use them more effectively.
+          Affirmations aren&#39;t magic words that instantly cure anxiety. Understanding how they
+          work will help you use them more effectively.
         </p>
         <p>
           When you&#39;re caught in an overthinking loop, your brain is essentially running the same
           neural pathways over and over. It&#39;s like a car stuck in mud, spinning its wheels and
-          digging deeper ruts. Affirmations work by offering your brain an alternative pathway—a different
-          track to run on.
+          digging deeper ruts. Affirmations work by offering your brain an alternative pathway—a
+          different track to run on.
         </p>
         <p>
           This is supported by research on{' '}
@@ -4696,46 +4682,46 @@ export const blogPosts: Record<
             self-affirmation theory
           </a>
           , which shows that affirming your core values activates the brain&#39;s reward centers and
-          reduces the brain&#39;s stress response. When you feel more psychologically secure, you&#39;re
-          less likely to get caught in defensive, repetitive thinking patterns.
+          reduces the brain&#39;s stress response. When you feel more psychologically secure,
+          you&#39;re less likely to get caught in defensive, repetitive thinking patterns.
         </p>
         <p>
-          Affirmations also leverage a psychological concept called &#34;cognitive defusion&#34;—learning
-          to observe your thoughts rather than being controlled by them. When you consciously choose to
-          repeat an affirmation, you&#39;re exercising your ability to direct your attention, which
-          weakens the automatic pull of overthinking.
+          Affirmations also leverage a psychological concept called &#34;cognitive
+          defusion&#34;—learning to observe your thoughts rather than being controlled by them. When
+          you consciously choose to repeat an affirmation, you&#39;re exercising your ability to
+          direct your attention, which weakens the automatic pull of overthinking.
         </p>
 
         <h2>The Science of Thought Replacement</h2>
         <p>
-          Here&#39;s something counterintuitive: trying NOT to think about something usually backfires.
-          This is called the &#34;ironic process theory,&#34; famously demonstrated by the &#34;don&#39;t
-          think about a white bear&#34; experiment. The more you try to suppress a thought, the more it
-          rebounds.
+          Here&#39;s something counterintuitive: trying NOT to think about something usually
+          backfires. This is called the &#34;ironic process theory,&#34; famously demonstrated by
+          the &#34;don&#39;t think about a white bear&#34; experiment. The more you try to suppress
+          a thought, the more it rebounds.
         </p>
         <p>
-          Affirmations work differently. Instead of trying to suppress overthinking, they redirect your
-          mental energy toward something constructive. You&#39;re not fighting your thoughts—you&#39;re
-          gently steering them in a new direction.
+          Affirmations work differently. Instead of trying to suppress overthinking, they redirect
+          your mental energy toward something constructive. You&#39;re not fighting your
+          thoughts—you&#39;re gently steering them in a new direction.
         </p>
         <p>
-          Think of it like this: your attention is a flashlight in a dark room. Overthinking happens when
-          the flashlight keeps returning to the same corner, examining the same shadows. Affirmations help
-          you deliberately point that flashlight somewhere else—toward your strengths, your values, or
-          simply the present moment.
+          Think of it like this: your attention is a flashlight in a dark room. Overthinking happens
+          when the flashlight keeps returning to the same corner, examining the same shadows.
+          Affirmations help you deliberately point that flashlight somewhere else—toward your
+          strengths, your values, or simply the present moment.
         </p>
 
         <h2>Affirmations for When Your Mind Won&#39;t Stop</h2>
         <p>
-          These affirmations are specifically designed to interrupt overthinking patterns. They&#39;re not
-          about pretending problems don&#39;t exist—they&#39;re about creating mental space so you can
-          respond thoughtfully rather than react anxiously.
+          These affirmations are specifically designed to interrupt overthinking patterns.
+          They&#39;re not about pretending problems don&#39;t exist—they&#39;re about creating
+          mental space so you can respond thoughtfully rather than react anxiously.
         </p>
 
         <h3>Affirmations for Letting Go of the Past</h3>
         <p>
-          When you&#39;re stuck replaying past events, these affirmations help you release the mental
-          grip and move forward.
+          When you&#39;re stuck replaying past events, these affirmations help you release the
+          mental grip and move forward.
         </p>
 
         <div className="bg-gradient-to-br from-violet-50 to-purple-50 p-6 rounded-xl border-2 border-violet-100 my-6">
@@ -4771,16 +4757,17 @@ export const blogPosts: Record<
         </div>
 
         <p>
-          Notice how these affirmations don&#39;t promise that everything will be perfect or that bad
-          things won&#39;t happen. That would feel false and your brain would reject it. Instead, they
-          affirm your capacity to cope—which research shows is far more effective than unrealistic
-          positivity.
+          Notice how these affirmations don&#39;t promise that everything will be perfect or that
+          bad things won&#39;t happen. That would feel false and your brain would reject it.
+          Instead, they affirm your capacity to cope—which research shows is far more effective than
+          unrealistic positivity.
         </p>
 
         <h3>Affirmations for Breaking the Analysis Loop</h3>
         <p>
-          Sometimes overthinking disguises itself as &#34;being responsible&#34; or &#34;thinking things
-          through.&#34; These affirmations help you recognize when analysis has become paralysis.
+          Sometimes overthinking disguises itself as &#34;being responsible&#34; or &#34;thinking
+          things through.&#34; These affirmations help you recognize when analysis has become
+          paralysis.
         </p>
 
         <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-6 rounded-xl border-2 border-emerald-100 my-6">
@@ -4796,7 +4783,8 @@ export const blogPosts: Record<
         <h3>Affirmations for Self-Acceptance</h3>
         <p>
           Much of our overthinking stems from a fear that we&#39;re not good enough—that we need to
-          constantly monitor and improve ourselves. These affirmations address that underlying anxiety.
+          constantly monitor and improve ourselves. These affirmations address that underlying
+          anxiety.
         </p>
 
         <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl border-2 border-amber-100 my-6">
@@ -4804,7 +4792,9 @@ export const blogPosts: Record<
             <li>&#34;I am enough exactly as I am today.&#34;</li>
             <li>&#34;My worth is not determined by my productivity or performance.&#34;</li>
             <li>&#34;I am allowed to take up space without justifying my existence.&#34;</li>
-            <li>&#34;I accept all parts of myself, including the parts I am still working on.&#34;</li>
+            <li>
+              &#34;I accept all parts of myself, including the parts I am still working on.&#34;
+            </li>
             <li>&#34;I do not need everyone&#39;s approval to approve of myself.&#34;</li>
           </ul>
         </div>
@@ -4842,36 +4832,32 @@ export const blogPosts: Record<
 
         <h2>How to Use These Affirmations Effectively</h2>
         <p>
-          Simply reading affirmations once won&#39;t rewire your brain. Here&#39;s how to use them in
-          a way that actually creates change.
+          Simply reading affirmations once won&#39;t rewire your brain. Here&#39;s how to use them
+          in a way that actually creates change.
         </p>
 
         <h3>The Interrupt-Replace-Redirect Method</h3>
-        <p>
-          When you catch yourself overthinking, follow this three-step process:
-        </p>
+        <p>When you catch yourself overthinking, follow this three-step process:</p>
         <ol>
           <li>
-            <strong>Interrupt:</strong> Notice that you&#39;re overthinking. Say to yourself, &#34;I&#39;m
-            in a thought loop right now.&#34; This creates a tiny bit of distance between you and the
-            thoughts.
+            <strong>Interrupt:</strong> Notice that you&#39;re overthinking. Say to yourself,
+            &#34;I&#39;m in a thought loop right now.&#34; This creates a tiny bit of distance
+            between you and the thoughts.
           </li>
           <li>
-            <strong>Replace:</strong> Choose an affirmation that directly counters the type of overthinking
-            you&#39;re doing. If you&#39;re ruminating about the past, use a letting-go affirmation. If
-            you&#39;re anxious about the future, use a grounding affirmation.
+            <strong>Replace:</strong> Choose an affirmation that directly counters the type of
+            overthinking you&#39;re doing. If you&#39;re ruminating about the past, use a letting-go
+            affirmation. If you&#39;re anxious about the future, use a grounding affirmation.
           </li>
           <li>
-            <strong>Redirect:</strong> After saying your affirmation, redirect your attention to something
-            concrete—your breath, physical sensations in your body, or a simple task. This prevents you from
-            immediately slipping back into the thought loop.
+            <strong>Redirect:</strong> After saying your affirmation, redirect your attention to
+            something concrete—your breath, physical sensations in your body, or a simple task. This
+            prevents you from immediately slipping back into the thought loop.
           </li>
         </ol>
 
         <h3>The 5-4-3-2-1 Affirmation Technique</h3>
-        <p>
-          Combine your affirmation practice with grounding to make it more powerful:
-        </p>
+        <p>Combine your affirmation practice with grounding to make it more powerful:</p>
         <ul>
           <li>Say your chosen affirmation once</li>
           <li>Notice 5 things you can see</li>
@@ -4882,8 +4868,8 @@ export const blogPosts: Record<
           <li>Repeat your affirmation once more</li>
         </ul>
         <p>
-          This technique grounds you in the present moment and creates a &#34;bookend&#34; effect that
-          reinforces the affirmation.
+          This technique grounds you in the present moment and creates a &#34;bookend&#34; effect
+          that reinforces the affirmation.
         </p>
 
         <h3>Write, Don&#39;t Just Read</h3>
@@ -4896,46 +4882,48 @@ export const blogPosts: Record<
           >
             expressive writing
           </a>{' '}
-          shows that physically writing things down has powerful effects on mental health. Try writing
-          your chosen affirmations by hand each morning, or journaling about what they mean to you.
+          shows that physically writing things down has powerful effects on mental health. Try
+          writing your chosen affirmations by hand each morning, or journaling about what they mean
+          to you.
         </p>
 
         <h2>When Affirmations Aren&#39;t Enough</h2>
         <p>
           Affirmations are a tool, not a cure-all. They work best as part of a broader approach to
-          managing overthinking. Here are other evidence-based strategies that complement affirmation
-          practice:
+          managing overthinking. Here are other evidence-based strategies that complement
+          affirmation practice:
         </p>
 
         <h3>Scheduled Worry Time</h3>
         <p>
-          This might sound counterintuitive, but research supports it: set aside 15-20 minutes at the
-          same time each day as your &#34;worry time.&#34; When overthinking strikes outside this window,
-          tell yourself, &#34;I&#39;ll think about that during worry time.&#34; This creates boundaries
-          around rumination rather than fighting it constantly.
+          This might sound counterintuitive, but research supports it: set aside 15-20 minutes at
+          the same time each day as your &#34;worry time.&#34; When overthinking strikes outside
+          this window, tell yourself, &#34;I&#39;ll think about that during worry time.&#34; This
+          creates boundaries around rumination rather than fighting it constantly.
         </p>
 
         <h3>Physical Movement</h3>
         <p>
           Overthinking lives in your head. Physical activity brings you back into your body. Even a
           10-minute walk can interrupt thought loops by changing your environment and activating
-          different brain regions. Exercise also releases endorphins and reduces cortisol, the stress
-          hormone that fuels anxious thinking.
+          different brain regions. Exercise also releases endorphins and reduces cortisol, the
+          stress hormone that fuels anxious thinking.
         </p>
 
         <h3>The &#34;Useful?&#34; Test</h3>
         <p>
-          Ask yourself: &#34;Is this thought useful? Will thinking about this more lead to a solution
-          or action I can take?&#34; If the answer is no, that&#39;s your cue to redirect using an
-          affirmation.
+          Ask yourself: &#34;Is this thought useful? Will thinking about this more lead to a
+          solution or action I can take?&#34; If the answer is no, that&#39;s your cue to redirect
+          using an affirmation.
         </p>
 
         <h3>Professional Support</h3>
         <p>
           If overthinking is significantly impacting your quality of life, sleep, or relationships,
           consider working with a therapist. Cognitive Behavioral Therapy (CBT) and Acceptance and
-          Commitment Therapy (ACT) are both highly effective for treating rumination and worry.
-          A professional can help you identify the specific triggers and patterns in your overthinking.
+          Commitment Therapy (ACT) are both highly effective for treating rumination and worry. A
+          professional can help you identify the specific triggers and patterns in your
+          overthinking.
         </p>
 
         <h2>Why This Matters: The Cost of Untreated Overthinking</h2>
@@ -4949,7 +4937,9 @@ export const blogPosts: Record<
           <li>Higher levels of inflammation in the body</li>
           <li>Impaired sleep quality</li>
           <li>Reduced cognitive performance and creativity</li>
-          <li>Strained relationships (because you&#39;re mentally absent even when physically present)</li>
+          <li>
+            Strained relationships (because you&#39;re mentally absent even when physically present)
+          </li>
         </ul>
         <p>
           Taking your overthinking seriously—and actively working to manage it—isn&#39;t indulgent.
@@ -4958,50 +4948,54 @@ export const blogPosts: Record<
 
         <h2>Building Your Personal Affirmation Practice</h2>
         <p>
-          The most effective affirmations are ones that feel true (or almost true) to you. Here&#39;s
-          how to adapt the affirmations in this article or create your own:
+          The most effective affirmations are ones that feel true (or almost true) to you.
+          Here&#39;s how to adapt the affirmations in this article or create your own:
         </p>
         <ol>
           <li>
-            <strong>Identify your specific overthinking pattern.</strong> Do you mostly ruminate about
-            the past, worry about the future, or get stuck in analysis paralysis? Choose affirmations
-            that target your pattern.
+            <strong>Identify your specific overthinking pattern.</strong> Do you mostly ruminate
+            about the past, worry about the future, or get stuck in analysis paralysis? Choose
+            affirmations that target your pattern.
           </li>
           <li>
-            <strong>Start where you are.</strong> If &#34;I am completely at peace&#34; feels like a lie,
-            try &#34;I am learning to find moments of peace&#34; or &#34;Peace is available to me.&#34;
+            <strong>Start where you are.</strong> If &#34;I am completely at peace&#34; feels like a
+            lie, try &#34;I am learning to find moments of peace&#34; or &#34;Peace is available to
+            me.&#34;
           </li>
           <li>
             <strong>Keep it simple.</strong> The best affirmations for interrupting overthinking are
             short and easy to remember in the moment.
           </li>
           <li>
-            <strong>Make it personal.</strong> Adapt the language to fit how you actually talk and think.
+            <strong>Make it personal.</strong> Adapt the language to fit how you actually talk and
+            think.
           </li>
         </ol>
 
         <h2>The Long Game</h2>
         <p>
-          Changing thought patterns takes time. Your brain has been running these overthinking pathways
-          for years—possibly decades. You&#39;re not going to rewire it overnight with a few affirmations.
+          Changing thought patterns takes time. Your brain has been running these overthinking
+          pathways for years—possibly decades. You&#39;re not going to rewire it overnight with a
+          few affirmations.
         </p>
         <p>
           But here&#39;s the encouraging truth: every time you interrupt an overthinking spiral and
-          redirect your attention, you&#39;re weakening those old neural pathways and strengthening new
-          ones. Neuroplasticity is real. Change is possible. It just takes patience and consistency.
+          redirect your attention, you&#39;re weakening those old neural pathways and strengthening
+          new ones. Neuroplasticity is real. Change is possible. It just takes patience and
+          consistency.
         </p>
         <p>
-          Think of affirmations as mental reps at the gym. One workout won&#39;t transform your body,
-          but hundreds of workouts over time absolutely will. The same is true for your mind.
+          Think of affirmations as mental reps at the gym. One workout won&#39;t transform your
+          body, but hundreds of workouts over time absolutely will. The same is true for your mind.
         </p>
 
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">Your Next Step</p>
           <p className="text-gray-700">
-            Choose one affirmation from this article that resonates with you. Write it on a sticky note
-            and put it somewhere you&#39;ll see it when you&#39;re most likely to overthink—your bathroom
-            mirror, your computer monitor, or your nightstand. Use it consistently for one week before
-            evaluating whether it&#39;s helping.
+            Choose one affirmation from this article that resonates with you. Write it on a sticky
+            note and put it somewhere you&#39;ll see it when you&#39;re most likely to
+            overthink—your bathroom mirror, your computer monitor, or your nightstand. Use it
+            consistently for one week before evaluating whether it&#39;s helping.
           </p>
         </div>
 
@@ -5039,17 +5033,17 @@ export const blogPosts: Record<
     content: (
       <>
         <p className="lead">
-          You&#39;ve probably heard that repeating positive statements to yourself can change your life.
-          But does this actually hold up to scientific scrutiny, or is it just wishful thinking dressed
-          up as self-help? The answer might surprise you. Decades of research in psychology and
-          neuroscience reveal that affirmations, when used correctly, create measurable changes in both
-          brain structure and behavior.
+          You&#39;ve probably heard that repeating positive statements to yourself can change your
+          life. But does this actually hold up to scientific scrutiny, or is it just wishful
+          thinking dressed up as self-help? The answer might surprise you. Decades of research in
+          psychology and neuroscience reveal that affirmations, when used correctly, create
+          measurable changes in both brain structure and behavior.
         </p>
 
         <h2>The Origins of Self-Affirmation Theory</h2>
         <p>
-          The scientific study of affirmations began in earnest in the late 1980s when social psychologist
-          Claude Steele developed{' '}
+          The scientific study of affirmations began in earnest in the late 1980s when social
+          psychologist Claude Steele developed{' '}
           <a
             href="https://psycnet.apa.org/record/1988-33483-001"
             target="_blank"
@@ -5061,31 +5055,32 @@ export const blogPosts: Record<
           a sense of self-integrity—a perception of ourselves as good, competent, and stable.
         </p>
         <p>
-          When this self-integrity is threatened—by failure, criticism, or cognitive dissonance—we become
-          defensive. We rationalize, deny, or attack the source of the threat. This defensive response,
-          while protecting our ego, often prevents us from learning, growing, or changing our behavior.
+          When this self-integrity is threatened—by failure, criticism, or cognitive dissonance—we
+          become defensive. We rationalize, deny, or attack the source of the threat. This defensive
+          response, while protecting our ego, often prevents us from learning, growing, or changing
+          our behavior.
         </p>
         <p>
-          Self-affirmation, Steele discovered, offers an alternative path. By affirming our core values
-          and positive qualities, we restore our sense of self-integrity without needing to become
-          defensive. This creates psychological &#34;space&#34; for us to consider threatening information
-          objectively and respond constructively.
+          Self-affirmation, Steele discovered, offers an alternative path. By affirming our core
+          values and positive qualities, we restore our sense of self-integrity without needing to
+          become defensive. This creates psychological &#34;space&#34; for us to consider
+          threatening information objectively and respond constructively.
         </p>
 
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">Key Insight</p>
           <p className="text-gray-700">
-            Self-affirmation theory explains why affirmations work not by making us feel good, but by
-            reducing our psychological defensiveness. When we feel secure in our core values, we&#39;re
-            more open to change and growth.
+            Self-affirmation theory explains why affirmations work not by making us feel good, but
+            by reducing our psychological defensiveness. When we feel secure in our core values,
+            we&#39;re more open to change and growth.
           </p>
         </div>
 
         <h2>What Happens in Your Brain When You Affirm</h2>
         <p>
           Modern neuroimaging technology has allowed researchers to peer inside the brain during
-          self-affirmation exercises. The results reveal a fascinating cascade of neural activity that
-          explains why talking to yourself in a positive way can produce real changes.
+          self-affirmation exercises. The results reveal a fascinating cascade of neural activity
+          that explains why talking to yourself in a positive way can produce real changes.
         </p>
 
         <h3>The Reward System Lights Up</h3>
@@ -5098,58 +5093,59 @@ export const blogPosts: Record<
           >
             2016 study published in Social Cognitive and Affective Neuroscience
           </a>{' '}
-          used functional MRI to examine brain activity during self-affirmation. The researchers found
-          that when participants reflected on their core values, there was increased activity in the
-          ventromedial prefrontal cortex (vmPFC) and the ventral striatum—regions associated with
-          positive valuation and reward.
+          used functional MRI to examine brain activity during self-affirmation. The researchers
+          found that when participants reflected on their core values, there was increased activity
+          in the ventromedial prefrontal cortex (vmPFC) and the ventral striatum—regions associated
+          with positive valuation and reward.
         </p>
         <p>
-          This matters because the reward system doesn&#39;t just make us feel good; it drives learning
-          and behavior change. When your brain&#39;s reward centers activate in response to affirming
-          thoughts, it creates neural pathways that make those thought patterns more likely to recur.
-          You&#39;re essentially training your brain to return to these positive neural states.
+          This matters because the reward system doesn&#39;t just make us feel good; it drives
+          learning and behavior change. When your brain&#39;s reward centers activate in response to
+          affirming thoughts, it creates neural pathways that make those thought patterns more
+          likely to recur. You&#39;re essentially training your brain to return to these positive
+          neural states.
         </p>
 
         <h3>The Stress Response Diminishes</h3>
         <p>
-          The same neuroimaging studies showed decreased activity in the amygdala—the brain&#39;s threat
-          detection center—during self-affirmation. This finding aligns with research showing that
-          affirmations can reduce cortisol levels, the hormone most associated with stress.
+          The same neuroimaging studies showed decreased activity in the amygdala—the brain&#39;s
+          threat detection center—during self-affirmation. This finding aligns with research showing
+          that affirmations can reduce cortisol levels, the hormone most associated with stress.
         </p>
         <p>
           When your amygdala is less reactive, you experience fewer fight-or-flight responses to
           psychological threats. This doesn&#39;t mean you become passive or ignore real dangers—it
-          means your brain stops treating minor challenges as existential threats, freeing up cognitive
-          resources for problem-solving rather than panic.
+          means your brain stops treating minor challenges as existential threats, freeing up
+          cognitive resources for problem-solving rather than panic.
         </p>
 
         <h3>The Self-Processing Networks Strengthen</h3>
         <p>
-          Perhaps most intriguingly, researchers observed increased activity in regions associated with
-          self-related processing, particularly the medial prefrontal cortex. This area is involved in
-          reflecting on your own qualities, imagining future scenarios, and maintaining a coherent sense
-          of identity over time.
+          Perhaps most intriguingly, researchers observed increased activity in regions associated
+          with self-related processing, particularly the medial prefrontal cortex. This area is
+          involved in reflecting on your own qualities, imagining future scenarios, and maintaining
+          a coherent sense of identity over time.
         </p>
         <p>
           When you regularly engage in self-affirmation, you&#39;re essentially exercising these
-          self-processing networks. Like any form of exercise, this leads to strengthening. Over time,
-          you develop a more robust, flexible, and resilient sense of self—one that can weather
-          challenges without crumbling.
+          self-processing networks. Like any form of exercise, this leads to strengthening. Over
+          time, you develop a more robust, flexible, and resilient sense of self—one that can
+          weather challenges without crumbling.
         </p>
 
         <h2>Neuroplasticity: Your Brain&#39;s Built-In Change Mechanism</h2>
         <p>
-          To understand why affirmations can create lasting change, we need to understand neuroplasticity—
-          your brain&#39;s remarkable ability to rewire itself based on experience.
+          To understand why affirmations can create lasting change, we need to understand
+          neuroplasticity— your brain&#39;s remarkable ability to rewire itself based on experience.
         </p>
         <p>
-          For most of the 20th century, scientists believed that the adult brain was essentially fixed.
-          You were born with a certain number of neurons, they formed connections during childhood, and
-          that was that. Any damage or dysfunction was permanent.
+          For most of the 20th century, scientists believed that the adult brain was essentially
+          fixed. You were born with a certain number of neurons, they formed connections during
+          childhood, and that was that. Any damage or dysfunction was permanent.
         </p>
         <p>
-          We now know this picture was completely wrong. The brain is constantly changing in response to
-          experience.{' '}
+          We now know this picture was completely wrong. The brain is constantly changing in
+          response to experience.{' '}
           <a
             href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575415/"
             target="_blank"
@@ -5157,72 +5153,76 @@ export const blogPosts: Record<
           >
             Neuroplasticity research
           </a>{' '}
-          has demonstrated that neural pathways strengthen when they&#39;re used repeatedly (a principle
-          summarized as &#34;neurons that fire together wire together&#34;) and weaken when they&#39;re
-          neglected.
+          has demonstrated that neural pathways strengthen when they&#39;re used repeatedly (a
+          principle summarized as &#34;neurons that fire together wire together&#34;) and weaken
+          when they&#39;re neglected.
         </p>
         <p>
-          This has profound implications for affirmations. When you repeatedly think certain thoughts—
-          whether positive or negative—you&#39;re literally reshaping your brain&#39;s architecture.
-          Negative thought patterns create deep neural ruts that become increasingly automatic. But the
-          same mechanism works in reverse: positive thought patterns, consistently practiced, create new
-          neural pathways that eventually become the path of least resistance.
+          This has profound implications for affirmations. When you repeatedly think certain
+          thoughts— whether positive or negative—you&#39;re literally reshaping your brain&#39;s
+          architecture. Negative thought patterns create deep neural ruts that become increasingly
+          automatic. But the same mechanism works in reverse: positive thought patterns,
+          consistently practiced, create new neural pathways that eventually become the path of
+          least resistance.
         </p>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">The Timeline of Change</p>
           <p className="text-gray-700">
-            Neuroplastic changes don&#39;t happen overnight. Research suggests that new neural pathways
-            begin forming within days of starting a new practice, but significant structural changes—the
-            kind that make new thought patterns feel automatic—typically require 6-8 weeks of consistent
-            practice. This is why one-off affirmations rarely produce lasting results, while daily
-            practice over months can be transformative.
+            Neuroplastic changes don&#39;t happen overnight. Research suggests that new neural
+            pathways begin forming within days of starting a new practice, but significant
+            structural changes—the kind that make new thought patterns feel automatic—typically
+            require 6-8 weeks of consistent practice. This is why one-off affirmations rarely
+            produce lasting results, while daily practice over months can be transformative.
           </p>
         </div>
 
         <h2>The Reticular Activating System: Your Brain&#39;s Search Engine</h2>
         <p>
           There&#39;s another neurological mechanism that helps explain why affirmations work: the
-          reticular activating system (RAS). This network of neurons at the base of your brain acts as
-          a filter for the millions of bits of information bombarding your senses every second.
+          reticular activating system (RAS). This network of neurons at the base of your brain acts
+          as a filter for the millions of bits of information bombarding your senses every second.
         </p>
         <p>
           Your RAS decides what gets promoted to conscious awareness and what gets filtered out. It
           prioritizes information that&#39;s relevant to your goals, beliefs, and current concerns.
-          This is why, when you&#39;re thinking about buying a particular car, you suddenly start seeing
-          that car everywhere—the cars were always there; your RAS just started flagging them as relevant.
+          This is why, when you&#39;re thinking about buying a particular car, you suddenly start
+          seeing that car everywhere—the cars were always there; your RAS just started flagging them
+          as relevant.
         </p>
         <p>
           Affirmations work partly by programming your RAS. When you repeatedly affirm that you are
-          confident, capable, and successful, you&#39;re essentially telling your brain&#39;s filtering
-          system to watch for evidence of these qualities. Your RAS then starts highlighting experiences
-          that confirm these beliefs—a kind word from a colleague, a small win at work, a moment when
-          you handled something well.
+          confident, capable, and successful, you&#39;re essentially telling your brain&#39;s
+          filtering system to watch for evidence of these qualities. Your RAS then starts
+          highlighting experiences that confirm these beliefs—a kind word from a colleague, a small
+          win at work, a moment when you handled something well.
         </p>
         <p>
-          This isn&#39;t self-deception; it&#39;s selective attention. The evidence was always there;
-          you just weren&#39;t noticing it. By affirming positive beliefs, you train your brain to
-          build a more balanced picture of reality rather than one skewed toward threat and failure.
+          This isn&#39;t self-deception; it&#39;s selective attention. The evidence was always
+          there; you just weren&#39;t noticing it. By affirming positive beliefs, you train your
+          brain to build a more balanced picture of reality rather than one skewed toward threat and
+          failure.
         </p>
 
         <h2>The Psychology of Identity and Behavior Change</h2>
         <p>
-          Beyond neuroscience, psychological research offers additional insights into why affirmations
-          facilitate change. One of the most powerful frameworks comes from identity-based behavior
-          research.
+          Beyond neuroscience, psychological research offers additional insights into why
+          affirmations facilitate change. One of the most powerful frameworks comes from
+          identity-based behavior research.
         </p>
         <p>
-          Psychologists have long observed that behavior change is much more sustainable when it&#39;s
-          tied to identity. &#34;I am a runner&#34; predicts exercise habits better than &#34;I want to
-          run more.&#34; &#34;I am a healthy eater&#34; leads to better food choices than &#34;I&#39;m
-          trying to eat healthy.&#34; When a behavior becomes part of who you are rather than something
-          you&#39;re attempting, it requires less willpower and feels more natural.
+          Psychologists have long observed that behavior change is much more sustainable when
+          it&#39;s tied to identity. &#34;I am a runner&#34; predicts exercise habits better than
+          &#34;I want to run more.&#34; &#34;I am a healthy eater&#34; leads to better food choices
+          than &#34;I&#39;m trying to eat healthy.&#34; When a behavior becomes part of who you are
+          rather than something you&#39;re attempting, it requires less willpower and feels more
+          natural.
         </p>
         <p>
-          Affirmations work partly through this mechanism. By repeatedly stating &#34;I am confident,&#34;
-          &#34;I am creative,&#34; or &#34;I am resilient,&#34; you&#39;re not just making yourself feel
-          better—you&#39;re gradually shifting your identity. And as your identity shifts, behaviors
-          that align with that identity become increasingly automatic.
+          Affirmations work partly through this mechanism. By repeatedly stating &#34;I am
+          confident,&#34; &#34;I am creative,&#34; or &#34;I am resilient,&#34; you&#39;re not just
+          making yourself feel better—you&#39;re gradually shifting your identity. And as your
+          identity shifts, behaviors that align with that identity become increasingly automatic.
         </p>
 
         <h3>The Role of Cognitive Dissonance</h3>
@@ -5237,61 +5237,66 @@ export const blogPosts: Record<
           </a>{' '}
           also helps explain affirmation effects. When you hold two conflicting beliefs or when your
           beliefs conflict with your behavior, you experience psychological discomfort. Your mind
-          naturally works to resolve this discomfort by changing either your beliefs or your behavior.
+          naturally works to resolve this discomfort by changing either your beliefs or your
+          behavior.
         </p>
         <p>
           When you affirm &#34;I am a person who takes care of my health,&#34; you create cognitive
-          dissonance with health-damaging behaviors. Your mind then works to resolve this tension—often
-          by gradually shifting your behavior to align with your stated identity. The affirmation
-          becomes a kind of aspirational anchor that pulls your behavior toward it.
+          dissonance with health-damaging behaviors. Your mind then works to resolve this
+          tension—often by gradually shifting your behavior to align with your stated identity. The
+          affirmation becomes a kind of aspirational anchor that pulls your behavior toward it.
         </p>
 
         <h2>Why Some Affirmations Fail (And How to Fix It)</h2>
         <p>
-          If affirmations are so powerful, why don&#39;t they work for everyone? Research has identified
-          several factors that determine whether self-affirmation will be effective or backfire.
+          If affirmations are so powerful, why don&#39;t they work for everyone? Research has
+          identified several factors that determine whether self-affirmation will be effective or
+          backfire.
         </p>
 
         <h3>The Credibility Gap</h3>
         <p>
-          Studies have found that affirmations can actually backfire for people with very low self-esteem.
-          When someone who deeply believes they&#39;re worthless repeats &#34;I am worthy and valuable,&#34;
-          their mind immediately generates counterarguments: &#34;No, you&#39;re not. Remember when...&#34;
-          This mental contradiction can actually reinforce negative beliefs.
+          Studies have found that affirmations can actually backfire for people with very low
+          self-esteem. When someone who deeply believes they&#39;re worthless repeats &#34;I am
+          worthy and valuable,&#34; their mind immediately generates counterarguments: &#34;No,
+          you&#39;re not. Remember when...&#34; This mental contradiction can actually reinforce
+          negative beliefs.
         </p>
         <p>
-          The solution is to use what researchers call &#34;bridging affirmations&#34;—statements that
-          are positive but don&#39;t strain credibility. Instead of &#34;I am confident,&#34; try
-          &#34;I am learning to trust myself more each day&#34; or &#34;Confidence is something I am
-          building.&#34; These statements acknowledge your current reality while orienting toward growth.
+          The solution is to use what researchers call &#34;bridging affirmations&#34;—statements
+          that are positive but don&#39;t strain credibility. Instead of &#34;I am confident,&#34;
+          try &#34;I am learning to trust myself more each day&#34; or &#34;Confidence is something
+          I am building.&#34; These statements acknowledge your current reality while orienting
+          toward growth.
         </p>
 
         <h3>Value Alignment</h3>
         <p>
-          Self-affirmation theory emphasizes that the most powerful affirmations connect to your core
-          values. Generic positive statements like &#34;I am amazing&#34; are less effective than
-          affirmations that tap into what genuinely matters to you.
+          Self-affirmation theory emphasizes that the most powerful affirmations connect to your
+          core values. Generic positive statements like &#34;I am amazing&#34; are less effective
+          than affirmations that tap into what genuinely matters to you.
         </p>
         <p>
-          Research has shown that affirmations related to personal values produce stronger effects than
-          affirmations about abilities or traits. If creativity is a core value for you, affirming
-          &#34;I express my creativity in meaningful ways&#34; will be more powerful than affirming
-          &#34;I am a creative person.&#34; The connection to values activates deeper neural and
-          psychological resources.
+          Research has shown that affirmations related to personal values produce stronger effects
+          than affirmations about abilities or traits. If creativity is a core value for you,
+          affirming &#34;I express my creativity in meaningful ways&#34; will be more powerful than
+          affirming &#34;I am a creative person.&#34; The connection to values activates deeper
+          neural and psychological resources.
         </p>
 
         <h3>Emotion and Embodiment</h3>
         <p>
-          Cognitive neuroscience research has shown that thoughts accompanied by emotion create stronger
-          neural pathways than thoughts processed purely intellectually. This is why affirmations
-          mumbled mechanically while scrolling through your phone rarely produce results, while
-          affirmations spoken with genuine feeling can be transformative.
+          Cognitive neuroscience research has shown that thoughts accompanied by emotion create
+          stronger neural pathways than thoughts processed purely intellectually. This is why
+          affirmations mumbled mechanically while scrolling through your phone rarely produce
+          results, while affirmations spoken with genuine feeling can be transformative.
         </p>
         <p>
           The most effective approach combines cognitive and somatic elements. When you say your
-          affirmation, pause to notice how it feels in your body. Imagine yourself embodying the quality
-          you&#39;re affirming. Visualize specific scenarios where this quality shows up. The more
-          sensory and emotional detail you can engage, the more powerful the neural encoding.
+          affirmation, pause to notice how it feels in your body. Imagine yourself embodying the
+          quality you&#39;re affirming. Visualize specific scenarios where this quality shows up.
+          The more sensory and emotional detail you can engage, the more powerful the neural
+          encoding.
         </p>
 
         <h2>The Research on Real-World Outcomes</h2>
@@ -5302,8 +5307,9 @@ export const blogPosts: Record<
 
         <h3>Academic Performance</h3>
         <p>
-          Multiple studies have found that brief self-affirmation exercises improve academic performance,
-          particularly for students from marginalized groups who face stereotype threat. A{' '}
+          Multiple studies have found that brief self-affirmation exercises improve academic
+          performance, particularly for students from marginalized groups who face stereotype
+          threat. A{' '}
           <a
             href="https://www.science.org/doi/10.1126/science.1198364"
             target="_blank"
@@ -5315,17 +5321,17 @@ export const blogPosts: Record<
           reduced the racial achievement gap by 40%.
         </p>
         <p>
-          The mechanism appears to be reduced anxiety and threat response. When students affirm their
-          core values, they&#39;re less psychologically threatened by evaluative situations, freeing
-          cognitive resources for learning and performance.
+          The mechanism appears to be reduced anxiety and threat response. When students affirm
+          their core values, they&#39;re less psychologically threatened by evaluative situations,
+          freeing cognitive resources for learning and performance.
         </p>
 
         <h3>Health Behaviors</h3>
         <p>
-          Self-affirmation has been shown to increase receptiveness to health messages and improve health
-          behaviors. Studies have found that affirmed individuals are more likely to accept information
-          about health risks (rather than dismissing it defensively) and to adopt healthier behaviors
-          as a result.
+          Self-affirmation has been shown to increase receptiveness to health messages and improve
+          health behaviors. Studies have found that affirmed individuals are more likely to accept
+          information about health risks (rather than dismissing it defensively) and to adopt
+          healthier behaviors as a result.
         </p>
         <p>
           One study found that self-affirmation increased fruit and vegetable consumption over a
@@ -5357,10 +5363,11 @@ export const blogPosts: Record<
         <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">Research Summary</p>
           <p className="text-gray-700">
-            Across hundreds of studies, self-affirmation has been linked to: reduced stress responses,
-            improved problem-solving under pressure, better health behaviors, higher academic achievement
-            (especially for disadvantaged groups), decreased defensiveness to threatening information,
-            and increased openness to change. The effects are real and measurable.
+            Across hundreds of studies, self-affirmation has been linked to: reduced stress
+            responses, improved problem-solving under pressure, better health behaviors, higher
+            academic achievement (especially for disadvantaged groups), decreased defensiveness to
+            threatening information, and increased openness to change. The effects are real and
+            measurable.
           </p>
         </div>
 
@@ -5380,40 +5387,41 @@ export const blogPosts: Record<
 
         <h3>Use Bridging Language</h3>
         <p>
-          If an affirmation feels like a lie, your mind will reject it. Use language that acknowledges
-          your current reality while pointing toward growth: &#34;I am learning to...&#34;
-          &#34;I am becoming...&#34; &#34;Each day, I grow more...&#34; &#34;I choose to...&#34;
+          If an affirmation feels like a lie, your mind will reject it. Use language that
+          acknowledges your current reality while pointing toward growth: &#34;I am learning
+          to...&#34; &#34;I am becoming...&#34; &#34;Each day, I grow more...&#34; &#34;I choose
+          to...&#34;
         </p>
 
         <h3>Engage Emotion and Body</h3>
         <p>
-          Don&#39;t just think or speak your affirmations—feel them. Notice how the words land in your
-          body. Visualize yourself embodying the quality you&#39;re affirming. The more sensory and
-          emotional engagement, the stronger the neural encoding.
+          Don&#39;t just think or speak your affirmations—feel them. Notice how the words land in
+          your body. Visualize yourself embodying the quality you&#39;re affirming. The more sensory
+          and emotional engagement, the stronger the neural encoding.
         </p>
 
         <h3>Practice Consistently</h3>
         <p>
           Neuroplastic change requires repetition over time. A single affirmation session won&#39;t
-          rewire your brain. Commit to daily practice for at least 6-8 weeks to see significant results.
-          Morning is often ideal, as it sets the tone for the day and takes advantage of the brain&#39;s
-          increased plasticity after sleep.
+          rewire your brain. Commit to daily practice for at least 6-8 weeks to see significant
+          results. Morning is often ideal, as it sets the tone for the day and takes advantage of
+          the brain&#39;s increased plasticity after sleep.
         </p>
 
         <h3>Combine with Action</h3>
         <p>
           Affirmations are most powerful when paired with behavior that supports them. If you&#39;re
           affirming confidence, take small confident actions. If you&#39;re affirming creativity,
-          create something. This creates congruence between your words and your experience, accelerating
-          identity change.
+          create something. This creates congruence between your words and your experience,
+          accelerating identity change.
         </p>
 
         <h2>The Bigger Picture</h2>
         <p>
           The science of affirmations ultimately points to a profound truth about human psychology:
           the stories we tell ourselves shape who we become. Your internal narrative isn&#39;t just
-          a reflection of reality—it&#39;s a force that shapes reality, influencing your perceptions,
-          emotions, behaviors, and even your neurobiology.
+          a reflection of reality—it&#39;s a force that shapes reality, influencing your
+          perceptions, emotions, behaviors, and even your neurobiology.
         </p>
         <p>
           This isn&#39;t about deluding yourself or ignoring genuine problems. It&#39;s about
@@ -5422,9 +5430,9 @@ export const blogPosts: Record<
           brain, your behavior, and your life.
         </p>
         <p>
-          The ancient philosophers who advised &#34;know thyself&#34; might add, if they lived today:
-          &#34;and choose what self to become.&#34; Affirmations, backed by modern science, give us a
-          practical tool for doing exactly that.
+          The ancient philosophers who advised &#34;know thyself&#34; might add, if they lived
+          today: &#34;and choose what self to become.&#34; Affirmations, backed by modern science,
+          give us a practical tool for doing exactly that.
         </p>
         <p>
           For more on applying these principles, explore our{' '}
@@ -5451,17 +5459,18 @@ export const blogPosts: Record<
     content: (
       <>
         <p className="lead">
-          Self-confidence is often misunderstood as something innate—a trait you either have or you don&#39;t.
-          But decades of research in cognitive psychology and neuroscience tell a very different story.
-          Confidence is a skill, built through deliberate practice, shaped by the narratives you hold about
-          yourself, and reinforced by the small daily choices you make. Affirmations are one of the most
-          accessible and scientifically supported tools for rewiring those internal narratives.
+          Self-confidence is often misunderstood as something innate—a trait you either have or you
+          don&#39;t. But decades of research in cognitive psychology and neuroscience tell a very
+          different story. Confidence is a skill, built through deliberate practice, shaped by the
+          narratives you hold about yourself, and reinforced by the small daily choices you make.
+          Affirmations are one of the most accessible and scientifically supported tools for
+          rewiring those internal narratives.
         </p>
 
         <h2>The Psychology of Self-Confidence</h2>
         <p>
-          At its core, self-confidence is a belief—a prediction your brain makes about your ability to
-          handle what comes next. Psychologist{' '}
+          At its core, self-confidence is a belief—a prediction your brain makes about your ability
+          to handle what comes next. Psychologist{' '}
           <a
             href="https://en.wikipedia.org/wiki/Albert_Bandura"
             target="_blank"
@@ -5469,47 +5478,50 @@ export const blogPosts: Record<
           >
             Albert Bandura
           </a>{' '}
-          spent much of his career studying what he called <em>self-efficacy</em>: the conviction that
-          you can successfully execute the behaviors required to produce a desired outcome. His research
-          revealed something remarkable—self-efficacy is a better predictor of performance than actual
-          ability. In other words, what you believe about yourself matters more than what you can
-          objectively do.
+          spent much of his career studying what he called <em>self-efficacy</em>: the conviction
+          that you can successfully execute the behaviors required to produce a desired outcome. His
+          research revealed something remarkable—self-efficacy is a better predictor of performance
+          than actual ability. In other words, what you believe about yourself matters more than
+          what you can objectively do.
         </p>
         <p>
-          This finding has been replicated across domains. Students who believe they can master difficult
-          material outperform equally talented peers who doubt themselves. Athletes who visualize success
-          perform measurably better than those who focus on avoiding mistakes. Professionals who trust
-          their expertise speak up more often, take on bigger challenges, and advance faster—not because
-          they&#39;re more competent, but because confidence creates a positive feedback loop between
-          belief and behavior.
+          This finding has been replicated across domains. Students who believe they can master
+          difficult material outperform equally talented peers who doubt themselves. Athletes who
+          visualize success perform measurably better than those who focus on avoiding mistakes.
+          Professionals who trust their expertise speak up more often, take on bigger challenges,
+          and advance faster—not because they&#39;re more competent, but because confidence creates
+          a positive feedback loop between belief and behavior.
         </p>
         <p>
           The question, then, is not whether confidence matters—it clearly does. The question is how
-          to build it when your default inner narrative keeps telling you that you&#39;re not good enough.
+          to build it when your default inner narrative keeps telling you that you&#39;re not good
+          enough.
         </p>
 
         <h2>How Your Inner Voice Shapes Your Reality</h2>
         <p>
-          Cognitive psychologists estimate that we experience between 12,000 and 60,000 thoughts per day.
-          For most people, the majority of these thoughts are not only repetitive but negative. This isn&#39;t
-          a character flaw—it&#39;s an evolutionary feature. Your brain evolved to prioritize threats over
-          opportunities, which means your inner monologue naturally gravitates toward worry, self-criticism,
-          and worst-case scenarios.
+          Cognitive psychologists estimate that we experience between 12,000 and 60,000 thoughts per
+          day. For most people, the majority of these thoughts are not only repetitive but negative.
+          This isn&#39;t a character flaw—it&#39;s an evolutionary feature. Your brain evolved to
+          prioritize threats over opportunities, which means your inner monologue naturally
+          gravitates toward worry, self-criticism, and worst-case scenarios.
         </p>
         <p>
-          The problem is that your brain doesn&#39;t clearly distinguish between external reality and internal
-          narrative. When you repeatedly tell yourself &#34;I&#39;m not smart enough&#34; or &#34;I always
-          mess things up,&#34; your brain treats these statements as data points. Over time, they harden
-          into core beliefs that filter how you perceive every experience. You start noticing evidence that
-          confirms your self-doubt while dismissing evidence of your competence. Psychologists call this
-          <em> confirmation bias</em>, and it&#39;s one of the primary mechanisms that keeps low confidence
-          locked in place.
+          The problem is that your brain doesn&#39;t clearly distinguish between external reality
+          and internal narrative. When you repeatedly tell yourself &#34;I&#39;m not smart
+          enough&#34; or &#34;I always mess things up,&#34; your brain treats these statements as
+          data points. Over time, they harden into core beliefs that filter how you perceive every
+          experience. You start noticing evidence that confirms your self-doubt while dismissing
+          evidence of your competence. Psychologists call this
+          <em> confirmation bias</em>, and it&#39;s one of the primary mechanisms that keeps low
+          confidence locked in place.
         </p>
         <p>
-          Affirmations work by deliberately introducing counter-evidence into this biased system. When you
-          consistently repeat a statement like &#34;I trust myself to handle challenges,&#34; you&#39;re not
-          just saying words—you&#39;re creating a new data stream that competes with the old narrative.
-          Over time, with enough repetition, the new belief begins to gain traction.
+          Affirmations work by deliberately introducing counter-evidence into this biased system.
+          When you consistently repeat a statement like &#34;I trust myself to handle
+          challenges,&#34; you&#39;re not just saying words—you&#39;re creating a new data stream
+          that competes with the old narrative. Over time, with enough repetition, the new belief
+          begins to gain traction.
         </p>
 
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
@@ -5517,156 +5529,161 @@ export const blogPosts: Record<
           <p className="text-gray-700">
             A 2016 study published in <em>Social Cognitive and Affective Neuroscience</em> used fMRI
             imaging to observe what happens in the brain during self-affirmation. Researchers found
-            increased activity in the ventromedial prefrontal cortex—a region associated with positive
-            self-evaluation and reward processing. The same brain areas that light up when you receive a
-            compliment or achieve a goal activate when you affirm your own worth. Your brain literally
-            rewards you for believing in yourself.
+            increased activity in the ventromedial prefrontal cortex—a region associated with
+            positive self-evaluation and reward processing. The same brain areas that light up when
+            you receive a compliment or achieve a goal activate when you affirm your own worth. Your
+            brain literally rewards you for believing in yourself.
           </p>
         </div>
 
         <h2>Understanding the Confidence Gap</h2>
         <p>
-          Before exploring how affirmations can help, it&#39;s worth understanding where low confidence
-          typically comes from. Researchers have identified several common origins:
+          Before exploring how affirmations can help, it&#39;s worth understanding where low
+          confidence typically comes from. Researchers have identified several common origins:
         </p>
         <p>
-          <strong>Childhood programming</strong> plays a significant role. The messages you received from
-          parents, teachers, and peers during your formative years became the foundation of your self-concept.
-          If you were frequently criticized, compared unfavorably to siblings, or told you weren&#39;t good
-          enough, those messages likely became internalized beliefs that still operate beneath the surface
-          of your adult consciousness.
+          <strong>Childhood programming</strong> plays a significant role. The messages you received
+          from parents, teachers, and peers during your formative years became the foundation of
+          your self-concept. If you were frequently criticized, compared unfavorably to siblings, or
+          told you weren&#39;t good enough, those messages likely became internalized beliefs that
+          still operate beneath the surface of your adult consciousness.
         </p>
         <p>
-          <strong>Negative experiences and failures</strong> can also erode confidence, especially when
-          they&#39;re interpreted through a lens of personal inadequacy rather than situational difficulty.
-          Losing a job, going through a breakup, or failing an exam can shake anyone&#39;s self-belief—but
-          the lasting damage comes not from the event itself, but from the story you tell yourself about
-          what it means.
+          <strong>Negative experiences and failures</strong> can also erode confidence, especially
+          when they&#39;re interpreted through a lens of personal inadequacy rather than situational
+          difficulty. Losing a job, going through a breakup, or failing an exam can shake
+          anyone&#39;s self-belief—but the lasting damage comes not from the event itself, but from
+          the story you tell yourself about what it means.
         </p>
         <p>
-          <strong>Social comparison</strong>, amplified dramatically by social media, creates a constant
-          stream of upward comparisons that make almost everyone feel inadequate. Research by psychologist
-          Leon Festinger showed that humans have a fundamental drive to evaluate themselves by comparing
-          with others—and in the age of curated online personas, the comparison is almost always unfavorable.
+          <strong>Social comparison</strong>, amplified dramatically by social media, creates a
+          constant stream of upward comparisons that make almost everyone feel inadequate. Research
+          by psychologist Leon Festinger showed that humans have a fundamental drive to evaluate
+          themselves by comparing with others—and in the age of curated online personas, the
+          comparison is almost always unfavorable.
         </p>
         <p>
-          <strong>Perfectionism</strong> is perhaps the most insidious confidence killer. Perfectionists
-          set impossibly high standards, interpret anything less than flawless performance as failure, and
-          rarely give themselves credit for genuine accomplishments. The result is a persistent sense of
-          inadequacy despite objective evidence of competence.
+          <strong>Perfectionism</strong> is perhaps the most insidious confidence killer.
+          Perfectionists set impossibly high standards, interpret anything less than flawless
+          performance as failure, and rarely give themselves credit for genuine accomplishments. The
+          result is a persistent sense of inadequacy despite objective evidence of competence.
         </p>
 
         <h2>How Affirmations Rebuild Confidence from the Inside Out</h2>
         <p>
-          Given these deep-rooted origins, it&#39;s reasonable to wonder whether simply repeating positive
-          statements can make a real difference. The evidence suggests it can—but the mechanism is more
-          sophisticated than it first appears.
+          Given these deep-rooted origins, it&#39;s reasonable to wonder whether simply repeating
+          positive statements can make a real difference. The evidence suggests it can—but the
+          mechanism is more sophisticated than it first appears.
         </p>
         <p>
-          Affirmations don&#39;t work by magically erasing negative beliefs. Instead, they operate through
-          several well-documented psychological pathways. The first is <strong>neuroplasticity</strong>—the
-          brain&#39;s ability to reorganize itself by forming new neural connections throughout life. Every
-          thought you think strengthens the neural pathway associated with that thought. When you repeatedly
-          affirm confidence, you&#39;re literally building and reinforcing neural circuits that support a
-          confident self-image.
+          Affirmations don&#39;t work by magically erasing negative beliefs. Instead, they operate
+          through several well-documented psychological pathways. The first is{' '}
+          <strong>neuroplasticity</strong>—the brain&#39;s ability to reorganize itself by forming
+          new neural connections throughout life. Every thought you think strengthens the neural
+          pathway associated with that thought. When you repeatedly affirm confidence, you&#39;re
+          literally building and reinforcing neural circuits that support a confident self-image.
         </p>
         <p>
-          The second mechanism is what psychologists call <strong>cognitive restructuring</strong>. This is
-          the process of identifying distorted thought patterns and replacing them with more balanced,
-          realistic ones. Affirmations serve as pre-written cognitive restructuring scripts. Instead of
-          waiting for a negative thought to arise and then trying to challenge it in the moment, you
-          proactively install the healthier thought pattern through repetition.
+          The second mechanism is what psychologists call <strong>cognitive restructuring</strong>.
+          This is the process of identifying distorted thought patterns and replacing them with more
+          balanced, realistic ones. Affirmations serve as pre-written cognitive restructuring
+          scripts. Instead of waiting for a negative thought to arise and then trying to challenge
+          it in the moment, you proactively install the healthier thought pattern through
+          repetition.
         </p>
         <p>
-          The third pathway involves <strong>self-perception theory</strong>, proposed by psychologist
-          Daryl Bem. This theory suggests that people infer their attitudes and beliefs partly by observing
-          their own behavior—including their own speech. When you hear yourself saying &#34;I am capable
-          and resourceful,&#34; your brain interprets this as behavioral evidence of confidence, which
-          gradually shifts your self-concept to match.
+          The third pathway involves <strong>self-perception theory</strong>, proposed by
+          psychologist Daryl Bem. This theory suggests that people infer their attitudes and beliefs
+          partly by observing their own behavior—including their own speech. When you hear yourself
+          saying &#34;I am capable and resourceful,&#34; your brain interprets this as behavioral
+          evidence of confidence, which gradually shifts your self-concept to match.
         </p>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">✨ The Bridging Technique</p>
           <p className="text-gray-700">
             If a bold affirmation like &#34;I am supremely confident&#34; feels dishonest, research
-            suggests using bridging phrases: &#34;I am learning to trust myself more,&#34; or &#34;I am
-            open to the possibility that I am more capable than I realize.&#34; A study on self-affirmation
-            and self-esteem found that these softer, process-oriented affirmations are actually more
-            effective for people starting with low baseline confidence, because they don&#39;t trigger
-            the brain&#39;s inconsistency detection system.
+            suggests using bridging phrases: &#34;I am learning to trust myself more,&#34; or &#34;I
+            am open to the possibility that I am more capable than I realize.&#34; A study on
+            self-affirmation and self-esteem found that these softer, process-oriented affirmations
+            are actually more effective for people starting with low baseline confidence, because
+            they don&#39;t trigger the brain&#39;s inconsistency detection system.
           </p>
         </div>
 
         <h2>The Role of Self-Doubt and the Inner Critic</h2>
         <p>
-          Almost everyone has an inner critic—that persistent internal voice that questions your decisions,
-          magnifies your mistakes, and predicts your failure. Understanding where this voice comes from
-          can make it easier to manage.
+          Almost everyone has an inner critic—that persistent internal voice that questions your
+          decisions, magnifies your mistakes, and predicts your failure. Understanding where this
+          voice comes from can make it easier to manage.
         </p>
         <p>
-          From an evolutionary perspective, the inner critic is a threat-detection system gone haywire.
-          In ancestral environments, being cautious, self-monitoring, and anticipating social rejection
-          had genuine survival value. The problem is that this ancient system doesn&#39;t distinguish
-          between a genuine physical threat and the social discomfort of speaking up in a meeting. It
-          fires the same alarm either way.
+          From an evolutionary perspective, the inner critic is a threat-detection system gone
+          haywire. In ancestral environments, being cautious, self-monitoring, and anticipating
+          social rejection had genuine survival value. The problem is that this ancient system
+          doesn&#39;t distinguish between a genuine physical threat and the social discomfort of
+          speaking up in a meeting. It fires the same alarm either way.
         </p>
         <p>
-          Psychologist Kristin Neff&#39;s research on self-compassion offers a powerful counterpoint. Her
-          studies show that people who treat themselves with the same kindness they&#39;d offer a friend
-          are not only happier but also more resilient, more motivated, and—counterintuitively—more willing
-          to acknowledge and learn from their mistakes. Self-compassion doesn&#39;t make you soft; it
-          makes you stronger.
+          Psychologist Kristin Neff&#39;s research on self-compassion offers a powerful
+          counterpoint. Her studies show that people who treat themselves with the same kindness
+          they&#39;d offer a friend are not only happier but also more resilient, more motivated,
+          and—counterintuitively—more willing to acknowledge and learn from their mistakes.
+          Self-compassion doesn&#39;t make you soft; it makes you stronger.
         </p>
         <p>
-          Affirmations that emphasize self-compassion and self-acceptance tend to be particularly effective
-          for building confidence because they address the root cause rather than just the symptom. Instead
-          of trying to convince yourself that you&#39;re perfect, you&#39;re affirming that you&#39;re
-          worthy of kindness and belief regardless of your imperfections. This distinction matters enormously.
+          Affirmations that emphasize self-compassion and self-acceptance tend to be particularly
+          effective for building confidence because they address the root cause rather than just the
+          symptom. Instead of trying to convince yourself that you&#39;re perfect, you&#39;re
+          affirming that you&#39;re worthy of kindness and belief regardless of your imperfections.
+          This distinction matters enormously.
         </p>
 
         <h2>Confidence in Social Situations</h2>
         <p>
           Social confidence—the ability to feel at ease in the presence of others—is one of the most
-          commonly desired forms of self-assurance. It&#39;s also one of the most complex, because it sits
-          at the intersection of self-perception, social skills, and deep-seated fears about judgment and
-          rejection.
+          commonly desired forms of self-assurance. It&#39;s also one of the most complex, because
+          it sits at the intersection of self-perception, social skills, and deep-seated fears about
+          judgment and rejection.
         </p>
         <p>
-          Research on social anxiety reveals that the core issue is rarely a lack of social skills. Most
-          socially anxious people know perfectly well how to make conversation, maintain eye contact, and
-          be engaging. The problem is that their attention is consumed by self-monitoring—constantly
-          evaluating how they&#39;re coming across, scanning for signs of disapproval, and rehearsing what
-          to say next. This internal preoccupation paradoxically makes them seem less present and less
-          confident.
+          Research on social anxiety reveals that the core issue is rarely a lack of social skills.
+          Most socially anxious people know perfectly well how to make conversation, maintain eye
+          contact, and be engaging. The problem is that their attention is consumed by
+          self-monitoring—constantly evaluating how they&#39;re coming across, scanning for signs of
+          disapproval, and rehearsing what to say next. This internal preoccupation paradoxically
+          makes them seem less present and less confident.
         </p>
         <p>
-          Affirmations can help by shifting the focus from &#34;How am I being perceived?&#34; to &#34;I
-          am safe to be myself here.&#34; When your internal narrative supports rather than undermines
-          you, the cognitive bandwidth consumed by self-monitoring gets freed up for genuine connection.
-          Over time, positive social experiences create their own evidence base, and the affirmation
-          becomes a lived reality rather than just a hopeful statement.
+          Affirmations can help by shifting the focus from &#34;How am I being perceived?&#34; to
+          &#34;I am safe to be myself here.&#34; When your internal narrative supports rather than
+          undermines you, the cognitive bandwidth consumed by self-monitoring gets freed up for
+          genuine connection. Over time, positive social experiences create their own evidence base,
+          and the affirmation becomes a lived reality rather than just a hopeful statement.
         </p>
 
         <h2>Overcoming Imposter Syndrome</h2>
         <p>
           Imposter syndrome—the persistent feeling that you&#39;re a fraud who will eventually be
-          &#34;found out&#34;—affects an estimated 70% of people at some point in their lives. It&#39;s
-          especially common among high achievers, which creates a painful irony: the more you accomplish,
-          the more you feel like you don&#39;t deserve it.
+          &#34;found out&#34;—affects an estimated 70% of people at some point in their lives.
+          It&#39;s especially common among high achievers, which creates a painful irony: the more
+          you accomplish, the more you feel like you don&#39;t deserve it.
         </p>
         <p>
           Psychologists Pauline Clance and Suzanne Imes, who first described the phenomenon in 1978,
-          identified several cognitive patterns that maintain imposter feelings. These include attributing
-          success to luck rather than ability, dismissing positive feedback as politeness, and maintaining
-          an impossibly high internal standard that no amount of achievement can satisfy.
+          identified several cognitive patterns that maintain imposter feelings. These include
+          attributing success to luck rather than ability, dismissing positive feedback as
+          politeness, and maintaining an impossibly high internal standard that no amount of
+          achievement can satisfy.
         </p>
         <p>
           Affirmations specifically targeting imposter syndrome work by interrupting these cognitive
           patterns. Statements that acknowledge your earned accomplishments, affirm your right to
           occupy your current position, and normalize the discomfort of growth can gradually weaken
-          the imposter narrative. The key is specificity—generic affirmations about being &#34;amazing&#34;
-          tend to bounce off the imposter shield, while affirmations grounded in concrete evidence
-          (&#34;I earned this role through years of dedicated work&#34;) can penetrate it.
+          the imposter narrative. The key is specificity—generic affirmations about being
+          &#34;amazing&#34; tend to bounce off the imposter shield, while affirmations grounded in
+          concrete evidence (&#34;I earned this role through years of dedicated work&#34;) can
+          penetrate it.
         </p>
         <p>
           For more on building workplace confidence, explore our{' '}
@@ -5681,123 +5698,130 @@ export const blogPosts: Record<
 
         <h2>The Body-Confidence Connection</h2>
         <p>
-          Confidence isn&#39;t purely a mental phenomenon—it lives in the body too. Research by social
-          psychologist Amy Cuddy and others has explored how physical posture influences psychological
-          states. While the original &#34;power pose&#34; findings have been debated, the broader
-          principle that body and mind influence each other bidirectionally is well-established.
+          Confidence isn&#39;t purely a mental phenomenon—it lives in the body too. Research by
+          social psychologist Amy Cuddy and others has explored how physical posture influences
+          psychological states. While the original &#34;power pose&#34; findings have been debated,
+          the broader principle that body and mind influence each other bidirectionally is
+          well-established.
         </p>
         <p>
-          When you stand tall, breathe deeply, and speak with a steady voice, you send signals to your
-          brain that are consistent with confidence. When you slouch, cross your arms, and speak
-          tentatively, you reinforce uncertainty. Combining affirmations with confident body language
-          creates what psychologists call <em>embodied cognition</em>—a state where mind and body
-          align to produce a more powerful psychological shift than either could achieve alone.
+          When you stand tall, breathe deeply, and speak with a steady voice, you send signals to
+          your brain that are consistent with confidence. When you slouch, cross your arms, and
+          speak tentatively, you reinforce uncertainty. Combining affirmations with confident body
+          language creates what psychologists call <em>embodied cognition</em>—a state where mind
+          and body align to produce a more powerful psychological shift than either could achieve
+          alone.
         </p>
         <p>
-          This has practical implications for how you practice affirmations. Speaking them while standing
-          in front of a mirror, maintaining eye contact with your reflection, and using a strong, clear
-          voice engages multiple sensory channels simultaneously. The visual, auditory, and proprioceptive
-          feedback all converge to tell your brain: this is who I am.
+          This has practical implications for how you practice affirmations. Speaking them while
+          standing in front of a mirror, maintaining eye contact with your reflection, and using a
+          strong, clear voice engages multiple sensory channels simultaneously. The visual,
+          auditory, and proprioceptive feedback all converge to tell your brain: this is who I am.
         </p>
 
         <h2>Building a Sustainable Confidence Practice</h2>
         <p>
-          The most common reason affirmation practices fail isn&#39;t that they don&#39;t work—it&#39;s
-          that people abandon them before the neural rewiring has time to take hold. Neuroscience research
-          on habit formation suggests that meaningful cognitive change requires consistent repetition over
-          weeks and months, not days.
+          The most common reason affirmation practices fail isn&#39;t that they don&#39;t
+          work—it&#39;s that people abandon them before the neural rewiring has time to take hold.
+          Neuroscience research on habit formation suggests that meaningful cognitive change
+          requires consistent repetition over weeks and months, not days.
         </p>
 
         <h3>Start with Awareness</h3>
         <p>
-          Before you can change your inner narrative, you need to hear it clearly. Spend a week simply
-          noticing your self-talk without trying to change it. What do you say to yourself when you make
-          a mistake? When you face a challenge? When you receive a compliment? Write down the recurring
-          themes. These are the specific beliefs your affirmation practice needs to target.
+          Before you can change your inner narrative, you need to hear it clearly. Spend a week
+          simply noticing your self-talk without trying to change it. What do you say to yourself
+          when you make a mistake? When you face a challenge? When you receive a compliment? Write
+          down the recurring themes. These are the specific beliefs your affirmation practice needs
+          to target.
         </p>
 
         <h3>Choose Affirmations That Address Your Specific Gaps</h3>
         <p>
-          Generic affirmations are less effective than targeted ones. If your primary confidence gap is
-          social anxiety, focus on affirmations about being safe and welcome in social spaces. If it&#39;s
-          imposter syndrome at work, choose affirmations about your earned expertise and right to be there.
-          If it&#39;s body image, affirm your body&#39;s strength and worthiness. The more precisely your
-          affirmations speak to your actual wounds, the more healing they can do.
+          Generic affirmations are less effective than targeted ones. If your primary confidence gap
+          is social anxiety, focus on affirmations about being safe and welcome in social spaces. If
+          it&#39;s imposter syndrome at work, choose affirmations about your earned expertise and
+          right to be there. If it&#39;s body image, affirm your body&#39;s strength and worthiness.
+          The more precisely your affirmations speak to your actual wounds, the more healing they
+          can do.
         </p>
 
         <h3>Create Morning and Evening Anchors</h3>
         <p>
-          Attach your affirmation practice to existing habits—brushing your teeth, making coffee, getting
-          into bed. This technique, known as <em>habit stacking</em>, dramatically increases the
-          likelihood of consistency. Morning affirmations set the tone for the day ahead; evening
-          affirmations consolidate the day&#39;s learning and prime your subconscious mind during sleep,
-          when memory consolidation and neural reorganization are most active.
+          Attach your affirmation practice to existing habits—brushing your teeth, making coffee,
+          getting into bed. This technique, known as <em>habit stacking</em>, dramatically increases
+          the likelihood of consistency. Morning affirmations set the tone for the day ahead;
+          evening affirmations consolidate the day&#39;s learning and prime your subconscious mind
+          during sleep, when memory consolidation and neural reorganization are most active.
         </p>
 
         <h3>Pair Words with Action</h3>
         <p>
-          Affirmations are most powerful when they&#39;re accompanied by behavior that supports them.
-          If you affirm that you trust yourself to handle challenges, seek out a small challenge that same
-          day. If you affirm that your voice matters, speak up once in a meeting. Each aligned action
-          provides experiential evidence that strengthens the affirmation&#39;s credibility in your own mind.
-          Over time, this creates a virtuous cycle: affirmation leads to action, action builds evidence,
-          evidence deepens belief, and deeper belief inspires bolder action.
+          Affirmations are most powerful when they&#39;re accompanied by behavior that supports
+          them. If you affirm that you trust yourself to handle challenges, seek out a small
+          challenge that same day. If you affirm that your voice matters, speak up once in a
+          meeting. Each aligned action provides experiential evidence that strengthens the
+          affirmation&#39;s credibility in your own mind. Over time, this creates a virtuous cycle:
+          affirmation leads to action, action builds evidence, evidence deepens belief, and deeper
+          belief inspires bolder action.
         </p>
 
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">💡 The Evidence Journal</p>
           <p className="text-gray-700">
-            One of the most effective supplements to an affirmation practice is an evidence journal. Each
-            evening, write down three moments from the day where you demonstrated confidence, competence,
-            or courage—no matter how small. Over weeks and months, this journal becomes a powerful
-            resource you can revisit whenever self-doubt resurfaces. It transforms abstract affirmations
-            into concrete, undeniable proof.
+            One of the most effective supplements to an affirmation practice is an evidence journal.
+            Each evening, write down three moments from the day where you demonstrated confidence,
+            competence, or courage—no matter how small. Over weeks and months, this journal becomes
+            a powerful resource you can revisit whenever self-doubt resurfaces. It transforms
+            abstract affirmations into concrete, undeniable proof.
           </p>
         </div>
 
         <h2>When Affirmations Meet Resistance</h2>
         <p>
-          If you&#39;ve ever tried repeating &#34;I am confident&#34; while every fiber of your being
-          screams &#34;No, I&#39;m not,&#34; you&#39;ve experienced what psychologists call
+          If you&#39;ve ever tried repeating &#34;I am confident&#34; while every fiber of your
+          being screams &#34;No, I&#39;m not,&#34; you&#39;ve experienced what psychologists call
           <em> cognitive dissonance</em>—the discomfort of holding two contradictory beliefs
           simultaneously. This resistance is not a sign that affirmations don&#39;t work; it&#39;s
           actually a sign that they&#39;re starting to challenge deeply held beliefs.
         </p>
         <p>
-          The key to working through resistance is graduated progression. Start with affirmations you can
-          believe at least partially: &#34;I am learning to trust myself&#34; rather than &#34;I trust
-          myself completely.&#34; As the milder affirmation becomes comfortable, gradually strengthen
-          it. This approach respects the brain&#39;s need for incremental change while still moving you
-          in the direction of greater confidence.
+          The key to working through resistance is graduated progression. Start with affirmations
+          you can believe at least partially: &#34;I am learning to trust myself&#34; rather than
+          &#34;I trust myself completely.&#34; As the milder affirmation becomes comfortable,
+          gradually strengthen it. This approach respects the brain&#39;s need for incremental
+          change while still moving you in the direction of greater confidence.
         </p>
         <p>
-          Another powerful technique is evidence-based affirmation. Instead of asserting something you
-          don&#39;t yet believe, reference something you know to be true: &#34;I have handled difficult
-          situations before, and I can handle what comes next.&#34; This gives your skeptical mind
-          something concrete to hold onto while still reinforcing a confident outlook.
+          Another powerful technique is evidence-based affirmation. Instead of asserting something
+          you don&#39;t yet believe, reference something you know to be true: &#34;I have handled
+          difficult situations before, and I can handle what comes next.&#34; This gives your
+          skeptical mind something concrete to hold onto while still reinforcing a confident
+          outlook.
         </p>
 
         <h2>The Long Game: Confidence as Identity</h2>
         <p>
-          The ultimate goal of a sustained affirmation practice isn&#39;t just to feel better in specific
-          moments—it&#39;s to shift your fundamental identity. When confidence moves from something you
-          do to something you are, it becomes self-sustaining. You no longer need to psych yourself up
-          for challenges because your baseline assumption is that you&#39;re capable of meeting them.
+          The ultimate goal of a sustained affirmation practice isn&#39;t just to feel better in
+          specific moments—it&#39;s to shift your fundamental identity. When confidence moves from
+          something you do to something you are, it becomes self-sustaining. You no longer need to
+          psych yourself up for challenges because your baseline assumption is that you&#39;re
+          capable of meeting them.
         </p>
         <p>
-          This identity-level shift is what researcher James Clear describes as the deepest form of habit
-          change. Surface-level change focuses on outcomes (&#34;I want to feel confident in this
-          presentation&#34;). Process-level change focuses on behavior (&#34;I practice affirmations every
-          morning&#34;). Identity-level change focuses on who you believe yourself to be (&#34;I am a
-          confident person&#34;). Each successful repetition of an affirmation, each small act of courage,
-          each moment of self-compassion casts a vote for this new identity—and eventually, the votes
-          reach a tipping point.
+          This identity-level shift is what researcher James Clear describes as the deepest form of
+          habit change. Surface-level change focuses on outcomes (&#34;I want to feel confident in
+          this presentation&#34;). Process-level change focuses on behavior (&#34;I practice
+          affirmations every morning&#34;). Identity-level change focuses on who you believe
+          yourself to be (&#34;I am a confident person&#34;). Each successful repetition of an
+          affirmation, each small act of courage, each moment of self-compassion casts a vote for
+          this new identity—and eventually, the votes reach a tipping point.
         </p>
         <p>
-          The beautiful truth about confidence is that it compounds. Each small act creates evidence that
-          fuels more belief. Each belief drives bolder action. And each action produces results that
-          reinforce the belief. You don&#39;t need to wait until you &#34;feel ready.&#34; Start where
-          you are, with the words you speak to yourself, and trust the process.
+          The beautiful truth about confidence is that it compounds. Each small act creates evidence
+          that fuels more belief. Each belief drives bolder action. And each action produces results
+          that reinforce the belief. You don&#39;t need to wait until you &#34;feel ready.&#34;
+          Start where you are, with the words you speak to yourself, and trust the process.
         </p>
         <p>
           Want to go deeper? Explore{' '}
@@ -5831,24 +5855,26 @@ export const blogPosts: Record<
     content: (
       <>
         <p className="lead">
-          Children are not born with a fixed sense of self. Their identity, confidence, and emotional
-          resilience are shaped—day by day, conversation by conversation—by the messages they absorb from
-          the world around them. And perhaps no messages matter more than the ones they learn to say to
-          themselves. Teaching kids to use affirmations isn&#39;t about empty positivity or sugar-coating
-          reality. It&#39;s about giving them a foundational skill for emotional regulation, self-belief,
-          and psychological flexibility that will serve them for the rest of their lives.
+          Children are not born with a fixed sense of self. Their identity, confidence, and
+          emotional resilience are shaped—day by day, conversation by conversation—by the messages
+          they absorb from the world around them. And perhaps no messages matter more than the ones
+          they learn to say to themselves. Teaching kids to use affirmations isn&#39;t about empty
+          positivity or sugar-coating reality. It&#39;s about giving them a foundational skill for
+          emotional regulation, self-belief, and psychological flexibility that will serve them for
+          the rest of their lives.
         </p>
 
         <h2>Why Affirmations Matter for Children</h2>
         <p>
-          A child&#39;s brain is remarkably plastic. Between birth and age seven, the brain forms neural
-          connections at an extraordinary rate—roughly one million new synaptic connections every second.
-          The experiences and language patterns a child encounters during this window don&#39;t just
-          influence their current mood; they literally shape the architecture of their developing brain.
+          A child&#39;s brain is remarkably plastic. Between birth and age seven, the brain forms
+          neural connections at an extraordinary rate—roughly one million new synaptic connections
+          every second. The experiences and language patterns a child encounters during this window
+          don&#39;t just influence their current mood; they literally shape the architecture of
+          their developing brain.
         </p>
         <p>
-          This is why the words children hear—and eventually internalize—carry so much weight. Developmental
-          psychologist{' '}
+          This is why the words children hear—and eventually internalize—carry so much weight.
+          Developmental psychologist{' '}
           <a
             href="https://en.wikipedia.org/wiki/Lev_Vygotsky"
             target="_blank"
@@ -5857,10 +5883,10 @@ export const blogPosts: Record<
             Lev Vygotsky
           </a>{' '}
           demonstrated that children first learn to regulate their behavior through external speech
-          (a parent saying &#34;You can do this&#34;), then through private speech (the child whispering
-          it to themselves), and finally through internalized thought. Affirmations follow this exact
-          developmental pathway—they give children language for self-encouragement that gradually becomes
-          part of their inner voice.
+          (a parent saying &#34;You can do this&#34;), then through private speech (the child
+          whispering it to themselves), and finally through internalized thought. Affirmations
+          follow this exact developmental pathway—they give children language for self-encouragement
+          that gradually becomes part of their inner voice.
         </p>
         <p>
           Research on{' '}
@@ -5871,42 +5897,44 @@ export const blogPosts: Record<
           >
             Carol Dweck&#39;s
           </a>{' '}
-          growth mindset framework reinforces this principle. Children who are taught to view abilities as
-          developable rather than fixed show greater persistence, higher achievement, and stronger emotional
-          resilience when facing challenges. Affirmations are one of the most natural ways to embed
-          growth-mindset thinking into a child&#39;s daily life.
+          growth mindset framework reinforces this principle. Children who are taught to view
+          abilities as developable rather than fixed show greater persistence, higher achievement,
+          and stronger emotional resilience when facing challenges. Affirmations are one of the most
+          natural ways to embed growth-mindset thinking into a child&#39;s daily life.
         </p>
 
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">💡 What the Research Shows</p>
           <p className="text-gray-700">
             A study published in <em>Child Development</em> found that children who received
-            process-focused praise (&#34;You worked really hard on that&#34;) rather than trait-focused
-            praise (&#34;You&#39;re so smart&#34;) were significantly more likely to embrace challenges
-            and persist through difficulty five years later. Affirmations work on the same principle—they
-            reinforce effort, character, and growth rather than fixed traits.
+            process-focused praise (&#34;You worked really hard on that&#34;) rather than
+            trait-focused praise (&#34;You&#39;re so smart&#34;) were significantly more likely to
+            embrace challenges and persist through difficulty five years later. Affirmations work on
+            the same principle—they reinforce effort, character, and growth rather than fixed
+            traits.
           </p>
         </div>
 
         <h2>The Psychology of Self-Talk in Childhood</h2>
         <p>
-          Children develop an inner voice earlier than most parents realize. By age three or four, most
-          children engage in regular private speech—talking to themselves as they play, solve problems,
-          or navigate emotions. This self-talk isn&#39;t random chatter; it&#39;s a critical cognitive
-          tool that helps children plan, regulate impulses, and process experiences.
+          Children develop an inner voice earlier than most parents realize. By age three or four,
+          most children engage in regular private speech—talking to themselves as they play, solve
+          problems, or navigate emotions. This self-talk isn&#39;t random chatter; it&#39;s a
+          critical cognitive tool that helps children plan, regulate impulses, and process
+          experiences.
         </p>
         <p>
-          The content of this self-talk matters enormously. Children who develop predominantly negative
-          self-talk patterns (&#34;I&#39;m stupid,&#34; &#34;Nobody likes me,&#34; &#34;I always mess
-          up&#34;) are at significantly higher risk for anxiety, depression, and low self-esteem as they
-          grow older. These patterns can become deeply entrenched because they&#39;re established during
-          a period of maximum neural plasticity.
+          The content of this self-talk matters enormously. Children who develop predominantly
+          negative self-talk patterns (&#34;I&#39;m stupid,&#34; &#34;Nobody likes me,&#34; &#34;I
+          always mess up&#34;) are at significantly higher risk for anxiety, depression, and low
+          self-esteem as they grow older. These patterns can become deeply entrenched because
+          they&#39;re established during a period of maximum neural plasticity.
         </p>
         <p>
           Conversely, children who learn constructive self-talk develop what psychologists call
           <em> psychological capital</em>—a reserve of self-efficacy, optimism, resilience, and hope
-          that they can draw on throughout their lives. Affirmations are essentially a structured way
-          to help children build this capital intentionally rather than leaving it to chance.
+          that they can draw on throughout their lives. Affirmations are essentially a structured
+          way to help children build this capital intentionally rather than leaving it to chance.
         </p>
 
         <h2>Age-Appropriate Approaches</h2>
@@ -5919,95 +5947,98 @@ export const blogPosts: Record<
         <h3>Toddlers and Preschoolers (Ages 2-5)</h3>
         <p>
           At this age, children think in concrete, sensory terms. Abstract concepts like &#34;I am
-          worthy&#34; or &#34;I manifest abundance&#34; are meaningless to them. Instead, affirmations
-          should be simple, physical, and connected to their immediate experience.
+          worthy&#34; or &#34;I manifest abundance&#34; are meaningless to them. Instead,
+          affirmations should be simple, physical, and connected to their immediate experience.
         </p>
         <p>
           Effective affirmations for this age group sound like: &#34;I am safe,&#34; &#34;My family
-          loves me,&#34; &#34;I can try again,&#34; or &#34;My body is strong.&#34; These work because
-          they connect to things the child can feel and verify. The child knows their parents are nearby
-          (safe), can feel their body moving (strong), and can see themselves attempting something again
-          (try again).
+          loves me,&#34; &#34;I can try again,&#34; or &#34;My body is strong.&#34; These work
+          because they connect to things the child can feel and verify. The child knows their
+          parents are nearby (safe), can feel their body moving (strong), and can see themselves
+          attempting something again (try again).
         </p>
         <p>
           The delivery method matters as much as the words. Singing affirmations, turning them into
-          call-and-response games, or incorporating them into bedtime routines makes them feel natural
-          rather than forced. Many parents find success with a simple mirror ritual: holding their child
-          in front of a mirror each morning and saying three simple affirmations together.
+          call-and-response games, or incorporating them into bedtime routines makes them feel
+          natural rather than forced. Many parents find success with a simple mirror ritual: holding
+          their child in front of a mirror each morning and saying three simple affirmations
+          together.
         </p>
 
         <h3>Early Elementary (Ages 6-9)</h3>
         <p>
-          Children in this age range are developing a more complex self-concept. They&#39;re beginning
-          to compare themselves to peers, form opinions about their own abilities, and experience more
-          nuanced emotions like embarrassment, pride, and frustration. This is often when negative
-          self-talk first takes hold—a child struggles with reading and concludes &#34;I&#39;m dumb,&#34;
-          or gets excluded from a game and decides &#34;Nobody likes me.&#34;
+          Children in this age range are developing a more complex self-concept. They&#39;re
+          beginning to compare themselves to peers, form opinions about their own abilities, and
+          experience more nuanced emotions like embarrassment, pride, and frustration. This is often
+          when negative self-talk first takes hold—a child struggles with reading and concludes
+          &#34;I&#39;m dumb,&#34; or gets excluded from a game and decides &#34;Nobody likes
+          me.&#34;
         </p>
         <p>
-          Affirmations at this stage should acknowledge the complexity of their emotional world while
-          providing constructive alternatives to negative conclusions. Phrases like &#34;I can do hard
-          things,&#34; &#34;Mistakes help me learn,&#34; &#34;I am a good friend,&#34; and &#34;I
-          don&#39;t have to be perfect to be amazing&#34; address the specific psychological challenges
-          of this developmental period.
+          Affirmations at this stage should acknowledge the complexity of their emotional world
+          while providing constructive alternatives to negative conclusions. Phrases like &#34;I can
+          do hard things,&#34; &#34;Mistakes help me learn,&#34; &#34;I am a good friend,&#34; and
+          &#34;I don&#39;t have to be perfect to be amazing&#34; address the specific psychological
+          challenges of this developmental period.
         </p>
         <p>
-          This is also the ideal age to introduce affirmation journals. Children who can write or draw
-          can create their own affirmation books—illustrated pages with statements they&#39;ve chosen
-          or created themselves. The act of writing and decorating reinforces the affirmation through
-          multiple cognitive channels, and the finished product becomes a tangible resource they can
-          return to when they need encouragement.
+          This is also the ideal age to introduce affirmation journals. Children who can write or
+          draw can create their own affirmation books—illustrated pages with statements they&#39;ve
+          chosen or created themselves. The act of writing and decorating reinforces the affirmation
+          through multiple cognitive channels, and the finished product becomes a tangible resource
+          they can return to when they need encouragement.
         </p>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">✨ The Power of &#34;Yet&#34;</p>
           <p className="text-gray-700">
-            One of the simplest and most effective affirmation techniques for this age group comes directly
-            from Carol Dweck&#39;s research: adding the word &#34;yet&#34; to negative self-statements.
-            When a child says &#34;I can&#39;t do long division,&#34; gently reframe it as &#34;I can&#39;t
-            do long division <em>yet</em>.&#34; This single word transforms a statement of fixed limitation
-            into a statement of ongoing growth—and children internalize the distinction quickly.
+            One of the simplest and most effective affirmation techniques for this age group comes
+            directly from Carol Dweck&#39;s research: adding the word &#34;yet&#34; to negative
+            self-statements. When a child says &#34;I can&#39;t do long division,&#34; gently
+            reframe it as &#34;I can&#39;t do long division <em>yet</em>.&#34; This single word
+            transforms a statement of fixed limitation into a statement of ongoing growth—and
+            children internalize the distinction quickly.
           </p>
         </div>
 
         <h3>Tweens and Pre-Teens (Ages 10-12)</h3>
         <p>
-          The pre-teen years bring a dramatic increase in self-consciousness. Children at this age become
-          acutely aware of social hierarchies, peer evaluation, and cultural standards of appearance and
-          achievement. Body image concerns, social anxiety, and academic pressure begin to intensify.
-          Meanwhile, the prefrontal cortex—the brain region responsible for emotional regulation and
-          rational self-assessment—is still years away from full maturity.
+          The pre-teen years bring a dramatic increase in self-consciousness. Children at this age
+          become acutely aware of social hierarchies, peer evaluation, and cultural standards of
+          appearance and achievement. Body image concerns, social anxiety, and academic pressure
+          begin to intensify. Meanwhile, the prefrontal cortex—the brain region responsible for
+          emotional regulation and rational self-assessment—is still years away from full maturity.
         </p>
         <p>
           Affirmations for tweens need to feel authentic and grown-up, not childish. Statements like
-          &#34;I am worthy of respect,&#34; &#34;My feelings are valid,&#34; &#34;I choose who I want
-          to be,&#34; and &#34;I don&#39;t need everyone&#39;s approval to feel good about myself&#34;
-          address the core developmental tasks of this age without feeling patronizing.
+          &#34;I am worthy of respect,&#34; &#34;My feelings are valid,&#34; &#34;I choose who I
+          want to be,&#34; and &#34;I don&#39;t need everyone&#39;s approval to feel good about
+          myself&#34; address the core developmental tasks of this age without feeling patronizing.
         </p>
         <p>
-          At this stage, parental modeling becomes even more important than direct instruction. Tweens
-          are highly attuned to hypocrisy—if a parent tells their child to practice self-compassion
-          but constantly criticizes their own body or berates themselves for mistakes, the child will
-          absorb the behavior, not the words. Parents who openly practice their own affirmations
-          (&#34;That meeting didn&#39;t go perfectly, but I did my best and I&#39;ll learn from it&#34;)
-          provide a living model of constructive self-talk.
+          At this stage, parental modeling becomes even more important than direct instruction.
+          Tweens are highly attuned to hypocrisy—if a parent tells their child to practice
+          self-compassion but constantly criticizes their own body or berates themselves for
+          mistakes, the child will absorb the behavior, not the words. Parents who openly practice
+          their own affirmations (&#34;That meeting didn&#39;t go perfectly, but I did my best and
+          I&#39;ll learn from it&#34;) provide a living model of constructive self-talk.
         </p>
 
         <h3>Teenagers (Ages 13+)</h3>
         <p>
-          Teenagers are often the hardest audience for affirmations—and the group that needs them most.
-          Adolescence involves a fundamental reorganization of identity, and the intense self-scrutiny
-          that accompanies this process makes teens uniquely vulnerable to negative self-talk. At the
-          same time, teenagers are naturally skeptical of anything that feels forced, simplistic, or
-          &#34;cringey.&#34;
+          Teenagers are often the hardest audience for affirmations—and the group that needs them
+          most. Adolescence involves a fundamental reorganization of identity, and the intense
+          self-scrutiny that accompanies this process makes teens uniquely vulnerable to negative
+          self-talk. At the same time, teenagers are naturally skeptical of anything that feels
+          forced, simplistic, or &#34;cringey.&#34;
         </p>
         <p>
-          The most effective approach with teenagers is to frame affirmations not as cheerful mantras
-          but as a form of cognitive self-defense. Teens respond well to understanding the neuroscience—
-          explaining that their brain&#39;s negativity bias is an evolutionary relic, not an accurate
-          reflection of reality, gives them a framework for challenging their own harsh self-judgments.
-          Presenting affirmations as a tool for taking control of their own mental narrative appeals to
-          the teenager&#39;s desire for autonomy and agency.
+          The most effective approach with teenagers is to frame affirmations not as cheerful
+          mantras but as a form of cognitive self-defense. Teens respond well to understanding the
+          neuroscience— explaining that their brain&#39;s negativity bias is an evolutionary relic,
+          not an accurate reflection of reality, gives them a framework for challenging their own
+          harsh self-judgments. Presenting affirmations as a tool for taking control of their own
+          mental narrative appeals to the teenager&#39;s desire for autonomy and agency.
         </p>
         <p>
           Encourage teens to write their own affirmations in language that feels genuine to them. A
@@ -6034,10 +6065,10 @@ export const blogPosts: Record<
         </p>
         <p>
           Effective affirmation practice always starts with emotional validation. First, acknowledge
-          what the child is feeling (&#34;That sounds really hurtful. I&#39;m sorry that happened&#34;).
-          Then, once they feel heard, gently introduce the affirmation as a complement to their
-          processing—not a replacement for it (&#34;Even when hard things happen, you are brave and
-          you are loved&#34;).
+          what the child is feeling (&#34;That sounds really hurtful. I&#39;m sorry that
+          happened&#34;). Then, once they feel heard, gently introduce the affirmation as a
+          complement to their processing—not a replacement for it (&#34;Even when hard things
+          happen, you are brave and you are loved&#34;).
         </p>
 
         <h3>Using Trait-Based Rather Than Process-Based Language</h3>
@@ -6048,10 +6079,10 @@ export const blogPosts: Record<
           interpret the difficulty as evidence that they&#39;re not actually smart—and they give up.
         </p>
         <p>
-          Process-based affirmations are far more effective: &#34;I work hard and I keep trying,&#34;
-          &#34;I learn from my mistakes,&#34; &#34;I get better with practice.&#34; These tie
-          success to effort and strategy rather than innate ability, which makes children more willing
-          to persist through challenges and more resilient in the face of setbacks.
+          Process-based affirmations are far more effective: &#34;I work hard and I keep
+          trying,&#34; &#34;I learn from my mistakes,&#34; &#34;I get better with practice.&#34;
+          These tie success to effort and strategy rather than innate ability, which makes children
+          more willing to persist through challenges and more resilient in the face of setbacks.
         </p>
 
         <h3>Making Affirmations Feel Like a Chore</h3>
@@ -6083,11 +6114,11 @@ export const blogPosts: Record<
         <p>
           Psychologist Martin Seligman&#39;s research on <em>learned optimism</em> demonstrates that
           the way people explain negative events to themselves—their &#34;explanatory style&#34;—is
-          one of the strongest predictors of mental health, academic achievement, and life satisfaction.
-          Children who learn to attribute setbacks to specific, temporary, and changeable causes
-          (&#34;I didn&#39;t prepare enough for this particular test&#34;) rather than global,
-          permanent, and personal ones (&#34;I&#39;m just not smart&#34;) show dramatically better
-          outcomes across virtually every measurable dimension of wellbeing.
+          one of the strongest predictors of mental health, academic achievement, and life
+          satisfaction. Children who learn to attribute setbacks to specific, temporary, and
+          changeable causes (&#34;I didn&#39;t prepare enough for this particular test&#34;) rather
+          than global, permanent, and personal ones (&#34;I&#39;m just not smart&#34;) show
+          dramatically better outcomes across virtually every measurable dimension of wellbeing.
         </p>
         <p>
           Affirmations are one of the most direct ways to shape a child&#39;s explanatory style.
@@ -6100,10 +6131,11 @@ export const blogPosts: Record<
           <p className="text-gray-800 font-semibold mb-2">💡 The Family Affirmation Ritual</p>
           <p className="text-gray-700">
             One of the most powerful ways to normalize affirmations for children is to make them a
-            family practice. At dinner, each family member shares one thing they&#39;re proud of from
-            the day and one affirmation for tomorrow. This removes the stigma of &#34;needing help&#34;
-            because everyone participates—parents included. It also creates a regular space for
-            children to practice articulating their strengths and intentions in a supportive environment.
+            family practice. At dinner, each family member shares one thing they&#39;re proud of
+            from the day and one affirmation for tomorrow. This removes the stigma of &#34;needing
+            help&#34; because everyone participates—parents included. It also creates a regular
+            space for children to practice articulating their strengths and intentions in a
+            supportive environment.
           </p>
         </div>
 
@@ -6139,10 +6171,10 @@ export const blogPosts: Record<
         <h3>The Mirror Moment</h3>
         <p>
           Stand with your child in front of a mirror each morning. Look at your reflections together
-          and each say one kind thing about yourselves. For young children, you can start by modeling:
-          &#34;I am kind and I try my best.&#34; Over time, children will begin generating their own
-          statements. The mirror adds a visual component that strengthens the neural connection between
-          the words and the self.
+          and each say one kind thing about yourselves. For young children, you can start by
+          modeling: &#34;I am kind and I try my best.&#34; Over time, children will begin generating
+          their own statements. The mirror adds a visual component that strengthens the neural
+          connection between the words and the self.
         </p>
 
         <h3>Affirmation Jar</h3>
@@ -6150,25 +6182,27 @@ export const blogPosts: Record<
           Fill a jar with folded slips of paper, each containing a different affirmation. Let your
           child pull one out each morning or whenever they need a boost. This introduces an element
           of surprise and ritual that children find engaging. Better yet, have your child write and
-          decorate some of the slips themselves—the act of creation deepens ownership of the message.
+          decorate some of the slips themselves—the act of creation deepens ownership of the
+          message.
         </p>
 
         <h3>Story-Based Affirmations</h3>
         <p>
-          For younger children especially, embedding affirmations in stories is remarkably effective.
-          Create characters who face challenges similar to your child&#39;s and overcome them partly
-          through positive self-talk. Children naturally identify with story characters and internalize
-          the coping strategies they see modeled in narrative form. Many excellent children&#39;s books
-          are built around affirmation themes—reading them together creates organic opportunities for
-          discussion.
+          For younger children especially, embedding affirmations in stories is remarkably
+          effective. Create characters who face challenges similar to your child&#39;s and overcome
+          them partly through positive self-talk. Children naturally identify with story characters
+          and internalize the coping strategies they see modeled in narrative form. Many excellent
+          children&#39;s books are built around affirmation themes—reading them together creates
+          organic opportunities for discussion.
         </p>
 
         <h3>The Reframe Game</h3>
         <p>
           Turn cognitive restructuring into a game. When something goes wrong (a rained-out picnic,
           a lost game, a broken toy), challenge the family to find three different ways to think
-          about it. This teaches children that their first interpretation of an event is not the only
-          possible interpretation—a foundational cognitive behavioral skill that affirmations build upon.
+          about it. This teaches children that their first interpretation of an event is not the
+          only possible interpretation—a foundational cognitive behavioral skill that affirmations
+          build upon.
         </p>
 
         <h2>When Children Resist</h2>
@@ -6183,31 +6217,31 @@ export const blogPosts: Record<
           The solution is to start smaller. Instead of &#34;I am confident and brave,&#34; try
           &#34;I am learning to be braver every day.&#34; Instead of &#34;I love myself,&#34; try
           &#34;I am learning to be kinder to myself.&#34; These bridging affirmations honor the
-          child&#39;s current experience while gently pointing toward growth. Over time, as
-          small successes accumulate, the gap between the affirmation and the child&#39;s
-          self-concept narrows, and stronger affirmations begin to feel more authentic.
+          child&#39;s current experience while gently pointing toward growth. Over time, as small
+          successes accumulate, the gap between the affirmation and the child&#39;s self-concept
+          narrows, and stronger affirmations begin to feel more authentic.
         </p>
         <p>
           For children who resist any form of direct self-affirmation, third-person affirmations can
           be a helpful stepping stone. Having a child say &#34;[Their name] is brave and kind&#34;
-          rather than &#34;I am brave and kind&#34; creates a small psychological distance that makes
-          the statement feel less vulnerable. Research on self-distancing shows that this third-person
-          approach can actually be more effective than first-person for people with high anxiety or
-          low self-esteem.
+          rather than &#34;I am brave and kind&#34; creates a small psychological distance that
+          makes the statement feel less vulnerable. Research on self-distancing shows that this
+          third-person approach can actually be more effective than first-person for people with
+          high anxiety or low self-esteem.
         </p>
 
         <h2>The Long-Term Impact</h2>
         <p>
           The affirmation habits you help establish in childhood don&#39;t just benefit your child
-          now—they create a foundation for lifelong emotional health. Adults who developed constructive
-          self-talk patterns in childhood show stronger stress resilience, healthier relationships,
-          greater career satisfaction, and lower rates of anxiety and depression.
+          now—they create a foundation for lifelong emotional health. Adults who developed
+          constructive self-talk patterns in childhood show stronger stress resilience, healthier
+          relationships, greater career satisfaction, and lower rates of anxiety and depression.
         </p>
         <p>
-          Perhaps most importantly, children who grow up with affirmation practices tend to pass them
-          on to their own children. You&#39;re not just teaching a technique—you&#39;re establishing
-          a family legacy of emotional intelligence and self-compassion that can ripple forward through
-          generations.
+          Perhaps most importantly, children who grow up with affirmation practices tend to pass
+          them on to their own children. You&#39;re not just teaching a technique—you&#39;re
+          establishing a family legacy of emotional intelligence and self-compassion that can ripple
+          forward through generations.
         </p>
         <p>
           The investment is remarkably small: a few minutes each day, a willingness to model
@@ -6247,20 +6281,20 @@ export const blogPosts: Record<
     content: (
       <>
         <p className="lead">
-          Burnout isn&#39;t just feeling tired after a long week—it&#39;s a state of chronic physical
-          and emotional exhaustion that leaves you feeling detached, cynical, and ineffective. If
-          you&#39;re reading this, you&#39;ve likely been running on empty for far too long. The good
-          news: recovery is possible, and affirmations can be a powerful part of reclaiming your
-          energy, boundaries, and sense of purpose.
+          Burnout isn&#39;t just feeling tired after a long week—it&#39;s a state of chronic
+          physical and emotional exhaustion that leaves you feeling detached, cynical, and
+          ineffective. If you&#39;re reading this, you&#39;ve likely been running on empty for far
+          too long. The good news: recovery is possible, and affirmations can be a powerful part of
+          reclaiming your energy, boundaries, and sense of purpose.
         </p>
 
         <h2>Understanding Burnout: More Than Just Stress</h2>
         <p>
-          The World Health Organization officially recognized burnout as an occupational phenomenon in
-          2019, defining it by three dimensions: energy depletion and exhaustion, increased mental
-          distance from your job, and reduced professional efficacy. But burnout doesn&#39;t stay
-          neatly within the boundaries of work—it spills into relationships, health, creativity, and
-          your sense of self.
+          The World Health Organization officially recognized burnout as an occupational phenomenon
+          in 2019, defining it by three dimensions: energy depletion and exhaustion, increased
+          mental distance from your job, and reduced professional efficacy. But burnout doesn&#39;t
+          stay neatly within the boundaries of work—it spills into relationships, health,
+          creativity, and your sense of self.
         </p>
         <p>
           Research from psychologist Christina Maslach, who developed the most widely used burnout
@@ -6281,9 +6315,9 @@ export const blogPosts: Record<
           <p className="text-gray-800 font-semibold mb-2">⚠️ Important Note</p>
           <p className="text-gray-700">
             Affirmations are a complementary tool for burnout recovery, not a substitute for
-            addressing root causes. If you&#39;re experiencing severe burnout, consider working with a
-            therapist or counselor alongside these practices. True recovery often requires structural
-            changes—not just mindset shifts.
+            addressing root causes. If you&#39;re experiencing severe burnout, consider working with
+            a therapist or counselor alongside these practices. True recovery often requires
+            structural changes—not just mindset shifts.
           </p>
         </div>
 
@@ -6291,12 +6325,13 @@ export const blogPosts: Record<
         <p>
           Burnout creates a specific pattern in the brain. Chronic stress shrinks the prefrontal
           cortex (responsible for rational thinking and emotional regulation) while enlarging the
-          amygdala (the brain&#39;s threat-detection center). This is why burned-out people often feel
-          simultaneously exhausted and anxious—their brain is stuck in survival mode with diminished
-          capacity to regulate that response.
+          amygdala (the brain&#39;s threat-detection center). This is why burned-out people often
+          feel simultaneously exhausted and anxious—their brain is stuck in survival mode with
+          diminished capacity to regulate that response.
         </p>
         <p>
-          Research published in <em>Social Cognitive and Affective Neuroscience</em> demonstrates that{' '}
+          Research published in <em>Social Cognitive and Affective Neuroscience</em> demonstrates
+          that{' '}
           <a
             href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4814782/"
             target="_blank"
@@ -6304,28 +6339,31 @@ export const blogPosts: Record<
           >
             self-affirmation activates the ventromedial prefrontal cortex
           </a>
-          —the same region that burnout suppresses. Regular affirmation practice essentially provides
-          targeted exercise for the part of your brain that burnout has weakened. Over time, this can
-          help restore the balance between your rational mind and your stress response.
+          —the same region that burnout suppresses. Regular affirmation practice essentially
+          provides targeted exercise for the part of your brain that burnout has weakened. Over
+          time, this can help restore the balance between your rational mind and your stress
+          response.
         </p>
         <p>
-          Additionally, a study in <em>Psychological Science</em> found that self-affirmation reduces
-          cortisol response to stress, which is particularly relevant for burnout recovery. When your
-          stress hormones are chronically elevated, bringing them down isn&#39;t just about feeling
-          better—it&#39;s about giving your body the biological conditions it needs to heal.
+          Additionally, a study in <em>Psychological Science</em> found that self-affirmation
+          reduces cortisol response to stress, which is particularly relevant for burnout recovery.
+          When your stress hormones are chronically elevated, bringing them down isn&#39;t just
+          about feeling better—it&#39;s about giving your body the biological conditions it needs to
+          heal.
         </p>
 
         <h2>50 Affirmations for Burnout Recovery</h2>
         <p>
-          These affirmations are organized by the specific dimensions of burnout they address. Choose
-          the ones that resonate most with where you are right now—you don&#39;t need to use all of
-          them.
+          These affirmations are organized by the specific dimensions of burnout they address.
+          Choose the ones that resonate most with where you are right now—you don&#39;t need to use
+          all of them.
         </p>
 
         <h3>Releasing Guilt and Self-Blame</h3>
         <p>
-          Burnout often comes with a heavy layer of guilt—for not being productive enough, for needing
-          rest, for not meeting your own standards. These affirmations help dissolve that guilt.
+          Burnout often comes with a heavy layer of guilt—for not being productive enough, for
+          needing rest, for not meeting your own standards. These affirmations help dissolve that
+          guilt.
         </p>
         <ul>
           <li>I am not lazy. I am depleted, and I deserve rest.</li>
@@ -6385,7 +6423,9 @@ export const blogPosts: Record<
           <li>I am rediscovering what brings me joy.</li>
           <li>I trust that my sense of purpose will return as I heal.</li>
           <li>I am not starting over. I am starting from experience.</li>
-          <li>The things that matter most to me have not disappeared—they are just quiet right now.</li>
+          <li>
+            The things that matter most to me have not disappeared—they are just quiet right now.
+          </li>
           <li>I give myself permission to change direction.</li>
           <li>My best work comes from a place of wholeness, not depletion.</li>
         </ul>
@@ -6426,11 +6466,11 @@ export const blogPosts: Record<
         <div className="bg-violet-50 border-l-4 border-violet-500 p-6 my-8 rounded-r-lg">
           <p className="text-gray-800 font-semibold mb-2">💡 How to Use These Affirmations</p>
           <p className="text-gray-700">
-            When you&#39;re burned out, even an affirmation practice can feel like another task on an
-            overwhelming list. Start with just one affirmation. Write it on a sticky note and place it
-            where you&#39;ll see it. Read it when you notice it—no schedule, no pressure. As your
-            energy returns, you can gradually expand your practice. The goal is gentleness, not
-            discipline.
+            When you&#39;re burned out, even an affirmation practice can feel like another task on
+            an overwhelming list. Start with just one affirmation. Write it on a sticky note and
+            place it where you&#39;ll see it. Read it when you notice it—no schedule, no pressure.
+            As your energy returns, you can gradually expand your practice. The goal is gentleness,
+            not discipline.
           </p>
         </div>
 
@@ -6442,29 +6482,29 @@ export const blogPosts: Record<
 
         <h3>Morning: Set Your Intention (5 minutes)</h3>
         <p>
-          Before checking your phone or email, take five slow breaths and read your chosen affirmation.
-          Then ask yourself one question: &#34;What is the one thing I need to protect today?&#34;
-          This might be your lunch break, your evening plans, or simply the permission to leave work on
-          time. Identifying your non-negotiable each morning makes it easier to defend it when pressure
-          mounts.
+          Before checking your phone or email, take five slow breaths and read your chosen
+          affirmation. Then ask yourself one question: &#34;What is the one thing I need to protect
+          today?&#34; This might be your lunch break, your evening plans, or simply the permission
+          to leave work on time. Identifying your non-negotiable each morning makes it easier to
+          defend it when pressure mounts.
         </p>
 
         <h3>Midday: The Two-Minute Reset</h3>
         <p>
-          Set a reminder for the middle of your day. When it goes off, pause whatever you&#39;re doing.
-          Close your eyes. Take three deep breaths. Repeat your affirmation silently. Then do a quick
-          body scan: where are you holding tension? Consciously release it. This micro-practice
-          interrupts the stress accumulation cycle that drives burnout and gives your nervous system a
-          brief recovery window.
+          Set a reminder for the middle of your day. When it goes off, pause whatever you&#39;re
+          doing. Close your eyes. Take three deep breaths. Repeat your affirmation silently. Then do
+          a quick body scan: where are you holding tension? Consciously release it. This
+          micro-practice interrupts the stress accumulation cycle that drives burnout and gives your
+          nervous system a brief recovery window.
         </p>
 
         <h3>Evening: Release and Reflect (10 minutes)</h3>
         <p>
           At the end of your workday, create a deliberate transition ritual. This might be changing
-          clothes, taking a short walk, or writing three sentences in a journal. During this transition,
-          consciously release the day&#39;s demands. Use an affirmation like &#34;I have done enough
-          for today&#34; or &#34;I release what I cannot control.&#34; The goal is to train your brain
-          to exit work mode so your off-hours can actually be restorative.
+          clothes, taking a short walk, or writing three sentences in a journal. During this
+          transition, consciously release the day&#39;s demands. Use an affirmation like &#34;I have
+          done enough for today&#34; or &#34;I release what I cannot control.&#34; The goal is to
+          train your brain to exit work mode so your off-hours can actually be restorative.
         </p>
 
         <h2>The Stages of Burnout Recovery</h2>
@@ -6476,27 +6516,28 @@ export const blogPosts: Record<
         <h3>Stage 1: Acknowledgment</h3>
         <p>
           The first step is simply admitting that you&#39;re burned out. Many people resist this
-          because it feels like admitting defeat. Affirmations in this stage focus on self-compassion
-          and validation: &#34;I am not lazy. I am depleted&#34; and &#34;I did not fail. I gave
-          more than was sustainable.&#34;
+          because it feels like admitting defeat. Affirmations in this stage focus on
+          self-compassion and validation: &#34;I am not lazy. I am depleted&#34; and &#34;I did not
+          fail. I gave more than was sustainable.&#34;
         </p>
 
         <h3>Stage 2: Rest and Withdrawal</h3>
         <p>
-          Once you&#39;ve acknowledged burnout, your body often demands a period of deep rest. You may
-          sleep more, withdraw socially, and lose interest in activities you normally enjoy. This
-          isn&#39;t depression (though the two can co-occur)—it&#39;s your system finally processing
-          the backlog of exhaustion. Affirmations here emphasize permission: &#34;Rest is not a reward.
-          It is a requirement&#34; and &#34;I release the pressure to bounce back quickly.&#34;
+          Once you&#39;ve acknowledged burnout, your body often demands a period of deep rest. You
+          may sleep more, withdraw socially, and lose interest in activities you normally enjoy.
+          This isn&#39;t depression (though the two can co-occur)—it&#39;s your system finally
+          processing the backlog of exhaustion. Affirmations here emphasize permission: &#34;Rest is
+          not a reward. It is a requirement&#34; and &#34;I release the pressure to bounce back
+          quickly.&#34;
         </p>
 
         <h3>Stage 3: Rebuilding</h3>
         <p>
           As energy slowly returns, you&#39;ll begin re-engaging with life—but ideally on different
-          terms. This is the stage where boundary affirmations become crucial: &#34;I choose a pace I
-          can maintain, not a pace I can survive&#34; and &#34;I am building a life that doesn&#39;t
-          require escape.&#34; The risk in this stage is returning to old patterns before you&#39;ve
-          fully healed.
+          terms. This is the stage where boundary affirmations become crucial: &#34;I choose a pace
+          I can maintain, not a pace I can survive&#34; and &#34;I am building a life that
+          doesn&#39;t require escape.&#34; The risk in this stage is returning to old patterns
+          before you&#39;ve fully healed.
         </p>
 
         <h3>Stage 4: Growth</h3>
@@ -6513,8 +6554,8 @@ export const blogPosts: Record<
           <p className="text-gray-700">
             Burnout recovery is not about becoming a different person or developing superhuman
             resilience. It&#39;s about recognizing that you are a human being with limits—and that
-            honoring those limits is not weakness but wisdom. Every affirmation you practice is a small
-            act of reclaiming yourself from a culture that profits from your exhaustion.
+            honoring those limits is not weakness but wisdom. Every affirmation you practice is a
+            small act of reclaiming yourself from a culture that profits from your exhaustion.
           </p>
         </div>
 
@@ -6527,11 +6568,11 @@ export const blogPosts: Record<
           the changes themselves.
         </p>
         <p>
-          If you&#39;ve been practicing affirmations and other self-care strategies for several weeks
-          without improvement, or if you&#39;re experiencing symptoms of clinical depression or
-          anxiety, please reach out to a mental health professional. Burnout and depression share many
-          symptoms, and a trained professional can help you distinguish between them and create an
-          appropriate treatment plan.
+          If you&#39;ve been practicing affirmations and other self-care strategies for several
+          weeks without improvement, or if you&#39;re experiencing symptoms of clinical depression
+          or anxiety, please reach out to a mental health professional. Burnout and depression share
+          many symptoms, and a trained professional can help you distinguish between them and create
+          an appropriate treatment plan.
         </p>
 
         <p>
@@ -6567,17 +6608,17 @@ export const blogPosts: Record<
       <>
         <p className="lead">
           There is a particular kind of dread that arrives when you read another headline about
-          record-breaking temperatures, watch footage of glaciers calving into the sea, or notice that
-          the seasons where you live no longer behave the way they did when you were a child. It
-          settles into your chest like a low hum that never quite goes away. Psychologists have given
-          it names—eco-anxiety, climate distress, solastalgia—but the labels don&#39;t quite capture
-          what it feels like to grieve a future that hasn&#39;t happened yet while watching the present
-          slowly become unrecognizable.
+          record-breaking temperatures, watch footage of glaciers calving into the sea, or notice
+          that the seasons where you live no longer behave the way they did when you were a child.
+          It settles into your chest like a low hum that never quite goes away. Psychologists have
+          given it names—eco-anxiety, climate distress, solastalgia—but the labels don&#39;t quite
+          capture what it feels like to grieve a future that hasn&#39;t happened yet while watching
+          the present slowly become unrecognizable.
         </p>
 
         <p>
-          If you feel this way, you are not alone, and you are not overreacting. A 2021 global survey
-          of 10,000 young people across ten countries, published in{' '}
+          If you feel this way, you are not alone, and you are not overreacting. A 2021 global
+          survey of 10,000 young people across ten countries, published in{' '}
           <a
             href="https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext"
             target="_blank"
@@ -6586,19 +6627,19 @@ export const blogPosts: Record<
             The Lancet Planetary Health
           </a>
           , found that 75% of respondents described the future as frightening, and 56% said they
-          believed humanity was doomed. Nearly half reported that their feelings about climate change
-          negatively affected their daily functioning. These are not fringe reactions from people prone
-          to anxiety—they are the rational emotional responses of people paying attention to what the
-          science is telling us.
+          believed humanity was doomed. Nearly half reported that their feelings about climate
+          change negatively affected their daily functioning. These are not fringe reactions from
+          people prone to anxiety—they are the rational emotional responses of people paying
+          attention to what the science is telling us.
         </p>
 
         <p>
           This article is not going to tell you to stop worrying. It is not going to suggest that if
-          you just think positively enough, the ice caps will refreeze. What it will do is explore how
-          affirmations—used honestly and thoughtfully—can help you move from a state of frozen despair
-          to one of grounded, purposeful engagement with the crisis of our time. Because the world
-          does not need more people who have numbed themselves to what is happening. It needs people
-          who can feel the weight of it and still act.
+          you just think positively enough, the ice caps will refreeze. What it will do is explore
+          how affirmations—used honestly and thoughtfully—can help you move from a state of frozen
+          despair to one of grounded, purposeful engagement with the crisis of our time. Because the
+          world does not need more people who have numbed themselves to what is happening. It needs
+          people who can feel the weight of it and still act.
         </p>
 
         <h2>Why Climate Change Hits Us Differently Than Other Anxieties</h2>
@@ -6614,13 +6655,13 @@ export const blogPosts: Record<
         </p>
 
         <p>
-          This creates a unique psychological challenge. Standard anxiety treatments are built on the
-          assumption that the anxious person is overestimating the threat. With climate change, the
-          threat assessment is often accurate or even understated. What this means for affirmation
-          practice is that we need a fundamentally different approach—one that doesn&#39;t minimize
-          the reality of the crisis but instead addresses our relationship to it. The question is not
-          &#34;how do I stop feeling anxious about climate change?&#34; but &#34;how do I feel the
-          anxiety without being consumed by it?&#34;
+          This creates a unique psychological challenge. Standard anxiety treatments are built on
+          the assumption that the anxious person is overestimating the threat. With climate change,
+          the threat assessment is often accurate or even understated. What this means for
+          affirmation practice is that we need a fundamentally different approach—one that
+          doesn&#39;t minimize the reality of the crisis but instead addresses our relationship to
+          it. The question is not &#34;how do I stop feeling anxious about climate change?&#34; but
+          &#34;how do I feel the anxiety without being consumed by it?&#34;
         </p>
 
         <p>
@@ -6637,31 +6678,31 @@ export const blogPosts: Record<
         <p>
           One of the most common and debilitating responses to climate anxiety is what researchers
           call eco-paralysis: the feeling that the problem is so enormous, so systemic, and so far
-          beyond your individual control that there is simply no point in doing anything. You recycle,
-          but corporations produce millions of tons of waste. You ride your bike, but airlines burn
-          jet fuel by the ocean. You vote for climate-conscious candidates, but fossil fuel lobbies
-          spend billions shaping policy. The math of individual action versus systemic destruction
-          feels absurd, and that absurdity breeds a particular kind of hopelessness.
+          beyond your individual control that there is simply no point in doing anything. You
+          recycle, but corporations produce millions of tons of waste. You ride your bike, but
+          airlines burn jet fuel by the ocean. You vote for climate-conscious candidates, but fossil
+          fuel lobbies spend billions shaping policy. The math of individual action versus systemic
+          destruction feels absurd, and that absurdity breeds a particular kind of hopelessness.
         </p>
 
         <p>
           This paralysis is not a character flaw. It is a predictable psychological response to a
-          threat that violates the basic human need for a sense of agency. When we believe our actions
-          have no meaningful impact, our motivation system essentially shuts down. The brain, in a
-          perverse act of self-protection, converts &#34;I can&#39;t fix this&#34; into &#34;I
-          don&#39;t care about this&#34;—not because you actually don&#39;t care, but because caring
-          without agency is psychologically unbearable.
+          threat that violates the basic human need for a sense of agency. When we believe our
+          actions have no meaningful impact, our motivation system essentially shuts down. The
+          brain, in a perverse act of self-protection, converts &#34;I can&#39;t fix this&#34; into
+          &#34;I don&#39;t care about this&#34;—not because you actually don&#39;t care, but because
+          caring without agency is psychologically unbearable.
         </p>
 
         <p>
           Affirmations can interrupt this shutdown cycle. Not by inflating your sense of individual
           power—that would be dishonest—but by reconnecting you with the forms of agency you
           actually do have. The most important shift is from &#34;my actions need to solve the
-          problem&#34; to &#34;my actions are part of a collective response, and collective responses
-          are the only thing that has ever solved a systemic problem.&#34; No single person ended
-          apartheid, won women&#39;s suffrage, or passed the Clean Air Act. But every one of those
-          victories was made up of individuals who chose to act despite knowing their individual
-          contribution was, in isolation, insufficient.
+          problem&#34; to &#34;my actions are part of a collective response, and collective
+          responses are the only thing that has ever solved a systemic problem.&#34; No single
+          person ended apartheid, won women&#39;s suffrage, or passed the Clean Air Act. But every
+          one of those victories was made up of individuals who chose to act despite knowing their
+          individual contribution was, in isolation, insufficient.
         </p>
 
         <h2>The Grief That Has No Funeral</h2>
@@ -6670,40 +6711,40 @@ export const blogPosts: Record<
           Climate change involves a form of loss that our culture has no established rituals for
           processing. When a person dies, we gather, we mourn, we tell stories, we mark the passage.
           But when a glacier disappears, when a coral reef bleaches, when a bird species you used to
-          hear every morning goes silent, there is no ceremony. The loss is diffuse, incremental, and
-          ongoing. It is grief without a funeral, and that makes it extraordinarily difficult to
+          hear every morning goes silent, there is no ceremony. The loss is diffuse, incremental,
+          and ongoing. It is grief without a funeral, and that makes it extraordinarily difficult to
           metabolize.
         </p>
 
         <p>
-          Australian philosopher Glenn Albrecht coined the term &#34;solastalgia&#34; to describe the
-          distress caused by environmental change in one&#39;s home environment—a kind of homesickness
-          you experience while still at home, because home itself has changed. It is the feeling a
-          farmer has when the rains stop coming on schedule, the feeling a coastal resident has when
-          the beach they grew up on erodes a little more each year, the feeling any of us has when we
-          notice that winter is shorter than it used to be, or that the wildflowers bloom three weeks
-          early, or that the fireflies have thinned.
+          Australian philosopher Glenn Albrecht coined the term &#34;solastalgia&#34; to describe
+          the distress caused by environmental change in one&#39;s home environment—a kind of
+          homesickness you experience while still at home, because home itself has changed. It is
+          the feeling a farmer has when the rains stop coming on schedule, the feeling a coastal
+          resident has when the beach they grew up on erodes a little more each year, the feeling
+          any of us has when we notice that winter is shorter than it used to be, or that the
+          wildflowers bloom three weeks early, or that the fireflies have thinned.
         </p>
 
         <p>
           Acknowledging this grief is not weakness—it is an expression of love for the living world.
-          You cannot grieve what you do not value. The pain you feel when you contemplate the loss of
-          old-growth forests or polar bear habitat or the Great Barrier Reef is evidence of a deep
-          connection to something larger than yourself. Affirmations that honor this grief—rather than
-          trying to bypass it—help you stay connected to the love that underlies the pain, and it is
-          that love that ultimately fuels sustained action.
+          You cannot grieve what you do not value. The pain you feel when you contemplate the loss
+          of old-growth forests or polar bear habitat or the Great Barrier Reef is evidence of a
+          deep connection to something larger than yourself. Affirmations that honor this
+          grief—rather than trying to bypass it—help you stay connected to the love that underlies
+          the pain, and it is that love that ultimately fuels sustained action.
         </p>
 
         <h2>Moving From Despair to Purposeful Action</h2>
 
         <p>
           The most psychologically dangerous place to be in the climate crisis is in a state of
-          awareness without engagement—knowing how bad things are without being connected to any form
-          of response. This is the territory where doom-scrolling lives, where you absorb devastating
-          information night after night but channel it into nothing except more dread. Research
-          consistently shows that people who take climate action—even small, local, seemingly
-          inadequate action—experience significantly less climate anxiety than those who are equally
-          informed but inactive.
+          awareness without engagement—knowing how bad things are without being connected to any
+          form of response. This is the territory where doom-scrolling lives, where you absorb
+          devastating information night after night but channel it into nothing except more dread.
+          Research consistently shows that people who take climate action—even small, local,
+          seemingly inadequate action—experience significantly less climate anxiety than those who
+          are equally informed but inactive.
         </p>
 
         <p>
@@ -6739,33 +6780,51 @@ export const blogPosts: Record<
         <ul>
           <li>My grief for the natural world is a reflection of my love for it.</li>
           <li>I do not need to pretend that everything is fine in order to function.</li>
-          <li>Feeling the weight of this crisis is not a sign of weakness—it is a sign that I am paying attention.</li>
+          <li>
+            Feeling the weight of this crisis is not a sign of weakness—it is a sign that I am
+            paying attention.
+          </li>
           <li>I allow myself to feel sadness, anger, and fear without being defined by them.</li>
-          <li>I can hold the truth of what is happening and still choose to engage with life fully.</li>
+          <li>
+            I can hold the truth of what is happening and still choose to engage with life fully.
+          </li>
         </ul>
 
         <h3>For Reclaiming Agency</h3>
         <ul>
-          <li>My individual actions are part of a collective response, and collective responses change the world.</li>
+          <li>
+            My individual actions are part of a collective response, and collective responses change
+            the world.
+          </li>
           <li>I do not need to solve the entire crisis to make a meaningful difference.</li>
-          <li>I choose the actions I can take today and release the guilt about what I cannot do.</li>
+          <li>
+            I choose the actions I can take today and release the guilt about what I cannot do.
+          </li>
           <li>I trust that showing up consistently matters more than showing up perfectly.</li>
           <li>I am one person, but I am not only one person.</li>
         </ul>
 
         <h3>For Sustaining Hope</h3>
         <ul>
-          <li>Hope is not the belief that everything will be fine. It is the decision to act as if my actions matter.</li>
+          <li>
+            Hope is not the belief that everything will be fine. It is the decision to act as if my
+            actions matter.
+          </li>
           <li>The future is not yet written, and I am one of its authors.</li>
           <li>I choose active hope over passive despair.</li>
-          <li>I draw strength from every person around the world who is working toward the same future I believe in.</li>
+          <li>
+            I draw strength from every person around the world who is working toward the same future
+            I believe in.
+          </li>
           <li>I do not need certainty of success to commit to the effort.</li>
         </ul>
 
         <h3>For Setting Boundaries With Doom</h3>
         <ul>
           <li>I can stay informed without drowning in information.</li>
-          <li>I choose when and how I engage with climate news, and I protect my capacity to act.</li>
+          <li>
+            I choose when and how I engage with climate news, and I protect my capacity to act.
+          </li>
           <li>Stepping away to rest is not apathy—it is maintenance.</li>
           <li>I am more useful to the world rested and grounded than exhausted and despairing.</li>
           <li>I release the belief that suffering more makes me care more.</li>
@@ -6779,24 +6838,25 @@ export const blogPosts: Record<
           visibly devastated, you must not understand the severity of the situation. If you express
           hope, you must be naive. If you find joy in nature, you must be in denial about what is
           being lost. This creates a toxic dynamic where despair becomes a performance of moral
-          seriousness, and anyone who maintains their equilibrium is suspected of insufficient concern.
+          seriousness, and anyone who maintains their equilibrium is suspected of insufficient
+          concern.
         </p>
 
         <p>
           This is not only psychologically harmful—it is strategically counterproductive. Social
-          movements run on sustained energy, creativity, and collaboration. People in chronic despair
-          burn out. They withdraw. They stop showing up. The most effective climate activists and
-          organizers across history have been people who found ways to maintain their joy, humor,
-          connection, and sense of possibility while working on deeply serious problems. They did not
-          succeed by out-suffering everyone else. They succeeded by building lives that could sustain
-          long-term engagement.
+          movements run on sustained energy, creativity, and collaboration. People in chronic
+          despair burn out. They withdraw. They stop showing up. The most effective climate
+          activists and organizers across history have been people who found ways to maintain their
+          joy, humor, connection, and sense of possibility while working on deeply serious problems.
+          They did not succeed by out-suffering everyone else. They succeeded by building lives that
+          could sustain long-term engagement.
         </p>
 
         <p>
-          Affirmations that give you permission to experience joy and rest are not acts of denial—they
-          are acts of strategic resilience. When you say &#34;I am allowed to find beauty in the world
-          even as I fight to protect it,&#34; you are not minimizing the crisis. You are ensuring that
-          you have the psychological resources to keep fighting through it.
+          Affirmations that give you permission to experience joy and rest are not acts of
+          denial—they are acts of strategic resilience. When you say &#34;I am allowed to find
+          beauty in the world even as I fight to protect it,&#34; you are not minimizing the crisis.
+          You are ensuring that you have the psychological resources to keep fighting through it.
         </p>
 
         <h2>What Children Need to Hear</h2>
@@ -6804,26 +6864,27 @@ export const blogPosts: Record<
         <p>
           If you are a parent, teacher, or caregiver, you may be struggling with how to talk about
           climate change with children in a way that is honest without being traumatizing. Children
-          are remarkably perceptive—they pick up on adult anxiety even when we think we&#39;re hiding
-          it, and vague reassurances like &#34;everything will be fine&#34; often backfire because
-          children sense the dishonesty.
+          are remarkably perceptive—they pick up on adult anxiety even when we think we&#39;re
+          hiding it, and vague reassurances like &#34;everything will be fine&#34; often backfire
+          because children sense the dishonesty.
         </p>
 
         <p>
-          The most effective approach, according to child psychologists who specialize in eco-anxiety,
-          is to combine age-appropriate honesty with a strong emphasis on agency and community. Children
-          need to know three things: that adults are aware of the problem, that many people are working
-          hard to address it, and that they themselves can be part of the solution. Affirmations for
-          children in this context sound like: &#34;There are millions of people working to take care
-          of the Earth,&#34; &#34;Our family is doing our part, and so are many others,&#34; and
-          &#34;I can help take care of the world around me.&#34;
+          The most effective approach, according to child psychologists who specialize in
+          eco-anxiety, is to combine age-appropriate honesty with a strong emphasis on agency and
+          community. Children need to know three things: that adults are aware of the problem, that
+          many people are working hard to address it, and that they themselves can be part of the
+          solution. Affirmations for children in this context sound like: &#34;There are millions of
+          people working to take care of the Earth,&#34; &#34;Our family is doing our part, and so
+          are many others,&#34; and &#34;I can help take care of the world around me.&#34;
         </p>
 
         <p>
-          The critical ingredient is modeling engaged hopefulness rather than either denial or despair.
-          When children see adults who acknowledge the seriousness of climate change, feel their
-          feelings about it, and then channel those feelings into purposeful action, they internalize
-          a template for how to live with difficult truths without being destroyed by them.
+          The critical ingredient is modeling engaged hopefulness rather than either denial or
+          despair. When children see adults who acknowledge the seriousness of climate change, feel
+          their feelings about it, and then channel those feelings into purposeful action, they
+          internalize a template for how to live with difficult truths without being destroyed by
+          them.
         </p>
 
         <h2>Finding Your Place in the Response</h2>
@@ -6833,7 +6894,8 @@ export const blogPosts: Record<
           the collective response. Not everyone needs to be a frontline activist. Not everyone needs
           to work in renewable energy or environmental policy. The transition to a sustainable
           civilization requires contributions from every domain of human activity—education, art,
-          technology, healthcare, agriculture, law, finance, community organizing, parenting, and more.
+          technology, healthcare, agriculture, law, finance, community organizing, parenting, and
+          more.
         </p>
 
         <p>
@@ -6841,9 +6903,9 @@ export const blogPosts: Record<
           A teacher who helps students develop critical thinking and ecological literacy is doing
           climate work. A therapist who helps climate-anxious clients maintain their functioning is
           doing climate work. A community organizer who strengthens neighborhood resilience is doing
-          climate work. A parent who raises children with deep respect for the natural world is doing
-          climate work. The key is finding the intersection between your capabilities, your passions,
-          and the world&#39;s needs—and then showing up there consistently.
+          climate work. A parent who raises children with deep respect for the natural world is
+          doing climate work. The key is finding the intersection between your capabilities, your
+          passions, and the world&#39;s needs—and then showing up there consistently.
         </p>
 
         <p>
@@ -6857,10 +6919,10 @@ export const blogPosts: Record<
         <h2>The Long View</h2>
 
         <p>
-          Human beings have a complicated relationship with long timescales. We evolved to respond to
-          immediate threats—the predator in the bushes, the rival at the border—not to slow-moving
-          catastrophes that unfold over decades. This is part of why climate change is so
-          psychologically difficult: the urgency is real, but the timeline doesn&#39;t match our
+          Human beings have a complicated relationship with long timescales. We evolved to respond
+          to immediate threats—the predator in the bushes, the rival at the border—not to
+          slow-moving catastrophes that unfold over decades. This is part of why climate change is
+          so psychologically difficult: the urgency is real, but the timeline doesn&#39;t match our
           instinctive sense of what &#34;urgent&#34; feels like.
         </p>
 
@@ -6869,9 +6931,10 @@ export const blogPosts: Record<
           will shape the next ten thousand years, and that the outcome is not predetermined. We are
           not passengers on a runaway train. We are a civilization making choices, and while many of
           those choices have been catastrophically short-sighted, the capacity for different choices
-          exists in every moment. Every fraction of a degree of warming that we prevent is a measurable
-          reduction in suffering. Every ecosystem we protect is a reservoir of resilience. Every child
-          we raise with ecological awareness is a seed planted for a future we may not live to see.
+          exists in every moment. Every fraction of a degree of warming that we prevent is a
+          measurable reduction in suffering. Every ecosystem we protect is a reservoir of
+          resilience. Every child we raise with ecological awareness is a seed planted for a future
+          we may not live to see.
         </p>
 
         <p>
@@ -6900,8 +6963,8 @@ export const blogPosts: Record<
             className="text-violet-600 hover:underline"
           >
             guide to affirmations for anxiety and stress relief
-          </Link>
-          {' '}and our{' '}
+          </Link>{' '}
+          and our{' '}
           <Link
             href={ROUTES.blogPosts['affirmations-for-overthinking'].path}
             className="text-violet-600 hover:underline"
@@ -6914,8 +6977,8 @@ export const blogPosts: Record<
             className="text-violet-600 hover:underline"
           >
             burnout recovery guide
-          </Link>
-          {' '}may also help. You can also try our{' '}
+          </Link>{' '}
+          may also help. You can also try our{' '}
           <Link href={ROUTES.home.path} className="text-violet-600 hover:underline">
             AI-powered affirmations generator
           </Link>{' '}
@@ -6933,8 +6996,8 @@ export const blogPosts: Record<
       <>
         <p className="lead">
           We are living through an era in which war is not an abstraction confined to history
-          textbooks. It is happening now—in Ukraine, in Gaza, in Sudan, in Myanmar, and in dozens
-          of other conflicts that rarely make the front page. For many of us who are not directly in
+          textbooks. It is happening now—in Ukraine, in Gaza, in Sudan, in Myanmar, and in dozens of
+          other conflicts that rarely make the front page. For many of us who are not directly in
           the path of these wars, the experience is a strange and disorienting one: we go about our
           daily lives, commute to work, cook dinner, put our children to bed, and yet somewhere in
           the background of our consciousness, we know that at this very moment, people not unlike
@@ -6948,36 +7011,36 @@ export const blogPosts: Record<
 
         <p>
           Previous generations experienced war primarily through newspaper headlines and radio
-          dispatches—mediated, delayed, and filtered. We experience it through live-streamed footage,
-          firsthand accounts posted to social media in real time, and an unceasing feed of images so
-          visceral that they would have been unthinkable on a television broadcast even twenty years
-          ago. A parent in Europe or North America can watch, on their phone, a parent in a war zone
-          carrying an injured child through rubble—and the footage is not a dramatization. It is
-          happening now, or it happened minutes ago, and the algorithm has determined that you should
-          see it.
+          dispatches—mediated, delayed, and filtered. We experience it through live-streamed
+          footage, firsthand accounts posted to social media in real time, and an unceasing feed of
+          images so visceral that they would have been unthinkable on a television broadcast even
+          twenty years ago. A parent in Europe or North America can watch, on their phone, a parent
+          in a war zone carrying an injured child through rubble—and the footage is not a
+          dramatization. It is happening now, or it happened minutes ago, and the algorithm has
+          determined that you should see it.
         </p>
 
         <p>
-          This level of exposure to human suffering is historically unprecedented, and our psychology
-          has not evolved to process it. The human empathy system was designed for the scale of a
-          small community—perhaps 150 people, the size of an ancestral band. It was built to respond
-          to the suffering of people you know, people whose faces you recognize, people whose
-          children play with yours. When that system is confronted with the suffering of millions,
-          delivered in high definition through a device you carry in your pocket, it does not simply
-          scale up proportionally. It overloads, distorts, and eventually begins to shut down in
-          self-defense.
+          This level of exposure to human suffering is historically unprecedented, and our
+          psychology has not evolved to process it. The human empathy system was designed for the
+          scale of a small community—perhaps 150 people, the size of an ancestral band. It was built
+          to respond to the suffering of people you know, people whose faces you recognize, people
+          whose children play with yours. When that system is confronted with the suffering of
+          millions, delivered in high definition through a device you carry in your pocket, it does
+          not simply scale up proportionally. It overloads, distorts, and eventually begins to shut
+          down in self-defense.
         </p>
 
         <p>
-          Psychologists who study trauma have a term for what happens when you are repeatedly exposed
-          to the suffering of others without being directly harmed yourself: vicarious traumatization.
-          Originally studied in therapists and first responders, vicarious trauma is now recognized
-          as a widespread phenomenon in the age of social media. It manifests as intrusive thoughts
-          about the violence you&#39;ve witnessed, hypervigilance, difficulty sleeping, emotional
-          numbness, guilt about your own safety, and a pervasive sense that the world is fundamentally
-          unsafe. These are not signs of weakness or excessive sensitivity. They are the normal
-          responses of a functioning empathy system that is being asked to process more than it was
-          designed to handle.
+          Psychologists who study trauma have a term for what happens when you are repeatedly
+          exposed to the suffering of others without being directly harmed yourself: vicarious
+          traumatization. Originally studied in therapists and first responders, vicarious trauma is
+          now recognized as a widespread phenomenon in the age of social media. It manifests as
+          intrusive thoughts about the violence you&#39;ve witnessed, hypervigilance, difficulty
+          sleeping, emotional numbness, guilt about your own safety, and a pervasive sense that the
+          world is fundamentally unsafe. These are not signs of weakness or excessive sensitivity.
+          They are the normal responses of a functioning empathy system that is being asked to
+          process more than it was designed to handle.
         </p>
 
         <h2>The Guilt of Safety</h2>
@@ -6987,25 +7050,26 @@ export const blogPosts: Record<
           It is the guilt of eating breakfast while someone starves. The guilt of complaining about
           traffic while someone runs from shelling. The guilt of tucking your children into clean
           sheets in a warm room while someone else&#39;s children sleep on the floor of a gymnasium
-          or do not sleep at all. This guilt is not rational in the sense that you have done anything
-          wrong—you did not start the war, you did not choose to be born in a safe country—but it
-          is profoundly real, and it can become a persistent drain on your mental health if left
-          unexamined.
+          or do not sleep at all. This guilt is not rational in the sense that you have done
+          anything wrong—you did not start the war, you did not choose to be born in a safe
+          country—but it is profoundly real, and it can become a persistent drain on your mental
+          health if left unexamined.
         </p>
 
         <p>
           The guilt of safety often expresses itself in two equally unhealthy ways. The first is
           performative suffering: you deny yourself joy, rest, or pleasure as a form of unconscious
           solidarity, as though your own misery could somehow lighten someone else&#39;s. The second
-          is complete dissociation: you push the awareness of war so far from your consciousness that
-          you become numb to it entirely, and then you feel guilty about the numbness, creating a
-          recursive loop of distress. Neither response helps the people who are actually suffering.
-          Neither response helps you. And neither response creates the conditions for meaningful action.
+          is complete dissociation: you push the awareness of war so far from your consciousness
+          that you become numb to it entirely, and then you feel guilty about the numbness, creating
+          a recursive loop of distress. Neither response helps the people who are actually
+          suffering. Neither response helps you. And neither response creates the conditions for
+          meaningful action.
         </p>
 
         <p>
-          What does help is a concept that psychologists call compassion without fusion—the ability to
-          care deeply about someone else&#39;s suffering without merging your identity with that
+          What does help is a concept that psychologists call compassion without fusion—the ability
+          to care deeply about someone else&#39;s suffering without merging your identity with that
           suffering. It means holding the reality of war in your awareness while simultaneously
           maintaining the boundaries of your own emotional life. It means acknowledging that your
           safety is not something to feel guilty about but something to use wisely—because a person
@@ -7017,14 +7081,14 @@ export const blogPosts: Record<
         <h2>Why Helplessness Is the Real Enemy</h2>
 
         <p>
-          The most psychologically damaging aspect of watching war unfold is not the horror itself—it
-          is the helplessness. Human beings can endure extraordinary suffering when they have agency,
-          when they can act, when they can do something. What breaks us is not the knowledge that
-          terrible things are happening but the feeling that we can do nothing to stop them. This is
-          why people who live through wars often show remarkable psychological resilience—they are
-          too busy surviving, adapting, and helping their neighbors to succumb to despair—while
-          distant observers, safe but impotent, sometimes suffer more severe anxiety and depression
-          than the people in the conflict zone.
+          The most psychologically damaging aspect of watching war unfold is not the horror
+          itself—it is the helplessness. Human beings can endure extraordinary suffering when they
+          have agency, when they can act, when they can do something. What breaks us is not the
+          knowledge that terrible things are happening but the feeling that we can do nothing to
+          stop them. This is why people who live through wars often show remarkable psychological
+          resilience—they are too busy surviving, adapting, and helping their neighbors to succumb
+          to despair—while distant observers, safe but impotent, sometimes suffer more severe
+          anxiety and depression than the people in the conflict zone.
         </p>
 
         <p>
@@ -7094,33 +7158,61 @@ export const blogPosts: Record<
         <h3>For Processing the Weight</h3>
         <ul>
           <li>I can hold awareness of suffering without being destroyed by it.</li>
-          <li>My grief for people I have never met is a testament to my humanity, not a burden to suppress.</li>
+          <li>
+            My grief for people I have never met is a testament to my humanity, not a burden to
+            suppress.
+          </li>
           <li>I allow myself to feel the sadness and then gently return to the present moment.</li>
-          <li>I do not need to carry the entire weight of the world to prove that I care about it.</li>
-          <li>My heart is large enough to hold both sorrow for the world and gratitude for my own life.</li>
+          <li>
+            I do not need to carry the entire weight of the world to prove that I care about it.
+          </li>
+          <li>
+            My heart is large enough to hold both sorrow for the world and gratitude for my own
+            life.
+          </li>
         </ul>
 
         <h3>For Releasing Guilt</h3>
         <ul>
           <li>My safety is not a betrayal of those who are not safe.</li>
-          <li>I honor the suffering of others not by suffering myself, but by using my stability to help.</li>
-          <li>I release the guilt of living my life while others cannot live theirs, and I choose to live it well.</li>
+          <li>
+            I honor the suffering of others not by suffering myself, but by using my stability to
+            help.
+          </li>
+          <li>
+            I release the guilt of living my life while others cannot live theirs, and I choose to
+            live it well.
+          </li>
           <li>I did not create this war, and my joy does not sustain it.</li>
           <li>I can be grateful and grieving at the same time—these are not contradictions.</li>
         </ul>
 
         <h3>For Reclaiming Agency</h3>
         <ul>
-          <li>I may not be able to stop a war, but I can contribute to a culture of peace in every interaction I have.</li>
-          <li>Small acts of compassion are not insignificant—they are the fabric of the world I want to live in.</li>
+          <li>
+            I may not be able to stop a war, but I can contribute to a culture of peace in every
+            interaction I have.
+          </li>
+          <li>
+            Small acts of compassion are not insignificant—they are the fabric of the world I want
+            to live in.
+          </li>
           <li>I choose to direct my energy toward action rather than despair.</li>
-          <li>I trust that my contribution, however modest, is part of something larger than I can see.</li>
-          <li>I am not powerless. I am one person choosing peace, and that choice ripples outward.</li>
+          <li>
+            I trust that my contribution, however modest, is part of something larger than I can
+            see.
+          </li>
+          <li>
+            I am not powerless. I am one person choosing peace, and that choice ripples outward.
+          </li>
         </ul>
 
         <h3>For Protecting Your Inner Peace</h3>
         <ul>
-          <li>I set boundaries around what I consume because my mental health is a resource, not a luxury.</li>
+          <li>
+            I set boundaries around what I consume because my mental health is a resource, not a
+            luxury.
+          </li>
           <li>Stepping away from the news is not indifference—it is preservation.</li>
           <li>I choose to be informed without being consumed.</li>
           <li>I give myself permission to experience moments of peace, even in a world at war.</li>
@@ -7141,8 +7233,8 @@ export const blogPosts: Record<
         <p>
           Child psychologists who specialize in crisis communication recommend a framework of
           limited honesty with heavy emphasis on safety and helpers. You do not need to explain the
-          strategic objectives of a military campaign to a seven-year-old. What you do need to do
-          is acknowledge that something difficult is happening in the world (because they will hear
+          strategic objectives of a military campaign to a seven-year-old. What you do need to do is
+          acknowledge that something difficult is happening in the world (because they will hear
           about it from peers or screens regardless), assure them that they and their family are
           safe, and direct their attention toward the helpers—the doctors, the aid workers, the
           ordinary people opening their homes to refugees. Fred Rogers&#39;s famous advice—&#34;Look
@@ -7171,9 +7263,9 @@ export const blogPosts: Record<
           patience over anger, understanding over judgment, or compassion over contempt is a small
           but genuine act of peacemaking. This is not naive idealism. It is the recognition that the
           same psychological forces that drive individuals to cruelty—dehumanization, tribalism, the
-          refusal to see the other as fully human—are the forces that drive nations to war. And those
-          forces are resisted not only on battlefields and in diplomatic chambers but in kitchens,
-          classrooms, workplaces, and the quiet spaces of your own mind.
+          refusal to see the other as fully human—are the forces that drive nations to war. And
+          those forces are resisted not only on battlefields and in diplomatic chambers but in
+          kitchens, classrooms, workplaces, and the quiet spaces of your own mind.
         </p>
 
         <p>
@@ -7249,8 +7341,8 @@ export const blogPosts: Record<
             className="text-violet-600 hover:underline"
           >
             comprehensive guide to affirmations for anxiety
-          </Link>
-          {' '}and our{' '}
+          </Link>{' '}
+          and our{' '}
           <Link
             href={ROUTES.blogPosts['affirmations-for-overthinking'].path}
             className="text-violet-600 hover:underline"
@@ -7309,11 +7401,11 @@ export const blogPosts: Record<
           Previous technological revolutions unfolded over decades, sometimes centuries. The
           transition from horse-drawn carriages to automobiles took roughly forty years. The
           transition from manual accounting to computerized spreadsheets took about twenty. Workers
-          had time—not always comfortable time, but time—to retrain, relocate, and reorient. The
-          AI revolution is compressing what used to be a generational shift into a span of years.
-          Skills that were highly valued in 2023 are being automated in 2026. Career advice given
-          to college freshmen four years ago is already obsolete. The human capacity for adaptation
-          is remarkable, but it has limits, and those limits are being tested.
+          had time—not always comfortable time, but time—to retrain, relocate, and reorient. The AI
+          revolution is compressing what used to be a generational shift into a span of years.
+          Skills that were highly valued in 2023 are being automated in 2026. Career advice given to
+          college freshmen four years ago is already obsolete. The human capacity for adaptation is
+          remarkable, but it has limits, and those limits are being tested.
         </p>
 
         <p>
@@ -7323,8 +7415,9 @@ export const blogPosts: Record<
           write code, draft legal briefs, compose music, analyze medical scans, and produce
           marketing copy—while it still struggles to fold laundry, navigate a cluttered room, or
           install a kitchen faucet. This inversion of expectations has left an enormous number of
-          knowledge workers—people who spent years and small fortunes developing intellectual skills—
-          feeling suddenly vulnerable in a way that was supposed to be someone else&#39;s problem.
+          knowledge workers—people who spent years and small fortunes developing intellectual
+          skills— feeling suddenly vulnerable in a way that was supposed to be someone else&#39;s
+          problem.
         </p>
 
         <h2>The Psychology of Technological Threat</h2>
@@ -7334,9 +7427,9 @@ export const blogPosts: Record<
           adults in modern economies, professional identity is deeply intertwined with personal
           identity. When someone asks &#34;what do you do?&#34; at a dinner party, they are not
           really asking about your daily tasks—they are asking who you are. Your answer—&#34;I&#39;m
-          a writer,&#34; &#34;I&#39;m a designer,&#34; &#34;I&#39;m a developer&#34;—carries
-          weight far beyond the functional description of your job. It tells you where you belong in
-          the social order, what you&#39;re good at, what makes you valuable.
+          a writer,&#34; &#34;I&#39;m a designer,&#34; &#34;I&#39;m a developer&#34;—carries weight
+          far beyond the functional description of your job. It tells you where you belong in the
+          social order, what you&#39;re good at, what makes you valuable.
         </p>
 
         <p>
@@ -7379,11 +7472,11 @@ export const blogPosts: Record<
           This is the most immediately recognizable form: the concrete fear that your job will be
           automated, your income will disappear, and your carefully built career will become
           irrelevant. It shows up as compulsive monitoring of AI developments in your field,
-          obsessive comparison of your work to AI-generated output, and a persistent undercurrent
-          of dread that any day now, the other shoe will drop. Professional panic is exhausting
-          because it transforms every workday into an exercise in proving your continued relevance,
-          and it makes it nearly impossible to do your best work because the best work requires a
-          sense of safety and creative freedom that panic systematically destroys.
+          obsessive comparison of your work to AI-generated output, and a persistent undercurrent of
+          dread that any day now, the other shoe will drop. Professional panic is exhausting because
+          it transforms every workday into an exercise in proving your continued relevance, and it
+          makes it nearly impossible to do your best work because the best work requires a sense of
+          safety and creative freedom that panic systematically destroys.
         </p>
 
         <h3>Existential Vertigo</h3>
@@ -7391,13 +7484,13 @@ export const blogPosts: Record<
         <p>
           Deeper than the fear of job loss is a more philosophical unease: the sense that something
           fundamental about the human condition is changing, and that we are crossing a threshold
-          from which there is no return. This is the feeling you get when you watch an AI generate
-          a piece of art that genuinely moves you, or when a language model articulates a thought
-          more clearly than you could yourself. It is not about employment. It is about the
-          boundaries of what it means to be human—about consciousness, creativity, and whether the
-          things we thought were uniquely ours are perhaps more mechanical than we believed. This
-          form of AI anxiety is difficult to talk about because it sounds abstract, but it can be
-          profoundly unsettling at a visceral level.
+          from which there is no return. This is the feeling you get when you watch an AI generate a
+          piece of art that genuinely moves you, or when a language model articulates a thought more
+          clearly than you could yourself. It is not about employment. It is about the boundaries of
+          what it means to be human—about consciousness, creativity, and whether the things we
+          thought were uniquely ours are perhaps more mechanical than we believed. This form of AI
+          anxiety is difficult to talk about because it sounds abstract, but it can be profoundly
+          unsettling at a visceral level.
         </p>
 
         <h3>Ambient Overwhelm</h3>
@@ -7409,8 +7502,8 @@ export const blogPosts: Record<
           AI&#34; hangs over every profession without anyone clearly explaining what that means in
           practice. The result is a background hum of inadequacy—the feeling that everyone else has
           figured this out and you&#39;re falling behind. This is especially acute for people in
-          mid-career, who feel caught between decades of hard-won expertise and the sudden demand
-          to become something they never trained to be.
+          mid-career, who feel caught between decades of hard-won expertise and the sudden demand to
+          become something they never trained to be.
         </p>
 
         <h2>What Remains Irreplaceably Human</h2>
@@ -7428,8 +7521,8 @@ export const blogPosts: Record<
           never stood in a field at dawn and felt the cold air in its lungs. A music-composition
           tool that produces a melancholy piano piece has never had its heart broken. The outputs
           may be beautiful, even moving—but the meaning we find in them comes from us, the
-          listeners, the viewers, the readers. We project our own experience onto the artifact,
-          and it is our experience, not the artifact, that creates the resonance.
+          listeners, the viewers, the readers. We project our own experience onto the artifact, and
+          it is our experience, not the artifact, that creates the resonance.
         </p>
 
         <p>
@@ -7440,9 +7533,9 @@ export const blogPosts: Record<
           arrived unbidden. They laugh at things that aren&#39;t funny because the person telling
           the joke is their friend and the attempt itself is endearing. They forgive. They grieve.
           They sit with someone in silence when there is nothing useful to say. None of these
-          capacities are threatened by artificial intelligence, because none of them are information-
-          processing tasks. They are expressions of being alive, and being alive is not a problem
-          that technology solves.
+          capacities are threatened by artificial intelligence, because none of them are
+          information- processing tasks. They are expressions of being alive, and being alive is not
+          a problem that technology solves.
         </p>
 
         <h2>Affirmations for Navigating the AI Era</h2>
@@ -7456,9 +7549,14 @@ export const blogPosts: Record<
 
         <h3>For Grounding Your Identity</h3>
         <ul>
-          <li>My value as a human being has never depended on being more efficient than a machine.</li>
+          <li>
+            My value as a human being has never depended on being more efficient than a machine.
+          </li>
           <li>I am not my job title. I am the person behind every skill I have ever learned.</li>
-          <li>The things that make me irreplaceable—my judgment, my relationships, my lived experience—cannot be automated.</li>
+          <li>
+            The things that make me irreplaceable—my judgment, my relationships, my lived
+            experience—cannot be automated.
+          </li>
           <li>I refuse to measure my worth in units that a machine can outperform.</li>
           <li>Who I am is not threatened by what technology can do.</li>
         </ul>
@@ -7467,39 +7565,54 @@ export const blogPosts: Record<
         <ul>
           <li>I have adapted to change before, and I will adapt again.</li>
           <li>Learning new tools does not erase the expertise I already have—it builds on it.</li>
-          <li>I do not need to master every new technology to remain valuable. I need to stay curious and intentional.</li>
-          <li>My career is a long arc, not a single snapshot. This chapter is not the final one.</li>
+          <li>
+            I do not need to master every new technology to remain valuable. I need to stay curious
+            and intentional.
+          </li>
+          <li>
+            My career is a long arc, not a single snapshot. This chapter is not the final one.
+          </li>
           <li>I trust my ability to find my footing, even when the ground shifts.</li>
         </ul>
 
         <h3>For Releasing the Pressure to Keep Up</h3>
         <ul>
-          <li>I am allowed to learn at my own pace in a world that demands instant transformation.</li>
+          <li>
+            I am allowed to learn at my own pace in a world that demands instant transformation.
+          </li>
           <li>Not understanding everything right now is not the same as being left behind.</li>
           <li>I release the comparison between my learning curve and anyone else&#39;s.</li>
-          <li>Overwhelm is not a sign of inadequacy. It is the natural response to unprecedented speed of change.</li>
+          <li>
+            Overwhelm is not a sign of inadequacy. It is the natural response to unprecedented speed
+            of change.
+          </li>
           <li>I choose depth over breadth, understanding over panic.</li>
         </ul>
 
         <h3>For Reconnecting With Meaning</h3>
         <ul>
           <li>The world needs what I bring as a whole person, not just as a producer of output.</li>
-          <li>My creativity is rooted in my life, my losses, my joys—things no dataset can replicate.</li>
+          <li>
+            My creativity is rooted in my life, my losses, my joys—things no dataset can replicate.
+          </li>
           <li>I choose to see AI as a tool in my hands, not a replacement for my mind.</li>
-          <li>The most important work I do—connecting, caring, creating meaning—has no artificial substitute.</li>
+          <li>
+            The most important work I do—connecting, caring, creating meaning—has no artificial
+            substitute.
+          </li>
           <li>I am not competing with AI. I am collaborating with the future.</li>
         </ul>
 
         <h2>The Comparison Trap</h2>
 
         <p>
-          One of the most psychologically corrosive habits in the AI era is the compulsive comparison
-          of your own output to AI-generated output. You write a paragraph and then ask a language
-          model to write the same paragraph, and when its version is cleaner or faster, something
-          inside you deflates. You design a logo and then generate ten alternatives in seconds, and
-          suddenly your hours of work feel quaint. You spend a morning debugging code that an AI
-          assistant could have fixed in thirty seconds, and you wonder what, exactly, you are being
-          paid for.
+          One of the most psychologically corrosive habits in the AI era is the compulsive
+          comparison of your own output to AI-generated output. You write a paragraph and then ask a
+          language model to write the same paragraph, and when its version is cleaner or faster,
+          something inside you deflates. You design a logo and then generate ten alternatives in
+          seconds, and suddenly your hours of work feel quaint. You spend a morning debugging code
+          that an AI assistant could have fixed in thirty seconds, and you wonder what, exactly, you
+          are being paid for.
         </p>
 
         <p>
@@ -7510,17 +7623,18 @@ export const blogPosts: Record<
           needs rather than what the prompt literally asks for. A language model can produce a
           technically competent email in two seconds. It cannot sense that the recipient is going
           through a divorce and that the tone needs to be gentler than the template suggests. A
-          code-generation tool can write a function instantly. It cannot feel the unease of a
-          senior engineer who recognizes that the function solves the wrong problem. These are not
-          edge cases. They are the substance of professional life, and they are invisible in any
+          code-generation tool can write a function instantly. It cannot feel the unease of a senior
+          engineer who recognizes that the function solves the wrong problem. These are not edge
+          cases. They are the substance of professional life, and they are invisible in any
           comparison that reduces work to its deliverable form.
         </p>
 
         <p>
-          The affirmation &#34;I refuse to measure my worth in units that a machine can outperform&#34;
-          is not a feel-good platitude. It is a strategic reorientation of your attention toward the
-          dimensions of work where you are genuinely, enduringly indispensable—and away from the
-          dimensions where competing with a machine is as pointless as racing a car on foot.
+          The affirmation &#34;I refuse to measure my worth in units that a machine can
+          outperform&#34; is not a feel-good platitude. It is a strategic reorientation of your
+          attention toward the dimensions of work where you are genuinely, enduringly
+          indispensable—and away from the dimensions where competing with a machine is as pointless
+          as racing a car on foot.
         </p>
 
         <h2>Redefining Expertise in a New Landscape</h2>
@@ -7544,11 +7658,11 @@ export const blogPosts: Record<
           distance between novice and competent, making baseline proficiency accessible to almost
           anyone. What it does not do is replace the judgment, intuition, and contextual wisdom that
           distinguish true expertise from mere competence. The radiologist who can explain to a
-          frightened patient what a scan means, who can weigh ambiguous findings against a patient&#39;s
-          history and risk factors, who can decide when not to trust the algorithm—that radiologist
-          is not obsolete. They are more necessary than ever, because the proliferation of
-          AI-generated analysis creates an even greater need for human judgment to evaluate,
-          contextualize, and act on it.
+          frightened patient what a scan means, who can weigh ambiguous findings against a
+          patient&#39;s history and risk factors, who can decide when not to trust the
+          algorithm—that radiologist is not obsolete. They are more necessary than ever, because the
+          proliferation of AI-generated analysis creates an even greater need for human judgment to
+          evaluate, contextualize, and act on it.
         </p>
 
         <p>
@@ -7593,12 +7707,12 @@ export const blogPosts: Record<
 
         <p>
           Perhaps the single most distressing aspect of the AI revolution is not what is changing
-          but how fast it is changing. The human nervous system has a fundamental need for stability—
-          for enough predictability in the environment that the brain can allocate resources
-          efficiently and the body can maintain homeostasis. When the environment changes faster
-          than the organism can adapt, the result is not excitement or challenge but chronic stress:
-          an unrelenting state of physiological alert that degrades sleep, impairs decision-making,
-          suppresses creativity, and erodes physical health.
+          but how fast it is changing. The human nervous system has a fundamental need for
+          stability— for enough predictability in the environment that the brain can allocate
+          resources efficiently and the body can maintain homeostasis. When the environment changes
+          faster than the organism can adapt, the result is not excitement or challenge but chronic
+          stress: an unrelenting state of physiological alert that degrades sleep, impairs
+          decision-making, suppresses creativity, and erodes physical health.
         </p>
 
         <p>
@@ -7651,23 +7765,23 @@ export const blogPosts: Record<
 
         <p>
           You get to choose your relationship with this future. Not the future itself—no individual
-          controls that—but how you meet it. You can meet it with fear, which will paralyze you.
-          You can meet it with denial, which will blindside you. Or you can meet it with what the
-          Stoic philosophers called equanimity: a clear-eyed acknowledgment of what is happening,
-          combined with a steady commitment to acting wisely within the scope of your influence.
-          Affirmations are a tool for cultivating that equanimity. They do not change the world.
-          They change your footing within it—and in a world that is shifting beneath everyone&#39;s
-          feet, footing is everything.
+          controls that—but how you meet it. You can meet it with fear, which will paralyze you. You
+          can meet it with denial, which will blindside you. Or you can meet it with what the Stoic
+          philosophers called equanimity: a clear-eyed acknowledgment of what is happening, combined
+          with a steady commitment to acting wisely within the scope of your influence. Affirmations
+          are a tool for cultivating that equanimity. They do not change the world. They change your
+          footing within it—and in a world that is shifting beneath everyone&#39;s feet, footing is
+          everything.
         </p>
 
         <p>
-          The writer Ursula K. Le Guin, speaking about another form of seemingly unstoppable
-          power, said: &#34;We live in capitalism. Its power seems inescapable. So did the divine
-          right of kings.&#34; The trajectory of AI is not fixed. The future is not a destination
-          we are being carried to against our will. It is a landscape we are building, and every
-          person who maintains their agency, their values, and their humanity in the face of
-          technological pressure is contributing to a future worth living in. That includes you.
-          Especially you, on the days when you doubt it most.
+          The writer Ursula K. Le Guin, speaking about another form of seemingly unstoppable power,
+          said: &#34;We live in capitalism. Its power seems inescapable. So did the divine right of
+          kings.&#34; The trajectory of AI is not fixed. The future is not a destination we are
+          being carried to against our will. It is a landscape we are building, and every person who
+          maintains their agency, their values, and their humanity in the face of technological
+          pressure is contributing to a future worth living in. That includes you. Especially you,
+          on the days when you doubt it most.
         </p>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-lg">
@@ -7688,8 +7802,8 @@ export const blogPosts: Record<
             className="text-violet-600 hover:underline"
           >
             career affirmations for success and confidence
-          </Link>
-          {' '}and our{' '}
+          </Link>{' '}
+          and our{' '}
           <Link
             href={ROUTES.blogPosts['affirmations-for-burnout-recovery'].path}
             className="text-violet-600 hover:underline"
@@ -7702,8 +7816,8 @@ export const blogPosts: Record<
             className="text-violet-600 hover:underline"
           >
             article on affirmations for overthinking
-          </Link>
-          {' '}may also help. You can also try our{' '}
+          </Link>{' '}
+          may also help. You can also try our{' '}
           <Link href={ROUTES.home.path} className="text-violet-600 hover:underline">
             AI-powered affirmations generator
           </Link>{' '}

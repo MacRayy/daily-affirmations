@@ -128,7 +128,9 @@ export default function RelatedPosts({ currentSlug }: { currentSlug: string }) {
     })
     .filter(Boolean)
 
-  if (relatedPosts.length === 0) return null
+  if (relatedPosts.length === 0) {
+    return null
+  }
 
   return (
     <section className="mt-16 pt-8 border-t-2 border-gray-200">

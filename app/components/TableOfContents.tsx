@@ -16,7 +16,9 @@ type TableOfContentsProps = {
 export default function TableOfContents({ items }: TableOfContentsProps) {
   const [isOpen, setIsOpen] = useState(true)
 
-  if (items.length === 0) return null
+  if (items.length === 0) {
+    return null
+  }
 
   return (
     <nav className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 my-8">
@@ -38,20 +40,13 @@ export default function TableOfContents({ items }: TableOfContentsProps) {
       {isOpen && (
         <ol className="mt-4 space-y-2">
           {items.map((item, index) => (
-            <li
-              key={item.id}
-              style={{ paddingLeft: `${(item.level - 2) * 16}px` }}
-            >
+            <li key={item.id} style={{ paddingLeft: `${(item.level - 2) * 16}px` }}>
               <a
                 href={`#${item.id}`}
                 className="text-gray-700 hover:text-violet-600 transition flex items-baseline gap-2"
               >
-                <span className="text-violet-600 font-semibold text-sm">
-                  {index + 1}.
-                </span>
-                <span className={item.level === 2 ? 'font-medium' : 'text-sm'}>
-                  {item.title}
-                </span>
+                <span className="text-violet-600 font-semibold text-sm">{index + 1}.</span>
+                <span className={item.level === 2 ? 'font-medium' : 'text-sm'}>{item.title}</span>
               </a>
             </li>
           ))}

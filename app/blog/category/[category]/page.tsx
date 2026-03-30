@@ -79,11 +79,7 @@ function getCategorySlug(categoryName: string): BlogCategoryKey | null {
   return nameToSlug[categoryName] || null
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ category: string }>
-}) {
+export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
   const { category: categorySlug } = await params
   const category = BLOG_CATEGORIES[categorySlug as BlogCategoryKey]
 
@@ -188,10 +184,7 @@ export default async function BlogCategoryPage({
           </div>
 
           <Breadcrumbs
-            items={[
-              { name: 'Blog', href: ROUTES.blog.path },
-              { name: category.name },
-            ]}
+            items={[{ name: 'Blog', href: ROUTES.blog.path }, { name: category.name }]}
           />
 
           <div className="mb-12">

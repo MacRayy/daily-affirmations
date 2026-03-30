@@ -24,7 +24,7 @@ export default function FAQStructuredData() {
         name: 'Do affirmations really work?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, research supports that affirmations work. Studies using MRI scans show that self-affirmation activates the brain\'s reward centers. A study published in Social Cognitive and Affective Neuroscience found that affirmations can help reduce stress and improve problem-solving abilities. The key is consistent practice and choosing affirmations that feel authentic to you.',
+          text: "Yes, research supports that affirmations work. Studies using MRI scans show that self-affirmation activates the brain's reward centers. A study published in Social Cognitive and Affective Neuroscience found that affirmations can help reduce stress and improve problem-solving abilities. The key is consistent practice and choosing affirmations that feel authentic to you.",
         },
       },
       {

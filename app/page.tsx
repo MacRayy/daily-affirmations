@@ -1,6 +1,7 @@
 import AffirmationClient from './components/AffirmationClient'
 import { getAffirmationOfTheDay } from './data/affirmations'
 import Logo from '@/app/components/Logo'
+import MobileMenu from '@/app/components/MobileMenu'
 import { AmazonCTA } from '@/components/AmazonCTA'
 import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
@@ -80,25 +81,37 @@ export default function Home() {
         description="A simple guide to practicing daily affirmations for maximum benefit"
         totalTime="PT5M"
         steps={[
-          { name: 'Choose Your Category', text: 'Select a focus area that matches your current goals: career, relationships, health, confidence, or personal growth.' },
-          { name: 'Generate Your Affirmation', text: 'Click Generate New to receive a unique AI-powered affirmation tailored to your chosen category.' },
-          { name: 'Read Aloud with Intention', text: 'Say the affirmation out loud with conviction. Repeat it 3 times while visualizing the words as your reality.' },
-          { name: 'Practice Daily', text: 'Return each morning to generate fresh affirmations. Consistency is key - practice for at least 21 days to build the habit.' },
+          {
+            name: 'Choose Your Category',
+            text: 'Select a focus area that matches your current goals: career, relationships, health, confidence, or personal growth.',
+          },
+          {
+            name: 'Generate Your Affirmation',
+            text: 'Click Generate New to receive a unique AI-powered affirmation tailored to your chosen category.',
+          },
+          {
+            name: 'Read Aloud with Intention',
+            text: 'Say the affirmation out loud with conviction. Repeat it 3 times while visualizing the words as your reality.',
+          },
+          {
+            name: 'Practice Daily',
+            text: 'Return each morning to generate fresh affirmations. Consistency is key - practice for at least 21 days to build the habit.',
+          },
         ]}
       />
 
       <div className="min-h-screen bg-gray-50">
-        <header className="bg-white border-b-2 border-gray-200 sticky top-0 z-10 shadow-sm">
+        <header className="bg-white border-b-2 border-gray-200 sticky top-0 z-10 shadow-sm relative">
           <div className="max-w-6xl mx-auto px-4 py-4">
             <div className="flex items-center gap-3">
-              <Logo className="w-8 h-8" />
-              <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+              <Logo className="w-8 h-8 min-w-[32px] min-h-[32px]" />
+              <h1 className="text-xl md:text-2xl font-bold text-gray-900 flex items-center gap-2">
                 <Link href={ROUTES.home.path}>Daily Affirmations</Link>
-                <span className="inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
+                <span className="hidden md:inline-flex items-center rounded-full bg-violet-100 text-violet-700 px-2 py-0.5 text-xs font-semibold border border-violet-200">
                   AI-powered
                 </span>
               </h1>
-              <nav className="flex items-center gap-6 ml-auto">
+              <nav className="hidden md:flex items-center gap-6 ml-auto">
                 <Link
                   href={ROUTES.printables.path}
                   className="text-gray-700 hover:text-violet-600 font-semibold transition"
@@ -112,6 +125,14 @@ export default function Home() {
                   Blog
                 </Link>
               </nav>
+              <div className="ml-auto md:hidden">
+                <MobileMenu
+                  links={[
+                    { href: ROUTES.printables.path, label: 'Free Printables' },
+                    { href: ROUTES.blog.path, label: 'Blog' },
+                  ]}
+                />
+              </div>
             </div>
           </div>
         </header>
@@ -145,12 +166,12 @@ export default function Home() {
                     href={category.href}
                     className="p-6 bg-white border-2 border-gray-200 rounded-xl hover:shadow-lg hover:border-violet-300 transition group"
                   >
-                    <div className="flex items-center gap-2 mb-2">
+                    <div className="flex flex-wrap items-center gap-2 mb-2">
                       <Icon
-                        className="w-5 h-5 text-gray-700 group-hover:text-violet-600 transition"
+                        className="w-5 h-5 min-w-[20px] min-h-[20px] text-gray-700 group-hover:text-violet-600 transition"
                         strokeWidth={2}
                       />
-                      <h3 className="font-bold text-lg text-gray-900 group-hover:text-violet-600 transition">
+                      <h3 className="font-bold text-base md:text-lg text-gray-900 group-hover:text-violet-600 transition break-words">
                         {category.name}
                       </h3>
                     </div>

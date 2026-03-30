@@ -6,10 +6,7 @@ import Footer from '@/components/Footer'
 import RelatedPosts from '@/app/components/RelatedPosts'
 import Breadcrumbs from '@/app/components/Breadcrumbs'
 import ArticleSchema from '@/app/components/ArticleSchema'
-import {
-  ROUTES,
-  generateBreadcrumbStructuredData,
-} from '../../AppRoutes'
+import { ROUTES, generateBreadcrumbStructuredData } from '../../AppRoutes'
 import { blogPosts } from './BlogPosts'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -98,12 +95,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
       <div className="min-h-screen bg-gray-50">
         <article className="max-w-4xl mx-auto px-4 py-12 space-y-12">
-          <Breadcrumbs
-            items={[
-              { name: 'Blog', href: ROUTES.blog.path },
-              { name: post.title },
-            ]}
-          />
+          <Breadcrumbs items={[{ name: 'Blog', href: ROUTES.blog.path }, { name: post.title }]} />
 
           <header className="mb-12">
             <div className="flex flex-wrap items-center gap-4 mb-6 text-sm text-gray-500">
@@ -135,9 +127,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </h1>
 
             {postData?.description && (
-              <p className="text-xl text-gray-600 leading-relaxed">
-                {postData.description}
-              </p>
+              <p className="text-xl text-gray-600 leading-relaxed">{postData.description}</p>
             )}
           </header>
 

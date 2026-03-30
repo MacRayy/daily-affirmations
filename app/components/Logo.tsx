@@ -24,11 +24,7 @@ export default function Logo({ className = 'w-10 h-10' }: { className?: string }
       </g>
 
       {/* Rising sun (half circle) */}
-      <path
-        d="M26 58 Q26 38 50 38 Q74 38 74 58"
-        fill="white"
-        opacity="0.95"
-      />
+      <path d="M26 58 Q26 38 50 38 Q74 38 74 58" fill="white" opacity="0.95" />
 
       {/* Horizon line */}
       <rect x="20" y="56" width="60" height="3" rx="1.5" fill="white" opacity="0.9" />

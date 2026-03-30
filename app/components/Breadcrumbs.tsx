@@ -11,10 +11,7 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
     <nav aria-label="Breadcrumb" className="mb-6">
       <ol className="flex items-center flex-wrap gap-1 text-sm text-gray-500">
         <li className="flex items-center">
-          <Link
-            href="/"
-            className="flex items-center hover:text-violet-600 transition"
-          >
+          <Link href="/" className="flex items-center hover:text-violet-600 transition">
             <Home className="w-4 h-4" />
           </Link>
         </li>
@@ -22,10 +19,7 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
           <li key={index} className="flex items-center">
             <ChevronRight className="w-4 h-4 mx-1 text-gray-400" />
             {item.href ? (
-              <Link
-                href={item.href}
-                className="hover:text-violet-600 transition"
-              >
+              <Link href={item.href} className="hover:text-violet-600 transition">
                 {item.name}
               </Link>
             ) : (

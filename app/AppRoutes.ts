@@ -228,7 +228,7 @@ export const ROUTES = {
       path: '/blog/bedtime-affirmations-sleep',
       title: '50 Bedtime Affirmations for Deep Sleep & Peaceful Rest (That Actually Work)',
       description:
-        'Struggling to fall asleep? These 50 calming bedtime affirmations will quiet your racing mind, release the day\'s stress, and help you drift into deep, restorative sleep. Plus a complete nighttime routine for better rest.',
+        "Struggling to fall asleep? These 50 calming bedtime affirmations will quiet your racing mind, release the day's stress, and help you drift into deep, restorative sleep. Plus a complete nighttime routine for better rest.",
       date: '2026-03-07',
       readTime: '11 min read',
       category: 'Health',
@@ -270,7 +270,8 @@ export const ROUTES = {
     },
     'affirmations-for-kids': {
       path: '/blog/affirmations-for-kids',
-      title: 'Affirmations for Kids: How to Raise Confident, Resilient Children Through Positive Self-Talk',
+      title:
+        'Affirmations for Kids: How to Raise Confident, Resilient Children Through Positive Self-Talk',
       description:
         'Learn how affirmations help children build emotional resilience, self-esteem, and a growth mindset. A research-backed guide for parents on introducing positive self-talk at every age.',
       date: '2026-03-16',
@@ -292,7 +293,8 @@ export const ROUTES = {
     },
     'climate-anxiety-affirmations': {
       path: '/blog/climate-anxiety-affirmations',
-      title: 'Affirmations for Climate Anxiety: Finding Hope and Purpose in the Face of Climate Change',
+      title:
+        'Affirmations for Climate Anxiety: Finding Hope and Purpose in the Face of Climate Change',
       description:
         'Climate change weighing on your mental health? Explore how climate anxiety affects our psychology, why eco-distress is a rational response, and how affirmations can help you move from paralysis to purposeful action without denying the reality of the crisis.',
       date: '2026-03-24',
@@ -303,7 +305,8 @@ export const ROUTES = {
     },
     'affirmations-for-war-anxiety': {
       path: '/blog/affirmations-for-war-anxiety',
-      title: 'Affirmations for Living Through an Era of War: Finding Inner Peace Amid Global Conflict',
+      title:
+        'Affirmations for Living Through an Era of War: Finding Inner Peace Amid Global Conflict',
       description:
         'Struggling with anxiety, helplessness, or grief over ongoing wars and global conflict? Explore the psychology of war-related distress, why distant suffering affects your mental health, and how affirmations can help you stay compassionate without being consumed.',
       date: '2026-03-25',

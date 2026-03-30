@@ -1,15 +1,20 @@
 // Niche-specific affirmations for programmatic SEO pages
 
-export const NICHE_AFFIRMATIONS: Record<string, {
-  title: string
-  description: string
-  keywords: string
-  affirmations: string[]
-}> = {
-  'anxiety': {
+export const NICHE_AFFIRMATIONS: Record<
+  string,
+  {
+    title: string
+    description: string
+    keywords: string
+    affirmations: string[]
+  }
+> = {
+  anxiety: {
     title: 'Affirmations for Anxiety - Calm Your Mind & Find Inner Peace',
-    description: 'Powerful affirmations to help reduce anxiety, calm racing thoughts, and restore inner peace. Science-backed positive statements for anxiety relief and mental wellness.',
-    keywords: 'affirmations for anxiety, anxiety relief affirmations, calming affirmations, stress relief, mental health affirmations, peace of mind',
+    description:
+      'Powerful affirmations to help reduce anxiety, calm racing thoughts, and restore inner peace. Science-backed positive statements for anxiety relief and mental wellness.',
+    keywords:
+      'affirmations for anxiety, anxiety relief affirmations, calming affirmations, stress relief, mental health affirmations, peace of mind',
     affirmations: [
       'I am safe in this present moment',
       'My thoughts do not control me; I observe them with compassion',
@@ -28,10 +33,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'My mind is clearing and my body is relaxing',
     ],
   },
-  'women': {
+  women: {
     title: 'Affirmations for Women - Empowerment, Confidence & Self-Love',
-    description: 'Empowering affirmations designed for women to build confidence, embrace self-love, and step into their full power. Daily motivation for the modern woman.',
-    keywords: 'affirmations for women, women empowerment, self-love affirmations, female confidence, women motivation, strong women affirmations',
+    description:
+      'Empowering affirmations designed for women to build confidence, embrace self-love, and step into their full power. Daily motivation for the modern woman.',
+    keywords:
+      'affirmations for women, women empowerment, self-love affirmations, female confidence, women motivation, strong women affirmations',
     affirmations: [
       'I am a powerful, confident woman',
       'I honor my unique journey as a woman',
@@ -40,7 +47,7 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I embrace my femininity as a source of strength',
       'I support and uplift other women',
       'I am breaking barriers and creating new possibilities',
-      'My worth is not determined by others\' opinions',
+      "My worth is not determined by others' opinions",
       'I am beautiful, inside and out',
       'I trust my intuition to guide me',
       'I deserve to take up space in this world',
@@ -50,10 +57,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I radiate confidence and attract positive opportunities',
     ],
   },
-  'kids': {
+  kids: {
     title: 'Affirmations for Kids - Build Confidence & Positive Thinking',
-    description: 'Simple, powerful affirmations for children to build self-esteem, confidence, and a positive mindset. Help your child develop healthy self-talk habits.',
-    keywords: 'affirmations for kids, children affirmations, kids confidence, positive thinking for children, self-esteem kids, child development',
+    description:
+      'Simple, powerful affirmations for children to build self-esteem, confidence, and a positive mindset. Help your child develop healthy self-talk habits.',
+    keywords:
+      'affirmations for kids, children affirmations, kids confidence, positive thinking for children, self-esteem kids, child development',
     affirmations: [
       'I am brave and can try new things',
       'I am kind to myself and others',
@@ -74,12 +83,14 @@ export const NICHE_AFFIRMATIONS: Record<string, {
   },
   'weight-loss': {
     title: 'Affirmations for Weight Loss - Healthy Mindset & Body Positivity',
-    description: 'Supportive affirmations for your weight loss journey. Build a healthy relationship with food, exercise, and your body while staying motivated.',
-    keywords: 'weight loss affirmations, healthy eating affirmations, body positivity, fitness motivation, diet affirmations, health mindset',
+    description:
+      'Supportive affirmations for your weight loss journey. Build a healthy relationship with food, exercise, and your body while staying motivated.',
+    keywords:
+      'weight loss affirmations, healthy eating affirmations, body positivity, fitness motivation, diet affirmations, health mindset',
     affirmations: [
       'I nourish my body with healthy choices',
       'I am committed to my health and wellbeing',
-      'I listen to my body\'s hunger and fullness cues',
+      "I listen to my body's hunger and fullness cues",
       'Every healthy choice brings me closer to my goals',
       'I release emotional attachments to food',
       'I love and appreciate my body at every stage',
@@ -96,8 +107,10 @@ export const NICHE_AFFIRMATIONS: Record<string, {
   },
   'job-interview': {
     title: 'Affirmations Before Job Interview - Confidence & Success',
-    description: 'Boost your confidence before any job interview with powerful affirmations. Calm nerves, project confidence, and land your dream job.',
-    keywords: 'job interview affirmations, interview confidence, career affirmations, job success, interview preparation, professional confidence',
+    description:
+      'Boost your confidence before any job interview with powerful affirmations. Calm nerves, project confidence, and land your dream job.',
+    keywords:
+      'job interview affirmations, interview confidence, career affirmations, job success, interview preparation, professional confidence',
     affirmations: [
       'I am fully prepared and ready for this interview',
       'I communicate my value clearly and confidently',
@@ -118,8 +131,10 @@ export const NICHE_AFFIRMATIONS: Record<string, {
   },
   'self-love': {
     title: 'Self-Love Affirmations - Embrace Your Worth & Inner Beauty',
-    description: 'Transform your relationship with yourself using powerful self-love affirmations. Build self-esteem, practice self-compassion, and embrace your worth.',
-    keywords: 'self-love affirmations, self-esteem, self-worth, self-compassion, loving yourself, inner beauty, personal acceptance',
+    description:
+      'Transform your relationship with yourself using powerful self-love affirmations. Build self-esteem, practice self-compassion, and embrace your worth.',
+    keywords:
+      'self-love affirmations, self-esteem, self-worth, self-compassion, loving yourself, inner beauty, personal acceptance',
     affirmations: [
       'I am worthy of love and belonging',
       'I accept myself completely as I am',
@@ -138,10 +153,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I choose self-love over self-criticism',
     ],
   },
-  'morning': {
+  morning: {
     title: 'Morning Affirmations - Start Your Day with Positive Energy',
-    description: 'Energizing morning affirmations to start your day with positivity, motivation, and intention. Transform your mornings and your life.',
-    keywords: 'morning affirmations, daily affirmations, positive morning routine, start your day, morning motivation, daily positivity',
+    description:
+      'Energizing morning affirmations to start your day with positivity, motivation, and intention. Transform your mornings and your life.',
+    keywords:
+      'morning affirmations, daily affirmations, positive morning routine, start your day, morning motivation, daily positivity',
     affirmations: [
       'Today is full of endless possibilities',
       'I wake up feeling energized and excited',
@@ -160,10 +177,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'This day is a gift and I will use it wisely',
     ],
   },
-  'sleep': {
+  sleep: {
     title: 'Affirmations for Sleep - Peaceful Rest & Relaxation',
-    description: 'Calming bedtime affirmations to quiet your mind and prepare for restful sleep. Release the day\'s stress and drift into peaceful slumber.',
-    keywords: 'sleep affirmations, bedtime affirmations, relaxation, peaceful sleep, insomnia help, nighttime routine, restful sleep',
+    description:
+      "Calming bedtime affirmations to quiet your mind and prepare for restful sleep. Release the day's stress and drift into peaceful slumber.",
+    keywords:
+      'sleep affirmations, bedtime affirmations, relaxation, peaceful sleep, insomnia help, nighttime routine, restful sleep',
     affirmations: [
       'I release the day and welcome peaceful rest',
       'My body is relaxing and preparing for sleep',
@@ -182,10 +201,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'Sleep comes naturally and easily to me',
     ],
   },
-  'men': {
+  men: {
     title: 'Affirmations for Men - Strength, Purpose & Confidence',
-    description: 'Empowering affirmations for men to build confidence, find purpose, and embrace authentic masculinity. Daily motivation for personal growth.',
-    keywords: 'affirmations for men, male confidence, masculine energy, men motivation, strength affirmations, purpose driven',
+    description:
+      'Empowering affirmations for men to build confidence, find purpose, and embrace authentic masculinity. Daily motivation for personal growth.',
+    keywords:
+      'affirmations for men, male confidence, masculine energy, men motivation, strength affirmations, purpose driven',
     affirmations: [
       'I am a strong, capable man',
       'I embrace my emotions as a source of strength',
@@ -204,14 +225,16 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I am proud of the man I am becoming',
     ],
   },
-  'teens': {
+  teens: {
     title: 'Affirmations for Teens - Confidence, Identity & Growth',
-    description: 'Supportive affirmations for teenagers navigating identity, confidence, and personal growth. Build resilience and self-esteem during crucial years.',
-    keywords: 'teen affirmations, teenage confidence, adolescent self-esteem, youth motivation, growing up affirmations, teen mental health',
+    description:
+      'Supportive affirmations for teenagers navigating identity, confidence, and personal growth. Build resilience and self-esteem during crucial years.',
+    keywords:
+      'teen affirmations, teenage confidence, adolescent self-esteem, youth motivation, growing up affirmations, teen mental health',
     affirmations: [
       'I am discovering who I truly am',
       'My feelings are valid and important',
-      'I don\'t need to be perfect to be amazing',
+      "I don't need to be perfect to be amazing",
       'I am more than my grades or achievements',
       'I choose friends who respect and support me',
       'I am finding my own path in life',
@@ -226,10 +249,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I am exactly where I need to be right now',
     ],
   },
-  'pregnancy': {
+  pregnancy: {
     title: 'Affirmations for Pregnancy - Calm, Confident & Connected',
-    description: 'Nurturing affirmations for expecting mothers. Build confidence, reduce anxiety, and connect with your growing baby through positive affirmations.',
-    keywords: 'pregnancy affirmations, expecting mother, prenatal affirmations, birth affirmations, motherhood, baby bonding',
+    description:
+      'Nurturing affirmations for expecting mothers. Build confidence, reduce anxiety, and connect with your growing baby through positive affirmations.',
+    keywords:
+      'pregnancy affirmations, expecting mother, prenatal affirmations, birth affirmations, motherhood, baby bonding',
     affirmations: [
       'My body knows how to nurture this baby',
       'I trust the wisdom of my body',
@@ -248,10 +273,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I am becoming the mother I was meant to be',
     ],
   },
-  'athletes': {
+  athletes: {
     title: 'Affirmations for Athletes - Peak Performance & Mental Strength',
-    description: 'High-performance affirmations for athletes to build mental toughness, focus, and confidence. Elevate your game with a champion mindset.',
-    keywords: 'athlete affirmations, sports motivation, mental toughness, peak performance, competitive mindset, athletic confidence',
+    description:
+      'High-performance affirmations for athletes to build mental toughness, focus, and confidence. Elevate your game with a champion mindset.',
+    keywords:
+      'athlete affirmations, sports motivation, mental toughness, peak performance, competitive mindset, athletic confidence',
     affirmations: [
       'I am mentally and physically prepared',
       'I perform at my best under pressure',
@@ -270,10 +297,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I am a champion in my mind and actions',
     ],
   },
-  'abundance': {
+  abundance: {
     title: 'Abundance Affirmations - Attract Wealth & Prosperity',
-    description: 'Powerful abundance affirmations to shift your mindset from scarcity to prosperity. Attract wealth, opportunities, and success into your life.',
-    keywords: 'abundance affirmations, wealth mindset, prosperity, attract money, financial abundance, law of attraction, manifestation',
+    description:
+      'Powerful abundance affirmations to shift your mindset from scarcity to prosperity. Attract wealth, opportunities, and success into your life.',
+    keywords:
+      'abundance affirmations, wealth mindset, prosperity, attract money, financial abundance, law of attraction, manifestation',
     affirmations: [
       'I am a magnet for abundance and prosperity',
       'Wealth flows to me from multiple sources',
@@ -292,10 +321,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'The universe supports my prosperity',
     ],
   },
-  'gratitude': {
+  gratitude: {
     title: 'Gratitude Affirmations - Cultivate Joy & Appreciation',
-    description: 'Transform your perspective with gratitude affirmations. Cultivate appreciation, joy, and contentment through the power of thankfulness.',
-    keywords: 'gratitude affirmations, thankfulness, appreciation, joy affirmations, mindfulness, positive thinking, contentment',
+    description:
+      'Transform your perspective with gratitude affirmations. Cultivate appreciation, joy, and contentment through the power of thankfulness.',
+    keywords:
+      'gratitude affirmations, thankfulness, appreciation, joy affirmations, mindfulness, positive thinking, contentment',
     affirmations: [
       'I am grateful for all the blessings in my life',
       'I appreciate the simple joys each day brings',
@@ -309,15 +340,17 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I am blessed in countless ways',
       'Gratitude attracts more blessings into my life',
       'I give thanks for this present moment',
-      'I appreciate my journey and how far I\'ve come',
+      "I appreciate my journey and how far I've come",
       'I am grateful for the opportunity to grow',
       'Thankfulness is my natural state of being',
     ],
   },
-  'healing': {
+  healing: {
     title: 'Healing Affirmations - Recovery, Health & Restoration',
-    description: 'Supportive affirmations for physical and emotional healing. Support your recovery journey with positive, healing-focused statements.',
-    keywords: 'healing affirmations, recovery, health affirmations, emotional healing, physical healing, wellness, restoration',
+    description:
+      'Supportive affirmations for physical and emotional healing. Support your recovery journey with positive, healing-focused statements.',
+    keywords:
+      'healing affirmations, recovery, health affirmations, emotional healing, physical healing, wellness, restoration',
     affirmations: [
       'My body has an amazing ability to heal',
       'I support my healing with positive thoughts',
@@ -327,21 +360,23 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I deserve to feel whole and healthy',
       'My mind and body work together to heal',
       'I nourish myself with healing thoughts',
-      'I trust my body\'s wisdom to heal',
+      "I trust my body's wisdom to heal",
       'I am surrounded by healing energy',
       'I let go of pain and embrace wellness',
       'Each breath brings healing to my body',
-      'I am grateful for my body\'s resilience',
+      "I am grateful for my body's resilience",
       'I choose thoughts that promote healing',
       'Complete healing is possible for me',
     ],
   },
-  'teachers': {
+  teachers: {
     title: 'Affirmations for Teachers - Inspiration, Patience & Impact',
-    description: 'Empowering affirmations for educators to stay motivated, patient, and inspired. Recognize your profound impact on students\' lives.',
-    keywords: 'teacher affirmations, educator motivation, teaching inspiration, classroom confidence, teacher self-care, educational impact',
+    description:
+      "Empowering affirmations for educators to stay motivated, patient, and inspired. Recognize your profound impact on students' lives.",
+    keywords:
+      'teacher affirmations, educator motivation, teaching inspiration, classroom confidence, teacher self-care, educational impact',
     affirmations: [
-      'I make a meaningful difference in students\' lives',
+      "I make a meaningful difference in students' lives",
       'I am patient, understanding, and kind',
       'My passion for teaching inspires others',
       'I create a safe and supportive learning environment',
@@ -358,21 +393,23 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I am grateful for the opportunity to teach',
     ],
   },
-  'depression': {
+  depression: {
     title: 'Affirmations for Depression - Hope, Light & Gentle Recovery',
-    description: 'Gentle, supportive affirmations for those struggling with depression. Find hope, self-compassion, and small steps toward feeling better.',
-    keywords: 'depression affirmations, mental health, hope affirmations, self-compassion, emotional support, gentle affirmations',
+    description:
+      'Gentle, supportive affirmations for those struggling with depression. Find hope, self-compassion, and small steps toward feeling better.',
+    keywords:
+      'depression affirmations, mental health, hope affirmations, self-compassion, emotional support, gentle affirmations',
     affirmations: [
       'I am doing the best I can, and that is enough',
       'This darkness is temporary, not permanent',
       'I deserve compassion, especially from myself',
       'Small steps forward are still progress',
       'I am not alone in this struggle',
-      'It\'s okay to ask for help',
+      "It's okay to ask for help",
       'I am worthy of feeling better',
       'I take things one moment at a time',
       'I acknowledge my pain without judgment',
-      'There is hope, even when I can\'t feel it',
+      "There is hope, even when I can't feel it",
       'I am more than my depression',
       'I give myself permission to rest',
       'Better days are ahead of me',
@@ -380,10 +417,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'I choose to be gentle with myself today',
     ],
   },
-  'entrepreneurs': {
+  entrepreneurs: {
     title: 'Affirmations for Entrepreneurs - Vision, Resilience & Success',
-    description: 'Powerful affirmations for entrepreneurs and business owners. Build resilience, maintain vision, and attract success in your ventures.',
-    keywords: 'entrepreneur affirmations, business success, startup motivation, business owner, entrepreneurial mindset, success affirmations',
+    description:
+      'Powerful affirmations for entrepreneurs and business owners. Build resilience, maintain vision, and attract success in your ventures.',
+    keywords:
+      'entrepreneur affirmations, business success, startup motivation, business owner, entrepreneurial mindset, success affirmations',
     affirmations: [
       'I have the vision and drive to succeed',
       'I turn challenges into opportunities',
@@ -402,10 +441,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'My entrepreneurial journey is unfolding perfectly',
     ],
   },
-  'forgiveness': {
+  forgiveness: {
     title: 'Affirmations for Forgiveness - Release, Peace & Freedom',
-    description: 'Healing affirmations to help you forgive others and yourself. Release resentment, find peace, and experience the freedom of forgiveness.',
-    keywords: 'forgiveness affirmations, letting go, release resentment, self-forgiveness, healing relationships, inner peace',
+    description:
+      'Healing affirmations to help you forgive others and yourself. Release resentment, find peace, and experience the freedom of forgiveness.',
+    keywords:
+      'forgiveness affirmations, letting go, release resentment, self-forgiveness, healing relationships, inner peace',
     affirmations: [
       'I release resentment and choose peace',
       'Forgiveness sets me free',
@@ -424,10 +465,12 @@ export const NICHE_AFFIRMATIONS: Record<string, {
       'Each day I move closer to complete forgiveness',
     ],
   },
-  'students': {
+  students: {
     title: 'Affirmations for Students - Focus, Success & Academic Excellence',
-    description: 'Motivating affirmations for students to improve focus, reduce test anxiety, and achieve academic success. Build confidence in your learning.',
-    keywords: 'student affirmations, study motivation, academic success, test anxiety, learning confidence, school affirmations',
+    description:
+      'Motivating affirmations for students to improve focus, reduce test anxiety, and achieve academic success. Build confidence in your learning.',
+    keywords:
+      'student affirmations, study motivation, academic success, test anxiety, learning confidence, school affirmations',
     affirmations: [
       'I am capable of learning anything I set my mind to',
       'I am focused and retain information easily',

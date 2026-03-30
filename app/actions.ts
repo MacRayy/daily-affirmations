@@ -20,8 +20,8 @@ export async function generateNewAffirmation(category: string) {
         Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
         'Content-Type': 'application/json',
         'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0',
+        Pragma: 'no-cache',
+        Expires: '0',
       },
       cache: 'no-store',
       body: JSON.stringify({

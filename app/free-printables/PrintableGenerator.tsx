@@ -122,7 +122,9 @@ export default function PrintableGenerator() {
   const generatePDF = async (categoryId: string) => {
     setGenerating(true)
     const category = CATEGORIES.find(c => c.id === categoryId)
-    if (!category) return
+    if (!category) {
+      return
+    }
 
     const doc = new jsPDF({
       orientation: 'portrait',
@@ -138,42 +140,50 @@ export default function PrintableGenerator() {
     const cornerRadius = 4
 
     // Color schemes for each category
-    const colorSchemes: Record<string, { primary: [number, number, number]; secondary: [number, number, number]; accent: [number, number, number]; light: [number, number, number] }> = {
+    const colorSchemes: Record<
+      string,
+      {
+        primary: [number, number, number]
+        secondary: [number, number, number]
+        accent: [number, number, number]
+        light: [number, number, number]
+      }
+    > = {
       general: {
-        primary: [139, 92, 246],    // violet
+        primary: [139, 92, 246], // violet
         secondary: [167, 139, 250], // violet light
-        accent: [196, 181, 253],    // violet lighter
-        light: [245, 243, 255],     // violet bg
+        accent: [196, 181, 253], // violet lighter
+        light: [245, 243, 255], // violet bg
       },
       career: {
-        primary: [37, 99, 235],     // blue
-        secondary: [96, 165, 250],  // blue light
-        accent: [147, 197, 253],    // blue lighter
-        light: [239, 246, 255],     // blue bg
+        primary: [37, 99, 235], // blue
+        secondary: [96, 165, 250], // blue light
+        accent: [147, 197, 253], // blue lighter
+        light: [239, 246, 255], // blue bg
       },
       relationships: {
-        primary: [225, 29, 72],     // rose
+        primary: [225, 29, 72], // rose
         secondary: [251, 113, 133], // rose light
-        accent: [253, 164, 175],    // rose lighter
-        light: [255, 241, 242],     // rose bg
+        accent: [253, 164, 175], // rose lighter
+        light: [255, 241, 242], // rose bg
       },
       health: {
-        primary: [16, 185, 129],    // emerald
-        secondary: [52, 211, 153],  // emerald light
-        accent: [110, 231, 183],    // emerald lighter
-        light: [236, 253, 245],     // emerald bg
+        primary: [16, 185, 129], // emerald
+        secondary: [52, 211, 153], // emerald light
+        accent: [110, 231, 183], // emerald lighter
+        light: [236, 253, 245], // emerald bg
       },
       'personal-growth': {
-        primary: [79, 70, 229],     // indigo
+        primary: [79, 70, 229], // indigo
         secondary: [129, 140, 248], // indigo light
-        accent: [165, 180, 252],    // indigo lighter
-        light: [238, 242, 255],     // indigo bg
+        accent: [165, 180, 252], // indigo lighter
+        light: [238, 242, 255], // indigo bg
       },
       confidence: {
-        primary: [217, 119, 6],     // amber
-        secondary: [251, 191, 36],  // amber light
-        accent: [252, 211, 77],     // amber lighter
-        light: [255, 251, 235],     // amber bg
+        primary: [217, 119, 6], // amber
+        secondary: [251, 191, 36], // amber light
+        accent: [252, 211, 77], // amber lighter
+        light: [255, 251, 235], // amber bg
       },
     }
 
@@ -246,9 +256,14 @@ export default function PrintableGenerator() {
     doc.setFontSize(8)
     doc.setTextColor(107, 114, 128)
     doc.setFont('helvetica', 'normal')
-    doc.text('Cut along the dotted lines. Place on your mirror, desk, or journal.', pageWidth / 2, 25, {
-      align: 'center',
-    })
+    doc.text(
+      'Cut along the dotted lines. Place on your mirror, desk, or journal.',
+      pageWidth / 2,
+      25,
+      {
+        align: 'center',
+      },
+    )
 
     let x = margin
     let y = 32
@@ -345,7 +360,9 @@ export default function PrintableGenerator() {
         doc.setTextColor(255, 255, 255)
         doc.setFontSize(8)
         doc.setFont('helvetica', 'bold')
-        doc.text(`${category.name.toUpperCase()} AFFIRMATIONS (continued)`, pageWidth / 2, 8, { align: 'center' })
+        doc.text(`${category.name.toUpperCase()} AFFIRMATIONS (continued)`, pageWidth / 2, 8, {
+          align: 'center',
+        })
 
         x = margin
         y = 18
@@ -371,10 +388,22 @@ export default function PrintableGenerator() {
 
     // Tips content
     const tips = [
-      { title: 'Morning Ritual', text: 'Read your affirmations aloud each morning while looking in the mirror. Feel the words as you speak them.' },
-      { title: 'Strategic Placement', text: 'Place cards where you will see them daily: bathroom mirror, desk, refrigerator, car dashboard, or wallet.' },
-      { title: 'Repeat with Feeling', text: 'Say each affirmation 3 times with emotion and conviction. Visualization enhances the effect.' },
-      { title: 'Be Consistent', text: 'Practice daily for at least 21 days. Consistency rewires your brain for positive thinking.' },
+      {
+        title: 'Morning Ritual',
+        text: 'Read your affirmations aloud each morning while looking in the mirror. Feel the words as you speak them.',
+      },
+      {
+        title: 'Strategic Placement',
+        text: 'Place cards where you will see them daily: bathroom mirror, desk, refrigerator, car dashboard, or wallet.',
+      },
+      {
+        title: 'Repeat with Feeling',
+        text: 'Say each affirmation 3 times with emotion and conviction. Visualization enhances the effect.',
+      },
+      {
+        title: 'Be Consistent',
+        text: 'Practice daily for at least 21 days. Consistency rewires your brain for positive thinking.',
+      },
     ]
 
     let tipY = 50
@@ -416,16 +445,25 @@ export default function PrintableGenerator() {
     doc.setTextColor(255, 255, 255)
     doc.setFontSize(14)
     doc.setFont('helvetica', 'bold')
-    doc.text('Want Fresh AI-Generated Affirmations Daily?', pageWidth / 2, tipY + 25, { align: 'center' })
+    doc.text('Want Fresh AI-Generated Affirmations Daily?', pageWidth / 2, tipY + 25, {
+      align: 'center',
+    })
 
     doc.setFontSize(11)
     doc.setFont('helvetica', 'normal')
-    doc.text('Visit daily-affirm.com for unlimited personalized affirmations', pageWidth / 2, tipY + 35, { align: 'center' })
+    doc.text(
+      'Visit daily-affirm.com for unlimited personalized affirmations',
+      pageWidth / 2,
+      tipY + 35,
+      { align: 'center' },
+    )
 
     // Footer
     doc.setTextColor(...colors.primary)
     doc.setFontSize(10)
-    doc.text('Made with love by Daily Affirmations', pageWidth / 2, pageHeight - 15, { align: 'center' })
+    doc.text('Made with love by Daily Affirmations', pageWidth / 2, pageHeight - 15, {
+      align: 'center',
+    })
 
     // Save the PDF
     doc.save(`${category.name.toLowerCase()}-affirmations-daily-affirm.pdf`)
@@ -466,12 +504,14 @@ export default function PrintableGenerator() {
             Preview: {CATEGORIES.find(c => c.id === selectedCategory)?.name} Affirmations
           </h3>
           <ul className="space-y-3 mb-6">
-            {CATEGORIES.find(c => c.id === selectedCategory)?.affirmations.slice(0, 3).map((aff, i) => (
-              <li key={i} className="flex items-start gap-3">
-                <span className="text-violet-600 font-bold">{i + 1}.</span>
-                <span className="text-gray-700">&ldquo;{aff}&rdquo;</span>
-              </li>
-            ))}
+            {CATEGORIES.find(c => c.id === selectedCategory)
+              ?.affirmations.slice(0, 3)
+              .map((aff, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <span className="text-violet-600 font-bold">{i + 1}.</span>
+                  <span className="text-gray-700">&ldquo;{aff}&rdquo;</span>
+                </li>
+              ))}
             <li className="text-gray-500 italic">...and 7 more affirmations</li>
           </ul>
 

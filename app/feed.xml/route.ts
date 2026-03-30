@@ -16,7 +16,7 @@ export async function GET() {
       <description><![CDATA[${post.description}]]></description>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
       <category>${post.category}</category>
-    </item>`
+    </item>`,
     )
     .join('\n')
 

@@ -101,7 +101,7 @@ export default function NicheAffirmationClient({
 
   const shareOnPinterest = () => {
     const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
-      window.location.href
+      window.location.href,
     )}&description=${encodeURIComponent(`"${affirmation}" - Affirmation for ${topicName}`)}`
     window.open(pinterestUrl, '_blank', 'width=600,height=400')
   }
