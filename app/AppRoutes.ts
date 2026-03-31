@@ -326,6 +326,17 @@ export const ROUTES = {
       keywords:
         'AI anxiety affirmations, artificial intelligence anxiety, job displacement AI, fear of AI, technology anxiety, AI job loss, future of work anxiety, automation anxiety, AI mental health, coping with AI change, career anxiety AI, technological disruption',
     },
+    'digital-detox-affirmations': {
+      path: '/blog/digital-detox-affirmations',
+      title: 'Affirmations for Digital Detox: Reclaiming Your Attention in the Age of Social Media',
+      description:
+        'Struggling with social media addiction, doomscrolling, or screen fatigue? Discover how digital overload rewires your brain, why you feel anxious without your phone, and how affirmations can help you reclaim your attention, presence, and sense of self beyond the screen.',
+      date: '2026-03-31',
+      readTime: '15 min read',
+      category: 'Mental Health',
+      keywords:
+        'digital detox affirmations, social media anxiety, phone addiction affirmations, doomscrolling, screen time anxiety, social media detox, digital wellness, internet addiction, phone dependency, social media mental health, attention reclaim, mindful technology use',
+    },
   },
 } as const
 

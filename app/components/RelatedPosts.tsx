@@ -106,6 +106,11 @@ const relatedPostsMap: Record<BlogPostKey, BlogPostKey[]> = {
     'affirmations-for-anxiety',
     'affirmations-for-burnout-recovery',
   ],
+  'digital-detox-affirmations': [
+    'affirmations-for-anxiety',
+    'affirmations-for-overthinking',
+    'affirmations-for-burnout-recovery',
+  ],
 }
 
 // Fallback: if a post isn't in the map, show recent posts
