@@ -337,6 +337,18 @@ export const ROUTES = {
       keywords:
         'digital detox affirmations, social media anxiety, phone addiction affirmations, doomscrolling, screen time anxiety, social media detox, digital wellness, internet addiction, phone dependency, social media mental health, attention reclaim, mindful technology use',
     },
+    'affirmations-for-loneliness': {
+      path: '/blog/affirmations-for-loneliness',
+      title:
+        'Affirmations for Loneliness: Healing Connection in the Age of the Loneliness Epidemic',
+      description:
+        'Feeling isolated despite living in a hyper-connected world? Explore the psychology behind the loneliness epidemic, why modern life makes genuine connection so difficult, and how affirmations can help you rebuild your relationship with yourself and others.',
+      date: '2026-04-01',
+      readTime: '16 min read',
+      category: 'Mental Health',
+      keywords:
+        'loneliness affirmations, loneliness epidemic, social isolation affirmations, feeling alone, connection affirmations, lonely affirmations, isolation mental health, belonging affirmations, loneliness crisis, surgeon general loneliness, overcoming loneliness, social connection',
+    },
   },
 } as const
 
