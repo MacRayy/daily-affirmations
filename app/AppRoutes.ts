@@ -349,6 +349,17 @@ export const ROUTES = {
       keywords:
         'loneliness affirmations, loneliness epidemic, social isolation affirmations, feeling alone, connection affirmations, lonely affirmations, isolation mental health, belonging affirmations, loneliness crisis, surgeon general loneliness, overcoming loneliness, social connection',
     },
+    'affirmations-for-imposter-syndrome': {
+      path: '/blog/affirmations-for-imposter-syndrome',
+      title: 'Affirmations for Imposter Syndrome: Owning Your Worth When You Feel Like a Fraud',
+      description:
+        'Convinced you are a fraud who will be found out any day now? Explore the psychology of imposter syndrome, why high achievers are most vulnerable, and how affirmations can help you internalize your accomplishments and silence the voice that says you do not belong.',
+      date: '2026-04-09',
+      readTime: '16 min read',
+      category: 'Personal Growth',
+      keywords:
+        'imposter syndrome affirmations, feeling like a fraud, imposter phenomenon, self-doubt affirmations, professional confidence, achievement anxiety, imposter syndrome at work, overcoming imposter syndrome, belonging at work, competence affirmations, fraud feelings, high achiever anxiety',
+    },
   },
 } as const
 
