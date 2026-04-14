@@ -360,6 +360,18 @@ export const ROUTES = {
       keywords:
         'imposter syndrome affirmations, feeling like a fraud, imposter phenomenon, self-doubt affirmations, professional confidence, achievement anxiety, imposter syndrome at work, overcoming imposter syndrome, belonging at work, competence affirmations, fraud feelings, high achiever anxiety',
     },
+    'affirmations-for-financial-anxiety': {
+      path: '/blog/affirmations-for-financial-anxiety',
+      title:
+        'Affirmations for Financial Anxiety: Finding Stability When the Cost of Living Feels Impossible',
+      description:
+        'Lying awake worrying about bills, rent, or whether you can afford groceries? Explore the psychology of financial stress, why the cost of living crisis is a mental health crisis too, and how affirmations can help you think clearly and act wisely when money feels terrifying.',
+      date: '2026-04-14',
+      readTime: '16 min read',
+      category: 'Mental Health',
+      keywords:
+        'financial anxiety affirmations, money stress, cost of living crisis, financial stress mental health, money worries, rent anxiety, debt stress affirmations, financial insecurity, money mindset, economic anxiety, paycheck to paycheck, financial wellness affirmations',
+    },
   },
 } as const
 
