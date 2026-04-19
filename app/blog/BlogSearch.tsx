@@ -1,9 +1,9 @@
 'use client'
 
-import { useState } from 'react'
-import Link from 'next/link'
 import { Calendar, ArrowRight, Search, X } from 'lucide-react'
-import { ROUTES } from '../AppRoutes'
+import Link from 'next/link'
+import { useState } from 'react'
+import { getBlogPostPath } from '../AppRoutes'
 
 type BlogPost = {
   slug: string
@@ -36,12 +36,16 @@ export default function BlogSearch({ posts }: { posts: BlogPost[] }) {
           type="text"
           placeholder="Search articles..."
           value={query}
-          onChange={e => setQuery(e.target.value)}
+          onChange={e => {
+            setQuery(e.target.value)
+          }}
           className="w-full pl-12 pr-10 py-3 bg-white border-2 border-gray-200 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-100 transition"
         />
         {query && (
           <button
-            onClick={() => setQuery('')}
+            onClick={() => {
+              setQuery('')
+            }}
             className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
           >
             <X className="w-5 h-5" />
@@ -57,14 +61,7 @@ export default function BlogSearch({ posts }: { posts: BlogPost[] }) {
 
       <div className="space-y-8">
         {filtered.map(post => (
-          <Link
-            key={post.slug}
-            href={
-              ROUTES.blogPosts[post.slug as keyof typeof ROUTES.blogPosts]?.path ||
-              `/blog/${post.slug}`
-            }
-            className="block group"
-          >
+          <Link key={post.slug} href={getBlogPostPath(post.slug)} className="block group">
             <article className="bg-white rounded-2xl border-2 border-gray-200 p-8 hover:shadow-lg hover:border-violet-300 transition">
               <div className="flex items-center gap-4 mb-4 text-sm text-gray-500">
                 <span className="px-3 py-1 bg-violet-100 text-violet-700 rounded-full font-semibold">
@@ -99,7 +96,9 @@ export default function BlogSearch({ posts }: { posts: BlogPost[] }) {
           <div className="text-center py-12">
             <p className="text-gray-500 text-lg">No articles found matching your search.</p>
             <button
-              onClick={() => setQuery('')}
+              onClick={() => {
+                setQuery('')
+              }}
               className="mt-4 text-violet-600 hover:text-violet-700 font-semibold"
             >
               Clear search

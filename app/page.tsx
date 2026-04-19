@@ -1,21 +1,21 @@
-import AffirmationClient from './components/AffirmationClient'
-import { getAffirmationOfTheDay } from './data/affirmations'
+import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
+import Link from 'next/link'
 import Logo from '@/app/components/Logo'
 import MobileMenu from '@/app/components/MobileMenu'
 import { AmazonCTA } from '@/components/AmazonCTA'
 import Footer from '@/components/Footer'
-import type { Metadata } from 'next'
-import Link from 'next/link'
-import { Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
 import {
   ROUTES,
   generateOpenGraph,
   generateTwitterCard,
   generateWebsiteStructuredData,
 } from './AppRoutes'
+import AffirmationClient from './components/AffirmationClient'
 import FAQStructuredData from './components/FAQStructuredData'
-import ItemListSchema from './components/ItemListSchema'
 import HowToSchema from './components/HowToSchema'
+import ItemListSchema from './components/ItemListSchema'
+import { getAffirmationOfTheDay } from './data/affirmations'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: ROUTES.home.title,

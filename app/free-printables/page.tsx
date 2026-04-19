@@ -1,10 +1,10 @@
-import type { Metadata } from 'next'
-import { ROUTES } from '../AppRoutes'
-import PrintableGenerator from './PrintableGenerator'
+import Link from 'next/link'
 import Logo from '@/app/components/Logo'
 import MobileMenu from '@/app/components/MobileMenu'
-import Link from 'next/link'
 import Footer from '@/components/Footer'
+import { ROUTES } from '../AppRoutes'
+import PrintableGenerator from './PrintableGenerator'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: ROUTES.printables.title,
@@ -74,8 +74,8 @@ export default function PrintablesPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-2">2. Place Strategically</h3>
               <p>
-                Put cards on your bathroom mirror, desk, refrigerator, or anywhere you'll see them
-                daily.
+                Put cards on your bathroom mirror, desk, refrigerator, or anywhere you&apos;ll see
+                them daily.
               </p>
             </div>
             <div>

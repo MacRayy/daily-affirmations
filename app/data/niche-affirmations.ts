@@ -1,14 +1,13 @@
 // Niche-specific affirmations for programmatic SEO pages
 
-export const NICHE_AFFIRMATIONS: Record<
-  string,
-  {
-    title: string
-    description: string
-    keywords: string
-    affirmations: string[]
-  }
-> = {
+type NicheAffirmation = {
+  title: string
+  description: string
+  keywords: string
+  affirmations: string[]
+}
+
+export const NICHE_AFFIRMATIONS: Record<string, NicheAffirmation | undefined> = {
   anxiety: {
     title: 'Affirmations for Anxiety - Calm Your Mind & Find Inner Peace',
     description:

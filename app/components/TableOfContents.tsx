@@ -1,7 +1,7 @@
 'use client'
 
-import { useState } from 'react'
 import { ChevronDown, ChevronUp, List } from 'lucide-react'
+import { useState } from 'react'
 
 type TOCItem = {
   id: string
@@ -23,7 +23,9 @@ export default function TableOfContents({ items }: TableOfContentsProps) {
   return (
     <nav className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 my-8">
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          setIsOpen(prev => !prev)
+        }}
         className="flex items-center justify-between w-full text-left cursor-pointer"
       >
         <div className="flex items-center gap-2">

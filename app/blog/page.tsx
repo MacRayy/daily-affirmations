@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Footer from '@/components/Footer'
-import type { Metadata } from 'next'
 import { ROUTES, generateOpenGraph, generateTwitterCard } from '../AppRoutes'
 import BlogSearch from './BlogSearch'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: ROUTES.blog.title,

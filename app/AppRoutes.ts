@@ -376,20 +376,30 @@ export const ROUTES = {
 } as const
 
 // Helper functions
-export const getBlogPostPath = (slug: string): string => {
-  return ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]?.path || `/blog/${slug}`
-}
+type BlogPostRoute = (typeof ROUTES.blogPosts)[keyof typeof ROUTES.blogPosts]
+type AffirmationRoute = (typeof ROUTES.affirmations)[keyof typeof ROUTES.affirmations]
+type AnyRoute = (typeof ROUTES)[keyof typeof ROUTES]
 
-export const getAffirmationPath = (category: string): string => {
-  return (
-    ROUTES.affirmations[category as keyof typeof ROUTES.affirmations]?.path ||
-    `/affirmations/${category}`
-  )
-}
+export const getBlogPostRoute = (slug: string): BlogPostRoute | undefined =>
+  (ROUTES.blogPosts as Partial<typeof ROUTES.blogPosts>)[slug as keyof typeof ROUTES.blogPosts]
+
+export const getAffirmationRoute = (category: string): AffirmationRoute | undefined =>
+  (ROUTES.affirmations as Partial<typeof ROUTES.affirmations>)[
+    category as keyof typeof ROUTES.affirmations
+  ]
+
+const getAnyRoute = (route: string): AnyRoute | undefined =>
+  (ROUTES as Partial<typeof ROUTES>)[route as keyof typeof ROUTES]
+
+export const getBlogPostPath = (slug: string): string =>
+  getBlogPostRoute(slug)?.path ?? `/blog/${slug}`
+
+export const getAffirmationPath = (category: string): string =>
+  getAffirmationRoute(category)?.path ?? `/affirmations/${category}`
 
 // SEO utilities
-export const generateStructuredData = (route: keyof typeof ROUTES | string) => {
-  const routeData = ROUTES[route as keyof typeof ROUTES]
+export const generateStructuredData = (route: string) => {
+  const routeData = getAnyRoute(route)
 
   if (!routeData) {
     return null
@@ -442,8 +452,8 @@ export const generateStructuredData = (route: keyof typeof ROUTES | string) => {
 }
 
 // Generate Open Graph metadata
-export const generateOpenGraph = (route: keyof typeof ROUTES | string) => {
-  const routeData = ROUTES[route as keyof typeof ROUTES]
+export const generateOpenGraph = (route: string) => {
+  const routeData = getAnyRoute(route)
 
   if (!routeData) {
     return {}
@@ -473,8 +483,8 @@ export const generateOpenGraph = (route: keyof typeof ROUTES | string) => {
 }
 
 // Generate Twitter Card metadata
-export const generateTwitterCard = (route: keyof typeof ROUTES | string) => {
-  const routeData = ROUTES[route as keyof typeof ROUTES]
+export const generateTwitterCard = (route: string) => {
+  const routeData = getAnyRoute(route)
 
   if (!routeData) {
     return {}
@@ -495,7 +505,7 @@ export const generateTwitterCard = (route: keyof typeof ROUTES | string) => {
 
 // Generate blog post structured data
 export const generateBlogPostStructuredData = (slug: string) => {
-  const postData = ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]
+  const postData = getBlogPostRoute(slug)
 
   if (!postData) {
     return null
@@ -533,7 +543,7 @@ export const generateBlogPostStructuredData = (slug: string) => {
 }
 
 // Generate breadcrumb structured data
-export const generateBreadcrumbStructuredData = (items: Array<{ name: string; url: string }>) => {
+export const generateBreadcrumbStructuredData = (items: { name: string; url: string }[]) => {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

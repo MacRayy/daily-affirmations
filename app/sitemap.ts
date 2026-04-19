@@ -1,6 +1,6 @@
-import type { MetadataRoute } from 'next'
 import { ROUTES } from './AppRoutes'
 import { NICHE_SLUGS } from './data/niche-affirmations'
+import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://daily-affirm.com'

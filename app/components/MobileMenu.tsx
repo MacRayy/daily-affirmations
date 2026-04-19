@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
-import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+import Link from 'next/link'
+import { useState } from 'react'
 
-interface MobileMenuProps {
+type MobileMenuProps = {
   links: { href: string; label: string }[]
 }
 
@@ -14,7 +14,9 @@ export default function MobileMenu({ links }: MobileMenuProps) {
   return (
     <>
       <button
-        onClick={() => setOpen(!open)}
+        onClick={() => {
+          setOpen(!open)
+        }}
         className="md:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition cursor-pointer"
         aria-label="Toggle menu"
       >
@@ -31,7 +33,9 @@ export default function MobileMenu({ links }: MobileMenuProps) {
               <Link
                 key={link.href}
                 href={link.href}
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  setOpen(false)
+                }}
                 className="text-gray-700 hover:text-violet-600 hover:bg-violet-50 font-semibold transition px-3 py-2.5 rounded-lg"
               >
                 {link.label}

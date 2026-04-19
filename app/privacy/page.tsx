@@ -1,7 +1,7 @@
-import type { Metadata } from 'next'
+import { Shield, Eye, Lock, Database } from 'lucide-react'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
-import { Shield, Eye, Lock, Database } from 'lucide-react'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Daily Affirmations',

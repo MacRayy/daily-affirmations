@@ -1,7 +1,7 @@
-import type { Metadata } from 'next'
+import { FileText, Scale, AlertCircle, Users } from 'lucide-react'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
-import { FileText, Scale, AlertCircle, Users } from 'lucide-react'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Terms of Service - Daily Affirmations',

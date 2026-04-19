@@ -1,15 +1,15 @@
-import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
+import { ROUTES, generateBreadcrumbStructuredData } from '@/app/AppRoutes'
+import Breadcrumbs from '@/app/components/Breadcrumbs'
 import Logo from '@/app/components/Logo'
 import MobileMenu from '@/app/components/MobileMenu'
-import Footer from '@/components/Footer'
-import Breadcrumbs from '@/app/components/Breadcrumbs'
-import { ROUTES, generateBreadcrumbStructuredData } from '@/app/AppRoutes'
 import {
   NICHE_AFFIRMATIONS,
   getNicheAffirmationOfTheDay,
   NICHE_SLUGS,
 } from '@/app/data/niche-affirmations'
+import Footer from '@/components/Footer'
 import NicheAffirmationClient from './NicheAffirmationClient'
 
 export async function generateMetadata({ params }: { params: Promise<{ topic: string }> }) {
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ topic: st
   }
 }
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return NICHE_SLUGS.map(topic => ({
     topic,
   }))
@@ -189,6 +189,9 @@ export default async function NicheAffirmationPage({
                 .slice(0, 6)
                 .map(slug => {
                   const data = NICHE_AFFIRMATIONS[slug]
+                  if (!data) {
+                    return null
+                  }
                   const name = slug
                     .split('-')
                     .map(w => w.charAt(0).toUpperCase() + w.slice(1))

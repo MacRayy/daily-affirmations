@@ -1,17 +1,16 @@
-import type { ReactNode } from 'react'
-import { ROUTES } from '@/app/AppRoutes'
 import Link from 'next/link'
+import { ROUTES } from '@/app/AppRoutes'
+import type { ReactNode } from 'react'
 
-export const blogPosts: Record<
-  string,
-  {
-    title: string
-    date: string
-    readTime: string
-    category: string
-    content: ReactNode
-  }
-> = {
+type BlogPost = {
+  title: string
+  date: string
+  readTime: string
+  category: string
+  content: ReactNode
+}
+
+export const blogPosts: Record<string, BlogPost | undefined> = {
   'how-to-use-affirmations-effectively': {
     title: ROUTES.blogPosts['how-to-use-affirmations-effectively'].title,
     date: ROUTES.blogPosts['how-to-use-affirmations-effectively'].date,

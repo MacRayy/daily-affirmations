@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import Footer from '@/components/Footer'
-import Breadcrumbs from '@/app/components/Breadcrumbs'
 import { Calendar, ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import Breadcrumbs from '@/app/components/Breadcrumbs'
+import Footer from '@/components/Footer'
 import { ROUTES, generateBreadcrumbStructuredData } from '../../../AppRoutes'
 
 const BLOG_CATEGORIES = {
@@ -67,7 +67,7 @@ const BLOG_CATEGORIES = {
 type BlogCategoryKey = keyof typeof BLOG_CATEGORIES
 
 function getCategorySlug(categoryName: string): BlogCategoryKey | null {
-  const nameToSlug: Record<string, BlogCategoryKey> = {
+  const nameToSlug: Record<string, BlogCategoryKey | undefined> = {
     Guide: 'guide',
     Science: 'science',
     Practice: 'practice',
@@ -76,12 +76,15 @@ function getCategorySlug(categoryName: string): BlogCategoryKey | null {
     Career: 'career',
     Health: 'health',
   }
-  return nameToSlug[categoryName] || null
+  return nameToSlug[categoryName] ?? null
 }
+
+const getBlogCategory = (slug: string) =>
+  (BLOG_CATEGORIES as Partial<typeof BLOG_CATEGORIES>)[slug as BlogCategoryKey]
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
   const { category: categorySlug } = await params
-  const category = BLOG_CATEGORIES[categorySlug as BlogCategoryKey]
+  const category = getBlogCategory(categorySlug)
 
   if (!category) {
     return {}
@@ -119,7 +122,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 }
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return Object.keys(BLOG_CATEGORIES).map(category => ({
     category,
   }))
@@ -131,7 +134,7 @@ export default async function BlogCategoryPage({
   params: Promise<{ category: string }>
 }) {
   const { category: categorySlug } = await params
-  const category = BLOG_CATEGORIES[categorySlug as BlogCategoryKey]
+  const category = getBlogCategory(categorySlug)
 
   if (!category) {
     notFound()

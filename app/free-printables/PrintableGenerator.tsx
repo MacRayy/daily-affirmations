@@ -1,8 +1,8 @@
 'use client'
 
-import { useState } from 'react'
 import { jsPDF } from 'jspdf'
 import { Download, Star, Briefcase, Users, Leaf, Rocket, Zap } from 'lucide-react'
+import { useState } from 'react'
 
 const CATEGORIES = [
   {
@@ -119,7 +119,7 @@ export default function PrintableGenerator() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
   const [generating, setGenerating] = useState(false)
 
-  const generatePDF = async (categoryId: string) => {
+  const generatePDF = (categoryId: string) => {
     setGenerating(true)
     const category = CATEGORIES.find(c => c.id === categoryId)
     if (!category) {
@@ -140,15 +140,13 @@ export default function PrintableGenerator() {
     const cornerRadius = 4
 
     // Color schemes for each category
-    const colorSchemes: Record<
-      string,
-      {
-        primary: [number, number, number]
-        secondary: [number, number, number]
-        accent: [number, number, number]
-        light: [number, number, number]
-      }
-    > = {
+    type ColorScheme = {
+      primary: [number, number, number]
+      secondary: [number, number, number]
+      accent: [number, number, number]
+      light: [number, number, number]
+    }
+    const colorSchemes: Record<string, ColorScheme | undefined> = {
       general: {
         primary: [139, 92, 246], // violet
         secondary: [167, 139, 250], // violet light
@@ -187,7 +185,7 @@ export default function PrintableGenerator() {
       },
     }
 
-    const colors = colorSchemes[categoryId] || colorSchemes.general
+    const colors = colorSchemes[categoryId] ?? colorSchemes.general!
 
     // ============ TITLE PAGE ============
     // Gradient background (simulated with rectangles)
@@ -306,12 +304,12 @@ export default function PrintableGenerator() {
       doc.setTextColor(31, 41, 55)
       doc.setFont('helvetica', 'bold')
 
-      const lines = doc.splitTextToSize(affirmation, cardWidth - 20)
+      const lines = doc.splitTextToSize(affirmation, cardWidth - 20) as string[]
       const lineHeight = 5
       const totalTextHeight = lines.length * lineHeight
       const startY = y + (cardHeight - totalTextHeight) / 2 + 3
 
-      lines.forEach((line: string, lineIndex: number) => {
+      lines.forEach((line, lineIndex) => {
         doc.text(line, x + 10, startY + lineIndex * lineHeight)
       })
 
@@ -430,8 +428,8 @@ export default function PrintableGenerator() {
       doc.setTextColor(75, 85, 99)
       doc.setFontSize(9)
       doc.setFont('helvetica', 'normal')
-      const tipLines = doc.splitTextToSize(tip.text, pageWidth - margin * 2 - 30)
-      tipLines.forEach((line: string, lineIndex: number) => {
+      const tipLines = doc.splitTextToSize(tip.text, pageWidth - margin * 2 - 30) as string[]
+      tipLines.forEach((line, lineIndex) => {
         doc.text(line, margin + 25, tipY + 18 + lineIndex * 4)
       })
 
@@ -479,7 +477,9 @@ export default function PrintableGenerator() {
           return (
             <button
               key={category.id}
-              onClick={() => setSelectedCategory(category.id)}
+              onClick={() => {
+                setSelectedCategory(category.id)
+              }}
               className={`p-6 rounded-xl transition-all border-2 shadow-sm hover:shadow-lg cursor-pointer ${
                 isSelected
                   ? `${category.color} text-white border-transparent scale-[1.02]`
@@ -516,7 +516,9 @@ export default function PrintableGenerator() {
           </ul>
 
           <button
-            onClick={() => generatePDF(selectedCategory)}
+            onClick={() => {
+              generatePDF(selectedCategory)
+            }}
             disabled={generating}
             className="flex items-center justify-center gap-3 w-full px-6 py-4 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-bold transition disabled:opacity-50 shadow-lg hover:shadow-xl cursor-pointer"
           >

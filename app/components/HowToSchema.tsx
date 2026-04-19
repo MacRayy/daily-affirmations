@@ -16,7 +16,7 @@ export default function HowToSchema({ name, description, totalTime, steps }: How
     '@type': 'HowTo',
     name: name,
     description: description,
-    totalTime: totalTime || 'PT10M',
+    totalTime: totalTime ?? 'PT10M',
     step: steps.map((step, index) => ({
       '@type': 'HowToStep',
       position: index + 1,

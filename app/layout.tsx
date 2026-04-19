@@ -1,8 +1,8 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import StructuredData from '@/app/components/StructuredData'
 import { Analytics } from '@vercel/analytics/react'
+import { Inter } from 'next/font/google'
+import StructuredData from '@/app/components/StructuredData'
+import './globals.css'
+import type { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 

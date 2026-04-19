@@ -1,11 +1,11 @@
-import Link from 'next/link'
 import { Calendar } from 'lucide-react'
+import Link from 'next/link'
 import { ROUTES } from '../AppRoutes'
 
 type BlogPostKey = keyof typeof ROUTES.blogPosts
 
 // Define related posts mapping based on content relevance
-const relatedPostsMap: Record<BlogPostKey, BlogPostKey[]> = {
+const relatedPostsMap: Partial<Record<BlogPostKey, BlogPostKey[]>> = {
   'how-to-use-affirmations-effectively': [
     'science-of-affirmations',
     'morning-affirmations-routine',
@@ -137,16 +137,10 @@ const defaultRelated: BlogPostKey[] = [
 
 export default function RelatedPosts({ currentSlug }: { currentSlug: string }) {
   const relatedSlugs =
-    relatedPostsMap[currentSlug as BlogPostKey]?.filter(slug => slug !== currentSlug) ||
+    relatedPostsMap[currentSlug as BlogPostKey]?.filter(slug => slug !== currentSlug) ??
     defaultRelated.filter(slug => slug !== currentSlug)
 
-  const relatedPosts = relatedSlugs
-    .slice(0, 3)
-    .map(slug => {
-      const post = ROUTES.blogPosts[slug]
-      return post ? { slug, ...post } : null
-    })
-    .filter(Boolean)
+  const relatedPosts = relatedSlugs.slice(0, 3).map(slug => ({ slug, ...ROUTES.blogPosts[slug] }))
 
   if (relatedPosts.length === 0) {
     return null
@@ -158,19 +152,19 @@ export default function RelatedPosts({ currentSlug }: { currentSlug: string }) {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {relatedPosts.map(post => (
           <Link
-            key={post!.slug}
-            href={post!.path}
+            key={post.slug}
+            href={post.path}
             className="group bg-white rounded-xl border-2 border-gray-200 p-6 hover:border-violet-300 hover:shadow-lg transition"
           >
             <span className="inline-block px-3 py-1 bg-violet-100 text-violet-700 rounded-full text-xs font-semibold mb-3">
-              {post!.category}
+              {post.category}
             </span>
             <h3 className="font-bold text-gray-900 group-hover:text-violet-600 transition mb-2 line-clamp-2">
-              {post!.title}
+              {post.title}
             </h3>
             <div className="flex items-center gap-2 text-sm text-gray-500">
               <Calendar className="w-4 h-4" />
-              {new Date(post!.date).toLocaleDateString('en-US', {
+              {new Date(post.date).toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric',
                 year: 'numeric',

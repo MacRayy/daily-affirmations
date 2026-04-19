@@ -2,12 +2,12 @@
 
 import { unstable_noStore as noStore } from 'next/cache'
 
+type GroqChoice = {
+  message: { content: string }
+}
+
 type GroqResponse = {
-  choices: Array<{
-    message: {
-      content: string
-    }
-  }>
+  choices: (GroqChoice | undefined)[]
 }
 
 export async function generateNewAffirmation(category: string) {
@@ -49,8 +49,9 @@ export async function generateNewAffirmation(category: string) {
 
     const data = (await response.json()) as GroqResponse
 
-    if (data.choices?.[0]?.message?.content) {
-      const affirmation = data.choices[0].message.content.trim().replace(/^["']|["']$/g, '')
+    const content = data.choices[0]?.message.content
+    if (content !== undefined && content.length > 0) {
+      const affirmation = content.trim().replace(/^["']|["']$/g, '')
       return { success: true, affirmation }
     }
 

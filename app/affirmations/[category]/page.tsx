@@ -1,17 +1,17 @@
-import AffirmationClient from '@/app/components/AffirmationClient'
-import { getAffirmationOfTheDay } from '@/app/data/affirmations'
+import { Calendar, ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import AffirmationClient from '@/app/components/AffirmationClient'
+import Breadcrumbs from '@/app/components/Breadcrumbs'
 import Logo from '@/app/components/Logo'
 import MobileMenu from '@/app/components/MobileMenu'
-import Link from 'next/link'
-import Footer from '@/components/Footer'
+import { getAffirmationOfTheDay } from '@/app/data/affirmations'
 import { ClickBankCTA } from '@/components/ClickBankCTA'
-import Breadcrumbs from '@/app/components/Breadcrumbs'
+import Footer from '@/components/Footer'
 import { ROUTES, generateBreadcrumbStructuredData } from '../../AppRoutes'
-import { Calendar, ArrowRight } from 'lucide-react'
 
 // Map category slugs to blog post category names for cross-linking
-const CATEGORY_TO_BLOG: Record<string, string[]> = {
+const CATEGORY_TO_BLOG: Record<string, string[] | undefined> = {
   general: ['Guide', 'Practice'],
   career: ['Career'],
   relationships: ['Personal Growth'],
@@ -21,7 +21,7 @@ const CATEGORY_TO_BLOG: Record<string, string[]> = {
 }
 
 function getRelatedBlogPosts(categorySlug: string) {
-  const blogCategories = CATEGORY_TO_BLOG[categorySlug] || []
+  const blogCategories = CATEGORY_TO_BLOG[categorySlug] ?? []
   return Object.entries(ROUTES.blogPosts)
     .filter(([, post]) => blogCategories.includes(post.category))
     .map(([slug, post]) => ({ slug, ...post }))
@@ -38,9 +38,12 @@ const CATEGORIES = {
   confidence: ROUTES.affirmations.confidence,
 }
 
+const getCategoryRoute = (slug: string) =>
+  (CATEGORIES as Partial<typeof CATEGORIES>)[slug as keyof typeof CATEGORIES]
+
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
   const { category: categorySlug } = await params
-  const category = CATEGORIES[categorySlug as keyof typeof CATEGORIES]
+  const category = getCategoryRoute(categorySlug)
 
   if (!category) {
     return {}
@@ -70,7 +73,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 }
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return Object.keys(CATEGORIES).map(category => ({
     category,
   }))
@@ -78,7 +81,7 @@ export async function generateStaticParams() {
 
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const { category: categorySlug } = await params
-  const categoryData = CATEGORIES[categorySlug as keyof typeof CATEGORIES]
+  const categoryData = getCategoryRoute(categorySlug)
 
   if (!categoryData) {
     notFound()

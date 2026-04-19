@@ -1,12 +1,12 @@
-import { notFound } from 'next/navigation'
-import Link from 'next/link'
 import { Calendar, Clock, User } from 'lucide-react'
+import Link from 'next/link'
+import { notFound } from 'next/navigation'
+import ArticleSchema from '@/app/components/ArticleSchema'
+import Breadcrumbs from '@/app/components/Breadcrumbs'
+import RelatedPosts from '@/app/components/RelatedPosts'
 import { AmazonCTA } from '@/components/AmazonCTA'
 import Footer from '@/components/Footer'
-import RelatedPosts from '@/app/components/RelatedPosts'
-import Breadcrumbs from '@/app/components/Breadcrumbs'
-import ArticleSchema from '@/app/components/ArticleSchema'
-import { ROUTES, generateBreadcrumbStructuredData } from '../../AppRoutes'
+import { ROUTES, generateBreadcrumbStructuredData, getBlogPostRoute } from '../../AppRoutes'
 import { blogPosts } from './BlogPosts'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
@@ -17,41 +17,41 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {}
   }
 
-  const postData = ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]
+  const postData = getBlogPostRoute(slug)
 
   return {
-    title: postData?.title || post.title,
-    description: postData?.description || '',
-    keywords: postData?.keywords || '',
+    title: postData?.title ?? post.title,
+    description: postData?.description ?? '',
+    keywords: postData?.keywords ?? '',
     openGraph: {
-      title: postData?.title || post.title,
-      description: postData?.description || '',
+      title: postData?.title ?? post.title,
+      description: postData?.description ?? '',
       type: 'article',
-      url: postData?.path || `/blog/${slug}`,
+      url: postData?.path ?? `/blog/${slug}`,
       site_name: 'Daily Affirmations',
       locale: 'en_US',
       publishedTime: postData?.date,
       modifiedTime: postData?.date,
       authors: ['Daily Affirmations'],
       section: postData?.category,
-      tags: postData?.keywords?.split(', '),
+      tags: postData?.keywords.split(', '),
       images: [
         {
           url: 'https://daily-affirm.com/og-image.png',
           width: 1200,
           height: 630,
-          alt: postData?.title || post.title,
+          alt: postData?.title ?? post.title,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: postData?.title || post.title,
-      description: postData?.description || '',
+      title: postData?.title ?? post.title,
+      description: postData?.description ?? '',
       site: '@dailyaffirm',
     },
     alternates: {
-      canonical: postData?.path || `/blog/${slug}`,
+      canonical: postData?.path ?? `/blog/${slug}`,
     },
   }
 }
@@ -65,7 +65,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
   // Get post metadata from ROUTES
-  const postData = ROUTES.blogPosts[slug as keyof typeof ROUTES.blogPosts]
+  const postData = getBlogPostRoute(slug)
 
   // Generate structured data
   const breadcrumbStructuredData = generateBreadcrumbStructuredData([
@@ -79,7 +79,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       {/* Structured Data */}
       <ArticleSchema
         title={post.title}
-        description={postData?.description || ''}
+        description={postData?.description ?? ''}
         datePublished={post.date}
         readingTime={post.readTime}
         category={post.category}

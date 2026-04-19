@@ -1,6 +1,6 @@
 import affirmationsData from './affirmations.json'
 
-const typedAffirmations = affirmationsData as Record<string, string[]>
+const typedAffirmations = affirmationsData as Record<string, string[] | undefined>
 
 export function getAffirmationOfTheDay(category: string): string {
   const categoryAffirmations = typedAffirmations[category]

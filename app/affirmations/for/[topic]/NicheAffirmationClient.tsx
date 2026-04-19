@@ -1,7 +1,7 @@
 'use client'
 
-import React, { useState, useEffect, useRef } from 'react'
 import { RefreshCw, Copy, Check, Share2, Heart, Sparkles } from 'lucide-react'
+import React, { useState, useEffect, useRef } from 'react'
 import { generateNewAffirmation } from '@/app/actions'
 
 type NicheAffirmationClientProps = {
@@ -55,6 +55,7 @@ export default function NicheAffirmationClient({
         clearInterval(typingRef.current)
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [affirmation])
 
   const handleGenerateNew = () => {
@@ -80,11 +81,13 @@ export default function NicheAffirmationClient({
   const copyToClipboard = async () => {
     await navigator.clipboard.writeText(affirmation)
     setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    setTimeout(() => {
+      setCopied(false)
+    }, 2000)
   }
 
   const shareAffirmation = async () => {
-    if (navigator.share) {
+    if (typeof navigator.share === 'function') {
       try {
         await navigator.share({
           title: `Affirmation for ${topicName}`,

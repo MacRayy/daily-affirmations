@@ -26,7 +26,7 @@ export default function ArticleSchema({
     description: description,
     image: 'https://daily-affirm.com/og-image.png',
     datePublished: datePublished,
-    dateModified: dateModified || datePublished,
+    dateModified: dateModified ?? datePublished,
     author: {
       '@type': 'Organization',
       name: 'Daily Affirmations',

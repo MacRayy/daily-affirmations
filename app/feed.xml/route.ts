@@ -1,6 +1,6 @@
 import { ROUTES } from '../AppRoutes'
 
-export async function GET() {
+export function GET() {
   const baseUrl = 'https://daily-affirm.com'
 
   const posts = Object.entries(ROUTES.blogPosts)

@@ -1,7 +1,7 @@
-import type { Metadata } from 'next'
+import { Mail, MessageCircle } from 'lucide-react'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
-import { Mail, MessageCircle } from 'lucide-react'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Contact Us - Daily Affirmations',

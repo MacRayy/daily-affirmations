@@ -20,12 +20,12 @@ if (!GROQ_API_KEY) {
   process.exit(1)
 }
 
+type GroqChoice = {
+  message: { content: string }
+}
+
 type GroqResponse = {
-  choices: Array<{
-    message: {
-      content: string
-    }
-  }>
+  choices: (GroqChoice | undefined)[]
 }
 
 async function generateAffirmations(category: string, count: number): Promise<string[]> {
@@ -74,12 +74,13 @@ Example format: ["I am...", "I embrace...", "I trust..."]`,
 
       const data = (await response.json()) as GroqResponse
 
-      if (!data?.choices?.[0]?.message?.content) {
+      const firstChoice = data.choices[0]
+      if (!firstChoice?.message.content) {
         console.error('   ❌ Invalid response structure')
         continue
       }
 
-      let content = data.choices[0].message.content
+      let content = firstChoice.message.content
 
       // Clean up markdown code blocks if present
       content = content
@@ -144,7 +145,7 @@ async function main(): Promise<void> {
   }
 }
 
-main().catch(error => {
+main().catch((error: unknown) => {
   console.error('❌ Fatal error:', error)
   process.exit(1)
 })

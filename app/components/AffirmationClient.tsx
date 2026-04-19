@@ -1,6 +1,5 @@
 'use client'
 
-import React, { useState, useEffect, useRef } from 'react'
 import {
   RefreshCw,
   Share2,
@@ -14,9 +13,10 @@ import {
   Copy,
   Check,
 } from 'lucide-react'
+import { useRouter, usePathname } from 'next/navigation'
+import React, { useState, useEffect, useRef } from 'react'
 import { generateNewAffirmation } from '../actions'
 import { getAffirmationOfTheDay } from '../data/affirmations'
-import { useRouter, usePathname } from 'next/navigation'
 
 const CATEGORIES = [
   { id: 'general', name: 'General', icon: Star, color: 'bg-violet-600' },
@@ -76,6 +76,7 @@ export default function AffirmationClient({
         clearInterval(typingRef.current)
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [affirmation])
 
   const handleGenerateNewAffirmation = async () => {
@@ -103,7 +104,7 @@ export default function AffirmationClient({
   }
 
   const shareAffirmation = async () => {
-    if (navigator.share) {
+    if (typeof navigator.share === 'function') {
       try {
         await navigator.share({
           title: 'Daily Affirmation',
@@ -120,18 +121,20 @@ export default function AffirmationClient({
   const copyToClipboard = async () => {
     await navigator.clipboard.writeText(affirmation)
     setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    setTimeout(() => {
+      setCopied(false)
+    }, 2000)
   }
 
   const shareOnPinterest = () => {
     const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
       'https://daily-affirm.com',
-    )}&description=${encodeURIComponent(`"${affirmation}" - Daily Affirmation for ${currentCategory?.name || 'Life'}`)}`
+    )}&description=${encodeURIComponent(`"${affirmation}" - Daily Affirmation for ${currentCategory?.name ?? 'Life'}`)}`
     window.open(pinterestUrl, '_blank', 'width=600,height=400')
   }
 
   const currentCategory = CATEGORIES.find(c => c.id === selectedCategory)
-  const CurrentIcon = currentCategory?.icon || Star
+  const CurrentIcon = currentCategory?.icon ?? Star
 
   return (
     <>
@@ -145,7 +148,9 @@ export default function AffirmationClient({
             return (
               <button
                 key={category.id}
-                onClick={() => handleCategoryChange(category.id)}
+                onClick={() => {
+                  handleCategoryChange(category.id)
+                }}
                 disabled={loading}
                 className={`p-4 rounded-xl transition-all border-2 shadow-sm hover:shadow-md disabled:opacity-50 cursor-pointer ${
                   selectedCategory === category.id
