@@ -372,6 +372,17 @@ export const ROUTES = {
       keywords:
         'financial anxiety affirmations, money stress, cost of living crisis, financial stress mental health, money worries, rent anxiety, debt stress affirmations, financial insecurity, money mindset, economic anxiety, paycheck to paycheck, financial wellness affirmations',
     },
+    'affirmations-for-perfectionism': {
+      path: '/blog/affirmations-for-perfectionism',
+      title: 'Affirmations for Perfectionism: Breaking Free from the Tyranny of Never Enough',
+      description:
+        'Exhausted by the relentless pursuit of flawlessness? Learn how perfectionism differs from healthy striving, why it has been rising sharply in younger generations, and how affirmations paired with self-compassion can help you trade the cage of perfect for the freedom of good enough.',
+      date: '2026-04-19',
+      readTime: '15 min read',
+      category: 'Mental Health',
+      keywords:
+        'perfectionism affirmations, overcoming perfectionism, recovering perfectionist, perfectionism anxiety, good enough mindset, perfectionism mental health, perfectionism burnout, all-or-nothing thinking, fear of failure affirmations, self-compassion affirmations, perfectionism recovery, high achiever affirmations',
+    },
   },
 } as const
 

@@ -126,6 +126,11 @@ const relatedPostsMap: Partial<Record<BlogPostKey, BlogPostKey[]>> = {
     'affirmations-for-anxiety',
     'affirmations-for-burnout-recovery',
   ],
+  'affirmations-for-perfectionism': [
+    'affirmations-for-imposter-syndrome',
+    'affirmations-for-self-confidence',
+    'affirmations-for-burnout-recovery',
+  ],
 }
 
 // Fallback: if a post isn't in the map, show recent posts
