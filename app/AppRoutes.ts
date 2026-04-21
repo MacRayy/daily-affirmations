@@ -383,6 +383,18 @@ export const ROUTES = {
       keywords:
         'perfectionism affirmations, overcoming perfectionism, recovering perfectionist, perfectionism anxiety, good enough mindset, perfectionism mental health, perfectionism burnout, all-or-nothing thinking, fear of failure affirmations, self-compassion affirmations, perfectionism recovery, high achiever affirmations',
     },
+    'earth-day-affirmations': {
+      path: '/blog/earth-day-affirmations',
+      title:
+        'Earth Day Affirmations: Reconnecting with the Planet and Reclaiming Your Place in Nature',
+      description:
+        'Earth Day is not just a holiday—it is an invitation to remember what we belong to. Explore the research on nature-connectedness, the psychology behind eco-agency over eco-paralysis, and 30 affirmations to help you move from grief to grounded action for the living world.',
+      date: '2026-04-22',
+      readTime: '14 min read',
+      category: 'Personal Growth',
+      keywords:
+        'earth day affirmations, nature affirmations, environmental affirmations, nature connectedness, climate hope, eco-spirituality, reconnecting with nature, planetary affirmations, earth stewardship, environmental action, forest bathing, biophilia, eco-agency, green space mental health',
+    },
   },
 } as const
 
