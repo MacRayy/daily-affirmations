@@ -395,6 +395,18 @@ export const ROUTES = {
       keywords:
         'earth day affirmations, nature affirmations, environmental affirmations, nature connectedness, climate hope, eco-spirituality, reconnecting with nature, planetary affirmations, earth stewardship, environmental action, forest bathing, biophilia, eco-agency, green space mental health',
     },
+    'affirmations-for-people-pleasing': {
+      path: '/blog/affirmations-for-people-pleasing',
+      title:
+        'Affirmations for People-Pleasing and Boundaries: Reclaiming Your Voice, Your Time, and Your Self',
+      description:
+        'Saying yes when you mean no? Apologizing when you did nothing wrong? Explore the psychology of people-pleasing as a survival response, why boundaries are not rejections but acts of love, and 30 affirmations to help you trade chronic niceness for honest relationship.',
+      date: '2026-04-23',
+      readTime: '15 min read',
+      category: 'Mental Health',
+      keywords:
+        'people pleasing affirmations, boundaries affirmations, fawn response, saying no, people pleaser recovery, setting boundaries, assertiveness affirmations, chronic niceness, codependency recovery, self-advocacy, boundary setting relationships, work boundaries, overcoming people pleasing',
+    },
   },
 } as const
 
