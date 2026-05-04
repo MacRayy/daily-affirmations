@@ -407,6 +407,17 @@ export const ROUTES = {
       keywords:
         'people pleasing affirmations, boundaries affirmations, fawn response, saying no, people pleaser recovery, setting boundaries, assertiveness affirmations, chronic niceness, codependency recovery, self-advocacy, boundary setting relationships, work boundaries, overcoming people pleasing',
     },
+    'affirmations-for-anger': {
+      path: '/blog/affirmations-for-anger',
+      title: 'Affirmations for Anger: Reclaiming the Most Misunderstood Emotion',
+      description:
+        'Taught that anger is bad, dangerous, or unspiritual? Explore why anger is information rather than aggression, the real cost of suppressing it in body and mind, and 30 affirmations to help you metabolize anger without exploding or imploding.',
+      date: '2026-05-04',
+      readTime: '15 min read',
+      category: 'Mental Health',
+      keywords:
+        'anger affirmations, healthy anger, anger management affirmations, suppressed anger, repressed anger, anger as signal, processing anger, righteous anger, anger and grief, emotional regulation, dance of anger, anger expression, anger turned inward, fawn response anger',
+    },
   },
 } as const
 
