@@ -418,6 +418,18 @@ export const ROUTES = {
       keywords:
         'anger affirmations, healthy anger, anger management affirmations, suppressed anger, repressed anger, anger as signal, processing anger, righteous anger, anger and grief, emotional regulation, dance of anger, anger expression, anger turned inward, fawn response anger',
     },
+    'affirmations-for-body-image': {
+      path: '/blog/affirmations-for-body-image',
+      title:
+        'Affirmations for Body Image and Embodiment: Coming Home to the Body You Actually Live In',
+      description:
+        'Tired of hating your body but suspicious of forced positivity? Explore the difference between body image, body neutrality, and embodiment, why the industries that taught you to hate your body profit from your distress, and 30 affirmations for inhabiting the body you have.',
+      date: '2026-05-08',
+      readTime: '15 min read',
+      category: 'Mental Health',
+      keywords:
+        'body image affirmations, body neutrality affirmations, body acceptance affirmations, embodiment affirmations, body positivity affirmations, body dysmorphia, body image healing, somatic affirmations, body shame, intuitive eating affirmations, weight stigma, mirror affirmations, self-objectification, inhabiting the body',
+    },
   },
 } as const
 
